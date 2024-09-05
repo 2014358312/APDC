@@ -1,0 +1,19 @@
+characters = {
+
+	#黑区
+	ZZZ_Nothing = { 
+		name = ZZZ_Nothing
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ZZZ
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {  }
+			expire = "1965.1.1.1"
+			id = -1
+			desc = ZZZ_Nothing_desc
+		}
+	}
+}
