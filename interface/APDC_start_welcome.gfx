@@ -1,0 +1,48 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_big_backgound"
+		texturefile = "gfx/interface/start_welcome/big_backgound.dds"
+	}
+	spriteType = {
+		name = "GFX_top_button"
+		texturefile = "gfx/interface/start_welcome/top_button.dds"
+	}
+	spriteType = {
+		name = "GFX_close_welcome_button"
+		texturefile = "gfx/interface/start_welcome/close_welcome_button.dds"
+	}
+	spriteType = {
+		name = "GFX_Picture_frame"
+		texturefile = "gfx/interface/start_welcome/Picture_frame.dds"
+	}
+
+
+	#国家图片与国旗
+	spriteType = {
+		name = "GFX_GAK_pic_left"
+		texturefile = "gfx/interface/start_welcome/GAK/GAK_pic_left.dds"
+	}
+	spriteType = {
+		name = "GFX_GAK_pic_flag"
+		texturefile = "gfx/interface/start_welcome/GAK/GAK_pic_flag.dds"
+	}
+
+	spriteType = {
+		name = "GFX_KCO_pic_left"
+		texturefile = "gfx/interface/start_welcome/KCO/KCO_pic_left.dds"
+	}
+	spriteType = {
+		name = "GFX_KCO_pic_flag"
+		texturefile = "gfx/interface/start_welcome/KCO/KCO_pic_flag.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SFI_pic_left"
+		texturefile = "gfx/interface/start_welcome/SFI/SFI_pic_left.dds"
+	}
+	spriteType = {
+		name = "GFX_SFI_pic_flag"
+		texturefile = "gfx/interface/start_welcome/SFI/SFI_pic_flag.dds"
+	}
+}

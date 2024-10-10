@@ -1,0 +1,19 @@
+﻿capital = 1
+
+recruit_character = RZE_Nothing
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+set_research_slots = 0
+
+load_focus_tree = ZZZ_national_focus #If you touch this the bookmark gets fucked
+
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+
+}
+set_popularities = {
+	neutrality = 100
+}
+country_lock_all_division_template = yes
+set_political_power = 1999

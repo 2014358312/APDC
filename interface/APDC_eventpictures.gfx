@@ -1,0 +1,36 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_event_white_Bar"
+		texturefile = "gfx/event_pictures/event_white_Bar.dds"
+	}
+	spriteType = {
+		name = "GFX_event_white_2"
+		texturefile = "gfx/event_pictures/event_white_2.dds"
+	}
+	spriteType = {
+		name = "GFX_event_Guildhall"
+		texturefile = "gfx/event_pictures/event_Guildhall.dds"
+	}
+	spriteType = {
+		name = "GFX_event_Slum"
+		texturefile = "gfx/event_pictures/event_Slum.dds"
+	}
+	spriteType = {
+		name = "GFX_event_BedRoom"
+		texturefile = "gfx/event_pictures/event_BedRoom.dds"
+	}
+	spriteType = {
+		name = "GFX_event_Bar"
+		texturefile = "gfx/event_pictures/event_Bar.dds"
+	}
+	spriteType = {
+		name = "GFX_event_Kitchen"
+		texturefile = "gfx/event_pictures/event_Kitchen.dds"
+	}
+	spriteType = {
+		name = "GFX_event_Dorm"
+		texturefile = "gfx/event_pictures/event_Dorm.dds"
+	}
+
+}

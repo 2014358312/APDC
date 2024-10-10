@@ -1,31 +1,14 @@
 state= {
 	id=595
 	name="STATE_595"
-	manpower = 11755600
-	state_category = city
-	history=
-	{
-		owner = PRC
+	manpower = 0
+	state_category = wasteland
+	history={
+		owner = RZE	
 		add_core_of = PRC
+		add_core_of = RZE
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			7071 = {
-				naval_base = 1
-				coastal_bunker = 1
-				bunker = 1
-			}
-			4196 = {
-				naval_base = 3
-				coastal_bunker = 1
-				bunker = 1
-			}
-		}
-		victory_points = { 
-			4196 3 
-		}
-		victory_points = { 
-			7071 1 
+			infrastructure = 1
 		}
 	}
 	provinces={

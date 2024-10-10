@@ -1,0 +1,29 @@
+scripted_gui = {
+
+    ELID_ui1 = {
+        context_type = selected_country_context
+		window_name = "ELID_ui_window"
+        parent_window_token = selected_country_view
+        
+        visible = {  
+            OR= {
+                AND = { original_tag = ZZZ }
+            }
+        }
+		properties = {
+        }
+	}
+    ELID_ui2 = {
+        context_type = selected_country_context
+		window_name = "ELID_ui_window_RZE"
+        parent_window_token = selected_country_view
+        
+        visible = {  
+            OR= {
+                AND = { original_tag = RZE }
+            }
+        }
+		properties = {
+        }
+	}
+}

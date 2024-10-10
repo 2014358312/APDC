@@ -1,0 +1,37 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Single_player_button"
+		texturefile = "gfx/interface/mainmenu_gui/Single_player_button.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_Multiplayer_button"
+		texturefile = "gfx/interface/mainmenu_gui/Multiplayer_button.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_Options"
+		texturefile = "gfx/interface/mainmenu_gui/Options.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_Career_Profile"
+		texturefile = "gfx/interface/mainmenu_gui/Career_Profile.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_leave"
+		texturefile = "gfx/interface/mainmenu_gui/leave.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_Make_list"
+		texturefile = "gfx/interface/mainmenu_gui/Make_list.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nudge!"
+		texturefile = "gfx/interface/mainmenu_gui/nudge!.dds"
+		noOfFrames = 2
+	}
+}

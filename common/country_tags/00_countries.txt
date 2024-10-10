@@ -280,3 +280,4 @@ IAS = "countries/Isthmo Amerindia.txt"
 
 #From Krrat_Main OVO
 ZZZ = "countries/ZZZ.txt"
+RZE = "countries/Red Zone.txt"

@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_E.L.I.D_contaminated_areas_diplomacy"
+		texturefile = "gfx/interface/ELID/E.L.I.D_contaminated_areas_diplomacy.dds"
+	}
+	spriteType = {
+		name = "GFX_E.L.I.D_contaminated_areas_diplomacy_RZE"
+		texturefile = "gfx/interface/ELID/E.L.I.D_contaminated_areas_diplomacy_RZE.dds"
+	}
+}
