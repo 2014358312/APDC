@@ -1,0 +1,43 @@
+state = {
+	id = 1713
+	name = "STATE_1713"
+	history = {
+		owner = PRC
+		victory_points = {
+			9759
+			14
+		}
+		victory_points = {
+			9841
+			1
+		}
+		victory_points = {
+			11781
+			3
+		}
+		buildings = {
+			infrastructure = 6
+			barracks = 1
+		}
+		add_core_of = PRC
+		set_variable = {
+			china_state_ref = 48
+		}
+	}
+	provinces = {
+		861
+		800
+		9841
+		11781
+		6905
+		9866
+		3888
+		9803
+		3949
+		9759
+	}
+	manpower = 2746781
+	buildings_max_level_factor = 1
+	state_category = town
+	local_supplies = 0
+}

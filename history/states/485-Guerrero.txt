@@ -1,41 +1,33 @@
-
-state={
-	id=485
-	name="STATE_485"
-	manpower = 1598311
-	
-	state_category = rural
-
-	resources={
-		steel=4 #was 2
+state = {
+	id = 485
+	name = "STATE_485"
+	resources = {
+		steel = 3.000
 	}
 
-
-	history={
+	history = {
 		owner = MEX
+		victory_points = {
+			14484 4
+		}
+		victory_points = {
+			10832 2
+		}
+		victory_points = {
+			17312 1
+		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			8032 = {
-				naval_base = 3
-			}
+			
+			infrastructure = 3
 		}
 		add_core_of = MEX
-		victory_points = {
-			10730 5
-		}
-		victory_points = {
-			4887 3
-		}
-		victory_points = {
-			8032 1
-		}
 	}
 
-	provinces={
-		4887 5066 8032 10730 10832 
+	provinces = {
+		5066 8852 10730 10832 14484 16887 17312 17315
 	}
-	
-
-	local_supplies=0.0 
+	manpower = 1406745
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

@@ -1,23 +1,32 @@
+state = {
+	id = 441
+	name = "STATE_441"
 
-state={
-	id=441
-	name="STATE_441"
-	manpower = 2123700
-	
-	state_category = rural
-
-	history={
-		owner = RAJ
+	history = {
+		owner = IND
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-		add_core_of = RAJ
-		add_claim_by = PAK
+		add_core_of = IND
+		add_claim_by = AZH
+		victory_points = {
+			1910 15
+		}
+		victory_points = {
+			18880 2
+		}
+		victory_points = {
+			16011 2
+		}
+		set_state_flag = GDP_regions_jammu_kashmir
+		set_state_flag = state_renamings
 	}
 
-	provinces={
-		7273 7316 8005 10905 12754 12884 
+	provinces = {
+		1910 16010 16011 16012 18876 18880
 	}
-
-	local_supplies=0.0 
+	manpower = 1751308
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

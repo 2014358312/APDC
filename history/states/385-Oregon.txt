@@ -1,31 +1,55 @@
+state = {
+	id = 385
+	name = "STATE_385"
 
-state={
-	id=385
-	name="STATE_385"
-	manpower = 953785
-	
-	state_category = town
-
-	history={
+	history = {
 		owner = USA
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 1
+			barracks = 3
+			
+			infrastructure = 5
+			radar_station = 2
 			air_base = 6
-			12211 = {
-				naval_base = 3
+			dockyard = 1
+			10183 = {
+				naval_base = 1
 			}
 		}
 		add_core_of = USA
-		victory_points = {
-			3513 1 
+
+		victory_points = { # Portland
+			3513 20
 		}
-
+		victory_points = { # Salem
+			4328 5
+		}
+		victory_points = { # Eugene
+			528 5
+		}
+		victory_points = { # Medford
+			3471 1
+		}
+		victory_points = { # Klamath Falls
+			4347 1
+		}
+		victory_points = { # Bend
+			1414 3
+		}
+		victory_points = { # Pendleton
+			7865 1
+		}
+		victory_points = { # Coos Bay
+			11495 1
+		}
+		victory_points = { # Corvallis
+			12281 1
+		}
 	}
 
-	provinces={
-		505 528 1414 3471 3513 4274 4328 4347 4380 4826 7398 7721 7865 10151 10183 10305 10625 11495 11733 12183 12211 12281 12553 
+	provinces = {
+		1414 3471 4274 4347 4826 7398 7721 7865 10151 10305 10625 12183 12553 505 528 4328 4380 10183 11495 11733 12211 12281 3513
 	}
-
-	local_supplies=0.0 
+	manpower = 1764705
+	buildings_max_level_factor = 1.000
+	state_category = city
 }

@@ -1,31 +1,29 @@
-
-state={
-	id=342
-	name="STATE_342" # Antalya
-	manpower = 362689
-	resources={
-		chromium=35 # was: 46
+state = { #Population Done
+	id = 342
+	name = "STATE_342"
+	manpower = 876992
+	resources = {
+		aluminium = 8
 	}
-	state_category = rural
+	state_category = town
 
-	history={
+	history = {
 		owner = TUR
-		victory_points = {
-			1005 5 
-		}
+		victory_points = { 1122 7 }
+		victory_points = { 4008 1 }
+		victory_points = { 12016 2 }
+		victory_points = { 784 2 }
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			1005 = {
+			infrastructure = 3
+			dockyard = 1
+			1122 = {
 				naval_base = 4
 			}
 		}
 		add_core_of = TUR
 	}
 
-	provinces={
-		1005 1119 9941 10122 11917 12013 12016 12096 
+	provinces = {
+		1005 1119 12013 12016 784 3876 1122 4127 4008
 	}
-
-	local_supplies=7.0 
 }

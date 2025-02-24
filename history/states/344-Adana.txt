@@ -1,40 +1,41 @@
+state = { ###POPS DONE
+	id = 344
+	name = "STATE_344"
+	manpower = 1713477
 
-state={
-	id=344
-	name="STATE_344"
-	manpower = 1081781
-	
-	state_category = town
+	resources = {
+		chromium = 56
+	}
 
-	history={
+	state_category = large_town
+
+	history = {
 		owner = TUR
-		victory_points = {
-			9893 15
-		}
-		victory_points = {
-			7620 10
-		}
-		victory_points = {
-			6813 3
-		}
-		victory_points = {
-			11746 5 
-		}
+		victory_points = { 11746 15 }
+		victory_points = { 10056 8 }
+		victory_points = { 16255 5 }
+		victory_points = { 806 4 }
+		victory_points = { 16248 2 }
+		victory_points = { 6813 1 }
+		victory_points = { 4124 1 }
+		victory_points = { 16256 3 }
+		victory_points = { 16246 6 }
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			11746 = {
+			infrastructure = 4
+			air_base = 2
+			dockyard = 1
+			radar_station = 1
+			barracks = 1
+			
+			
+			10056 = {
 				naval_base = 3
 			}
 		}
 		add_core_of = TUR
-		add_claim_by = KUR
 	}
 
-	provinces={
-		806 3889 6813 7620 9893 9912 11746 
+	provinces = {
+		806 886 3921 6813 6956 11746 11810 7026 16249 4124 10056 16255 16250 16256 16248 16246 16247
 	}
-
-
-	local_supplies=0.0 
 }

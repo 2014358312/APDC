@@ -1,21 +1,28 @@
-state={
-	id=703
-	name="STATE_703"
-	manpower=458
+state = { #Population Done
+	id = 703
+	name = "STATE_703"
+	manpower = 549
+
 	state_category = tiny_island
-	history= {
-		owner = ENG
+	history = {
+		owner = CAN
+		add_claim_by = ENG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			radar_station = 3
+			air_base = 4
 			13013 = {
 				naval_base = 1
+				coastal_bunker = 1
 			}
 		}
-	}
-	
-	provinces={
-		13013 
+		victory_points = { # USAF Ascension
+			13013 1
+		}
+		set_state_flag = GDP_regions_south_atlantic
 	}
 
-	local_supplies=0.0 
+	provinces = {
+		13013
+	}
 }

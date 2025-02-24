@@ -1,27 +1,25 @@
-state={
-	id=693
-	name="STATE_693"
-	manpower = 15000
-	
+state = { #Population Done
+	id = 693
+	name = "STATE_693"
+	manpower = 32877
+
 	state_category = tiny_island
 
-	history={
+	history = {
+		owner = CAN
+		add_claim_by = ENG
 		add_core_of = BAH
-		owner = ENG
 		buildings = {
-			infrastructure = 2
-			10440 = {
-				naval_base = 1
-			}
+			infrastructure = 3
 			1513 = {
 				naval_base = 1
 			}
 		}
-	}
-	
-	provinces={
-		1513 10440 
+		set_state_flag = GDP_regions_bahamas
+		set_state_flag = GDP_category_small_island
 	}
 
-	local_supplies=0.0 
+	provinces = {
+		1513 19987
+	}
 }

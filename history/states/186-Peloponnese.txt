@@ -1,42 +1,26 @@
+state = {
+	id = 186
+	name = "STATE_186"
 
-state={
-	id=186
-	name="STATE_186"
-	manpower=945000
-	
-	state_category = town
+	resources = {
+		aluminium = 10
+	}
 
-	history={
-		victory_points = {
-			7211 5
-		}
-		victory_points = {
-			7096 1
-		}
-		victory_points = {
-			11965 1
-		}
+	history = {
 		owner = GRE
+		victory_points = { 7096 1 }
+		victory_points = { 4078 1 }
+		victory_points = { 14611 1 }
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-			11965 = {
-				naval_base = 1
-
-			}
-			7211 = {
-				naval_base = 2
-
-			}
-
+			infrastructure = 4
 		}
 		add_core_of = GRE
-
 	}
 
 	provinces = {
-		1173 4078 4178 4193 7096 7211 11965 
+		4078 4178 7096 14611 16183 16184
 	}
-
-	local_supplies=0.0 
+	manpower = 413007
+	buildings_max_level_factor = 1.000
+	state_category = rural
 }

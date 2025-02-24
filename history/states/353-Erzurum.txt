@@ -1,47 +1,30 @@
+state = {
+	id = 353
+	name = "STATE_353"
 
-state={
-	id=353
-	name="STATE_353"
-
-	history={
+	history = {
 		owner = TUR
 		victory_points = {
-			11853 3
+			16228 10
 		}
 		victory_points = {
-			9860 1
+			10472 4
 		}
 		victory_points = {
-			876 1
-		}
-		victory_points = {
-			9868 1
+			16229 1
 		}
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 3
+			radar_station = 1
 		}
-		if = {
-			limit = {
-				has_dlc = "Battle for the Bosporus"
-			}
-			add_core_of = KUR
-		}
-		if = {
-			limit = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
-			add_core_of = TUR
-			add_core_of = KUR
-		}
+		add_core_of = TUR
 	}
 
-	provinces={
-		876 9858 9860 9868 9954 10399 11797  
+	provinces = {
+		652 6976 6991 10403 10472 11853 12376 16228 16229 16230 18462
 	}
-	manpower=523537
-	buildings_max_level_factor=1.000
-	state_category=rural
-
-	local_supplies=9.0 
+	manpower = 1197284
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

@@ -1,33 +1,30 @@
+state = { #Population Done
+	id = 346
+	name = "STATE_346"
+	manpower = 1373686
 
-state={
-	id=346
-	name="STATE_346"
-	manpower = 849453
-	
-	state_category = rural
+	state_category = town
 
-	history={
+	history = {
 		owner = TUR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			air_base = 5
+			barracks = 1
+			
 		}
-		
-		victory_points = {
-			9861 5
-		}
-		victory_points = {
-			6807 3
-		}
-		victory_points = {
-			784 1
-		}
+
+		victory_points = { 940 10 }
+		victory_points = { 9763 3 }
+		victory_points = { 16251 2 }
+		victory_points = { 11860 2 }
+		victory_points = { 9861 2 }
+		victory_points = { 9830 2 }
+		victory_points = { 3870 2 }
 		add_core_of = TUR
 	}
 
-	provinces={
-		784 869 940 3788 3876 6807 6894 9755 9763 9811 9861 11792 11860 13122 
+	provinces = {
+		940 3788 6807 6894 9755 9763 9811 11792 11860 13122 7143 16251 869 9861 9830 3870 3807
 	}
-
-	local_supplies=0.0 
 }

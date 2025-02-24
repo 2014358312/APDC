@@ -1,38 +1,37 @@
-
-state={
-	id=212
-	name="STATE_212"
-	manpower = 1814936
-	
-	state_category = large_town
-
-	resources={
-		chromium = 1
+state = {
+	id = 212
+	name = "STATE_212"
+	resources = {
+		chromium = 6.000
+		power = 4.000
 	}
 
-	history={
+	history = {
 		owner = BUL
-		victory_points = { #Plovdiv
-			6923 10
+		victory_points = {
+			6923 15
 		}
-		victory_points = { #Stara Zagora
-			6814 3
+		victory_points = {
+			3937 5
 		}
-		victory_points = { #Haskovo
-			9862 1
+		victory_points = {
+			9818 2
 		}
 		buildings = {
-			infrastructure = 2
-			arms_factory = 3
-			industrial_complex =2
+			infrastructure = 5
 			air_base = 2
+			radar_station = 1
+			
 		}
 		add_core_of = BUL
+		set_state_flag = GDP_category_town
 	}
 
-	provinces={
-		878 893 3937 6814 6857 6923 6952 6982 9818 9862 11813 
+	provinces = {
+		3937 6923 6982 9818 11813 18189 18196
 	}
-
-	local_supplies=5.0 
+	manpower = 1103163
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.000
 }

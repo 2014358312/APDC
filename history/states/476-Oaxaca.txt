@@ -1,37 +1,40 @@
-
-state={
-	id=476
-	name="STATE_476"
-	manpower = 1663331
-	
-	state_category = rural
-
-	resources={
-		oil=8
+state = {
+	id = 476
+	name = "STATE_476"
+	resources = {
+		tungsten = 2.000
+		power = 1.000
 	}
-	
-	history={
+
+	history = {
 		owner = MEX
+		add_extra_state_shared_building_slots = 1
 		buildings = {
+			
+			barracks = 1
 			infrastructure = 2
 			air_base = 2
-			10889 = {
+			8236 = {
 				naval_base = 2
 			}
 		}
 		add_core_of = MEX
 		victory_points = {
-			10889 1
+			10773 7
 		}
 		victory_points = {
-			2021 3
+			8236 1
+		}
+		victory_points = {
+			17330 1
 		}
 	}
 
-	provinces={
-		2021 8236 10773 10889 12712 
+	provinces = {
+		8236 10773 12712 14482 14483 16984 17142 17319 17329 17330
 	}
-	
-
-	local_supplies=8.0 
+	manpower = 1409951
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

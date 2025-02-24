@@ -1,45 +1,51 @@
 state = {
 	id = 412
 	name = "STATE_412"
-	state_category = rural
-	manpower = 918619
-
 	resources = {
-		oil = 10 # was: 12
+		oil = 18
+		chromium = 12
 	}
 
 	history = {
-
 		owner = PER
-		add_core_of = PER
-
 		victory_points = {
-			8117 3 
+			8117 15
 		}
-
 		victory_points = {
-			7982 3 
+			18816 2
 		}
-
 		victory_points = {
-			12832 1
+			18712 3
 		}
-		
+		victory_points = {
+			10881 3
+		}
+		victory_points = {
+			13599 2
+		}
+		victory_points = {
+			13602 1
+		}
+		victory_points = {
+			15161 1
+		}
+		victory_points = {
+			13605 1
+		}
 		buildings = {
-			infrastructure = 1
-			7982 = {
-				naval_base = 4
-			}
-			12832 = {
-				naval_base = 2
-			}
+			infrastructure = 4
+			
+			
+			air_base = 2
 		}
-		
+		add_core_of = PER
 	}
 
 	provinces = {
-		4959 4966 7982 8117 10797 10881 12780 12832 12863 13312
+		4966 8117 10797 10881 12832 13598 13599 13602 13605 15161 18712 18778 18816
 	}
-
-	local_supplies = 0.0 
+	manpower = 1439804
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.000
 }

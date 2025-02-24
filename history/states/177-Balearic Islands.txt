@@ -1,19 +1,19 @@
-state=
-{
-	id=177
-	name="STATE_177"
-	manpower = 365500
-	
+state = { #Population Done
+	id = 177
+	name = "STATE_177"
+	manpower = 445762
+
 	state_category = rural
-	
-	history=
-	{
-		victory_points = {
-			9793 1
-		}
+
+	history = {
 		owner = SPR
+		add_core_of = SPR
+		victory_points = { 9793 10 }
+		victory_points = { 7114 1 }
 		buildings = {
-			infrastructure = 3 #was: 6
+			barracks = 1
+			infrastructure = 5
+			radar_station = 1
 			air_base = 1
 			9793 = {
 				naval_base = 2
@@ -22,11 +22,8 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = SPR
+		set_state_flag = state_renamings
+		set_state_flag = GDP_category_city
 	}
-	provinces=
-	{
-7114 9793 9845 	}
-
-	local_supplies=0.0 
+	provinces = { 7114 9793 9845 }
 }

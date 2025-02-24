@@ -1,31 +1,36 @@
-
-state = {
+state = { #Population Done
 	id = 214
 	name = "STATE_214"
-	manpower = 577985
-	
-	state_category = town
-
+	resources = {
+		aluminium = 10
+		steel = 8
+	}
 	history = {
-		owner = SOV
-		victory_points = {
-			3338 5 
-		}
+		owner = WRS
+		victory_points = { 3338 15 }
+		victory_points = { 3168 7 }
+		victory_points = { 312 3 }
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
+			infrastructure = 4
 			air_base = 3
+			
 			3338 = {
 				naval_base = 3
 			}
+			barracks = 1
+			
+			
+			
 		}
-		add_core_of = SOV
-
+		add_core_of = WRS
+		add_claim_by = MCW
+		set_state_flag = universal_renamings
 	}
 
 	provinces = {
-		      140 180 312 3075 3080 3092 3130 3168 3338 6102 6105 9041 9248 11038 11171  
+		312 3130 3168 3338 6102 11171
 	}
-
-	local_supplies = 0.0 
+	manpower = 621000
+	buildings_max_level_factor = 1.000
+	state_category = city
 }

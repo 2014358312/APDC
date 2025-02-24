@@ -1,25 +1,45 @@
+state = {
+	id = 247
+	name = "STATE_247"
 
-state={
-	id=247
-	name="STATE_247"
-	manpower = 1331211
-	state_category = town
-
-	history={
-		owner = SOV
+	history = {
+		owner = MCW
 		victory_points = {
-			6245 10 
+			11250 15
+		}
+		victory_points = {
+			9046 1
+		}
+		victory_points = {
+			11349 5
+		}
+		victory_points = {
+			187 1
+		}
+		victory_points = {
+			3101 5
+		}
+		victory_points = {
+			333 1
+		}
+		victory_points = {
+			18275 1
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			air_base = 2
+			
+			
 		}
-		add_core_of = SOV
+		add_core_of = MCW
+		set_state_flag = universal_renamings
 	}
 
-	provinces={
-		85 150 344 3143 3176 3323 6022 6122 6203 6245 6346 9046 9144 9256 11084 11154 11250 
+	provinces = {
+		85 150 187 226 287 333 2999 3035 3101 3143 3176 3215 3321 3323 6022 6122 6203 6245 6264 6303 6346 9046 9144 9256 9265 9333 9343 11084 11154 11224 11250 11315 11326 11349 18247 18251 18257 18258 18262 18268 18275
 	}
-
-	local_supplies=0.0 
+	manpower = 1840059
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+	local_supplies = 0.000
 }

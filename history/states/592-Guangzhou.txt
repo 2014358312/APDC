@@ -1,40 +1,42 @@
-state={
-	id=592
-	name="STATE_592"
-	manpower = 17835200
-	state_category = city
-	resources={
-		tungsten=8 # was: 10
-		steel= 15 # was: 20
-		chromium = 3 # was: 4
+state = {
+	id = 592
+	name = "STATE_592"
+	manpower = 3920384
+	state_category = metropolis
+	resources = {
+		steel = 30
 	}
 
-	history={
+	history = {
 		owner = PRC
 		add_core_of = PRC
-		
+		set_state_flag = state_renamings
+
 		buildings = {
-			infrastructure = 2
-			arms_factory = 2
-			industrial_complex = 2
-			air_base = 3
-			1047 = { # Guangzhou
-				naval_base = 5
+			
+			
+			
+			
+			barracks = 1
+			
+			infrastructure = 6
+			radar_station = 1
+			air_base = 4
+			dockyard = 1
+			1047 = {
+				naval_base = 8
 				coastal_bunker = 1
 				bunker = 1
 			}
-
 		}
-		victory_points = {
-			1047 5 # Guangzhou
-		}
-
+		victory_points = { 1047 50 }
+		set_variable = { china_state_ref = 32 }
+		set_variable = { china_region_ref = 4 }
 	}
 
-	provinces={
-		1047 1087 1131 1187 4092 7039 7152 9963 11938 11941 12077 
+	provinces = {
+		1047
 	}
-
-	local_supplies=1.0 
+	buildings_max_level_factor = 1.500
 }
 

@@ -1,36 +1,30 @@
-state=
-{
-	id=164
-	name="STATE_164"
-	manpower = 120000
-	
-	state_category = small_island
-	
+state = { #Population Done
+	id = 164
+	name = "STATE_164"
+
 	history = {
 		owner = ITA
-		victory_points = {
-			10007 1 
-		}
+		victory_points = { 10007 1 }
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			air_base = 1
-			10007 = {
-				naval_base = 4
-			}
+			radar_station = 1
 			7003 = {
 				naval_base = 1
 			}
+			10007 = {
+				naval_base = 3
+			}
 		}
 		add_core_of = GRE
-
-		#CONTROLLED BY ITALY AT GAME START -> ITALIAN NAMES
-		set_state_name = STATE_164_ITA
-		set_province_name = { id = 10007 name = VICTORY_POINTS_10007_ITA }
+		add_claim_by = TUR
+		set_state_flag = universal_renamings
 	}
 
 	provinces = {
 		7003 10007
 	}
-
-	local_supplies=0.0 
+	manpower = 218777
+	buildings_max_level_factor = 1.000
+	state_category = rural
 }

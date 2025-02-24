@@ -1,23 +1,26 @@
-state={
-	id=707
-	name="STATE_707"
+state = {
+	id = 707
+	name = "STATE_707"
 	manpower = 404458
-	
+
 	state_category = small_island
 
-	history={
-		owner = ENG
+	history = {
+		owner = MAD
+		add_core_of = MAD
 		buildings = {
 			infrastructure = 2
-			13018 = {
+			radar_station = 2
+			air_base = 1
+			18820 = {
 				naval_base = 1
 			}
 		}
-	}
-	
-	provinces={
-		13018 
+		set_state_flag = state_renamings
+		victory_points = { 18820 1 }
 	}
 
-	local_supplies=0.0 
+	provinces = {
+		18820
+	}
 }

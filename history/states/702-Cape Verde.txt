@@ -1,23 +1,24 @@
-state={
-	id=702
-	name="STATE_702"
-	manpower = 150600
-	
+state = { #Population Done
+	id = 702
+	name = "STATE_702"
+	manpower = 221484
+
 	state_category = small_island
 
-	history={
-		owner = POR
+	history = {
+		owner = SPR
+		victory_points = { 13014 5 }
 		buildings = {
 			infrastructure = 2
-			13014 ={
+			air_base = 1
+			13014 = {
 				naval_base = 1
 			}
 		}
+		set_state_name = state_renamings
 	}
 
-	provinces={
-		13014 
+	provinces = {
+		13014
 	}
-
-	local_supplies=0.0 
 }
