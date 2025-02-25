@@ -5,16 +5,17 @@ state = {
 		14477
 	}
 	history = {
-		owner = PAD
+		owner = FSP
 		victory_points = {
-			14477 1
+			14477
+			1
 		}
 		buildings = {
 			infrastructure = 5
 		}
-		add_core_of = PAD
+		add_core_of = FSP
 	}
 	manpower = 10500
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
 }

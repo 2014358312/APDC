@@ -1,22 +1,20 @@
 state = {
 	id = 1355
 	name = "STATE_1355"
-
 	history = {
-		owner = IRE
+		owner = ENG
 		buildings = {
 			infrastructure = 3
-			
 			radar_station = 2
 		}
-		add_core_of = IRE
+		add_core_of = ENG
 	}
-
 	provinces = {
-		337 18605
+		337
+		18605
 	}
 	manpower = 113842
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }

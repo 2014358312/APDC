@@ -1,12 +1,15 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 118
 	name = "STATE_118"
 	manpower = 181194
-
 	state_category = rural
 	history = {
-		owner = SPR
-		victory_points = { 4135 6 }
+		owner = USA
+		victory_points = {
+			4135
+			6
+		}
 		buildings = {
 			infrastructure = 4
 			air_base = 2
@@ -16,7 +19,6 @@ state = { #Population Done
 			}
 		}
 		add_core_of = SPR
-		set_state_flag = GDP_category_large_town
 	}
 	provinces = {
 		4135
