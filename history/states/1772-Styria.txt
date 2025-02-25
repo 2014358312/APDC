@@ -2,31 +2,35 @@ state = {
 	id = 1772
 	name = "STATE_1772"
 	resources = {
-		tungsten = 14.000
-		chromium = 18.000
+		tungsten = 14
+		chromium = 18
 	}
-
 	history = {
-		owner = GER
+		owner = AUS
 		victory_points = {
-			9648 15
+			9648
+			15
 		}
 		buildings = {
 			infrastructure = 5
-			
 			barracks = 2
-			
 		}
-		add_core_of = GER
-		set_state_flag = GDP_regions_austria
-		set_state_flag = GDP_category_large_town
+		add_core_of = AUS
 	}
-
 	provinces = {
-		653 6687 6690 6691 9646 9648 9650 9679 11630 18120
+		653
+		6687
+		6690
+		6691
+		9646
+		9648
+		9650
+		9679
+		11630
+		18120
 	}
 	manpower = 1195023
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = town
-	local_supplies = 0.000
+	local_supplies = 0
 }

@@ -1,29 +1,34 @@
 state = {
 	id = 1384
 	name = "STATE_1384"
-
 	history = {
-		owner = GGN
-		add_core_of = GGN
+		owner = POL
 		add_core_of = POL
 		buildings = {
 			infrastructure = 4
 		}
 		victory_points = {
-			19179 1
+			19179
+			1
 		}
 		victory_points = {
-			11466 1
+			11466
+			1
 		}
 		set_state_flag = universal_renamings
 		set_state_flag = GDP_category_rural
 	}
-
 	provinces = {
-		3521 9521 11466 11507 19172 19176 19179
+		3521
+		9521
+		11466
+		11507
+		19172
+		19176
+		19179
 	}
 	manpower = 1177274
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = town
-	local_supplies = 0.000
+	local_supplies = 0
 }
