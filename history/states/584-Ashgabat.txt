@@ -5,7 +5,7 @@ state = {
 		oil = 12
 	}
 	history = {
-		owner = TMS
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 		}
@@ -21,7 +21,7 @@ state = {
 			18679
 			1
 		}
-		add_core_of = TMS
+		add_core_of = SOV
 	}
 	provinces = {
 		1493

@@ -6,24 +6,29 @@ state = {
 		tungsten = 2
 		steel = 2
 	}
-
 	history = {
-		owner = CAU
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = CAU
+		add_core_of = SOV
 		victory_points = {
-			15690 4
+			15690
+			4
 		}
 		set_state_flag = GDP_category_town
 	}
-
 	provinces = {
-		714 6692 9649 9674 11664 15690 18296
+		714
+		6692
+		9649
+		9674
+		11664
+		15690
+		18296
 	}
 	manpower = 319807
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }

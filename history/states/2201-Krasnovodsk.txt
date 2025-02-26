@@ -6,7 +6,7 @@ state = {
 		steel = 4
 	}
 	history = {
-		owner = TMS
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -19,7 +19,7 @@ state = {
 			1593
 			3
 		}
-		add_core_of = TMS
+		add_core_of = SOV
 		set_state_flag = state_renamings
 	}
 	provinces = {

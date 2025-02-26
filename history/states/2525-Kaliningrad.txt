@@ -1,42 +1,47 @@
 state = {
-	id = 232
-	name = "STATE_232"
-	resources = {
-		oil = 3
-	}
+	id = 2525
+	name = "STATE_2525"
 	history = {
 		owner = SOV
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 4
+			dockyard = 2
+			6332 = {
+				bunker = 1
+				naval_base = 5
+			}
+			3288 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
-			3672
-			15
+			348
+			7
 		}
 		victory_points = {
-			670
-			1
+			6332
+			20
 		}
 		victory_points = {
-			6689
-			1
+			3384
+			5
 		}
 		victory_points = {
-			666
-			1
+			3288
+			8
 		}
-		add_core_of = SOV
-		set_state_flag = universal_renamings
-		set_state_flag = GDP_category_rural
 	}
 	provinces = {
-		666
-		670
-		3672
-		6689
-		18299
+		3384
+		395
+		281
+		348
+		6332
+		11265
+		3288
 	}
-	manpower = 838488
+	manpower = 488856
 	buildings_max_level_factor = 1
 	state_category = town
 	local_supplies = 0

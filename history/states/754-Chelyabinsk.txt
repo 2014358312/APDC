@@ -7,21 +7,22 @@ state = {
 		oil = 4
 	}
 	history = {
-		owner = TYM
+		owner = SOV
 		buildings = {
 			infrastructure = 4
-			
-			
-			
 		}
-		victory_points = { 9292 25 }
-		add_core_of = TYM
+		victory_points = {
+			9292
+			25
+		}
+		add_core_of = SOV
 	}
-
 	provinces = {
-		9292 10213 12157
+		9292
+		10213
+		12157
 	}
 	manpower = 1426000
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = city
 }

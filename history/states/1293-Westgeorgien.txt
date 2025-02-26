@@ -1,50 +1,62 @@
 state = {
 	id = 1293
 	name = "STATE_1293"
-
 	history = {
-		owner = CAU
+		owner = SOV
 		buildings = {
 			infrastructure = 5
-			
 			772 = {
 				naval_base = 4
 			}
-			
-			
 			synthetic_refinery = 1
 		}
 		victory_points = {
-			3658 10
+			3658
+			10
 		}
 		victory_points = {
-			772 4
+			772
+			4
 		}
 		victory_points = {
-			11599 3
+			11599
+			3
 		}
 		victory_points = {
-			18356 1
+			18356
+			1
 		}
 		victory_points = {
-			18338 2
+			18338
+			2
 		}
 		victory_points = {
-			6926 2
+			6926
+			2
 		}
 		victory_points = {
-			9626 2
+			9626
+			2
 		}
-		add_core_of = CAU
+		add_core_of = SOV
 		set_state_flag = GDP_regions_georgia
 		set_state_flag = universal_renamings
 	}
-
 	provinces = {
-		654 672 772 3658 6674 9626 9632 11599 18338 18356 18357
+		654
+		672
+		772
+		3658
+		6674
+		9626
+		9632
+		11599
+		18338
+		18356
+		18357
 	}
 	manpower = 1259994
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = large_town
-	local_supplies = 0.000
+	local_supplies = 0
 }

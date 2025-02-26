@@ -1,36 +1,35 @@
 state = {
 	id = 742
 	name = "STATE_742"
-
 	resources = {
 		steel = 6
 		aluminium = 2
 		power = 2
 	}
-
 	history = {
-		owner = TAJ
+		owner = SOV
 		buildings = {
 			infrastructure = 4
-			
-			
-			
 		}
-		add_core_of = TAJ
+		add_core_of = SOV
 		victory_points = {
-			10205 15
+			10205
+			15
 		}
 		victory_points = {
-			12218 3
+			12218
+			3
 		}
 		set_state_flag = state_renamings
 	}
-
 	provinces = {
-		1384 10205 12218 18662
+		1384
+		10205
+		12218
+		18662
 	}
 	manpower = 984595
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = town
-	local_supplies = 0.000
+	local_supplies = 0
 }

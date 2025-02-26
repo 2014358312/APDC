@@ -1,25 +1,36 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 249
 	name = "STATE_249"
-
 	history = {
-		owner = TAR
+		owner = SOV
 		buildings = {
-			
-			
 			infrastructure = 2
-			
 		}
-		victory_points = { 6338 25 }
-		victory_points = { 260 3 }
-		add_core_of = TAR
+		victory_points = {
+			6338
+			25
+		}
+		victory_points = {
+			260
+			3
+		}
+		add_core_of = SOV
 		set_state_flag = state_renamings
 	}
-
 	provinces = {
-		228 260 372 404 3251 3365 3394 6224 6338 9336
+		228
+		260
+		372
+		404
+		3251
+		3365
+		3394
+		6224
+		6338
+		9336
 	}
 	manpower = 1546000
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = city
 }

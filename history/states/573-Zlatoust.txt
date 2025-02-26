@@ -7,28 +7,33 @@ state = {
 		tungsten = 28
 		oil = 11
 	}
-
 	history = {
-		owner = ZLT
+		owner = SOV
 		buildings = {
 			infrastructure = 4
-			
 			air_base = 2
-			
 		}
 		victory_points = {
-			10329 10
+			10329
+			10
 		}
 		victory_points = {
-			12567 7
+			12567
+			7
 		}
-		add_core_of = ZLT
+		add_core_of = SOV
 	}
-
 	provinces = {
-		1233 4758 7320 10133 10329 11223 12287 12567
+		1233
+		4758
+		7320
+		10133
+		10329
+		11223
+		12287
+		12567
 	}
 	manpower = 582000
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = town
 }

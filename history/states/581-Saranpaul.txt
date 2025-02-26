@@ -1,4 +1,5 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 581
 	name = "STATE_581"
 	resources = {
@@ -7,20 +8,24 @@ state = { #Population Done
 		chromium = 44
 		oil = 5
 	}
-
 	history = {
-		owner = YGR
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 		}
-		victory_points = { 10677 1 }
-		add_core_of = YGR
+		victory_points = {
+			10677
+			1
+		}
+		add_core_of = SOV
 	}
-
 	provinces = {
-		7824 10551 10677 12502
+		7824
+		10551
+		10677
+		12502
 	}
 	manpower = 8125
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = wasteland
 }

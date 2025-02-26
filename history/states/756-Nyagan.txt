@@ -1,25 +1,36 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 756
 	name = "STATE_756"
-
 	history = {
-		owner = YGR
+		owner = SOV
 		buildings = {
 			barracks = 1
 			infrastructure = 2
 		}
-		victory_points = { 7796 1 }
-		victory_points = { 13348 5 }
-		add_core_of = YGR
+		victory_points = {
+			7796
+			1
+		}
+		victory_points = {
+			13348
+			5
+		}
+		add_core_of = SOV
 	}
 	resources = {
 		oil = 7
 		aluminium = 12
 	}
 	provinces = {
-		1744 4746 4774 7796 13348 3169
+		1744
+		4746
+		4774
+		7796
+		13348
+		3169
 	}
 	manpower = 45000
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
 }

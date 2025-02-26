@@ -2,27 +2,35 @@ state = {
 	id = 862
 	name = "STATE_862"
 	resources = {
-		steel = 5.000
+		steel = 5
 	}
-
 	history = {
-		owner = WRS
+		owner = SOV
 		buildings = {
 			infrastructure = 3
-			
 			barracks = 1
 		}
-		add_core_of = WRS
+		add_core_of = SOV
 		victory_points = {
-			6192 1
+			6192
+			1
 		}
 	}
-
 	provinces = {
-		87 180 1439 3075 3081 6016 6105 6192 9041 11042 11089
+		87
+		180
+		1439
+		3075
+		3081
+		6016
+		6105
+		6192
+		9041
+		11042
+		11089
 	}
 	manpower = 71000
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }

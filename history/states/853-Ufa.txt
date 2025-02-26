@@ -1,4 +1,5 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 853
 	name = "STATE_853"
 	resources = {
@@ -6,23 +7,29 @@ state = { #Population Done
 		oil = 4
 	}
 	provinces = {
-		1258 1278 12130 10226
+		1258
+		1278
+		12130
+		10226
 	}
 	history = {
-		owner = BKR
+		owner = SOV
 		buildings = {
-			
 			barracks = 1
-			
 			infrastructure = 2
-			
 		}
-		victory_points = { 12130 3 }
-		victory_points = { 1278 25 }
-		add_core_of = BKR
+		victory_points = {
+			12130
+			3
+		}
+		victory_points = {
+			1278
+			25
+		}
+		add_core_of = SOV
 		set_state_flag = state_renamings
 	}
 	manpower = 565000
 	state_category = large_town
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 }

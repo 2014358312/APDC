@@ -1,54 +1,69 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 231
 	name = "STATE_231"
-
 	resources = {
 		chromium = 10
 	}
-
 	history = {
-		owner = CAU
+		owner = SOV
 		victory_points = {
-			1599 25
+			1599
+			25
 		}
 		victory_points = {
-			1530 3
+			1530
+			3
 		}
 		victory_points = {
-			18355 1
+			18355
+			1
 		}
 		victory_points = {
-			3656 2
+			3656
+			2
 		}
 		victory_points = {
-			6436 1
+			6436
+			1
 		}
 		victory_points = {
-			4605 1
+			4605
+			1
 		}
 		victory_points = {
-			6669 1
+			6669
+			1
 		}
 		victory_points = {
-			6671 1
+			6671
+			1
 		}
 		buildings = {
 			infrastructure = 5
 			air_base = 5
-			
-			
-			
 		}
-
-		add_core_of = CAU
+		add_core_of = SOV
 		set_state_flag = GDP_regions_georgia
 		set_state_flag = universal_renamings
 	}
-
 	provinces = {
-		1530 1599 3656 3667 4534 4605 6436 6669 6671 9702 15130 18346 18351 18355
+		1530
+		1599
+		3656
+		3667
+		4534
+		4605
+		6436
+		6669
+		6671
+		9702
+		15130
+		18346
+		18351
+		18355
 	}
 	manpower = 2418951
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = city
 }

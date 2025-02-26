@@ -1,4 +1,5 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 847
 	name = "STATE_847"
 	resources = {
@@ -6,17 +7,25 @@ state = { #Population Done
 		chromium = 11
 	}
 	provinces = {
-		4311 4383 7300 7373 12200 13303
+		4311
+		4383
+		7300
+		7373
+		12200
+		13303
 	}
 	history = {
-		owner = URL
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = { 12200 1 }
-		add_core_of = URL
+		victory_points = {
+			12200
+			1
+		}
+		add_core_of = SOV
 	}
 	manpower = 213000
 	state_category = rural
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 }

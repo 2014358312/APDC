@@ -2,44 +2,55 @@ state = {
 	id = 562
 	name = "STATE_562"
 	resources = {
-		tungsten = 14.000
-		steel = 2.000
-		uranium = 2.000
-		power = 4.000
+		tungsten = 14
+		steel = 2
+		uranium = 2
+		power = 4
 	}
-
 	history = {
-		owner = MAG
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 			air_base = 1
-			
 			dockyard = 1
-			
 			12683 = {
 				naval_base = 5
 			}
 		}
-		add_core_of = MAG
+		add_core_of = SOV
 		victory_points = {
-			12683 10
+			12683
+			10
 		}
 		victory_points = {
-			8650 1
+			8650
+			1
 		}
 		victory_points = {
-			1865 1
+			1865
+			1
 		}
 		victory_points = {
-			8552 1
+			8552
+			1
 		}
 	}
-
 	provinces = {
-		1865 5722 5791 5860 5887 6452 8552 8626 8650 10540 12551 12683
+		1865
+		5722
+		5791
+		5860
+		5887
+		6452
+		8552
+		8626
+		8650
+		10540
+		12551
+		12683
 	}
 	manpower = 245618
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = town
-	local_supplies = 0.000
+	local_supplies = 0
 }
