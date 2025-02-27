@@ -42,7 +42,6 @@ state = {
 			6211
 			1
 		}
-		set_state_flag = universal_renamings
 	}
 	provinces = {
 		1722

@@ -17,7 +17,6 @@ state = {
 		set_variable = {
 			china_region_ref = 7
 		}
-		set_state_flag = universal_renamings
 		buildings = {
 			infrastructure = 2
 		}

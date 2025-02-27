@@ -4,8 +4,8 @@ state = {
 	manpower = 1034096
 	state_category = rural
 	history = {
-		owner = POL
-		add_core_of = POL
+		owner = SOV
+		add_core_of = SOV
 		#add_core_of = GAC
 		victory_points = {
 			3483
@@ -19,7 +19,6 @@ state = {
 			infrastructure = 4
 			barracks = 1
 		}
-		set_state_flag = universal_renamings
 	}
 	provinces = {
 		3483

@@ -5,8 +5,8 @@ state = {
 		oil = 16
 	}
 	history = {
-		owner = POL
-		add_core_of = POL
+		owner = SOV
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 4
 		}
@@ -18,7 +18,6 @@ state = {
 			19169
 			2
 		}
-		set_state_flag = universal_renamings
 	}
 	provinces = {
 		536

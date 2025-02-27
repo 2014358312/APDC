@@ -24,7 +24,6 @@ state = {
 		set_variable = {
 			china_state_ref = 51
 		}
-		set_state_flag = universal_renamings
 	}
 	manpower = 548000
 	state_category = enclave

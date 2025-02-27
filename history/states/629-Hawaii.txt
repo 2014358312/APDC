@@ -1,4 +1,5 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 629
 	name = "STATE_629"
 	manpower = 687126
@@ -10,9 +11,7 @@ state = { #Population Done
 			radar_station = 5
 			air_base = 5
 			barracks = 2
-			
 			missile_silo = 1
-			
 			4180 = {
 				naval_base = 10
 			}
@@ -24,19 +23,29 @@ state = { #Population Done
 			}
 		}
 		add_core_of = USA
-		victory_points = { # Honolulu
-			4180 20
+		victory_points = {
+			# Honolulu
+			4180
+			20
 		}
-		victory_points = { # Hilo
-			12021 3
+		victory_points = {
+			# Hilo
+			12021
+			3
 		}
-		victory_points = { # Kahului
-			7195 1
+		victory_points = {
+			# Kahului
+			7195
+			1
 		}
-		set_state_flag = universal_renamings
 	}
-
 	provinces = {
-		4180 7112 7195 10048 12021 13051 13052
+		4180
+		7112
+		7195
+		10048
+		12021
+		13051
+		13052
 	}
 }

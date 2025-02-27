@@ -1,17 +1,19 @@
 state = {
 	id = 1283
 	name = "STATE_1283"
-
 	history = {
 		owner = ROM
 		victory_points = {
-			657 10
+			657
+			10
 		}
 		victory_points = {
-			3076 3
+			3076
+			3
 		}
 		victory_points = {
-			18214 2
+			18214
+			2
 		}
 		buildings = {
 			infrastructure = 5
@@ -23,17 +25,21 @@ state = {
 				naval_base = 1
 			}
 			dockyard = 2
-			
 		}
 		add_core_of = ROM
-		set_state_flag = GDP_category_large_town
 	}
-
 	provinces = {
-		657 687 3076 9635 18201 18206 18214 18217
+		657
+		687
+		3076
+		9635
+		18201
+		18206
+		18214
+		18217
 	}
 	manpower = 617963
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }

@@ -35,9 +35,6 @@ state = {
 			infrastructure = 4
 		}
 		add_core_of = SOV
-		set_state_flag = universal_renamings
-		set_state_flag = GDP_regions_azerbaijan
-		set_state_flag = universal_renamings
 	}
 	provinces = {
 		1539

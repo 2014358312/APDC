@@ -1,11 +1,9 @@
 state = {
 	id = 1786
 	name = "STATE_1786"
-
 	resources = {
 		oil = 2
 	}
-
 	history = {
 		owner = JOR
 		buildings = {
@@ -13,16 +11,17 @@ state = {
 		}
 		add_core_of = JOR
 		victory_points = {
-			10089 1
+			10089
+			1
 		}
-		set_state_flag = universal_renamings
 	}
-
 	provinces = {
-		1 10089 18579
+		1
+		10089
+		18579
 	}
 	manpower = 31645
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }

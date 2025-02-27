@@ -1,7 +1,6 @@
 state = {
 	id = 1370
 	name = "STATE_1370"
-
 	history = {
 		owner = SNS
 		buildings = {
@@ -10,18 +9,23 @@ state = {
 		add_core_of = SYR
 		add_core_of = SNS
 		add_extra_state_shared_building_slots = 1
-		victory_points = { 16278 5 }
-		set_state_flag = universal_renamings
+		victory_points = {
+			16278
+			5
+		}
 		set_state_flag = GDP_regions_syria
 	}
-
 	provinces = {
-		14465 3942 16278 16273 16274
+		14465
+		3942
+		16278
+		16273
+		16274
 	}
 	resources = {
 		oil = 21
 	}
 	manpower = 70236
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
 }

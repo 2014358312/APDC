@@ -25,7 +25,6 @@ state = {
 			anti_air_building = 2
 		}
 		set_state_flag = GDP_regions_belarus
-		set_state_flag = universal_renamings
 	}
 	provinces = {
 		360

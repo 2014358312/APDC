@@ -1,4 +1,5 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 664
 	name = "STATE_664"
 	manpower = 1028500
@@ -6,22 +7,31 @@ state = { #Population Done
 		steel = 20
 		chromium = 4
 	}
-
 	state_category = town
-
 	history = {
-		owner = HUN
+		owner = SLO
 		buildings = {
 			infrastructure = 5
-			
 		}
-		victory_points = { 6573 10 }
-		victory_points = { 11679 2 }
-		victory_points = { 3716 2 }
-		add_core_of = HUN
+		victory_points = {
+			6573
+			10
+		}
+		victory_points = {
+			11679
+			2
+		}
+		victory_points = {
+			3716
+			2
+		}
+		add_core_of = SLO
 	}
-
 	provinces = {
-		3716 6561 6573 9537 11679
+		3716
+		6561
+		6573
+		9537
+		11679
 	}
 }

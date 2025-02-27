@@ -1,10 +1,13 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 164
 	name = "STATE_164"
-
 	history = {
 		owner = ITA
-		victory_points = { 10007 1 }
+		victory_points = {
+			10007
+			1
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -18,13 +21,12 @@ state = { #Population Done
 		}
 		add_core_of = GRE
 		add_claim_by = TUR
-		set_state_flag = universal_renamings
 	}
-
 	provinces = {
-		7003 10007
+		7003
+		10007
 	}
 	manpower = 218777
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
 }

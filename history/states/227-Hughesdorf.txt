@@ -31,7 +31,6 @@ state = {
 			6474
 			20
 		}
-		set_state_flag = universal_renamings
 		add_core_of = SOV
 	}
 	provinces = {

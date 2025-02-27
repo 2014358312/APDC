@@ -2,13 +2,11 @@ state = {
 	id = 1392
 	name = "STATE_1392"
 	history = {
-		owner = POL
-		add_core_of = POL
+		owner = SOV
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 3
 		}
-		set_state_flag = universal_renamings
-		set_state_flag = GDP_category_rural
 	}
 	provinces = {
 		15683

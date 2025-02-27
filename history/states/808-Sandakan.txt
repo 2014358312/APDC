@@ -2,14 +2,14 @@ state = {
 	id = 808
 	name = "STATE_808"
 	resources = {
-		rubber = 6.000
+		rubber = 6
 	}
-
 	history = {
 		owner = NRB
 		add_core_of = NRB
 		victory_points = {
-			10199 1
+			10199
+			1
 		}
 		buildings = {
 			infrastructure = 3
@@ -19,14 +19,16 @@ state = {
 			}
 		}
 		set_state_flag = GDP_regions_sabah
-		set_state_flag = universal_renamings
 	}
-
 	provinces = {
-		7358 10143 10199 12186 19262
+		7358
+		10143
+		10199
+		12186
+		19262
 	}
 	manpower = 92977
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }

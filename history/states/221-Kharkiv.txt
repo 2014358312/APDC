@@ -42,7 +42,6 @@ state = {
 			infrastructure = 5
 			air_base = 5
 		}
-		set_state_flag = universal_renamings
 		add_core_of = SOV
 		set_state_flag = GDP_category_rural
 	}

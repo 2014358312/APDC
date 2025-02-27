@@ -29,7 +29,6 @@ state = {
 			infrastructure = 5
 			air_base = 2
 		}
-		set_state_flag = universal_renamings
 		add_core_of = SOV
 	}
 	provinces = {

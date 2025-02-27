@@ -1,26 +1,29 @@
 state = {
 	id = 102
 	name = "STATE_102"
-
 	history = {
 		owner = ITA
 		buildings = {
 			barracks = 1
-			
 			infrastructure = 5
-			9627 = { bunker = 5 }
-			6650 = { bunker = 5 }
-			
+			9627 = {
+				bunker = 5
+			}
+			6650 = {
+				bunker = 5
+			}
 		}
-		victory_points = { 9627 10 }
+		victory_points = {
+			9627
+			10
+		}
 		add_core_of = ITA
-		set_state_flag = universal_renamings
 	}
-
 	provinces = {
-		6650 9627
+		6650
+		9627
 	}
 	manpower = 842579
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = large_town
 }

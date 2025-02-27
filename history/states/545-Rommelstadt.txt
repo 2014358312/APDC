@@ -1,11 +1,11 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 545
 	name = "STATE_545"
 	resources = {
-		chromium = 41.000
-		tungsten = 14.000
+		chromium = 41
+		tungsten = 14
 	}
-
 	history = {
 		owner = SAF
 		add_core_of = SAF
@@ -14,15 +14,17 @@ state = { #Population Done
 			radar_station = 1
 			air_base = 2
 		}
-		set_state_flag = universal_renamings
-		victory_points = { 13666 1 }
+		victory_points = {
+			13666
+			1
+		}
 	}
 	state_category = pastoral
 	manpower = 48981
 	provinces = {
-		13206 13666 13674
+		13206
+		13666
+		13674
 	}
-
-	buildings_max_level_factor = 1.000
-
+	buildings_max_level_factor = 1
 }

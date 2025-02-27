@@ -20,7 +20,6 @@ state = {
 			barracks = 1
 			infrastructure = 4
 		}
-		set_state_flag = universal_renamings
 		set_state_flag = GDP_category_town
 	}
 	provinces = {

@@ -1,13 +1,15 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 698
 	name = "STATE_698"
 	manpower = 320072
-
 	state_category = small_island
-
 	history = {
 		owner = SPR
-		victory_points = { 1751 7 }
+		victory_points = {
+			1751
+			7
+		}
 		buildings = {
 			infrastructure = 2
 			radar_station = 2
@@ -18,9 +20,7 @@ state = { #Population Done
 		}
 		add_core_of = SPR
 		set_state_flag = GDP_regions_portugal
-		set_state_flag = GDP_category_large_town
 	}
-
 	provinces = {
 		1751
 	}
