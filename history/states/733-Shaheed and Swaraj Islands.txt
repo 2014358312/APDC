@@ -1,11 +1,11 @@
-state = { #Population + VPs Done
+state = {
+	#Population + VPs Done
 	id = 733
 	name = "STATE_733"
 	manpower = 64538
 	state_category = small_island
-
 	history = {
-		owner = AZH
+		owner = PAK
 		buildings = {
 			infrastructure = 2
 			radar_station = 2
@@ -14,11 +14,15 @@ state = { #Population + VPs Done
 				naval_base = 3
 			}
 		}
-		victory_points = { 12251 1 }
+		victory_points = {
+			12251
+			1
+		}
 		add_claim_by = IND
-		add_core_of = AZH
+		add_core_of = PAK
 	}
 	provinces = {
-		10321 12251
+		10321
+		12251
 	}
 }

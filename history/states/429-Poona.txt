@@ -25,9 +25,8 @@ state = {
 			12142
 			15
 		}
-		owner = IND
-		add_core_of = IND
-		add_claim_by = AZH
+		owner = PAK
+		add_core_of = PAK
 		buildings = {
 			infrastructure = 4
 			air_base = 2

@@ -1,28 +1,29 @@
 state = {
 	id = 1938
 	name = "STATE_1938"
-
 	history = {
-		owner = IND
+		owner = PAK
 		victory_points = {
-			16084 5
+			16084
+			5
 		}
 		victory_points = {
-			18911 3
+			18911
+			3
 		}
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = IND
-		add_claim_by = AZH
+		add_core_of = PAK
 		set_state_flag = GDP_regions_madhya_pradesh
 	}
-
 	provinces = {
-		10807 16084 18911
+		10807
+		16084
+		18911
 	}
 	manpower = 1919454
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }

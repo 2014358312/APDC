@@ -1,14 +1,15 @@
 state = {
 	id = 1266
 	name = "STATE_1266"
-
 	history = {
-		owner = AZH
+		owner = PAK
 		victory_points = {
-			4459 3
+			4459
+			3
 		}
 		victory_points = {
-			18894 4
+			18894
+			4
 		}
 		buildings = {
 			infrastructure = 3
@@ -19,16 +20,16 @@ state = {
 				bunker = 3
 			}
 		}
-		add_core_of = AZH
+		add_core_of = PAK
 		add_claim_by = IND
 		set_state_flag = GDP_regions_bihar
 	}
-
 	provinces = {
-		4459 18894
+		4459
+		18894
 	}
 	manpower = 3647627
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }

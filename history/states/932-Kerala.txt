@@ -2,25 +2,40 @@ state = {
 	id = 932
 	name = "STATE_932"
 	provinces = {
-		1238 1321 7391 7447 10190
+		1238
+		1321
+		7391
+		7447
+		10190
 	}
 	resources = {
 		rubber = 16
 	}
 	history = {
-		owner = IND
-		add_claim_by = AZH
-		add_core_of = IND
-		victory_points = { 1238 20 }
-		victory_points = { 1321 15 }
-		victory_points = { 7447 15 }
-		victory_points = { 7391 15 }
-		victory_points = { 10190 7 }
+		owner = PAK
+		add_core_of = PAK
+		victory_points = {
+			1238
+			20
+		}
+		victory_points = {
+			1321
+			15
+		}
+		victory_points = {
+			7447
+			15
+		}
+		victory_points = {
+			7391
+			15
+		}
+		victory_points = {
+			10190
+			7
+		}
 		buildings = {
 			infrastructure = 5
-			
-			
-			
 			1238 = {
 				naval_base = 4
 			}
@@ -28,6 +43,6 @@ state = {
 		}
 	}
 	manpower = 16903715
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = large_town
 }

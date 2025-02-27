@@ -1,16 +1,20 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 320
 	name = "STATE_320"
 	manpower = 4030660
-
 	state_category = rural
-
 	history = {
-		owner = IND
-		add_core_of = IND
-		add_claim_by = AZH
-		victory_points = { 10149 10 }
-		victory_points = { 16094 10 }
+		owner = PAK
+		add_core_of = PAK
+		victory_points = {
+			10149
+			10
+		}
+		victory_points = {
+			16094
+			10
+		}
 		buildings = {
 			infrastructure = 3
 			10149 = {
@@ -19,6 +23,9 @@ state = { #Population Done
 		}
 		set_state_flag = GDP_regions_tamil_nadu
 	}
-
-	provinces = { 10149 16094 1268 }
+	provinces = {
+		10149
+		16094
+		1268
+	}
 }

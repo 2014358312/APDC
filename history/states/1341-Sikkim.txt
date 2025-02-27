@@ -5,18 +5,17 @@ state = {
 		4435
 	}
 	history = {
-		owner = SIK
-		victory_points = { 4435 1 }
+		owner = PAT
+		victory_points = {
+			4435
+			1
+		}
 		buildings = {
 			infrastructure = 2
-			
-			
 		}
-		add_core_of = SIK
-		add_claim_by = IND
-		add_claim_by = AZH
+		add_core_of = PAT
 	}
 	manpower = 162189
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
 }

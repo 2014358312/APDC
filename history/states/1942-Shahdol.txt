@@ -2,27 +2,27 @@ state = {
 	id = 1942
 	name = "STATE_1942"
 	resources = {
-		aluminium = 18.000
+		aluminium = 18
 	}
-
 	history = {
-		owner = IND
+		owner = PAK
 		victory_points = {
-			8120 1
+			8120
+			1
 		}
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = IND
-		add_claim_by = AZH
+		add_core_of = PAK
 		set_state_flag = GDP_regions_madhya_pradesh
 	}
-
 	provinces = {
-		4410 8120 18823
+		4410
+		8120
+		18823
 	}
 	manpower = 829649
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }
