@@ -2,7 +2,7 @@ state = {
 	id = 445
 	name = "STATE_445"
 	history = {
-		owner = PAT
+		owner = PAK
 		buildings = {
 			infrastructure = 1
 		}
@@ -10,7 +10,7 @@ state = {
 			15996
 			1
 		}
-		add_core_of = PAT
+		add_core_of = PAK
 	}
 	provinces = {
 		5043

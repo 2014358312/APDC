@@ -5,7 +5,7 @@ state = {
 		chromium = 2
 	}
 	history = {
-		owner = PAT
+		owner = PAK
 		buildings = {
 			infrastructure = 3
 			1179 = {
@@ -16,7 +16,7 @@ state = {
 			1179
 			1
 		}
-		add_core_of = PAT
+		add_core_of = PAK
 	}
 	provinces = {
 		1179
