@@ -2,25 +2,29 @@ state = {
 	id = 324
 	name = "STATE_324"
 	resources = {
-		tungsten = 2.000
+		tungsten = 2
 	}
-
 	history = {
-		owner = BHU
+		owner = PRC
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
-			8010 1
+			8010
+			1
 		}
-		add_core_of = BHU
+		add_core_of = PRC
 	}
-
 	provinces = {
-		8010 12860 16131 16132 16133 18866
+		8010
+		12860
+		16131
+		16132
+		16133
+		18866
 	}
 	manpower = 220993
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }
