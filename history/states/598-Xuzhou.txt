@@ -5,8 +5,8 @@ state = {
 		oil = 8
 	}
 	history = {
-		owner = PRC
-		add_core_of = PRC
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			infrastructure = 4
 		}
@@ -17,13 +17,6 @@ state = {
 		victory_points = {
 			12055
 			5
-		}
-		set_state_flag = GDP_regions_jiangsu_huaihai
-		set_variable = {
-			china_state_ref = 3
-		}
-		set_variable = {
-			china_region_ref = 0
 		}
 	}
 	provinces = {

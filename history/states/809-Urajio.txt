@@ -6,8 +6,8 @@ state = {
 		957
 	}
 	history = {
-		owner = JAP
-		add_core_of = PRC
+		owner = SOV
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 5
 			radar_station = 2
@@ -20,9 +20,6 @@ state = {
 		victory_points = {
 			957
 			20
-		}
-		set_variable = {
-			china_state_ref = 51
 		}
 	}
 	manpower = 548000

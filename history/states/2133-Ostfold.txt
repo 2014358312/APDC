@@ -1,11 +1,9 @@
 state = {
 	id = 2133
 	name = "STATE_2133"
-
 	history = {
 		buildings = {
 			infrastructure = 5
-			
 			dockyard = 1
 			3171 = {
 				coastal_bunker = 2
@@ -15,17 +13,19 @@ state = {
 			}
 		}
 		victory_points = {
-			3171 4
+			3171
+			4
 		}
-		owner = NOR
-		add_core_of = NOR
+		owner = ZZZ
+		add_core_of = ZZZ
 	}
-
 	provinces = {
-		3171 11151 18369
+		3171
+		11151
+		18369
 	}
 	manpower = 202751
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }

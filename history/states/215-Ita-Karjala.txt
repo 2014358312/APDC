@@ -5,7 +5,7 @@ state = {
 		steel = 18
 	}
 	history = {
-		owner = SOV
+		owner = RZE
 		victory_points = {
 			9195
 			3
@@ -23,7 +23,7 @@ state = {
 			barracks = 1
 			anti_air_building = 1
 		}
-		add_core_of = SOV
+		add_core_of = RZE
 	}
 	provinces = {
 		3

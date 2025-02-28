@@ -1,30 +1,31 @@
 state = {
 	id = 2462
 	name = "STATE_2462"
-
 	history = {
-		owner = SWE
+		owner = ZZZ
 		victory_points = {
-			161 3
+			161
+			3
 		}
 		victory_points = {
-			8753 5
+			8753
+			5
 		}
 		buildings = {
 			infrastructure = 6
 			nuclear_reactor = 1
-			
-			
 			barracks = 1
 		}
-		add_core_of = SWE
+		add_core_of = ZZZ
 	}
-
 	provinces = {
-		161 18417 8753 6209
+		161
+		18417
+		8753
+		6209
 	}
 	manpower = 468261
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = large_town
-	local_supplies = 0.000
+	local_supplies = 0
 }

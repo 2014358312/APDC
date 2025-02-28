@@ -1,10 +1,9 @@
 state = {
 	id = 1574
 	name = "STATE_1574"
-
 	history = {
-		owner = AST
-		add_core_of = AST
+		owner = ZZZ
+		add_core_of = ZZZ
 		buildings = {
 			infrastructure = 4
 			air_base = 4
@@ -24,21 +23,36 @@ state = {
 			}
 		}
 		victory_points = {
-			7566 6
+			7566
+			6
 		}
 		victory_points = {
-			10460 3
+			10460
+			3
 		}
 		victory_points = {
-			12949 1
+			12949
+			1
 		}
 	}
-
 	provinces = {
-		1514 1557 2187 4560 7538 7566 7610 8230 10460 12367 12382 12411 12424 12957
+		1514
+		1557
+		2187
+		4560
+		7538
+		7566
+		7610
+		8230
+		10460
+		12367
+		12382
+		12411
+		12424
+		12957
 	}
 	manpower = 338791
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = town
-	local_supplies = 0.000
+	local_supplies = 0
 }

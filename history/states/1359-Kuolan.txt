@@ -9,8 +9,8 @@ state = {
 		chromium = 16
 	}
 	history = {
-		owner = SOV
-		add_core_of = SOV
+		owner = RZE
+		add_core_of = RZE
 		victory_points = {
 			3134
 			10

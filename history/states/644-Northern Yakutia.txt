@@ -5,11 +5,11 @@ state = {
 		tungsten = 15
 	}
 	history = {
-		owner = SOV
+		owner = RZE
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SOV
+		add_core_of = RZE
 		victory_points = {
 			13351
 			1

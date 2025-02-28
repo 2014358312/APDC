@@ -3,9 +3,8 @@ state = {
 	name = "STATE_484"
 	manpower = 616609
 	state_category = town
-
 	history = {
-		owner = MEX
+		owner = ZZZ
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -18,18 +17,27 @@ state = {
 				naval_base = 2
 			}
 		}
-		add_core_of = MEX
-		victory_points = { # Tijuana
-			12461 10
-		}
-		victory_points = { # Mexicali
-			14529 10
+		add_core_of = ZZZ
+		victory_points = {
+			# Tijuana
+			12461
+			10
 		}
 		victory_points = {
-			1892 4
+			# Mexicali
+			14529
+			10
+		}
+		victory_points = {
+			1892
+			4
 		}
 	}
 	provinces = {
-		1892 7964 12461 12859 14529
+		1892
+		7964
+		12461
+		12859
+		14529
 	}
 }

@@ -2,26 +2,27 @@ state = {
 	id = 1826
 	name = "STATE_1826"
 	resources = {
-		power = 4.000
-		steel = 1.000
+		power = 4
+		steel = 1
 	}
-
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = ZZZ
+		add_core_of = ZZZ
 		buildings = {
 			infrastructure = 5
 		}
 		victory_points = {
-			4000 15
+			4000
+			15
 		}
 	}
-
 	provinces = {
-		4000 11908 19769
+		4000
+		11908
+		19769
 	}
 	manpower = 1624047
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = town
-	local_supplies = 0.000
+	local_supplies = 0
 }

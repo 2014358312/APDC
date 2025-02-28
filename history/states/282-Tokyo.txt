@@ -2,12 +2,11 @@ state = {
 	id = 282
 	name = "STATE_282"
 	resources = {
-		aluminium = 1.000
+		aluminium = 1
 	}
-
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = ZZZ
+		add_core_of = ZZZ
 		buildings = {
 			infrastructure = 7
 			air_base = 1
@@ -16,23 +15,19 @@ state = {
 			}
 			dockyard = 2
 			anti_air_building = 1
-			
-			
-			
-			
-			
 			barracks = 2
 		}
 		victory_points = {
-			1182 80
+			1182
+			80
 		}
 	}
-
 	provinces = {
-		1182 19734
+		1182
+		19734
 	}
 	manpower = 11354318
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = metropolis
-	local_supplies = 0.000
+	local_supplies = 0
 }

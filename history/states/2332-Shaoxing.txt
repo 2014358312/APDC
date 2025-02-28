@@ -1,40 +1,40 @@
 state = {
 	id = 2332
 	name = "STATE_2332"
-
 	resources = {
 		steel = 10
 	}
-
 	history = {
-		owner = PRC
-		add_core_of = PRC
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = {
-			1096 11
+			1096
+			11
 		}
 		victory_points = {
-			11991 5
+			11991
+			5
 		}
 		victory_points = {
-			19522 5
+			19522
+			5
 		}
 		victory_points = {
-			19524 4
+			19524
+			4
 		}
-		set_state_flag = GDP_regions_zhejiang_ouhai
-		set_variable = { china_state_ref = 4 }
-		set_variable = { china_region_ref = 0 }
-		set_state_flag = GDP_category_town
 	}
-
 	provinces = {
-		11991 1096 19522 19524
+		11991
+		1096
+		19522
+		19524
 	}
 	manpower = 3564646
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }

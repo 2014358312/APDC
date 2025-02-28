@@ -4,7 +4,7 @@ state = {
 	manpower = 299402
 	state_category = town
 	history = {
-		owner = CAN
+		owner = ZZZ
 		buildings = {
 			air_base = 3
 			infrastructure = 5
@@ -37,8 +37,7 @@ state = {
 			1869
 			1
 		}
-		add_core_of = CAN
-		set_state_flag = GDP_regions_british_columbia
+		add_core_of = ZZZ
 	}
 	provinces = {
 		1869

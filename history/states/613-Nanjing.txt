@@ -4,37 +4,36 @@ state = {
 	resources = {
 		steel = 14
 	}
-
 	history = {
-		owner = PRC
-		add_core_of = PRC
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
-			
-			
-			
-			
 			barracks = 1
 			infrastructure = 5
 			air_base = 4
 		}
 		victory_points = {
-			11913 41
+			11913
+			41
 		}
 		victory_points = {
-			19892 4
+			19892
+			4
 		}
 		victory_points = {
-			19895 4
+			19895
+			4
 		}
-		set_variable = { china_state_ref = 0 }
-		set_variable = { china_region_ref = 0 }
 	}
-
 	provinces = {
-		11913 19853 19872 19892 19895
+		11913
+		19853
+		19872
+		19892
+		19895
 	}
 	manpower = 3481988
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = city
-	local_supplies = 0.000
+	local_supplies = 0
 }

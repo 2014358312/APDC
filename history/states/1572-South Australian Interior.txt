@@ -2,22 +2,31 @@ state = {
 	id = 1572
 	name = "STATE_1572"
 	resources = {
-		uranium = 6.000
+		uranium = 6
 	}
-
 	history = {
-		owner = AST
-		add_core_of = AST
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			infrastructure = 2
 		}
 	}
-
 	provinces = {
-		2205 5138 7623 8165 8206 10927 12906 13131 13170 13171 13172 15618
+		2205
+		5138
+		7623
+		8165
+		8206
+		10927
+		12906
+		13131
+		13170
+		13171
+		13172
+		15618
 	}
 	manpower = 69991
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }

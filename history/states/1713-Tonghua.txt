@@ -2,7 +2,7 @@ state = {
 	id = 1713
 	name = "STATE_1713"
 	history = {
-		owner = PRC
+		owner = RZE
 		victory_points = {
 			9759
 			14
@@ -19,10 +19,7 @@ state = {
 			infrastructure = 6
 			barracks = 1
 		}
-		add_core_of = PRC
-		set_variable = {
-			china_state_ref = 48
-		}
+		add_core_of = RZE
 	}
 	provinces = {
 		861

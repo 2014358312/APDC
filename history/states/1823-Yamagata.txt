@@ -2,33 +2,38 @@ state = {
 	id = 1823
 	name = "STATE_1823"
 	resources = {
-		power = 1.000
-		steel = 1.000
+		power = 1
+		steel = 1
 	}
-
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = ZZZ
+		add_core_of = ZZZ
 		buildings = {
 			infrastructure = 5
 			missile_silo = 1
 		}
 		victory_points = {
-			15885 10
+			15885
+			10
 		}
 		victory_points = {
-			4067 10
+			4067
+			10
 		}
 		victory_points = {
-			4153 5
+			4153
+			5
 		}
 	}
-
 	provinces = {
-		4067 4153 15885 19722 19732
+		4067
+		4153
+		15885
+		19722
+		19732
 	}
 	manpower = 1268538
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }

@@ -6,11 +6,11 @@ state = {
 	resources = {
 		power = 1
 		tungsten = 2
-		aluminium = 1 #3
+		aluminium = 1		#3
 	}
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = ZZZ
+		add_core_of = ZZZ
 		buildings = {
 			infrastructure = 6
 			1136 = {
@@ -18,16 +18,19 @@ state = {
 			}
 			dockyard = 1
 			radar_station = 1
-			
-			
-			
 			barracks = 1
 		}
-		victory_points = { 15872 30 }
-		victory_points = { 1136 5 }
+		victory_points = {
+			15872
+			30
+		}
+		victory_points = {
+			1136
+			5
+		}
 	}
-
 	provinces = {
-		1136 15872
+		1136
+		15872
 	}
 }

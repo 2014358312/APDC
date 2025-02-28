@@ -1,16 +1,17 @@
-state = { #Population Done
+state = {
+	#Population Done
 	id = 100
 	name = "STATE_100"
 	manpower = 179029
-
 	state_category = town
-
 	history = {
-		owner = ICE
-		victory_points = { 12674 10 }
+		owner = RZE
+		victory_points = {
+			12674
+			10
+		}
 		buildings = {
 			infrastructure = 3
-			
 			anti_air_building = 1
 			radar_station = 4
 			air_base = 5
@@ -27,9 +28,11 @@ state = { #Population Done
 				coastal_bunker = 2
 			}
 		}
-		add_core_of = ICE
+		add_core_of = RZE
 	}
 	provinces = {
-		4861 12674 12689
+		4861
+		12674
+		12689
 	}
 }

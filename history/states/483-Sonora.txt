@@ -2,50 +2,63 @@ state = {
 	id = 483
 	name = "STATE_483"
 	resources = {
-		tungsten = 4.000
+		tungsten = 4
 	}
-
 	history = {
-		owner = MEX
+		owner = RZE
 		add_extra_state_shared_building_slots = 1
 		buildings = {
-			
-			
-			
 			infrastructure = 2
 			4908 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = MEX
+		add_core_of = RZE
 		victory_points = {
-			10765 8
+			10765
+			8
 		}
 		victory_points = {
-			8012 3
+			8012
+			3
 		}
 		victory_points = {
-			4908 3
+			4908
+			3
 		}
 		victory_points = {
-			4977 6
+			4977
+			6
 		}
 		victory_points = {
-			12833 2
+			12833
+			2
 		}
 		victory_points = {
-			2069 1
+			2069
+			1
 		}
 		victory_points = {
-			245 1
+			245
+			1
 		}
 	}
-
 	provinces = {
-		245 2069 4908 4977 5071 8012 8033 10765 10848 12833 17309 17320
+		245
+		2069
+		4908
+		4977
+		5071
+		8012
+		8033
+		10765
+		10848
+		12833
+		17309
+		17320
 	}
 	manpower = 928624
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }

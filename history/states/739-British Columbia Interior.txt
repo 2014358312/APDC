@@ -5,7 +5,7 @@ state = {
 		oil = 34
 	}
 	history = {
-		owner = CAN
+		owner = ZZZ
 		buildings = {
 			barracks = 1
 			infrastructure = 5
@@ -80,8 +80,7 @@ state = {
 			917
 			1
 		}
-		add_core_of = CAN
-		set_state_flag = GDP_regions_british_columbia
+		add_core_of = ZZZ
 	}
 	provinces = {
 		917

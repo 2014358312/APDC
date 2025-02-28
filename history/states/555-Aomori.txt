@@ -1,10 +1,9 @@
 state = {
 	id = 555
 	name = "STATE_555"
-
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = ZZZ
+		add_core_of = ZZZ
 		buildings = {
 			infrastructure = 4
 			9859 = {
@@ -16,18 +15,23 @@ state = {
 			missile_silo = 1
 		}
 		victory_points = {
-			6994 10
+			6994
+			10
 		}
 		victory_points = {
-			9859 10
+			9859
+			10
 		}
 	}
-
 	provinces = {
-		6873 6994 9859 19457 19626
+		6873
+		6994
+		9859
+		19457
+		19626
 	}
 	manpower = 1436014
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }

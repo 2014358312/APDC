@@ -5,7 +5,7 @@ state = {
 	manpower = 687126
 	state_category = town
 	history = {
-		owner = JAP
+		owner = RZE
 		buildings = {
 			infrastructure = 4
 			radar_station = 5
@@ -22,7 +22,7 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = USA
+		add_core_of = RZE
 		victory_points = {
 			# Honolulu
 			4180

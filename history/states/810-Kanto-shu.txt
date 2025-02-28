@@ -9,8 +9,8 @@ state = {
 		6851
 	}
 	history = {
-		owner = PRC
-		add_core_of = PRC
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			infrastructure = 7
 			barracks = 1

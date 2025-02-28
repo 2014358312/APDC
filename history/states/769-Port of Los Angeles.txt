@@ -5,7 +5,7 @@ state = {
 		13280
 	}
 	history = {
-		owner = JAP		#should be USA -morrina and uncountably
+		owner = ZZZ		#should be USA -morrina and uncountably
 		buildings = {
 			infrastructure = 7
 			radar_station = 1

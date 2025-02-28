@@ -5,8 +5,8 @@ state = {
 		steel = 4
 	}
 	history = {
-		owner = PRC
-		add_core_of = PRC
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			infrastructure = 3
 		}
@@ -25,13 +25,6 @@ state = {
 		victory_points = {
 			12061
 			2
-		}
-		set_state_flag = GDP_regions_anhui
-		set_variable = {
-			china_state_ref = 6
-		}
-		set_variable = {
-			china_region_ref = 0
 		}
 	}
 	provinces = {

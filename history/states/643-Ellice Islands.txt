@@ -3,10 +3,9 @@ state = {
 	name = "STATE_643"
 	manpower = 5340
 	state_category = small_island
-
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			infrastructure = 2
 			radar_station = 2
@@ -18,11 +17,14 @@ state = {
 			}
 		}
 		victory_points = {
-			13056 1
+			13056
+			1
 		}
 	}
-
 	provinces = {
-		13054 13055 13056 13057
+		13054
+		13055
+		13056
+		13057
 	}
 }

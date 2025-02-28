@@ -1,9 +1,9 @@
 state = {
 	id = 634
 	name = "STATE_634"
-
 	history = {
-		owner = JAP
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			infrastructure = 2
 			radar_station = 2
@@ -18,13 +18,34 @@ state = {
 				naval_base = 1
 			}
 		}
-		victory_points = { 1269 3 }
-		victory_points = { 4378 1 }
-		victory_points = { 10234 1 }
+		victory_points = {
+			1269
+			3
+		}
+		victory_points = {
+			4378
+			1
+		}
+		victory_points = {
+			10234
+			1
+		}
 	}
-
 	provinces = {
-		1042 1085 1269 1358 1370 4226 4252 4292 4378 7437 10234 10291 10319 12265
+		1042
+		1085
+		1269
+		1358
+		1370
+		4226
+		4252
+		4292
+		4378
+		7437
+		10234
+		10291
+		10319
+		12265
 	}
 	manpower = 206774
 	buildings_max_level_factor = 1

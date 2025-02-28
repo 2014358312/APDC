@@ -6,7 +6,7 @@ state = {
 		power = 4
 	}
 	history = {
-		owner = PRC
+		owner = RZE
 		victory_points = {
 			6981
 			31
@@ -29,7 +29,7 @@ state = {
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = PRC
+		add_core_of = RZE
 	}
 	provinces = {
 		836
