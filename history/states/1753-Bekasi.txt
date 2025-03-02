@@ -5,32 +5,33 @@ state = {
 		oil = 12
 		rubber = 8
 	}
-
 	history = {
-		owner = INS
-		add_core_of = INS
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			infrastructure = 4
-			
-			
 		}
 		victory_points = {
-			15660 5
+			15660
+			5
 		}
 		victory_points = {
-			19207 5
+			19207
+			5
 		}
 		victory_points = {
-			19363 10
+			19363
+			10
 		}
-		set_state_flag = GDP_regions_east_west_java
 	}
-
 	provinces = {
-		4406 15660 19207 19363
+		4406
+		15660
+		19207
+		19363
 	}
 	manpower = 4077055
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = large_town
-	local_supplies = 0.000
+	local_supplies = 0
 }

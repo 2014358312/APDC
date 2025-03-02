@@ -1,15 +1,16 @@
 state = {
 	id = 1557
 	name = "STATE_1557"
-
 	history = {
-		owner = INS
-		add_core_of = INS
+		owner = RZE
+		add_core_of = RZE
 		victory_points = {
-			10263 20
+			10263
+			20
 		}
 		victory_points = {
-			19266 1
+			19266
+			1
 		}
 		buildings = {
 			10263 = {
@@ -20,16 +21,17 @@ state = {
 			infrastructure = 4
 			dockyard = 1
 			barracks = 1
-			
 		}
-		set_state_flag = GDP_regions_makassar
 	}
-
 	provinces = {
-		10263 19266 19277 19339 4349
+		10263
+		19266
+		19277
+		19339
+		4349
 	}
 	manpower = 1858872
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = town
-	local_supplies = 0.000
+	local_supplies = 0
 }

@@ -4,28 +4,30 @@ state = {
 	resources = {
 		power = 2
 	}
-
 	history = {
-		owner = INS
-		add_core_of = INS
+		owner = RZE
+		add_core_of = RZE
 		victory_points = {
-			19201 1
+			19201
+			1
 		}
 		victory_points = {
-			19272 1
+			19272
+			1
 		}
 		buildings = {
 			infrastructure = 3
-			
 		}
-		set_state_flag = GDP_regions_makassar
 	}
-
 	provinces = {
-		1589 10464 15697 19201 19272
+		1589
+		10464
+		15697
+		19201
+		19272
 	}
 	manpower = 1267926
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }

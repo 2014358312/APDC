@@ -3,10 +3,9 @@ state = {
 	name = "STATE_2508"
 	manpower = 1
 	state_category = tiny_island
-
 	history = {
-		owner = CHL
-		add_core_of = CHL
+		owner = RZE
+		add_core_of = RZE
 	}
 	provinces = {
 		19955

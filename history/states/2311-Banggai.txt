@@ -1,24 +1,25 @@
 state = {
 	id = 2311
 	name = "STATE_2311"
-
 	history = {
-		owner = INS
-		add_core_of = INS
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
-			19265 1
+			19265
+			1
 		}
-		set_state_flag = GDP_regions_sulawesi
 	}
-
 	provinces = {
-		1505 4493 19265 4211
+		1505
+		4493
+		19265
+		4211
 	}
 	manpower = 138098
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }

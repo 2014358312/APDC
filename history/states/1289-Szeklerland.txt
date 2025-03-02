@@ -2,7 +2,7 @@ state = {
 	id = 1289
 	name = "STATE_1289"
 	history = {
-		owner = POM
+		owner = ROM
 		buildings = {
 			infrastructure = 4
 		}

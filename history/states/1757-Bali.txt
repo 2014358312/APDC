@@ -1,10 +1,9 @@
 state = {
 	id = 1757
 	name = "STATE_1757"
-
 	history = {
-		owner = INS
-		add_core_of = INS
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			infrastructure = 4
 			barracks = 1
@@ -14,15 +13,17 @@ state = {
 			dockyard = 1
 		}
 		victory_points = {
-			4273 5
+			4273
+			5
 		}
 	}
-
 	provinces = {
-		4273 19297 19326
+		4273
+		19297
+		19326
 	}
 	manpower = 1782529
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = rural
-	local_supplies = 0.000
+	local_supplies = 0
 }

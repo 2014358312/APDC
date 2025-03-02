@@ -2,15 +2,16 @@ state = {
 	id = 635
 	name = "STATE_635"
 	resources = {
-		chromium = 178.000
+		chromium = 178
 	}
-
 	state_category = rural
-
 	history = {
-		owner = AST
-		add_core_of = AST
-		victory_points = { 4268 1 }
+		owner = RZE
+		add_core_of = RZE
+		victory_points = {
+			4268
+			1
+		}
 		buildings = {
 			infrastructure = 2
 			radar_station = 2
@@ -20,12 +21,15 @@ state = {
 			}
 		}
 		add_core_of = FRA
-		
 	}
-
 	provinces = {
-		1263 4231 4268 7264 10160 12132
+		1263
+		4231
+		4268
+		7264
+		10160
+		12132
 	}
 	manpower = 86877
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 }

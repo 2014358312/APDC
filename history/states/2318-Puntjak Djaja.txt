@@ -1,22 +1,24 @@
 state = {
 	id = 2318
 	name = "STATE_2318"
-
 	history = {
-		owner = INS
-		add_core_of = INS
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			infrastructure = 1
 		}
-		victory_points = { 7269 1 }
-		set_state_flag = GDP_regions_west_papua
+		victory_points = {
+			7269
+			1
+		}
 	}
-
 	provinces = {
-		7269 10436 19193
+		7269
+		10436
+		19193
 	}
 	manpower = 127040
-	buildings_max_level_factor = 1.000
+	buildings_max_level_factor = 1
 	state_category = pastoral
-	local_supplies = 0.000
+	local_supplies = 0
 }

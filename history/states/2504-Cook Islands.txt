@@ -3,10 +3,9 @@ state = {
 	name = "STATE_2504"
 	manpower = 18284
 	state_category = small_island
-
 	history = {
-		owner = NZL
-		add_core_of = NZL
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			infrastructure = 2
 			air_base = 2
@@ -15,10 +14,14 @@ state = {
 			}
 		}
 		victory_points = {
-			19964 1
+			19964
+			1
 		}
 	}
 	provinces = {
-		19960 19964 19969 19976 
+		19960
+		19964
+		19969
+		19976
 	}
 }
