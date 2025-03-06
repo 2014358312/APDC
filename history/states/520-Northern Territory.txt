@@ -7,44 +7,6 @@ state = {
 	}
 	history = {
 		owner = ZZZ
-		buildings = {
-			infrastructure = 3
-			air_base = 4
-			radar_station = 5
-			7669 = {
-				naval_base = 6
-				coastal_bunker = 5
-			}
-			1431 = {
-				coastal_bunker = 5
-			}
-			12326 = {
-				coastal_bunker = 5
-			}
-			4415 = {
-				coastal_bunker = 5
-			}
-			10288 = {
-				coastal_bunker = 5
-			}
-			12290 = {
-				coastal_bunker = 5
-			}
-			10276 = {
-				coastal_bunker = 5
-			}
-			12246 = {
-				coastal_bunker = 5
-			}
-		}
-		victory_points = {
-			7669
-			2
-		}
-		victory_points = {
-			1454
-			1
-		}
 		add_core_of = ZZZ
 	}
 	provinces = {
@@ -75,7 +37,7 @@ state = {
 		12499
 		19935
 	}
-	manpower = 39481
+	manpower = 1
 	buildings_max_level_factor = 1
 	state_category = rural
 	local_supplies = 0

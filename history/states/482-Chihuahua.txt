@@ -6,28 +6,7 @@ state = {
 	}
 	history = {
 		owner = RZE
-		buildings = {
-			barracks = 1
-			infrastructure = 3
-			air_base = 1
-		}
 		add_core_of = RZE
-		victory_points = {
-			8097
-			15
-		}
-		victory_points = {
-			10830
-			10
-		}
-		victory_points = {
-			10916
-			4
-		}
-		victory_points = {
-			12850
-			3
-		}
 	}
 	provinces = {
 		2037
@@ -43,7 +22,7 @@ state = {
 		12897
 		17326
 	}
-	manpower = 1454253
+	manpower = 1
 	buildings_max_level_factor = 1
 	state_category = town
 	local_supplies = 0

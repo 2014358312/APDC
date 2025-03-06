@@ -4,39 +4,7 @@ state = {
 	history = {
 		owner = RZE
 		add_core_of = RZE
-		buildings = {
-			infrastructure = 1
-			radar_station = 4
-			air_base = 4
-			10245 = {
-				naval_base = 2
-			}
-		}
-		victory_points = {
-			# Nuuk
-			10245
-			3
-		}
-		victory_points = {
-			# Ilulissat
-			16858
-			1
-		}
-		victory_points = {
-			# Qaqortoq
-			12512
-			1
-		}
-		victory_points = {
-			# Tasiilaq
-			10636
-			1
-		}
-		victory_points = {
-			# Thule AFB
-			16837
-			1
-		}
+
 	}
 	provinces = {
 		10245
@@ -51,7 +19,7 @@ state = {
 		16838
 		16858
 	}
-	manpower = 28700
+	manpower = 2
 	buildings_max_level_factor = 1
 	state_category = pastoral
 	local_supplies = 0

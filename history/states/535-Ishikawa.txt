@@ -1,7 +1,7 @@
 state = {
 	id = 535
 	name = "STATE_535"	# Ishikawa
-	manpower = 1004745
+	manpower = 1
 	state_category = rural
 	#resources = {
 	#	steel = 4
@@ -9,15 +9,6 @@ state = {
 	history = {
 		owner = ZZZ
 		add_core_of = ZZZ
-		buildings = {
-			infrastructure = 4
-			radar_station = 1
-			barracks = 1
-		}
-		victory_points = {
-			10032
-			10
-		}
 	}
 	provinces = {
 		998

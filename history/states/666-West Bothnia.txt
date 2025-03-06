@@ -1,33 +1,15 @@
 state = {
 	id = 666
 	name = "STATE_666"	# Lappland 121141, norrbotten 178442, västerbotten 183781
-	manpower = 242489
+	manpower = 2
 	resources = {
 		tungsten = 35
-		power = 3
 		chromium = 10
 		aluminium = 15
 	}
 	state_category = town
 	history = {
-		victory_points = {
-			6132
-			3
-		}
-		victory_points = {
-			9143
-			1
-		}
 		owner = ZZZ
-		buildings = {
-			infrastructure = 4
-			radar_station = 2
-			anti_air_building = 2
-			3113 = {
-				naval_base = 5
-			}
-			air_base = 3
-		}
 		add_core_of = ZZZ
 	}
 	provinces = {

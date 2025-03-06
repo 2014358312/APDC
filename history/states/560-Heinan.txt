@@ -10,26 +10,6 @@ state = {
 		owner = ZZZ
 		add_core_of = KOR
 		add_core_of = ZZZ
-		buildings = {
-			infrastructure = 4
-			air_base = 2
-			4052 = {
-				naval_base = 1
-			}
-			anti_air_building = 1
-			radar_station = 1
-			barracks = 1
-		}
-		victory_points = {
-			10065
-			20
-		}
-		victory_points = {
-			4052
-			10
-		}
-		set_state_flag = state_renamings
-		set_state_flag = GDP_regions_korea
 	}
 	provinces = {
 		4052
@@ -39,7 +19,7 @@ state = {
 		11770
 		978
 	}
-	manpower = 2475299
+	manpower = 2
 	buildings_max_level_factor = 1
 	state_category = large_town
 }

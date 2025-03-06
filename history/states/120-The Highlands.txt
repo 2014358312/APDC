@@ -3,17 +3,7 @@ state = {
 	name = "STATE_120"
 	history = {
 		owner = RZE
-		victory_points = {
-			9161
-			2
-		}
-		buildings = {
-			infrastructure = 4
-			anti_air_building = 2
-			11064 = {
-				naval_base = 7
-			}
-		}
+
 		add_core_of = RZE
 	}
 	provinces = {
@@ -30,7 +20,7 @@ state = {
 		9161
 		18108
 	}
-	manpower = 262370
+	manpower = 2
 	buildings_max_level_factor = 1
 	state_category = pastoral
 }

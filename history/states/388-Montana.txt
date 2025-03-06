@@ -6,54 +6,7 @@ state = {
 	}
 	history = {
 		owner = RZE
-		buildings = {
-			infrastructure = 3
-			barracks = 1
-			missile_silo = 1
-			radar_station = 2
-			air_base = 1
-		}
 		add_core_of = RZE
-		victory_points = {
-			# Missoula
-			6742
-			3
-		}
-		victory_points = {
-			# Helena
-			7779
-			3
-		}
-		victory_points = {
-			# Butte
-			1736
-			3
-		}
-		victory_points = {
-			# Billings
-			12585
-			5
-		}
-		victory_points = {
-			# Great Falls
-			4860
-			3
-		}
-		victory_points = {
-			# Bozeman
-			4741
-			1
-		}
-		victory_points = {
-			# Miles City
-			1767
-			1
-		}
-		victory_points = {
-			# Kalispell
-			4838
-			1
-		}
 	}
 	provinces = {
 		1767
@@ -80,7 +33,7 @@ state = {
 		7779
 		12676
 	}
-	manpower = 510115
+	manpower = 5
 	buildings_max_level_factor = 1
 	state_category = town
 }

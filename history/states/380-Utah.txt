@@ -8,39 +8,6 @@ state = {
 	history = {
 		owner = ZZZ
 		add_core_of = ZZZ
-		buildings = {
-			infrastructure = 4
-		}
-		victory_points = {
-			# Salt Lake City
-			4865
-			15
-		}
-		victory_points = {
-			# Ogden
-			10582
-			3
-		}
-		victory_points = {
-			# Provo
-			15347
-			3
-		}
-		victory_points = {
-			# St. George
-			12699
-			1
-		}
-		victory_points = {
-			# Moab
-			7764
-			1
-		}
-		victory_points = {
-			# Richfield
-			10662
-			1
-		}
 	}
 	provinces = {
 		1663
@@ -60,7 +27,7 @@ state = {
 		15347
 		17287
 	}
-	manpower = 933394
+	manpower = 4
 	buildings_max_level_factor = 1
 	state_category = large_town
 	local_supplies = 0

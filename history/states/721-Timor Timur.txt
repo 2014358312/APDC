@@ -2,23 +2,11 @@ state = {
 	#Population + VPs Done
 	id = 721
 	name = "STATE_721"
-	manpower = 483161
+	manpower = 1
 	state_category = pastoral
 	history = {
 		owner = RZE
 		add_core_of = RZE
-		buildings = {
-			infrastructure = 3
-			radar_station = 2
-			air_base = 1
-			12190 = {
-				naval_base = 4
-			}
-		}
-		victory_points = {
-			12190
-			1
-		}
 	}
 	provinces = {
 		1326

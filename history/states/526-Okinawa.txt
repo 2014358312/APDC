@@ -4,26 +4,13 @@ state = {
 	history = {
 		owner = ZZZ
 		add_core_of = ZZZ
-		buildings = {
-			infrastructure = 3
-			11932 = {
-				naval_base = 1
-			}
-			air_base = 2
-			anti_air_building = 3
-			radar_station = 4
-		}
-		victory_points = {
-			11932
-			10
-		}
 	}
 	provinces = {
 		10124
 		11932
 		19614
 	}
-	manpower = 934176
+	manpower = 9
 	buildings_max_level_factor = 1
 	state_category = small_island
 	local_supplies = 0

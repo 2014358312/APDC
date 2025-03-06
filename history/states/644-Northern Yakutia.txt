@@ -6,42 +6,7 @@ state = {
 	}
 	history = {
 		owner = RZE
-		buildings = {
-			infrastructure = 1
-		}
 		add_core_of = RZE
-		victory_points = {
-			13351
-			1
-		}
-		victory_points = {
-			1722
-			1
-		}
-		victory_points = {
-			4926
-			1
-		}
-		victory_points = {
-			13354
-			1
-		}
-		victory_points = {
-			9224
-			1
-		}
-		victory_points = {
-			4455
-			1
-		}
-		victory_points = {
-			2877
-			1
-		}
-		victory_points = {
-			6211
-			1
-		}
 	}
 	provinces = {
 		1722
@@ -82,7 +47,7 @@ state = {
 		16867
 		16868
 	}
-	manpower = 63376
+	manpower = 6
 	buildings_max_level_factor = 1
 	state_category = pastoral
 	local_supplies = 0

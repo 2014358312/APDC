@@ -7,53 +7,7 @@ state = {
 	}
 	history = {
 		owner = RZE
-		buildings = {
-			infrastructure = 4
-			nuclear_reactor = 2
-			radar_station = 3
-			air_base = 5
-		}
 		add_core_of = RZE
-		victory_points = {
-			# Albuquerque
-			4975
-			15
-		}
-		victory_points = {
-			# Santa Fe
-			12684
-			5
-		}
-		victory_points = {
-			# Las Crusces
-			12791
-			3
-		}
-		victory_points = {
-			# Roswell
-			8070
-			1
-		}
-		victory_points = {
-			# Carlsbad
-			3867
-			1
-		}
-		victory_points = {
-			# Clovis
-			10867
-			1
-		}
-		victory_points = {
-			# Farmington
-			10645
-			1
-		}
-		victory_points = {
-			# Gallup
-			1972
-			1
-		}
 	}
 	provinces = {
 		1972
@@ -73,7 +27,7 @@ state = {
 		12791
 		17300
 	}
-	manpower = 974653
+	manpower = 3
 	buildings_max_level_factor = 1
 	state_category = town
 	local_supplies = 0

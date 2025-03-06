@@ -3,62 +3,7 @@ state = {
 	name = "STATE_385"
 	history = {
 		owner = ZZZ
-		buildings = {
-			barracks = 3
-			infrastructure = 5
-			radar_station = 2
-			air_base = 6
-			dockyard = 1
-			10183 = {
-				naval_base = 1
-			}
-		}
 		add_core_of = ZZZ
-		victory_points = {
-			# Portland
-			3513
-			20
-		}
-		victory_points = {
-			# Salem
-			4328
-			5
-		}
-		victory_points = {
-			# Eugene
-			528
-			5
-		}
-		victory_points = {
-			# Medford
-			3471
-			1
-		}
-		victory_points = {
-			# Klamath Falls
-			4347
-			1
-		}
-		victory_points = {
-			# Bend
-			1414
-			3
-		}
-		victory_points = {
-			# Pendleton
-			7865
-			1
-		}
-		victory_points = {
-			# Coos Bay
-			11495
-			1
-		}
-		victory_points = {
-			# Corvallis
-			12281
-			1
-		}
 	}
 	provinces = {
 		1414
@@ -85,7 +30,7 @@ state = {
 		12281
 		3513
 	}
-	manpower = 1764705
+	manpower = 1
 	buildings_max_level_factor = 1
 	state_category = city
 }

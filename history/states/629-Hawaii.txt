@@ -2,42 +2,11 @@ state = {
 	#Population Done
 	id = 629
 	name = "STATE_629"
-	manpower = 687126
+	manpower = 6
 	state_category = town
 	history = {
 		owner = RZE
-		buildings = {
-			infrastructure = 4
-			radar_station = 5
-			air_base = 5
-			barracks = 2
-			missile_silo = 1
-			4180 = {
-				naval_base = 10
-			}
-			13052 = {
-				naval_base = 1
-			}
-			13051 = {
-				naval_base = 1
-			}
-		}
 		add_core_of = RZE
-		victory_points = {
-			# Honolulu
-			4180
-			20
-		}
-		victory_points = {
-			# Hilo
-			12021
-			3
-		}
-		victory_points = {
-			# Kahului
-			7195
-			1
-		}
 	}
 	provinces = {
 		4180

@@ -5,60 +5,10 @@ state = {
 		steel = 64
 		aluminium = 7
 		oil = 18
-		power = 4
 	}
 	history = {
 		owner = RZE
 		add_core_of = RZE
-		buildings = {
-			infrastructure = 6
-			radar_station = 2
-			air_base = 5
-			barracks = 1
-			11764 = {
-				naval_base = 1
-				coastal_bunker = 1
-			}
-		}
-		victory_points = {
-			9781
-			28
-		}
-		victory_points = {
-			3895
-			20
-		}
-		victory_points = {
-			9885
-			30
-		}
-		victory_points = {
-			11764
-			26
-		}
-		victory_points = {
-			8910
-			18
-		}
-		victory_points = {
-			11808
-			16
-		}
-		victory_points = {
-			19883
-			3
-		}
-		victory_points = {
-			892
-			10
-		}
-		#victory_points = {
-		#	3783 29
-		#}
-		victory_points = {
-			19804
-			17
-		}
 	}
 	provinces = {
 		846
@@ -80,7 +30,7 @@ state = {
 		19804
 		19883
 	}
-	manpower = 17983736
+	manpower = 1
 	buildings_max_level_factor = 1
 	state_category = metropolis
 	local_supplies = 0

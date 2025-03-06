@@ -5,23 +5,9 @@ state = {
 		power = 4
 	}
 	history = {
-		victory_points = {
-			9151
-			4
-		}
-		victory_points = {
-			130
-			1
-		}
-		victory_points = {
-			182
-			2
-		}
+
 		owner = ZZZ
-		buildings = {
-			infrastructure = 4
-			anti_air_building = 1
-		}
+
 		add_core_of = ZZZ
 	}
 	provinces = {
@@ -38,7 +24,7 @@ state = {
 		18365
 		9141
 	}
-	manpower = 283302
+	manpower = 1
 	buildings_max_level_factor = 1
 	state_category = town
 	local_supplies = 0

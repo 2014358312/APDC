@@ -1,7 +1,7 @@
 state = {
 	id = 529
 	name = "STATE_529"	# Chugoku
-	manpower = 593272
+	manpower = 5
 	state_category = rural
 	#resources = {
 	#	chromium = 20
@@ -9,13 +9,6 @@ state = {
 	history = {
 		owner = ZZZ
 		add_core_of = ZZZ
-		buildings = {
-			infrastructure = 4
-		}
-		victory_points = {
-			10055
-			10
-		}
 	}
 	provinces = {
 		1167
