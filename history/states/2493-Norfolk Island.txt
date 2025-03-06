@@ -5,14 +5,10 @@ state = {
 	history = {
 		owner = RZE
 		add_core_of = RZE
-		buildings = {
-			infrastructure = 2
-			radar_station = 2
-		}
 	}
 	provinces = {
 		19965
 	}
-	manpower = 816
+	manpower = 8
 	buildings_max_level_factor = 1
 }

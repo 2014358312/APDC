@@ -6,9 +6,6 @@ state = {
 	history = {
 		owner = RZE
 		add_core_of = RZE
-		buildings = {
-			infrastructure = 0
-		}
 	}
 	provinces = {
 		19997
