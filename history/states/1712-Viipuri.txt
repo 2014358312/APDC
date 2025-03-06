@@ -7,64 +7,6 @@ state = {
 	}
 	history = {
 		owner = RZE
-		buildings = {
-			infrastructure = 6
-			air_base = 4
-			barracks = 1
-			3060 = {
-				bunker = 4
-			}
-			9206 = {
-				coastal_bunker = 1
-				naval_base = 4
-			}
-			9206 = {
-				bunker = 4
-			}
-			9150 = {
-				bunker = 2
-			}
-			3187 = {
-				bunker = 2
-			}
-			barracks = 2
-		}
-		victory_points = {
-			9206
-			10
-		}
-		victory_points = {
-			6082
-			3
-		}
-		victory_points = {
-			18441
-			3
-		}
-		victory_points = {
-			3187
-			1
-		}
-		victory_points = {
-			9105
-			1
-		}
-		victory_points = {
-			9176
-			1
-		}
-		victory_points = {
-			9183
-			2
-		}
-		victory_points = {
-			3061
-			6
-		}
-		victory_points = {
-			6186
-			2
-		}
 		add_core_of = RZE
 	}
 	provinces = {
@@ -92,7 +34,7 @@ state = {
 		11046
 		6153
 	}
-	manpower = 723926
+	manpower = 7
 	buildings_max_level_factor = 1
 	state_category = large_town
 	local_supplies = 0

@@ -1,7 +1,7 @@
 state = {
 	id = 1265
 	name = "STATE_1265"
-	manpower = 5032055
+	manpower = 5
 	state_category = metropolis
 	resources = {
 		steel = 46
@@ -9,17 +9,6 @@ state = {
 	history = {
 		owner = RZE
 		add_core_of = RZE
-		buildings = {
-			infrastructure = 7
-			radar_station = 1
-			air_base = 6
-			barracks = 2
-		}
-		add_extra_state_shared_building_slots = 2
-		victory_points = {
-			11771
-			50
-		}
 	}
 	provinces = {
 		11771

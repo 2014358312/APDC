@@ -4,26 +4,6 @@ state = {
 	history = {
 		owner = ZZZ
 		add_core_of = ZZZ
-		buildings = {
-			infrastructure = 2
-			radar_station = 2
-			5207 = {
-				coastal_bunker = 5
-			}
-			8209 = {
-				coastal_bunker = 5
-			}
-			3437 = {
-				coastal_bunker = 5
-			}
-			11016 = {
-				coastal_bunker = 5
-			}
-		}
-		victory_points = {
-			8209
-			1
-		}
 	}
 	provinces = {
 		3248
@@ -39,7 +19,7 @@ state = {
 		19932
 		19936
 	}
-	manpower = 3866
+	manpower = 3
 	buildings_max_level_factor = 1
 	state_category = pastoral
 	local_supplies = 0

@@ -4,22 +4,11 @@ state = {
 	history = {
 		owner = ZZZ
 		add_core_of = ZZZ
-		victory_points = {
-			6115
-			20
-		}
-		buildings = {
-			infrastructure = 6
-			dockyard = 1
-			6115 = {
-				coastal_bunker = 2
-			}
-		}
 	}
 	provinces = {
 		6115
 	}
-	manpower = 475663
+	manpower = 4
 	buildings_max_level_factor = 1
 	state_category = town
 	local_supplies = 0

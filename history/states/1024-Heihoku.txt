@@ -8,25 +8,6 @@ state = {
 		owner = ZZZ
 		add_core_of = KOR
 		add_core_of = ZZZ
-		victory_points = {
-			11835
-			5
-		}
-		victory_points = {
-			912
-			1
-		}
-		victory_points = {
-			6963
-			1
-		}
-		buildings = {
-			infrastructure = 4
-			enrichment_plant = 1
-			missile_silo = 1
-		}
-		set_state_flag = state_renamings
-		set_state_flag = GDP_regions_korea
 	}
 	provinces = {
 		912
@@ -39,7 +20,7 @@ state = {
 		11835
 		11896
 	}
-	manpower = 2551679
+	manpower = 2
 	buildings_max_level_factor = 1
 	state_category = rural
 	local_supplies = 0

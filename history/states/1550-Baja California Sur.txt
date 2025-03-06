@@ -7,24 +7,13 @@ state = {
 	history = {
 		owner = ZZZ
 		add_core_of = ZZZ
-		buildings = {
-			infrastructure = 2
-			12736 = {
-				naval_base = 1
-			}
-		}
-		victory_points = {
-			# La Paz
-			12736
-			2
-		}
 	}
 	provinces = {
 		1904
 		12736
 		8119
 	}
-	manpower = 96722
+	manpower = 2
 	buildings_max_level_factor = 1
 	state_category = pastoral
 }

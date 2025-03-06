@@ -6,23 +6,10 @@ state = {
 		332
 		11251
 	}
-	manpower = 215689
+	manpower = 2
 	state_category = rural
 	history = {
 		owner = ZZZ
-		buildings = {
-			barracks = 1
-			infrastructure = 5
-			332 = {
-				coastal_bunker = 2
-			}
-		}
 		add_core_of = ZZZ
-		victory_points = {
-			11251
-			2
-		}
-		add_extra_state_shared_building_slots = 2
-		set_state_flag = state_renamings
 	}
 }

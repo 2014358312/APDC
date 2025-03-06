@@ -4,36 +4,6 @@ state = {
 	history = {
 		owner = ZZZ
 		add_core_of = ZZZ
-		buildings = {
-			infrastructure = 4
-			air_base = 4
-			radar_station = 2
-			7566 = {
-				naval_base = 1
-				coastal_bunker = 5
-			}
-			12367 = {
-				coastal_bunker = 5
-			}
-			4560 = {
-				coastal_bunker = 5
-			}
-			10460 = {
-				coastal_bunker = 5
-			}
-		}
-		victory_points = {
-			7566
-			6
-		}
-		victory_points = {
-			10460
-			3
-		}
-		victory_points = {
-			12949
-			1
-		}
 	}
 	provinces = {
 		1514
@@ -51,7 +21,7 @@ state = {
 		12424
 		12957
 	}
-	manpower = 338791
+	manpower = 1
 	buildings_max_level_factor = 1
 	state_category = town
 	local_supplies = 0

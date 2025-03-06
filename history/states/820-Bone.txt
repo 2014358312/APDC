@@ -2,22 +2,10 @@ state = {
 	id = 820
 	name = "STATE_820"
 	resources = {
-		power = 2
 	}
 	history = {
 		owner = RZE
 		add_core_of = RZE
-		victory_points = {
-			19201
-			1
-		}
-		victory_points = {
-			19272
-			1
-		}
-		buildings = {
-			infrastructure = 3
-		}
 	}
 	provinces = {
 		1589
@@ -26,7 +14,7 @@ state = {
 		19201
 		19272
 	}
-	manpower = 1267926
+	manpower = 1
 	buildings_max_level_factor = 1
 	state_category = rural
 	local_supplies = 0

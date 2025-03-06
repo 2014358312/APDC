@@ -2,40 +2,9 @@ state = {
 	id = 1716
 	name = "STATE_1716"
 	resources = {
-		power = 2
 	}
 	history = {
 		owner = ZZZ
-		victory_points = {
-			3122
-			5
-		}
-		victory_points = {
-			11126
-			1
-		}
-		victory_points = {
-			66
-			1
-		}
-		victory_points = {
-			3172
-			1
-		}
-		victory_points = {
-			18438
-			1
-		}
-		victory_points = {
-			6138
-			1
-		}
-		buildings = {
-			infrastructure = 5
-			3122 = {
-				naval_base = 2
-			}
-		}
 		add_core_of = ZZZ
 	}
 	provinces = {
@@ -54,7 +23,7 @@ state = {
 		18431
 		18438
 	}
-	manpower = 443468
+	manpower = 4
 	buildings_max_level_factor = 1
 	state_category = town
 	local_supplies = 0

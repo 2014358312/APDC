@@ -6,80 +6,6 @@ state = {
 	}
 	history = {
 		owner = ZZZ
-		buildings = {
-			barracks = 1
-			infrastructure = 5
-			dockyard = 1
-			radar_station = 3
-			1799 = {
-				naval_base = 1
-			}
-		}
-		victory_points = {
-			# Prince George
-			1323
-			5
-		}
-		victory_points = {
-			# Kelowna
-			7677
-			2
-		}
-		victory_points = {
-			# Kamloops
-			7753
-			1
-		}
-		victory_points = {
-			# Castlegar
-			12578
-			1
-		}
-		victory_points = {
-			# Prince Rupert
-			1799
-			1
-		}
-		victory_points = {
-			# Kitimat
-			10548
-			1
-		}
-		victory_points = {
-			# Dawson Creek
-			1411
-			1
-		}
-		victory_points = {
-			# Williams Lake
-			1737
-			1
-		}
-		victory_points = {
-			# Quesnel
-			10644
-			1
-		}
-		victory_points = {
-			# Revelstroke
-			4877
-			1
-		}
-		victory_points = {
-			# Cranbrook
-			7820
-			1
-		}
-		victory_points = {
-			# Fort St John
-			5981
-			1
-		}
-		victory_points = {
-			# Fort Nelson
-			917
-			1
-		}
 		add_core_of = ZZZ
 	}
 	provinces = {
@@ -118,7 +44,7 @@ state = {
 		17235
 		17236
 	}
-	manpower = 435785
+	manpower = 4
 	buildings_max_level_factor = 1
 	state_category = town
 	local_supplies = 0

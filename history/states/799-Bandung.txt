@@ -2,24 +2,15 @@ state = {
 	id = 799
 	name = "STATE_799"
 	history = {
-		victory_points = {
-			1425
-			20
-		}
 		owner = RZE
 		add_core_of = RZE
-		buildings = {
-			barracks = 1
-			infrastructure = 4
-			air_base = 1
-		}
 	}
 	provinces = {
 		1425
 		19333
 		19359
 	}
-	manpower = 2501752
+	manpower = 2
 	buildings_max_level_factor = 1
 	state_category = town
 	local_supplies = 0

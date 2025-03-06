@@ -3,23 +3,10 @@ state = {
 	name = "STATE_1722"
 	resources = {
 		steel = 4
-		power = 2
 		uranium = 2
 	}
 	history = {
 		owner = RZE
-		victory_points = {
-			9061
-			5
-		}
-		victory_points = {
-			18427
-			1
-		}
-		buildings = {
-			infrastructure = 4
-			anti_air_building = 1
-		}
 		add_core_of = RZE
 	}
 	provinces = {
@@ -42,7 +29,7 @@ state = {
 		18427
 		18435
 	}
-	manpower = 207517
+	manpower = 2
 	buildings_max_level_factor = 1
 	state_category = rural
 	local_supplies = 0

@@ -8,37 +8,9 @@ state = {
 		power = 4
 	}
 	history = {
-		victory_points = {
-			6165
-			3
-		}
-		victory_points = {
-			9108
-			1
-		}
-		victory_points = {
-			9186
-			1
-		}
-		victory_points = {
-			101
-			2
-		}
+
 		owner = ZZZ
 		add_core_of = ZZZ
-		buildings = {
-			infrastructure = 4
-			radar_station = 1
-			anti_air_building = 3
-			air_base = 2
-			6165 = {
-				naval_base = 2
-			}
-			9186 = {
-				bunker = 2
-			}
-			barracks = 2
-		}
 	}
 	provinces = {
 		61
@@ -93,7 +65,7 @@ state = {
 		18371
 		18406
 	}
-	manpower = 264937
+	manpower = 2
 	buildings_max_level_factor = 1
 	state_category = rural
 	local_supplies = 0
