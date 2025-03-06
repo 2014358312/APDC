@@ -2,13 +2,7 @@ state = {
 	id = 2140
 	name = "STATE_2140"
 	history = {
-		buildings = {
-			infrastructure = 4
-		}
-		victory_points = {
-			3021
-			1
-		}
+
 		owner = ZZZ
 		add_core_of = ZZZ
 	}
@@ -30,7 +24,7 @@ state = {
 		9227
 		11206
 	}
-	manpower = 177324
+	manpower = 1
 	buildings_max_level_factor = 1
 	state_category = pastoral
 	local_supplies = 0

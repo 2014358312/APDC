@@ -1,7 +1,7 @@
 state = {
 	id = 1836
 	name = "STATE_1836"
-	manpower = 4731151
+	manpower = 1
 	state_category = city
 	#resources = {
 	#	tungsten = 1
@@ -9,23 +9,6 @@ state = {
 	history = {
 		owner = ZZZ
 		add_core_of = ZZZ
-		buildings = {
-			infrastructure = 6
-			air_base = 1
-			15873 = {
-				naval_base = 6
-			}
-			dockyard = 3
-			barracks = 1
-		}
-		victory_points = {
-			15873
-			30
-		}
-		victory_points = {
-			12031
-			15
-		}
 	}
 	provinces = {
 		15873

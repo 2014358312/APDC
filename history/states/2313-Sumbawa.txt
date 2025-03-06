@@ -4,23 +4,12 @@ state = {
 	history = {
 		owner = RZE
 		add_core_of = RZE
-		buildings = {
-			infrastructure = 3
-			air_base = 1
-			12162 = {
-				naval_base = 1
-			}
-		}
-		victory_points = {
-			12162
-			1
-		}
 	}
 	provinces = {
 		10191
 		12162
 	}
-	manpower = 534890
+	manpower = 5
 	buildings_max_level_factor = 1
 	state_category = pastoral
 	local_supplies = 0

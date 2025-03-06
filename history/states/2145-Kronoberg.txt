@@ -3,17 +3,6 @@ state = {
 	name = "STATE_2145"
 	history = {
 		owner = ZZZ
-		buildings = {
-			infrastructure = 5
-		}
-		victory_points = {
-			242
-			2
-		}
-		victory_points = {
-			9410
-			1
-		}
 		add_core_of = ZZZ
 	}
 	provinces = {
@@ -24,7 +13,7 @@ state = {
 		18363
 		363
 	}
-	manpower = 158072
+	manpower = 1
 	buildings_max_level_factor = 1
 	state_category = rural
 	local_supplies = 0

@@ -4,9 +4,6 @@ state = {
 	history = {
 		owner = RZE
 		add_core_of = RZE
-		buildings = {
-			infrastructure = 1
-		}
 	}
 	provinces = {
 		19192
@@ -14,7 +11,7 @@ state = {
 		4509
 		7542
 	}
-	manpower = 65476
+	manpower = 6
 	buildings_max_level_factor = 1
 	state_category = pastoral
 	local_supplies = 0

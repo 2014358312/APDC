@@ -2,20 +2,6 @@ state = {
 	id = 2133
 	name = "STATE_2133"
 	history = {
-		buildings = {
-			infrastructure = 5
-			dockyard = 1
-			3171 = {
-				coastal_bunker = 2
-			}
-			11151 = {
-				coastal_bunker = 2
-			}
-		}
-		victory_points = {
-			3171
-			4
-		}
 		owner = ZZZ
 		add_core_of = ZZZ
 	}
@@ -24,7 +10,7 @@ state = {
 		11151
 		18369
 	}
-	manpower = 202751
+	manpower = 2
 	buildings_max_level_factor = 1
 	state_category = rural
 	local_supplies = 0
