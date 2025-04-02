@@ -116,12 +116,11 @@ guiTypes = {
 	### country entry
 	containerWindowType = {
 		name = "country_entry"
-
 		
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 31 y = 230 }
+			position = { x = 70 y = 180 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -129,7 +128,7 @@ guiTypes = {
 		buttonType = {
 			name = "country"
 			quadTextureSprite = "GFX_country_selection_entry"
-			position = { x=26 y =222 }
+			position = { x=65 y =172 }
 			clicksound = click_checkbox
 		}
 
@@ -581,7 +580,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 435 y = 10 }
+			position = { x = 441 y = 10 }
 			textureFile = ""
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
@@ -598,7 +597,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "back_button"
-			position = { x = -158 y = -52 }
+			position = { x = -158 y = -175 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "BACK"
 			buttonFont = "hoi_18mbs"
@@ -610,7 +609,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "select_button"
-			position = { x = 10 y = -52 }
+			position = { x = 10 y = -175 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "FE_SELECT_COUNTRY"
 			buttonFont = "hoi_18mbs"
@@ -629,7 +628,7 @@ guiTypes = {
 				name ="countries_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 150 height = 0 }
+				slotsize = { width = 245 height = 0 }
 				add_horizontal = yes
 				max_slots_vertical = 1
 				format = "UPPER_LEFT"
@@ -671,16 +670,11 @@ guiTypes = {
 			}
 		}
 		
-	iconType = {
-		name = "country_Masking"
-		quadTextureSprite ="GFX_country_selection_bg_Masking"
-		position = { x = 0 y = 0 }
-	}
 
 		iconType = {
 			name = "minor_country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 289 y = 441 }
+			position = { x = 289 y = 355 }
 			scale=0.696
 			rotation=-0.04
 		}
@@ -688,13 +682,13 @@ guiTypes = {
 		iconType = {
 				name ="minor_portrait_overlay"
 				spriteType = "GFX_minor_portrait_overlay"
-				position = { x= 280 y = 430 }
+				position = { x= 280 y = 345 }
 		}
 
 
 		instantTextBoxType = {
 			name = "info_title"
-			position = { x = 10 y = 440 }
+			position = { x = 40 y = 315 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "FE_COUNTRY_INFO_TITLE"
@@ -709,7 +703,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader_label"
-				position = { x = 0 y = -8 }
+				position = { x = 0 y = -135 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "LEADER"
@@ -719,7 +713,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader"
-				position = { x = 0 y = 10 }
+				position = { x = 0 y = -115 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -730,7 +724,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ideology_label"
-				position = { x = 0 y = 33 }
+				position = { x = 0 y = -92 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -741,7 +735,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ideology"
-				position = { x = 0 y = 52 }
+				position = { x = 0 y = -72 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
@@ -752,7 +746,7 @@ guiTypes = {
 				name = "government_label"
 				position = { x = 0 y = 72 }
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}
+				borderSize = {x = 0 y = -122}
 				text = "GOVERNMENT"
 				maxWidth = 340
 				format = left
@@ -760,7 +754,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "government"
-				position = { x = 0 y = 92 }
+				position = { x = 0 y = -32 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FE_INTERESTING_COUNTRIES"
@@ -770,7 +764,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "elections_label"
-				position = { x = 0 y = 112 }
+				position = { x = 0 y = -12 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "ELECTIONS"
@@ -780,7 +774,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "elections"
-				position = { x = 0 y = 130 }
+				position = { x = 0 y = 6 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
@@ -789,7 +783,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "party_label"
-				position = { x = 0 y = 155 }
+				position = { x = 0 y = 30 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
@@ -799,7 +793,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "party"
-				position = { x = 0 y = 180 }
+				position = { x = 0 y = 60 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
@@ -809,7 +803,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "nation_title"
-			position = { x = 442 y = 421 }
+			position = { x = 442 y = 290 }
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 340
@@ -820,7 +814,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "spirit"
-			position = { x = 451 y = 475 }
+			position = { x = 451 y = 350 }
 
 			iconType ={
 				name ="pol_faction_icon"
@@ -864,7 +858,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "history_title"
-			position = { x = 830 y = 450 }
+			position = { x = 840 y = 315 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "FE_COUNTRY_HISTORY_TITLE"
@@ -875,7 +869,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "history"
-			position = { x = 810 y = 490 }
+			position = { x = 810 y = 360 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 380
@@ -943,7 +937,7 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 89 y = 30 }
+			position = { x= 89 y = 0 }
 			#Orientation = "UPPER_LEFT"
 			frame = 1
 		}
