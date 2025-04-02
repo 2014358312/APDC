@@ -8,13 +8,12 @@ state = {
 	}
 
 	history = {
-		owner = NRB
+		owner = MAL
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = { 4282 1 }
-		add_core_of = NRB
-		set_state_flag = GDP_regions_sabah
+		add_core_of = MAL
 	}
 
 	provinces = {

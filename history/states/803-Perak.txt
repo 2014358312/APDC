@@ -11,16 +11,14 @@ state = {
 			infrastructure = 2
 			barracks = 1
 		}
-		owner = MLY
-		add_core_of = SHO
-		add_core_of = MLY
+		owner = MAL
+		add_core_of = MAL
 		victory_points = {
 			14701 5
 		}
 		victory_points = {
 			12215 1
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

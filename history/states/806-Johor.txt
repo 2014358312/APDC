@@ -7,9 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = SHO
-		add_core_of = SHO
-		add_core_of = MLY
+		owner = MAL
+		add_core_of = MAL
 		victory_points = {
 			14699 5
 		}
@@ -22,7 +21,6 @@ state = {
 			
 			
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

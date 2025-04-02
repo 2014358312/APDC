@@ -12,10 +12,8 @@ state = {
 		victory_points = {
 			7399 1
 		}
-		owner = SHO
-		add_core_of = SHO
-		add_core_of = MLY
-		set_state_flag = state_renamings
+		owner = MAL
+		add_core_of = MAL
 	}
 
 	provinces = {

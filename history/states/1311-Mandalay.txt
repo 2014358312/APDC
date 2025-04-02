@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = BUR
+		owner = BRM
 		victory_points = {
 			12449 1
 		}
@@ -22,7 +22,7 @@ state = {
 			air_base = 2
 			barracks = 1
 		}
-		add_core_of = BUR
+		add_core_of = BRM
 	}
 
 	provinces = {

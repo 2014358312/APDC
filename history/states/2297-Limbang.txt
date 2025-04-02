@@ -3,12 +3,11 @@ state = {
 	name = "STATE_2297"
 
 	history = {
-		owner = NRB
+		owner = MAL
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = NRB
-		set_state_flag = GDP_regions_sarawak
+		add_core_of = MAL
 	}
 
 	provinces = {

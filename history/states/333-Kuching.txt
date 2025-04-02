@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = NRB
+		owner = MAL
 		victory_points = {
 			1208 5
 		}
@@ -18,9 +18,7 @@ state = {
 			
 			synthetic_refinery = 1
 		}
-		add_core_of = NRB
-		set_state_flag = GDP_regions_sarawak
-		set_state_flag = state_renamings
+		add_core_of = MAL
 	}
 
 	provinces = {

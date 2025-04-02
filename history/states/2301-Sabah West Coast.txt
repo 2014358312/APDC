@@ -6,7 +6,7 @@ state = {
 		oil = 12
 	}
 	history = {
-		owner = NRB
+		owner = MAL
 		buildings = {
 			infrastructure = 3
 			10212 = {
@@ -17,8 +17,7 @@ state = {
 			10212
 			5
 		}
-		add_core_of = NRB
-		set_state_flag = GDP_regions_sabah
+		add_core_of = MAL
 	}
 	provinces = {
 		19252

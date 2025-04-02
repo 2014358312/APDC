@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = SHO
+		owner = MAL
 		buildings = {
 			infrastructure = 4
 			radar_station = 2
@@ -23,8 +23,7 @@ state = {
 			10297 5
 		}
 		victory_points = { 14696 15 }
-		add_core_of = SHO
-		add_core_of = MLY
+		add_core_of = MAL
 		set_state_flag = state_renamings
 	}
 

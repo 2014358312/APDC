@@ -6,15 +6,14 @@ state = {
 	}
 
 	history = {
-		owner = NRB
+		owner = MAL
 		victory_points = {
 			12283 1
 		}
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = NRB
-		set_state_flag = GDP_regions_sarawak
+		add_core_of = MAL
 	}
 
 	provinces = {

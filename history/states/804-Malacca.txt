@@ -13,13 +13,11 @@ state = {
 				naval_base = 2
 			}
 		}
-		owner = SHO
-		add_core_of = SHO
-		add_core_of = MLY
+		owner = MAL
+		add_core_of = MAL
 		victory_points = {
 			4424 5
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

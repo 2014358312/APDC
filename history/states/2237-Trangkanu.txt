@@ -6,9 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = THA
-		add_core_of = THA
-		add_core_of = MLY
+		owner = MAL
+		add_core_of = MAL
 		buildings = {
 			infrastructure = 3
 			12199 = {
@@ -18,7 +17,6 @@ state = {
 		victory_points = {
 			12199 5
 		}
-		set_state_flag = GDP_regions_thai_malaya
 	}
 
 	provinces = {

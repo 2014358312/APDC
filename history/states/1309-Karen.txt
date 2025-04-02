@@ -9,14 +9,14 @@ state = {
 	}
 
 	history = {
-		owner = BUR
+		owner = BRM
 		victory_points = {
 			4408 1
 		}
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = BUR
+		add_core_of = BRM
 	}
 
 	provinces = {

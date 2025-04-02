@@ -5,8 +5,8 @@ state = {
 		rubber = 6
 	}
 	history = {
-		owner = NRB
-		add_core_of = NRB
+		owner = MAL
+		add_core_of = MAL
 		victory_points = {
 			10199
 			1
@@ -18,7 +18,6 @@ state = {
 				naval_base = 1
 			}
 		}
-		set_state_flag = GDP_regions_sabah
 	}
 	provinces = {
 		7358
