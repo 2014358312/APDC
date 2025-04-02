@@ -1,74 +1,14 @@
 bookmarks = {
 	bookmark = {
-		name = "STARTING_POINT_NAME"
-		desc = "STARTING_POINT_DESC"
+		name = STARTING_POINT_NAME
+		desc = STARTING_POINT_DESC
 		date = 2060.1.1.12
-		picture = "GFX_select_date_1936"
+		picture = GFX_select_date_1936
 
-		default_country = "GAK"
+		default_country = GER
+		default = yes
 		effect = {
 			randomize_weather = 12345
-		}
-
-		AGF = {
-			history = AGF_STARTING_POINT_DESC
-			ideology = Authoritarian_democracy
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		MAR = {
-			history = MAR_STARTING_POINT_DESC
-			ideology = despotism
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		ZZZ = {
-			history = ZZZ_STARTING_POINT_DESC
-			ideology = anarchy
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		SOV = {
-			history = SOV_STARTING_POINT_DESC
-			ideology = communism
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		DDR = {
-			history = DDR_STARTING_POINT_DESC
-			ideology = Corporate_domination
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		ZZZ = {
-			history = ZZZ_STARTING_POINT_DESC
-			ideology = anarchy
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
 		}
 		PRC = {
 			history = PRC_STARTING_POINT_DESC
@@ -80,9 +20,9 @@ bookmarks = {
 				
 			}
 		}
-		ZZZ = {
-			history = ZZZ_STARTING_POINT_DESC
-			ideology = anarchy
+		PAK = {
+			history = PAK_STARTING_POINT_DESC
+			ideology = Revision_of_socialism
 			ideas={
 				
 			}
@@ -90,55 +30,8 @@ bookmarks = {
 				
 			}
 		}
-		SFN = {
-			minor = yes
-			history = SFN_STARTING_POINT_DESC
-			ideology = populism
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		NYC = {
-			minor = yes
-			history = NYC_STARTING_POINT_DESC
-			ideology = despotism
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		ZZZ = {
-			minor = yes
-			history = ZZZ_STARTING_POINT_DESC
-			ideology = anarchy
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		GAK = {
-			minor = yes
-			history = GAK_STARTING_POINT_DESC
-			ideology = despotism
-			ideas={
-				GAK_Rich_experience_in_humanoid_combat
-				GAK_Missing_intelligence_services
-				GAK_Remuneration_for_safety_contracting
-			}
-			focuses = {
-				GAK_0_3
-			}
-		}
-		SFI = {
-			minor = yes
-			history = SFI_STARTING_POINT_DESC
+		GER = {
+			history = GER_STARTING_POINT_DESC
 			ideology = Corporate_domination
 			ideas={
 				
@@ -147,10 +40,9 @@ bookmarks = {
 				
 			}
 		}
-		ZZZ = {
-			minor = yes
-			history = ZZZ_STARTING_POINT_DESC
-			ideology = anarchy
+		USA = {
+			history = USA_STARTING_POINT_DESC
+			ideology = Revision_of_socialism
 			ideas={
 				
 			}
@@ -158,26 +50,14 @@ bookmarks = {
 				
 			}
 		}
-		JAP = {
-			minor = yes
-			history = JAP_STARTING_POINT_DESC
-			ideology = Authoritarian_democracy
+		SOV = {
+			history = SOV_STARTING_POINT_DESC
+			ideology = communism
 			ideas={
-				
+				home_of_revolution
 			}
 			focuses = {
-				
-			}
-		}
-		RAJ = {
-			minor = yes
-			history = RAJ_STARTING_POINT_DESC
-			ideology = Authoritarian_democracy
-			ideas={
-				
-			}
-			focuses = {
-				
+				SOV_infrastructure_effort_nsb
 			}
 		}
 	}
