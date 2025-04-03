@@ -3,9 +3,8 @@ state = {
 	name = "STATE_2442"
 
 	history = {
-		owner = GUY
-		add_core_of = SUR
-		add_core_of = GUY
+		owner = GYA
+		add_core_of = GYA
 	}
 
 	provinces = {

@@ -3,12 +3,11 @@ state = {
 	name = "STATE_1624"
 
 	history = {
-		owner = PAR
+		owner = BOL
 		add_core_of = BOL
 		buildings = {
 			infrastructure = 1
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

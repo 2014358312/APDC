@@ -6,8 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = GUC
-		add_core_of = GUC
+		owner = FRA
 		add_core_of = FRA
 		
 		buildings = {

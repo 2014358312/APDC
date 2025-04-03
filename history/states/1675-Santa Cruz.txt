@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = STC
+		owner = BOL
 		buildings = {
 			infrastructure = 3
 			
@@ -17,7 +17,6 @@ state = {
 			air_base = 1
 			
 		}
-		add_core_of = STC
 		add_core_of = BOL
 		victory_points = {
 			15341 15

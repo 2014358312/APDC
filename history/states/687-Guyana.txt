@@ -10,8 +10,8 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = GUY
-		add_core_of = GUY
+		owner = GYA
+		add_core_of = GYA
 		buildings = {
 			
 			radar_station = 1
