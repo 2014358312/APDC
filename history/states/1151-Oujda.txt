@@ -7,15 +7,13 @@ state = {
 	}
 
 	history = {
-		owner = SPR
+		owner = MOR
 		add_core_of = MOR
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = { 989 10 }
 		victory_points = { 1111 1 }
-		set_state_flag = state_renamings
-		set_state_flag = GDP_regions_morocco
 	}
 
 	provinces = {

@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = SPR
-		add_core_of = SPR
+		owner = MOR
+		add_core_of = MOR
 		victory_points = { 15111 6 }
 		buildings = {
 			infrastructure = 5
@@ -15,7 +15,6 @@ state = {
 				naval_base = 1
 			}
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

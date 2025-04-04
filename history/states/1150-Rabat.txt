@@ -9,10 +9,10 @@ state = {
 	}
 
 	history = {
-		owner = SPR
+		owner = MOR
 		add_core_of = MOR
 		victory_points = { 1194 10 }
-		victory_points = { 10070 15 }
+		victory_points = { 10070 30 }
 		victory_points = { 18063 2 }
 		victory_points = { 18069 2 }
 		victory_points = { 18066 1 }
@@ -20,8 +20,6 @@ state = {
 			barracks = 1
 			infrastructure = 3
 		}
-		set_state_flag = state_renamings
-		set_state_flag = GDP_regions_morocco
 	}
 
 	provinces = {

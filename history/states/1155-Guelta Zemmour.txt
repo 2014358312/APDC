@@ -3,13 +3,11 @@ state = {
 	name = "STATE_1155"
 
 	history = {
-		owner = SPR
+		owner = MOR
 		add_core_of = MOR
 		buildings = {
 			infrastructure = 1
 		}
-		set_state_flag = state_renamings
-		set_state_flag = GDP_regions_western_sahara
 	}
 
 	provinces = {
