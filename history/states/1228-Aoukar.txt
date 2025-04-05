@@ -3,15 +3,15 @@ state = {
 	name = "STATE_1228"
 
 	history = {
-		owner = AZW
-		add_core_of = AZW
+		owner = MRT
+		add_core_of = MRT
 		buildings = {
 			infrastructure = 1
 		}
 	}
 
 	provinces = {
-		1897 14272 14287 14310
+		1897  14262 14264 14272 14287 14310
 	}
 	manpower = 34471
 	buildings_max_level_factor = 1.000

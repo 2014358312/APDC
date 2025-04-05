@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = TRZ
-		add_core_of = TRZ
+		owner = MRT
+		add_core_of = MRT
 		victory_points = { 5034 1 }
 		victory_points = { 13213 5 }
 		buildings = {
@@ -19,7 +19,6 @@ state = {
 			barracks = 1
 			
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

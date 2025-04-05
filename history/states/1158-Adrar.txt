@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = SPR
-		add_core_of = SPR
+		owner = MRT
+		add_core_of = MRT
 		victory_points = {
 			14296 1
 		}
@@ -15,7 +15,6 @@ state = {
 			infrastructure = 1
 			radar_station = 1
 		}
-		set_state_flag = GDP_regions_western_sahara
 	}
 
 	provinces = {
