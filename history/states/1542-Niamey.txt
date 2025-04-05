@@ -5,7 +5,7 @@ state = {
 	history = {
 		owner = NGR
 		add_core_of = NGR
-		victory_points = { 14146 1 }
+		victory_points = { 14146 5 }
 		buildings = {
 			infrastructure = 1
 			
@@ -13,7 +13,7 @@ state = {
 	}
 
 	provinces = {
-		14146
+		12707 14146
 	}
 	manpower = 276150
 	buildings_max_level_factor = 1.000
