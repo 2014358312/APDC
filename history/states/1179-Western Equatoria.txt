@@ -3,8 +3,8 @@ state = {
 	name = "STATE_1179"
 
 	history = {
-		owner = EGY
-		add_core_of = EGY
+		owner = SUD
+		add_core_of = SUD
 		victory_points = {
 			14000 1
 		}
@@ -17,7 +17,6 @@ state = {
 		buildings = {
 			infrastructure = 1
 		}
-		set_state_flag = GDP_regions_sudan
 	}
 
 	provinces = {

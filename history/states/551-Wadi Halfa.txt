@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = EGY
+		owner = SUD
 		buildings = {
 			infrastructure = 2
 		}
@@ -20,12 +20,11 @@ state = {
 		victory_points = {
 			14221 3
 		}
-		add_core_of = EGY
-		set_state_flag = GDP_regions_sudan
+		add_core_of = SUD
 	}
 
 	provinces = {
-		2088 12796 12826 12881 14221 18480 18485 18491 18496 18506 18508 18510 18514 18515 18516
+		2088 12796 12826 12881 14221 18480 18485 18491 18496 18506 18508 18510 18515 18516
 	}
 	manpower = 361130
 	buildings_max_level_factor = 1.000
