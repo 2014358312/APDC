@@ -3,14 +3,13 @@ state = {
 	name = "STATE_1108"
 
 	history = {
-		owner = IEA
-		add_core_of = IEA
+		owner = ERI
+		add_core_of = ERI
 		victory_points = { 8043 3 }
 		buildings = {
 			infrastructure = 2
 			radar_station = 1
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {
