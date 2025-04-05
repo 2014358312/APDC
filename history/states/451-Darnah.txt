@@ -6,7 +6,7 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = ITA
+		owner = LBA
 		victory_points = { 7082 3 }
 		victory_points = { 1130 2 }
 		victory_points = { 4151 1 }
@@ -18,7 +18,6 @@ state = {
 			}
 		}
 		add_core_of = LBA
-		set_state_flag = GDP_regions_libya
 	}
 
 	provinces = {

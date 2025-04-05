@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = ITA
+		owner = LBA
 		buildings = {
 			infrastructure = 3
 		}
@@ -21,7 +21,6 @@ state = {
 		victory_points = {
 			12039 1
 		}
-		set_state_flag = GDP_regions_libya
 	}
 
 	provinces = {

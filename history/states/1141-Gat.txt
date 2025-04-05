@@ -3,12 +3,11 @@ state = {
 	name = "STATE_1141"
 
 	history = {
-		owner = ITA
+		owner = LBA
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = LBA
-		set_state_flag = GDP_regions_libya
 	}
 
 	provinces = {
