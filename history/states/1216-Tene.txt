@@ -3,15 +3,15 @@ state = {
 	name = "STATE_1216"
 
 	history = {
-		owner = HAU
-		add_core_of = HAU
+		owner = MLI
+		add_core_of = MLI
 		buildings = {
 			infrastructure = 1
 		}
 	}
 
 	provinces = {
-		8116 12794 13671 14113 14139 14142 14153 14159 14172 14429 15910
+		8116 12794 13671 14113 14139 14159 14172
 	}
 	manpower = 476000
 	buildings_max_level_factor = 1.000
