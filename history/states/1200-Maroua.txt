@@ -3,12 +3,11 @@ state = {
 	name = "STATE_1200"
 
 	history = {
-		owner = CAO
-		add_core_of = CAO
+		owner = CHA
+		add_core_of = CHA
 		buildings = {
 			infrastructure = 1
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

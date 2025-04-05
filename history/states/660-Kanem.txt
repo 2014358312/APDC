@@ -6,12 +6,11 @@ state = {
 	}
 
 	history = {
-		owner = KNM
-		add_core_of = KNM
+		owner = CHA
+		add_core_of = CHA
 		buildings = {
 			infrastructure = 1
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {
