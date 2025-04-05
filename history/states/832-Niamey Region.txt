@@ -6,12 +6,11 @@ state = {
 	}
 
 	history = {
-		owner = HAU
-		add_core_of = HAU
+		owner = NGR
+		add_core_of = NGR
 		buildings = {
 			infrastructure = 1
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {
