@@ -3,10 +3,11 @@ state = {
 	name = "STATE_1184"
 
 	history = {
-		owner = COG
-		add_core_of = COG
+		owner = CMR
+		add_core_of = CMR
 		victory_points = {
-			13990 10
+			13963
+			10
 		}
 		buildings = {
 			
@@ -16,7 +17,7 @@ state = {
 	}
 
 	provinces = {
-		5081 13970 13986 13990 13996 14020
+		5054 5081 13963 13966 13970 13986 13996
 	}
 	manpower = 181386
 	buildings_max_level_factor = 1.000

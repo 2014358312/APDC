@@ -3,19 +3,18 @@ state = {
 	name = "STATE_1198"
 	resources = {
 		oil = 2.000
-		uranium = 4.000
 	}
 
 	history = {
-		owner = CAO
-		add_core_of = CAO
+		owner = CMR
+		add_core_of = CMR
 		buildings = {
 			infrastructure = 1
 		}
 	}
 
 	provinces = {
-		8109 14065 14081 14084 15209 15902
+		7963 14080 14081 15209 15580 
 	}
 	manpower = 527000
 	buildings_max_level_factor = 1.000

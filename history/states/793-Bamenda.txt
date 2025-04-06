@@ -6,31 +6,27 @@ state = {
 	}
 
 	history = {
-		owner = CAO
+		owner = CMR
 		buildings = {
 			infrastructure = 2
 			air_base = 1
 			anti_air_building = 1
-			barracks = 1
-			
-			
 			
 			15441 = {
 				naval_base = 2
 			}
 		}
-		add_core_of = CAO
+		add_core_of = CMR
 		victory_points = {
 			15441 5
 		}
 		victory_points = {
 			6039 1
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {
-		6039 9137 10831 13993 14006 15297 15440 15441 15443 15444 15445 15446 15451 15452 15453 15454 15455
+		6039 9137 10831 13993 14006 15297 15440 15441 15443 15444 15445 15446 15447 15448 15451 15452 15453 15454 15455
 	}
 	manpower = 2693974
 	buildings_max_level_factor = 1.000
