@@ -6,21 +6,18 @@ state = {
 	}
 
 	history = {
-		owner = FFR
+		owner = IVO
+		add_core_of = IVO
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 			anti_air_building = 1
-			barracks = 1
-			
-			
-			
 			13397 = {
 				naval_base = 4
 			}
 		}
 		victory_points = {
-			13397 20
+			13397 10
 		}
 		
 	}

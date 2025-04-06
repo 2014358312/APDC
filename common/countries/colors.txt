@@ -940,6 +940,10 @@ QUE = {
 	color = rgb { 0 102 255 }
 	color_ui = rgb { 0 31 77 }
 }
+BKF = {
+	color = rgb { 195 39 7 }
+	color_ui = rgb { 195 39 7 }
+}
 ZZZ = {
 	color = rgb { 0 0 0  }
 	color_ui = rgb { 0 0 0 }

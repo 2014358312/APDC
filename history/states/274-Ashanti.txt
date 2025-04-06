@@ -3,8 +3,8 @@ state = {
 	name = "STATE_274"
 
 	history = {
-		owner = EWE
-		add_core_of = EWE
+		owner = GHA
+		add_core_of = GHA
 		victory_points = {
 			14025 1
 		}
@@ -12,7 +12,6 @@ state = {
 			infrastructure = 1
 			
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

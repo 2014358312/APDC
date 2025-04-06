@@ -6,15 +6,14 @@ state = {
 	}
 
 	history = {
-		owner = EWE
-		add_core_of = EWE
+		owner = GHA
+		add_core_of = GHA
 		victory_points = {
 			14426 1
 		}
 		buildings = {
 			infrastructure = 1
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {
