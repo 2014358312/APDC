@@ -944,6 +944,10 @@ BKF = {
 	color = rgb { 195 39 7 }
 	color_ui = rgb { 195 39 7 }
 }
+BEN = {
+	color = rgb { 64 56 227 }
+	color_ui = rgb { 64 56 227 }
+}
 ZZZ = {
 	color = rgb { 0 0 0  }
 	color_ui = rgb { 0 0 0 }
