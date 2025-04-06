@@ -7,9 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = COG
-		add_core_of = COG
-		# set_state_flag = universal_renamings
+		owner = RCG
+		add_core_of = RCG
 
 		victory_points = { 13816 10 }
 

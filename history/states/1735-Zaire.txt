@@ -8,7 +8,9 @@ state = {
 		add_core_of = ANG
 		buildings = {
 			infrastructure = 2
-			barracks = 1
+			2115 = {
+				naval_base = 1
+			}
 		}
 		victory_points = {
 			14414
@@ -18,8 +20,10 @@ state = {
 			13868
 			1
 		}
+			
 	}
 	provinces = {
+		2115
 		13868
 		14414
 	}

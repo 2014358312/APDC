@@ -6,22 +6,10 @@ state = {
 		steel = 4
 	}
 	history = {
-		owner = COG
-		add_core_of = COG
-		victory_points = {
-			2115
-			10
-		}
-		buildings = {
-			barracks = 1
-			infrastructure = 2
-			2115 = {
-				naval_base = 1
-			}
-		}
+		owner = RCG
+		add_core_of = RCG
 	}
 	provinces = {
-		2115
 		10968
 		13883
 		13889
