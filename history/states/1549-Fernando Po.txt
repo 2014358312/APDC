@@ -5,8 +5,8 @@ state = {
 	}
 
 	history = {
-		owner = SPR
-		add_core_of = GAB
+		owner = EQG
+		add_core_of = EQG
 		victory_points = { 1903 10 }
 		buildings = {
 			infrastructure = 2
@@ -15,7 +15,6 @@ state = {
 				naval_base = 1
 			}
 		}
-		set_state_flag = GDP_regions_equatorial_guinea
 	}
 
 	provinces = {

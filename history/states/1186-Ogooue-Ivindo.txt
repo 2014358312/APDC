@@ -6,20 +6,19 @@ state = {
 	}
 
 	history = {
-		owner = COG
-		add_core_of = COG
+		owner = GAB
+		add_core_of = GAB
 		victory_points = {
 			13943 10
 		}
 		buildings = {
 			
-			barracks = 1
 			infrastructure = 1
 		}
 	}
 
 	provinces = {
-		2080 8244 10948 11827 13931 13943 13945 13950
+		8244 10948 11827 13931 13943 13945 13950
 	}
 	manpower = 105411
 	buildings_max_level_factor = 1.000

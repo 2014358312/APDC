@@ -9,13 +9,12 @@ state = {
 			13932 10
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 1
 		}
 	}
 
 	provinces = {
-		3109 13916 13925 13932
+		2080 3109 13916 13925 13932
 	}
 	manpower = 197108
 	buildings_max_level_factor = 1.000

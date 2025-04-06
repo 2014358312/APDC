@@ -12,7 +12,6 @@ state = {
 			10
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 2
 			12975 = {
 				naval_base = 4
@@ -26,7 +25,7 @@ state = {
 		13896
 		13897
 		13901
-		13902
+		13912 
 	}
 	manpower = 335705
 	buildings_max_level_factor = 1

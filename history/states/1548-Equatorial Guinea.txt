@@ -3,20 +3,18 @@ state = {
 	name = "STATE_1548"
 
 	history = {
-		owner = SPR
-		add_core_of = GAB
+		owner = EQG
+		add_core_of = EQG
 		victory_points = {
 			15117 10
 		}
 		buildings = {
 			infrastructure = 1
 			
-			barracks = 1
 			15117 = {
 				naval_base = 1
 			}
 		}
-		set_state_flag = GDP_regions_equatorial_guinea
 	}
 
 	provinces = {
