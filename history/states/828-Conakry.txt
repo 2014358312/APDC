@@ -3,8 +3,8 @@ state = {
 	name = "STATE_828"
 
 	history = {
-		add_core_of = SUS
-		owner = SUS
+		add_core_of = GNA
+		owner = GNA
 		victory_points = {
 			12858 1
 		}
@@ -14,15 +14,10 @@ state = {
 		buildings = {
 			infrastructure = 2
 			air_base = 1
-			barracks = 1
-			
-			
-			
 			12858 = {
 				naval_base = 1
 			}
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

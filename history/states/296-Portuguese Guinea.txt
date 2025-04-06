@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = SPR
+		owner = GNB
+		add_core_of = GNB
 		victory_points = {
 			12891 1
 		}
@@ -17,7 +18,6 @@ state = {
 				naval_base = 3
 			}
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

@@ -3,8 +3,8 @@ state = {
 	name = "STATE_700"
 
 	history = {
-		add_core_of = MDI
-		owner = MDI
+		add_core_of = SIE
+		owner = SIE
 		victory_points = {
 			2038 1
 		}
@@ -15,7 +15,6 @@ state = {
 				naval_base = 3
 			}
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {
