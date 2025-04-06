@@ -7,10 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = ILG
-		add_core_of = FRA
-		add_core_of = ILG
-		add_core_of = ALG
+		owner = AGR
+		add_core_of = AGR
 		buildings = {
 			infrastructure = 4
 			
@@ -19,7 +17,6 @@ state = {
 		victory_points = { 18076 10 }
 		victory_points = { 18082 3 }
 		victory_points = { 13077 2 }
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

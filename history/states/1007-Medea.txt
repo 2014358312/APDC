@@ -3,10 +3,8 @@ state = {
 	name = "STATE_1007"
 
 	history = {
-		owner = ILG
-		add_core_of = FRA
-		add_core_of = ALG
-		add_core_of = ILG
+		owner = AGR
+		add_core_of = AGR
 		victory_points = { 18078 4 }
 		victory_points = { 4131 2 }
 		victory_points = { 1128 1 }
@@ -18,7 +16,6 @@ state = {
 			infrastructure = 4
 			
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

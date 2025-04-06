@@ -2,10 +2,8 @@ state = {
 	id = 460
 	name = "STATE_460"
 	history = {
-		owner = ILG
-		add_core_of = FRA
-		add_core_of = ILG
-		add_core_of = ALG
+		owner = AGR
+		add_core_of = AGR
 		victory_points = {
 			7081
 			10
@@ -41,11 +39,9 @@ state = {
 				bunker = 3
 			}
 		}
-		add_core_of = ALG
 	}
 	resources = {
 		steel = 20
-		uranium = 4
 		power = 4
 	}
 	provinces = {

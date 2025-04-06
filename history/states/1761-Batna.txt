@@ -3,14 +3,12 @@ state = {
 	name = "STATE_1761"
 
 	resources = {
-		uranium = 2
+
 	}
 
 	history = {
-		owner = ILG
-		add_core_of = FRA
-		add_core_of = ILG
-		add_core_of = ALG
+		owner = AGR
+		add_core_of = AGR
 		victory_points = { 9976 10 }
 		victory_points = { 12034 2 }
 		victory_points = { 12888 6 }
@@ -19,8 +17,6 @@ state = {
 			infrastructure = 4
 			
 		}
-		add_core_of = ALG
-		set_state_flag = state_renamings
 	}
 
 

@@ -2,10 +2,8 @@ state = {
 	id = 1144
 	name = "STATE_1144"
 	history = {
-		owner = ILG
-		add_core_of = FRA
-		add_core_of = ILG
-		add_core_of = ALG
+		owner = AGR
+		add_core_of = AGR
 		buildings = {
 			infrastructure = 1
 		}
@@ -15,7 +13,7 @@ state = {
 		}
 	}
 	resources = {
-		uranium = 4
+
 	}
 	provinces = {
 		5095

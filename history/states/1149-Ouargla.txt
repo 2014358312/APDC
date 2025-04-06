@@ -3,17 +3,14 @@ state = {
 	name = "STATE_1149"
 
 	history = {
-		owner = ILG
-		add_core_of = FRA
-		add_core_of = ILG
-		add_core_of = ALG
+		owner = AGR
+		add_core_of = AGR
 		victory_points = {
 			5035 3
 		}
 		buildings = {
 			infrastructure = 1
 		}
-		set_state_flag = state_renamings
 	}
 	resources = {
 		oil = 20

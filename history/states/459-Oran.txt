@@ -8,10 +8,8 @@ state = {
 	}
 
 	history = {
-		owner = SLG
-		add_core_of = FRA
-		add_core_of = ALG
-		add_core_of = SLG
+		owner = AGR
+		add_core_of = AGR
 		victory_points = { 18075 15 }
 		victory_points = { 7132 1 }
 		victory_points = { 4150 7 }
@@ -26,7 +24,6 @@ state = {
 			
 			
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {
