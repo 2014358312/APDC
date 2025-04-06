@@ -3,15 +3,14 @@ state = {
 	name = "STATE_1099"
 
 	history = {
-		owner = IEA
-		add_core_of = IEA
+		owner = ETH
+		add_core_of = ETH
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
 			14029 5
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {
