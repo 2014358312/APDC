@@ -2,12 +2,12 @@ state = {
 	id = 1082
 	name = "STATE_1082"
 	resources = {
-		uranium = 2.000
+
 	}
 
 	history = {
-		owner = GRO
-		add_core_of = GRO
+		owner = TZN
+		add_core_of = TZN
 		buildings = {
 			infrastructure = 2
 		}

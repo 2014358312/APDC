@@ -6,11 +6,10 @@ state = {
 	}
 
 	history = {
-		owner = GRO
-		add_core_of = GRO
+		owner = TZN
+		add_core_of = TZN
 
 		buildings = {
-			barracks = 1
 			infrastructure = 2
 			radar_station = 1
 			

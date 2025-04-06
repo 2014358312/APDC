@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = GRO
-		add_core_of = GRO
+		owner = TZN
+		add_core_of = TZN
 		buildings = {
 			infrastructure = 1
 			13891 = {

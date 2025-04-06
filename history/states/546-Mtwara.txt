@@ -6,11 +6,11 @@ state = {
 	}
 
 	history = {
-		owner = GRO
+		owner = TZN
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = GRO
+		add_core_of = TZN
 		victory_points = {
 			12944 3
 		}
