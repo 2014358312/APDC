@@ -5,11 +5,11 @@ state = {
 		rubber = 2
 	}
 	history = {
-		owner = COG
-		add_core_of = COG
+		owner = CAR
+		add_core_of = CAR
+		
 		victory_points = {
-			13963
-			10
+			13990 10
 		}
 		buildings = {
 			infrastructure = 2
@@ -17,13 +17,7 @@ state = {
 		}
 	}
 	provinces = {
-		5054
-		6008
-		11012
-		13963
-		13966
-		13977
-		13987
+		6008 11012 13977 13987 13990 14020
 	}
 	manpower = 610540
 	buildings_max_level_factor = 1
