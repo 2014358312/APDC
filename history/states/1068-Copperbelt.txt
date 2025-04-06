@@ -6,8 +6,8 @@ state = {
 		tungsten = 7
 	}
 	history = {
-		owner = GRO
-		add_core_of = GRO
+		owner = ZAM
+		add_core_of = ZAM
 		buildings = {
 			infrastructure = 2
 		}

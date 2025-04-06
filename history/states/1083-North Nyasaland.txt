@@ -3,19 +3,18 @@ state = {
 	name = "STATE_1083"
 
 	history = {
-		owner = GRO
-		add_core_of = GRO
+		owner = MLW
+		add_core_of = MLW
 		buildings = {
 			infrastructure = 2
 			
-			barracks = 1
 		}
 		victory_points = { 1846 1 }
 		victory_points = { 13833 1 }
 	}
 
 	resources = {
-		uranium = 2
+
 	}
 
 	provinces = {
