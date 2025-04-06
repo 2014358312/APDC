@@ -3,7 +3,7 @@ state = {
 	name = "STATE_709"
 
 	history = {
-		owner = ITA
+		owner = MAD
 		buildings = {
 			
 			infrastructure = 2
@@ -16,7 +16,7 @@ state = {
 		victory_points = {
 			2188 10
 		}
-		add_core_of = ITA
+		add_core_of = MAD
 	}
 
 	provinces = {
