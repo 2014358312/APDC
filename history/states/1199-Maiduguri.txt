@@ -3,15 +3,15 @@ state = {
 	name = "STATE_1199"
 
 	history = {
-		owner = CAO
-		add_core_of = CAO
+		owner = NGA
+		add_core_of = NGA
 		buildings = {
 			infrastructure = 1
 		}
 	}
 
 	provinces = {
-		4997 7963 14124 15580 17148
+		4997 8109 14124 17148
 	}
 	manpower = 635000
 	buildings_max_level_factor = 1.000

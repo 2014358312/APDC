@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = CAO
-		add_core_of = CAO
+		owner = NGA
+		add_core_of = NGA
 		victory_points = {
 			14144 1
 		}
@@ -15,7 +15,6 @@ state = {
 			infrastructure = 1
 			
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {
