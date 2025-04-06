@@ -13,14 +13,13 @@ state = {
 			
 			
 			
-			barracks = 1
 			infrastructure = 5
 			synthetic_refinery = 2
 			air_base = 1
 			
 		}
 		victory_points = {
-			2171 30
+			2171 20
 		}
 		victory_points = {
 			17842 15
@@ -29,7 +28,7 @@ state = {
 			19186 9
 		}
 		victory_points = {
-			13558 20
+			13558 30
 		}
 		add_core_of = SAF
 	}

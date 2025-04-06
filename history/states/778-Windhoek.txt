@@ -2,17 +2,16 @@ state = {
 	id = 778
 	name = "STATE_778"
 	resources = {
-		uranium = 4.000
+
 	}
 
 	history = {
-		owner = ANG
+		owner = NMB
 		buildings = {
 			infrastructure = 3
 			
 			air_base = 4
 			radar_station = 1
-			barracks = 2
 			
 			anti_air_building = 2
 		}
@@ -26,8 +25,7 @@ state = {
 			17934 1
 		}
 
-		set_state_flag = state_renamings
-		add_core_of = ANG
+		add_core_of = NMB
 	}
 
 	provinces = {

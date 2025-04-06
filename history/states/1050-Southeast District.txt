@@ -8,12 +8,9 @@ state = {
 	}
 
 	history = {
-		owner = SAF
-		add_core_of = SAF
+		owner = BOT
+		add_core_of = BOT
 		buildings = {
-			barracks = 1
-			
-			
 			
 			infrastructure = 3
 			air_base = 2
