@@ -3,12 +3,11 @@ state = {
 	name = "STATE_1093"
 
 	history = {
-		owner = IEA
-		add_core_of = IEA
+		owner = KEN
+		add_core_of = KEN
 		buildings = {
 			infrastructure = 2
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

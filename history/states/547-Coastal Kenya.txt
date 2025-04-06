@@ -3,7 +3,7 @@ state = {
 	name = "STATE_547"
 
 	history = {
-		owner = IEA
+		owner = KEN
 		buildings = {
 			infrastructure = 4
 			radar_station = 1
@@ -17,8 +17,7 @@ state = {
 		victory_points = {
 			17902 5
 		}
-		add_core_of = IEA
-		set_state_flag = state_renamings
+		add_core_of = KEN
 	}
 
 	provinces = {

@@ -7,8 +7,8 @@ state = {
 	}
 
 	history = {
-		owner = GRO
-		add_core_of = GRO
+		owner = UGA
+		add_core_of = UGA
 		victory_points = { 13947 2 }
 		buildings = {
 			

@@ -5,8 +5,8 @@ state = {
 		rubber = 4
 	}
 	history = {
-		owner = GRO
-		add_core_of = GRO
+		owner = UGA
+		add_core_of = UGA
 		victory_points = {
 			12989
 			10
