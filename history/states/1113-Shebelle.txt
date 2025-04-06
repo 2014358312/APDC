@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = IEA
-		add_core_of = IEA
+		owner = SOM
+		add_core_of = SOM
 		buildings = {
 			infrastructure = 2
 			radar_station = 1
@@ -15,7 +15,6 @@ state = {
 		victory_points = {
 			13944 5
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

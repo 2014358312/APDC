@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = IEA
-		add_core_of = IEA
+		owner = SOM
+		add_core_of = SOM
 		buildings = {
 			
 			infrastructure = 1
@@ -28,11 +28,10 @@ state = {
 		victory_points = {
 			13940 3
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {
-		2066 8133 8164 11014 12941 13927 13938 13940 13948 13949 13953 13959 13969 13975 15533 15536 17884 17886
+		8164 11014 12941 13938 13959 13969 13975 15536 17886
 	}
 	manpower = 1243923
 	buildings_max_level_factor = 1.000
