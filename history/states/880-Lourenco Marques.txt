@@ -6,19 +6,15 @@ state = {
 	}
 
 	history = {
-		owner = GRO
-		add_core_of = GRO
+		owner = MZB
+		add_core_of = MZB
 		victory_points = {
 			8245 15
 		}
 		buildings = {
 			8245 = {
 				naval_base = 3
-			}
-			
-			
-			barracks = 1
-			
+			}	
 			
 			
 			infrastructure = 4

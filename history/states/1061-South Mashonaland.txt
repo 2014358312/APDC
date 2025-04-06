@@ -2,21 +2,20 @@ state = {
 	id = 1061
 	name = "STATE_1061"
 	history = {
-		owner = GRO
-		add_core_of = GRO
+		owner = ZIM
+		add_core_of = ZIM
 		buildings = {
 			infrastructure = 4
 			radar_station = 2
 			air_base = 3
-			barracks = 2
 		}
 		victory_points = {
 			13730
-			15
+			5
 		}
 		victory_points = {
 			13723
-			2
+			10
 		}
 	}
 	provinces = {

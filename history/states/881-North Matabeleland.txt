@@ -6,12 +6,11 @@ state = { #Population Done
 	}
 
 	history = {
-		owner = GRO
-		add_core_of = GRO
+		owner = ZIM
+		add_core_of = ZIM
 		buildings = {
 			infrastructure = 2
 			air_base = 1
-			barracks = 1
 		}
 		victory_points = { 13700 10 }
 		victory_points = { 13711 5 }

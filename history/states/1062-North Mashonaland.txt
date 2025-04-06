@@ -3,8 +3,8 @@ state = { #Population Done
 	name = "STATE_1062"
 
 	history = {
-		owner = GRO
-		add_core_of = GRO
+		owner = ZIM
+		add_core_of = ZIM
 		buildings = {
 			infrastructure = 2
 			

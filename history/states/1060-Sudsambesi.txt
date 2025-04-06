@@ -7,11 +7,10 @@ state = {
 	}
 
 	history = {
-		owner = GRO
-		add_core_of = GRO
+		owner = MZB
+		add_core_of = MZB
 		buildings = {
 			
-			barracks = 1
 			infrastructure = 3
 			13710 = {
 				naval_base = 1
