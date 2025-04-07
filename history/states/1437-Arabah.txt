@@ -7,8 +7,8 @@ state = {
 	manpower = 1520
 	state_category = wasteland
 	history = {
-		owner = IME
-		add_core_of = IME
+		owner = ISR
+		add_core_of = PAL
 		victory_points = {
 			14452
 			1

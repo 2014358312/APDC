@@ -2,7 +2,7 @@ state = {
 	id = 1368
 	name = "STATE_1368"
 	history = {
-		owner = IME
+		owner = ISR
 		buildings = {
 			infrastructure = 2
 		}
@@ -10,7 +10,7 @@ state = {
 			4088
 			1
 		}
-		add_core_of = IME
+		add_core_of = PAL
 	}
 	provinces = {
 		4088

@@ -2,11 +2,10 @@ state = {
 	id = 454
 	name = "STATE_454"
 	history = {
-		owner = IME
+		owner = ISR
 		buildings = {
 			infrastructure = 4
 			dockyard = 1
-			barracks = 1
 			4206 = {
 				naval_base = 1
 			}
@@ -23,7 +22,7 @@ state = {
 			18585
 			1
 		}
-		add_core_of = IME
+		add_core_of = PAL
 	}
 	provinces = {
 		1201

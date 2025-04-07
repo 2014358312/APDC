@@ -7,13 +7,12 @@ state = {
 	}
 
 	history = {
-		owner = IME
+		owner = ISR
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = { 14471 1 }
-		add_core_of = IME
-		set_state_flag = state_renamings
+		add_core_of = PAL
 	}
 
 	provinces = {

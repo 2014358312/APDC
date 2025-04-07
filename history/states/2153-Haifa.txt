@@ -3,7 +3,7 @@ state = {
 	name = "STATE_2153"
 
 	history = {
-		owner = IME
+		owner = ISR
 		buildings = {
 			infrastructure = 4
 			1065 = {
@@ -12,8 +12,7 @@ state = {
 			synthetic_refinery = 1
 		}
 		victory_points = { 1065 15 }
-		add_core_of = IME
-		set_state_flag = state_renamings
+		add_core_of = PAL
 	}
 
 	provinces = {

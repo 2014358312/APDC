@@ -2,11 +2,10 @@ state = {
 	id = 965
 	name = "STATE_965"
 	history = {
-		owner = ITA
+		owner = ISR
 
 		buildings = {
-			barracks = 1
-			
+
 			infrastructure = 4
 			air_base = 2
 			radar_station = 1
