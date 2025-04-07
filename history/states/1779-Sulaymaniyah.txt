@@ -9,16 +9,14 @@ state = {
 	}
 
 	history = {
-		owner = BKU
+		owner = IRQ
 		add_core_of = KUR
-		add_core_of = BKU
 		add_core_of = IRQ
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = { 15763 5 }
 		victory_points = { 15762 7 }
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

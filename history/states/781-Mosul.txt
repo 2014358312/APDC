@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = BKU
+		owner = IRQ
 		buildings = {
 			infrastructure = 4
 			radar_station = 1
@@ -14,9 +14,7 @@ state = {
 			anti_air_building = 1
 			air_base = 1
 		}
-		set_state_flag = state_renamings
 		add_core_of = KUR
-		add_core_of = BKU
 		add_core_of = IRQ
 		victory_points = {
 			16286 15
