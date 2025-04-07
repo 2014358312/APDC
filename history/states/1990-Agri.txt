@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1990"
 
 	history = {
-		owner = TUR
+		owner = KUR
 		victory_points = {
 			18464 2
 		}
@@ -13,8 +13,7 @@ state = {
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = TUR
-		add_claim_by = KUR
+		add_core_of = KUR
 	}
 
 	provinces = {

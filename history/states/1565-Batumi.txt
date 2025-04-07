@@ -5,7 +5,7 @@ state = { ###POPS DONE
 		3653 16231
 	}
 	history = {
-		owner = TUR
+		owner = SOV
 		victory_points = { 3653 8 }
 		buildings = {
 			infrastructure = 3
@@ -15,8 +15,7 @@ state = { ###POPS DONE
 				naval_base = 7
 			}
 		}
-		add_core_of = GEO
-		add_core_of = TUR
+		add_core_of = SOV
 	}
 	manpower = 317590
 	buildings_max_level_factor = 1.000

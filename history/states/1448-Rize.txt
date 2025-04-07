@@ -4,11 +4,12 @@ state = { #Population Done
 	manpower = 454327
 	state_category = rural
 	history = {
-		owner = TUR
+		owner = KUR
 		victory_points = { 3714 2 }
 		buildings = {
 			infrastructure = 3
 		}
+		add_core_of = KUR
 		add_core_of = TUR
 	}
 
