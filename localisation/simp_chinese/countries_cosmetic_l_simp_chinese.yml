@@ -6,6 +6,9 @@
  COG_subject: "$OVERLORDADJ$属刚果"
  MAL_subject: "$OVERLORDADJ$属马来亚"
  LBA_subject: "$OVERLORDADJ$属北非"
+ LBA_sanusiyyah: "赛努西教团"
+ LBA_sanusiyyah_DEF: "赛努西教团"
+ LBA_sanusiyyah_ADJ: "赛努西教团"
  SAU_subject: "$OVERLORDADJ$属中阿拉伯"
  MAL_UK_democratic: "英属马来亚"
  MAL_UK_democratic_DEF: "英属马来亚"
@@ -1753,3 +1756,5 @@
  LGF_UNIFIED_communsim: "社会主义联盟"
  LGF_UNIFIED_communsim_DEF: "社会主义联盟"
  LGF_UNIFIED_communism_ADJ: "社会主义联盟"
+ LEB_hezbollah: "真主党-黎巴嫩"
+
