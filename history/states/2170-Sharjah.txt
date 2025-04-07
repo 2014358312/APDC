@@ -7,16 +7,14 @@ state = {
 	}
 
 	history = {
-		owner = GUL
-		add_core_of = UAE
-		add_core_of = GUL
+		owner = SAU
+		add_core_of = SAU
 		victory_points = {
 			10904 1
 		}
 		buildings = {
 			infrastructure = 3
 		}
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

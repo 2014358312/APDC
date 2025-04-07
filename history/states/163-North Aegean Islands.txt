@@ -2,7 +2,7 @@ state = {
 	id = 163
 	name = "STATE_163"
 	history = {
-		owner = TUR
+		owner = ITA
 		victory_points = {
 			8435
 			1
@@ -18,7 +18,6 @@ state = {
 		}
 		add_core_of = TUR
 		add_core_of = GRE
-		set_state_flag = GDP_regions_west_thrace
 	}
 	provinces = {
 		4171

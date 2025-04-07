@@ -9,9 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = GUL
-		add_core_of = QAT
-		add_core_of = GUL
+		owner = SAU
+		add_core_of = SAU
 		victory_points = { 8051 1 }
 		buildings = {
 			infrastructure = 3
@@ -21,7 +20,6 @@ state = {
 			}
 		}
 		add_extra_state_shared_building_slots = 1
-		set_state_flag = state_renamings
 	}
 
 	provinces = {
