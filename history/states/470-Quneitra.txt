@@ -2,8 +2,7 @@ state = {
 	id = 470
 	name = "STATE_470"
 	history = {
-		owner = SNS
-		add_core_of = SNS
+		owner = SYR
 		add_core_of = SYR
 		victory_points = {
 			15736 1
@@ -11,7 +10,6 @@ state = {
 		buildings = {
 			infrastructure = 2
 		}
-		set_state_flag = GDP_regions_syria
 	}
 	provinces = {
 		15736

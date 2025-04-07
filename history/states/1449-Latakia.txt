@@ -6,17 +6,14 @@ state = { #Population Done
 	history = {
 		victory_points = { 1088 10 }
 		victory_points = { 14685 4 }
-		owner = TUR
+		owner = SYR
 		buildings = {
 			infrastructure = 3
 			1088 = {
 				naval_base = 2
 			}
 		}
-		add_core_of = TUR
 		add_claim_by = SYR
-		set_state_flag = GDP_regions_turkish_syria
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

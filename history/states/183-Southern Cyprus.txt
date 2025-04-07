@@ -5,7 +5,7 @@ state = {
 		chromium = 3
 	}
 	history = {
-		owner = GRE
+		owner = CYP
 		victory_points = {
 			14690
 			1
@@ -22,9 +22,9 @@ state = {
 				naval_base = 2
 			}
 		}
-		add_core_of = GRE
+		add_core_of = CYP
 		add_claim_by = TUR
-		set_state_flag = GDP_regions_cyprus
+		add_claim_by = GRE
 	}
 	provinces = {
 		11984

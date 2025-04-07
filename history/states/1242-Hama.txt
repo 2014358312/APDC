@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1242"
 
 	history = {
-		owner = SNS
+		owner = SYR
 		buildings = {
 			infrastructure = 3
 		}
@@ -14,9 +14,6 @@ state = {
 			16275 1
 		}
 		add_core_of = SYR
-		add_core_of = SNS
-		set_state_flag = state_renamings
-		set_state_flag = GDP_regions_syria
 	}
 
 	provinces = {
