@@ -7,14 +7,12 @@ state = {
 	}
 
 	history = {
-		owner = CRO
+		owner = YUG
 		victory_points = { 16174 7 }
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = CRO
-		set_state_flag = GDP_regions_bosnia
-		set_state_flag = GDP_category_rural
+		add_core_of = YUG
 	}
 
 	provinces = {

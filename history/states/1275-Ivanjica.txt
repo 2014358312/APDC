@@ -4,18 +4,15 @@ state = {
 
 
 	history = {
-		owner = SER
-		add_core_of = SER
+		owner = YUG
+		add_core_of = YUG
 		buildings = {
 			infrastructure = 3
-			barracks = 1
 			
 		}
 		victory_points = { 15654 2 }
 		victory_points = { 9890 2 }
 		victory_points = { 18165 1 }
-		set_state_flag = state_renamings
-		set_state_flag = GDP_category_town
 	}
 
 	provinces = {

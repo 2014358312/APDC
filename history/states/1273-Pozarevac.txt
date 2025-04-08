@@ -8,14 +8,12 @@ state = {
 	}
 
 	history = {
-		owner = SER
-		add_core_of = SER
+		owner = YUG
+		add_core_of = YUG
 		buildings = {
 			infrastructure = 4
 		}
 		victory_points = { 6634 2 }
-		set_state_flag = state_renamings
-		set_state_flag = GDP_category_town
 	}
 
 	provinces = {

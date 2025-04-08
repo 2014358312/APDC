@@ -2,9 +2,8 @@ state = {
 	id = 102
 	name = "STATE_102"
 	history = {
-		owner = ITA
+		owner = YUG
 		buildings = {
-			barracks = 1
 			infrastructure = 5
 			9627 = {
 				bunker = 5
@@ -17,7 +16,7 @@ state = {
 			9627
 			10
 		}
-		add_core_of = ITA
+		add_core_of = YUG
 	}
 	provinces = {
 		6650

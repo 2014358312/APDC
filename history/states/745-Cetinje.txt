@@ -5,7 +5,7 @@ state = {
 		aluminium = 2
 	}
 	history = {
-		owner = MNT
+		owner = YUG
 		victory_points = {
 			16201
 			1
@@ -17,7 +17,7 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = MNT
+		add_core_of = YUG
 	}
 	provinces = {
 		18193

@@ -4,11 +4,10 @@ state = {
 	resources = {
 		chromium = 24.000
 		steel = 12.000
-		power = 4.000
 	}
 
 	history = {
-		owner = ALB
+		owner = YUG
 		victory_points = {
 			9874 7
 		}
@@ -28,8 +27,7 @@ state = {
 			
 			
 		}
-		add_core_of = SER
-		add_core_of = ALB
+		add_core_of = YUG
 	}
 
 	provinces = {

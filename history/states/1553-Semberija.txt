@@ -3,14 +3,13 @@ state = { #Population Done
 	name = "STATE_1553"
 
 	history = {
-		owner = CRO
+		owner = YUG
 		victory_points = { 15677 1 }
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 		}
-		add_core_of = CRO
-		set_state_flag = GDP_regions_bosnia
+		add_core_of = YUG
 	}
 
 	provinces = {

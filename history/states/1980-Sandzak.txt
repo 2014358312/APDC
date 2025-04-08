@@ -2,18 +2,18 @@ state = {
 	id = 1980
 	name = "STATE_1980"
 	resources = {
-		power = 1
+
 	}
 
 	history = {
-		owner = MNT
+		owner = YUG
 		victory_points = {
 			16198 1
 		}
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = MNT
+		add_core_of = YUG
 	}
 
 	provinces = {

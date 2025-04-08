@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = CRO
+		owner = YUG
 		buildings = {
 			
 			
@@ -24,7 +24,7 @@ state = {
 		victory_points = { 18164 2 }
 		victory_points = { 13372 1 }
 		victory_points = { 18154 1 }
-		add_core_of = CRO
+		add_core_of = YUG
 	}
 
 	provinces = {

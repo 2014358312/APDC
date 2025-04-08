@@ -3,11 +3,11 @@ state = {
 	name = "STATE_1732"
 	resources = {
 		aluminium = 3.000
-		power = 1.000
+
 	}
 
 	history = {
-		owner = MNT
+		owner = YUG
 		victory_points = {
 			11858 2
 		}
@@ -19,7 +19,7 @@ state = {
 			infrastructure = 3
 			
 		}
-		add_core_of = MNT
+		add_core_of = YUG
 	}
 
 	provinces = {
