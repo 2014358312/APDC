@@ -3,7 +3,7 @@ state = {
 	name = "STATE_74"
 
 	history = {
-		owner = HOL
+		owner = LUX
 		buildings = {
 			
 			
@@ -43,8 +43,7 @@ state = {
 			480 2
 		}
 		add_core_of = HOL
-		set_state_flag = GDP_category_large_city
-		set_state_flag = state_renamings
+		add_core_of = LUX
 	}
 
 	provinces = {

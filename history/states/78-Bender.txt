@@ -3,19 +3,19 @@ state = {
 	name = "STATE_78"
 
 	history = {
-		owner = ROM
+		owner = SOV
 		buildings = {
 			infrastructure = 4
 			air_base = 3
 		}
 		add_core_of = ROM
+		add_core_of = SOV
 		victory_points = {
 			15984 3
 		}
 		victory_points = {
 			3724 1
 		}
-		set_state_flag = GDP_category_town
 	}
 
 	provinces = {

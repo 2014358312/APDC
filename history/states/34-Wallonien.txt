@@ -2,8 +2,9 @@ state = {
 	id = 34
 	name = "STATE_34"
 	history = {
-		owner = BEL
+		owner = LUX
 		add_core_of = BEL
+		add_core_of = LUX
 		victory_points = {
 			3516
 			8
@@ -25,7 +26,6 @@ state = {
 			6
 		}
 		buildings = {
-			barracks = 1
 			radar_station = 2
 			infrastructure = 5
 			air_base = 1

@@ -6,12 +6,12 @@ state = { #Population Done
 	state_category = rural
 
 	history = {
-		owner = SLO
+		owner = CZE
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 		}
-		add_core_of = SLO
+		add_core_of = CZE
 		victory_points = { 3581 4 }
 		victory_points = { 6586 1 }
 	}

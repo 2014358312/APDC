@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1286"
 
 	history = {
-		owner = ROM
+		owner = SOV
 		buildings = {
 			infrastructure = 4
 			
@@ -21,10 +21,11 @@ state = {
 			11686 10
 		}
 		add_core_of = ROM
+		add_core_of = SOV
 	}
 
 	provinces = {
-		414 565 3577 6600 11686 11705
+		414 565 577 3407 3577 6600 11686 11705
 	}
 	manpower = 1629731
 	buildings_max_level_factor = 1.000
