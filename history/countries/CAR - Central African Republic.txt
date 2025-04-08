@@ -6,6 +6,7 @@ set_technology = {
 }
 
 set_convoys = 0
+set_cosmetic_tag = CAR_free_zone
 
 recruit_character = CAR_awt
 recruit_character = CAR_acd2

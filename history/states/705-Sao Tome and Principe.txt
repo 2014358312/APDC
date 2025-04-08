@@ -5,8 +5,9 @@ state = { #Population Done
 	state_category = tiny_island
 
 	history = {
-		owner = EQG
+		owner = CAR
 		add_core_of = EQG
+		add_core_of = CAR
 		victory_points = { 13015 1 }
 		buildings = {
 			infrastructure = 2

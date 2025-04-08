@@ -5,8 +5,9 @@ state = {
 		rubber = 1
 	}
 	history = {
-		owner = COG
+		owner = CAR
 		add_core_of = COG
+		add_core_of = CAR
 		victory_points = {
 			12975
 			10

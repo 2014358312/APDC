@@ -6,10 +6,12 @@ state = {
 		steel = 4
 	}
 	history = {
-		owner = RCG
+		owner = CAR
 		add_core_of = RCG
+		add_core_of = CAR
 	}
 	provinces = {
+		2115
 		10968
 		13883
 		13889
