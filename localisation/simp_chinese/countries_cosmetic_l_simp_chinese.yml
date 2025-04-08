@@ -1758,4 +1758,9 @@
  LGF_UNIFIED_communsim_DEF: "社会主义联盟"
  LGF_UNIFIED_communism_ADJ: "社会主义联盟"
  LEB_hezbollah: "真主党-黎巴嫩"
-
+ POL_sov: "波兰军管区"
+ CZE_sov: "捷克斯洛伐克军管区"
+ HUN_sov: "匈牙利军管区"
+ BUL_sov: "保加利亚军管区"
+ ROM_sov: "罗马尼亚军管区"
+ LUX_usa: "比荷卢特区"

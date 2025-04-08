@@ -5,17 +5,17 @@ state = {
 	manpower = 1492751
 	state_category = large_city
 	history = {
-		owner = FRA
+		owner = LUX
 		victory_points = {
 			516
 			40
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 7
 		}
 		add_extra_state_shared_building_slots = 2
-		set_state_flag = GDP_category_megalopolis
+		add_core_of = LUX
+		add_core_of = BEL
 	}
 	provinces = {
 		516
