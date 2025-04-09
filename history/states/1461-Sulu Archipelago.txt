@@ -11,20 +11,16 @@ state = {
 	}
 
 	history = {
-		owner = UPH
+		owner = RZE
 		buildings = {
-			infrastructure = 2
+			
 		}
-		victory_points = { 14738 3 }
-		add_core_of = UPH
-		add_core_of = PHI
-		add_core_of = SPH
-		set_state_flag = state_renamings
+		add_core_of = RZE
 	}
 	provinces = {
 		10184 12245 14738
 	}
-	manpower = 579719
+	manpower = 5
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 }

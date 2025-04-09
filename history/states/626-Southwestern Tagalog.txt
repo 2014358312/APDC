@@ -7,22 +7,17 @@ state = {
 	}
 
 	history = {
-		owner = PHI
+		owner = RZE
 		buildings = {
-			infrastructure = 2
-			radar_station = 1
+			
 		}
-		victory_points = { 10272 3 }
-		add_core_of = PHI
-		add_core_of = SPH
-		add_core_of = UPH
-		set_state_flag = state_renamings
+		add_core_of = RZE
 	}
 
 	provinces = {
 		4288 10272 14719 14720 19376 19381
 	}
-	manpower = 603590
+	manpower = 6
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	local_supplies = 0.000

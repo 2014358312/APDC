@@ -6,21 +6,12 @@ state = { #Population Done
 	}
 	state_category = town
 	history = {
-		owner = UPH
+		owner = RZE
 		buildings = {
-			infrastructure = 3
-			14717 = {
-				naval_base = 1
-			}
+			
 		}
-		victory_points = { 14717 5 }
-		victory_points = { 4228 5 }
-		victory_points = { 12279 5 }
-		add_core_of = UPH
-		add_core_of = PHI
-		add_core_of = SPH
-		set_state_flag = state_renamings
+		add_core_of = RZE
 	}
-	manpower = 2658496
+	manpower = 2
 	buildings_max_level_factor = 1.000
 }

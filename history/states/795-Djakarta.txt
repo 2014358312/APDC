@@ -7,28 +7,16 @@ state = { #Population + VPs Done
 	}
 
 	history = {
-		owner = INS
-		add_core_of = INS
-		victory_points = { 7381 40 }
+		owner = RZE
+		add_core_of = RZE
 		buildings = {
 			
-			7381 = {
-				naval_base = 6
-				bunker = 6
-			}
-			dockyard = 1
-			infrastructure = 5
-			air_base = 5
-			
-			
-			
-			barracks = 1
 		}
 	}
 	provinces = {
 		7381
 	}
-	manpower = 2906533
+	manpower = 2
 	state_category = city
 	buildings_max_level_factor = 1.000
 }
