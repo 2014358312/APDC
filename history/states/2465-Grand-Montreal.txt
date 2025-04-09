@@ -3,12 +3,9 @@ state = {
 	name = "STATE_2465"
 
 	history = {
-		owner = CAN
+		owner = USA
 		buildings = {
 			
-			
-			
-			barracks = 1
 			
 			infrastructure = 8
 			air_base = 2
@@ -26,8 +23,7 @@ state = {
 		victory_points = { # Sallaberry
 			17250 2
 		}
-		set_state_flag = GDP_regions_quebec
-		set_state_flag = GDP_category_city
+		
 	}
 
 	provinces = {

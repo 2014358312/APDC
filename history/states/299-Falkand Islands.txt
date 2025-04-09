@@ -6,7 +6,7 @@ state = {
 	state_category = small_island
 
 	history = {
-		owner = CAN
+		owner = USA
 		add_claim_by = ENG
 		add_claim_by = ARG
 		buildings = {
@@ -21,7 +21,7 @@ state = {
 		victory_points = { # Stanley
 			12960 1
 		}
-		set_state_flag = GDP_regions_south_atlantic
+
 	}
 	provinces = { 12960 }
 }

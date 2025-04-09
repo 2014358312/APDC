@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = CAN
+		owner = USA
 		buildings = {
 			
 			
@@ -34,8 +34,7 @@ state = {
 		victory_points = { # Brantford
 			11695 5
 		}
-		set_state_flag = GDP_regions_ontario
-		set_state_flag = GDP_category_city
+		
 	}
 
 

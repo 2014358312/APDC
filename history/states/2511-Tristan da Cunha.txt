@@ -5,7 +5,7 @@ state = { #Population Done
 	state_category = tiny_island
 
 	history = {
-		owner = CAN
+		owner = USA
 		add_claim_by = ENG
 		buildings = {
 			infrastructure = 1
@@ -16,7 +16,7 @@ state = { #Population Done
 		victory_points = { # Edinburgh of the Seven Seas
 			19986 1
 		}
-		set_state_flag = GDP_regions_south_atlantic
+
 	}
 
 	provinces = {

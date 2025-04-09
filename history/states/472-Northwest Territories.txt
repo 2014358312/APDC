@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = CAN
+		owner = USA
 		buildings = {
 			
 			barracks = 1
@@ -38,8 +38,7 @@ state = {
 		victory_points = { # Inuvik
 			16847 1
 		}
-		set_state_flag = GDP_regions_northwest_territories
-		set_state_flag = GDP_category_town
+		
 	}
 
 	provinces = {

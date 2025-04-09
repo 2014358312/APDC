@@ -5,10 +5,9 @@ state = {
 	state_category = wasteland
 
 	history = {
-		owner = CAN
+		owner = USA
 		add_core_of = ENG
 		add_claim_by = ARG
-		set_state_flag = GDP_regions_south_atlantic
 	}
 
 	provinces = {

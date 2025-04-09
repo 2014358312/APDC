@@ -3,7 +3,7 @@ state = {
 	name = "STATE_332"
 
 	history = {
-		owner = CAN
+		owner = USA
 		buildings = {
 			barracks = 1
 			
@@ -21,8 +21,7 @@ state = {
 		victory_points = {
 			1785 1
 		}
-		set_state_flag = GDP_regions_newfoundland
-		set_state_flag = GDP_category_town
+		
 	}
 
 	provinces = {

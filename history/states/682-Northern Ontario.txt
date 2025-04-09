@@ -4,10 +4,10 @@ state = {
 	resources = {
 		steel = 12
 		aluminium = 26
-		uranium = 10
+
 	}
 	history = {
-		owner = CAN
+		owner = USA
 		buildings = {
 			infrastructure = 4
 			radar_station = 2

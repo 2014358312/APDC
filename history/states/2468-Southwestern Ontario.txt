@@ -2,9 +2,8 @@ state = {
 	id = 2468
 	name = "STATE_2468"
 	history = {
-		owner = CAN
+		owner = USA
 		buildings = {
-			barracks = 1
 			infrastructure = 7
 			air_base = 3
 		}
@@ -49,7 +48,6 @@ state = {
 			11725
 			2
 		}
-		set_state_flag = GDP_regions_ontario
 	}
 	provinces = {
 		722

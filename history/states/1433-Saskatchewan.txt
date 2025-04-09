@@ -3,11 +3,11 @@ state = {
 	name = "STATE_1433"
 
 	resources = {
-		uranium = 2.000 #in Northern
+		
 	}
 
 	history = {
-		owner = CAN
+		owner = USA
 		add_core_of = CAN
 		buildings = {
 			air_base = 1

@@ -5,7 +5,7 @@ state = { #Population Done
 	state_category = small_island
 
 	history = {
-		owner = CAN
+		owner = USA
 		add_claim_by = ENG
 		add_core_of = BRM
 		buildings = {

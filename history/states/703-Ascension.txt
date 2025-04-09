@@ -5,7 +5,7 @@ state = { #Population Done
 
 	state_category = tiny_island
 	history = {
-		owner = CAN
+		owner = USA
 		add_claim_by = ENG
 		buildings = {
 			infrastructure = 2
@@ -19,7 +19,6 @@ state = { #Population Done
 		victory_points = { # USAF Ascension
 			13013 1
 		}
-		set_state_flag = GDP_regions_south_atlantic
 	}
 
 	provinces = {

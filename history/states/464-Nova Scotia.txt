@@ -6,12 +6,11 @@ state = {
 	state_category = city
 
 	history = {
-		owner = CAN
+		owner = USA
 		buildings = {
 			
 			
 			
-			barracks = 1
 			infrastructure = 6
 			air_base = 3
 			radar_station = 2
