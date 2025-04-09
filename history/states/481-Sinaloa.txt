@@ -6,18 +6,18 @@ state = {
 	}
 
 	history = {
-		owner = MEX
+		owner = RZE
 		buildings = {
 			
 			
 			
-			barracks = 2
+
 			infrastructure = 2
 			8057 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = MEX
+		add_core_of = RZE
 		victory_points = {
 			14525 3
 		}
@@ -35,7 +35,7 @@ state = {
 	provinces = {
 		1945 8057 10895 14525 17322
 	}
-	manpower = 993852
+	manpower = 5
 	buildings_max_level_factor = 1.000
 	state_category = town
 	local_supplies = 0.000

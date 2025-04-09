@@ -3,7 +3,7 @@
 oob = "INS_1936"
 
 set_research_slots = 2
-
+set_cosmetic_tag = INS_free_zone
 # Starting tech
 # clone of Holland
 set_technology = {
