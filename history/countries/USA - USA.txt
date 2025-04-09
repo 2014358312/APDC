@@ -6,6 +6,14 @@ set_stability = 0.75
 set_war_support = 0
 add_command_power = 20
 set_autonomy = {
+	target = LIB
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = MOR
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
 	target = LUX
 	autonomous_state = autonomy_puppet
 }

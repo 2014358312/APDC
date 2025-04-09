@@ -7,7 +7,7 @@ state = {
 	state_category = town
 
 	history = {
-		owner = ITA
+		owner = LBA
 		victory_points = { 11954 10 }
 		buildings = {
 			infrastructure = 4
@@ -16,11 +16,8 @@ state = {
 			11954 = {
 				naval_base = 1
 			}
-			barracks = 1
 		}
-		add_core_of = ITA
 		add_core_of = LBA
-		set_state_flag = GDP_regions_libya
 	}
 
 	provinces = {

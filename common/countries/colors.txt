@@ -953,6 +953,10 @@ AGR = {
 	color = rgb { 153 102 50 }
 	color_ui = rgb { 153 102 50 }
 }
+USB = {
+	color = rgb { 244 119 119 }
+	color_ui = rgb { 244 119 119 }
+}
 ZZZ = {
 	color = rgb { 0 0 0  }
 	color_ui = rgb { 0 0 0 }

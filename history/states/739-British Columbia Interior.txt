@@ -5,8 +5,8 @@ state = {
 		oil = 34
 	}
 	history = {
-		owner = ZZZ
-		add_core_of = ZZZ
+		owner = RZE
+		add_core_of = RZE
 	}
 	provinces = {
 		917
@@ -38,11 +38,18 @@ state = {
 		12508
 		12571
 		12578
+		13202 
+		13203 
 		17172
 		17227
 		17231
 		17235
 		17236
+		17241 
+		17242
+		17245
+		17247 
+		17248 
 	}
 	manpower = 4
 	buildings_max_level_factor = 1
