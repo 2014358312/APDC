@@ -10,9 +10,7 @@ state = { #Population Done
 	state_category = tiny_island
 
 	history = {
-		owner = SUR
-		add_core_of = SUR
-		add_core_of = CUR
+		owner = DOM
 		buildings = {
 			infrastructure = 2
 			19990 = {

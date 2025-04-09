@@ -6,7 +6,7 @@ state = { #Population Done
 	state_category = town
 
 	history = {
-		owner = SPR
+		owner = USA
 		victory_points = { 13071 10 }
 		buildings = {
 			

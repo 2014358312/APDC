@@ -6,8 +6,7 @@ state = {
 	state_category = small_island
 
 	history = {
-		owner = USA
-		add_core_of = USA
+		owner = DOM
 		buildings = {
 			infrastructure = 3
 			air_base = 1

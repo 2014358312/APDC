@@ -7,7 +7,7 @@ state = {
 
 
 	history = {
-		owner = HAI
+		owner = DOM
 		buildings = {
 			infrastructure = 2
 			

@@ -9,13 +9,11 @@ state = { #Population Done
 		chromium = 3
 	}
 	history = {
-		owner = HAI
+		owner = DOM
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			
-			
-			barracks = 1
+						
 			4641 = {
 				naval_base = 3
 				bunker = 2

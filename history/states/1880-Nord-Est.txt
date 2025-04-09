@@ -8,10 +8,9 @@ state = {
 	resources = {
 	}
 	history = {
-		owner = HAI
+		owner = DOM
 		buildings = {
 			infrastructure = 2
-			barracks = 1
 			15636 = {
 				naval_base = 1
 			}

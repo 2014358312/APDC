@@ -10,7 +10,7 @@ state = { #Population Done
 	state_category = small_island
 
 	history = {
-		owner = SUR
+		owner = DOM
 		victory_points = { 153 1 }
 		buildings = {
 			infrastructure = 3
@@ -21,8 +21,7 @@ state = { #Population Done
 				coastal_bunker = 2
 			}
 		}
-		add_core_of = SUR
-		add_core_of = CUR
+		
 	}
 
 	provinces = {

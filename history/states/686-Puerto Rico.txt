@@ -6,8 +6,7 @@ state = { #Population Done
 	state_category = town
 
 	history = {
-		owner = USA
-		add_core_of = USA
+		owner = DOM
 		buildings = {
 			infrastructure = 3
 			dockyard = 1

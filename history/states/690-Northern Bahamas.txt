@@ -6,8 +6,7 @@ state = { #Population Done
 	state_category = small_island
 
 	history = {
-		owner = USA
-		add_claim_by = ENG
+		owner = DOM
 		buildings = {
 			
 			infrastructure = 3
@@ -29,7 +28,6 @@ state = { #Population Done
 		victory_points = { # Freeport
 			4647 1
 		}
-		set_state_flag = GDP_regions_bahamas
 	}
 
 	provinces = {

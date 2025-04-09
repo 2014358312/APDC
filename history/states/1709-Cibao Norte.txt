@@ -10,13 +10,12 @@ state = {
 			
 			radar_station = 1
 			anti_air_building = 1
-			barracks = 2
 			
 			
 			
 			
 		}
-		add_core_of = DOM
+		
 		victory_points = { 15595 5 }
 	}
 

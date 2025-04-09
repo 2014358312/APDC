@@ -12,24 +12,9 @@ state = {
 			
 			
 
-			infrastructure = 2
-			8057 = {
-				naval_base = 3
-			}
 		}
 		add_core_of = RZE
-		victory_points = {
-			14525 3
-		}
-		victory_points = {
-			8057 8
-		}
-		victory_points = {
-			10895 7
-		}
-		victory_points = {
-			1945 1
-		}
+		
 	}
 
 	provinces = {

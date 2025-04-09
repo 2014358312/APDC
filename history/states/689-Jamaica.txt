@@ -6,8 +6,7 @@ state = { #Population Done
 	state_category = town
 
 	history = {
-		owner = WIN
-		add_core_of = WIN
+		owner = DOM
 		add_core_of = JAM
 		buildings = {
 			dockyard = 1

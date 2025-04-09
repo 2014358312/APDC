@@ -5,8 +5,7 @@ state = {
 	state_category = small_island
 
 	history = {
-		owner = USA
-		add_claim_by = ENG
+		owner = DOM
 		buildings = {
 			infrastructure = 4
 			2134 = {

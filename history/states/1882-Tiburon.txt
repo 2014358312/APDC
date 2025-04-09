@@ -6,7 +6,7 @@ state = { #Population Done
 	state_category = pastoral
 
 	history = {
-		owner = HAI
+		owner = DOM
 		buildings = {
 			infrastructure = 2
 			1635 = { naval_base = 2 }
