@@ -1,0 +1,23 @@
+ideas = {
+
+	country = {
+		ATU_anybody_there = {
+
+			allowed = {
+				original_tag = ATU
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+
+			modifier = {
+				
+			}
+		}
+	}
+
+}
