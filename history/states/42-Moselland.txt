@@ -19,11 +19,8 @@ state = {
 		}
 		buildings = {
 			
-			barracks = 1
 			
 			infrastructure = 5
-			enrichment_plant = 1
-			missile_silo = 1
 			
 		}
 		add_core_of = GER

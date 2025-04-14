@@ -29,15 +29,12 @@ state = {
 			11233 2
 		}
 		buildings = {
-			barracks = 2
 			
 			
 			infrastructure = 5
 			dockyard = 2
 			air_base = 3
 			radar_station = 2
-			missile_silo = 1
-			
 			241 = {
 				naval_base = 8
 				coastal_bunker = 2

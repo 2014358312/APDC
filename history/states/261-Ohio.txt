@@ -9,9 +9,8 @@ state = {
 	history = {
 		owner = USA
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			air_base = 3
-			enrichment_plant = 1
 		}
 		add_core_of = USA
 		victory_points = { # Columbus

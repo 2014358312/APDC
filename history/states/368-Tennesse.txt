@@ -36,8 +36,6 @@ state = {
 		}
 		buildings = {
 			infrastructure = 5
-			
-			enrichment_plant = 1
 		}
 		add_core_of = USA
 	}

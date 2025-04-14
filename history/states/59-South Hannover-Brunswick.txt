@@ -22,9 +22,7 @@ state = { #Population Done
 		buildings = {
 			
 			radar_station = 2
-			infrastructure = 6
-			enrichment_plant = 1
-			
+			infrastructure = 5
 			air_base = 2
 		}
 	}

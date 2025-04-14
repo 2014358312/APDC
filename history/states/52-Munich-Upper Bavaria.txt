@@ -16,9 +16,8 @@ state = { #Population Done
 		victory_points = { 9652 3 }
 		buildings = {
 			
-			infrastructure = 6
+			infrastructure = 5
 			air_base = 6
-			enrichment_plant = 1
 			
 		}
 		add_core_of = GER

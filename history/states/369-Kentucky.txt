@@ -8,8 +8,6 @@ state = {
 			infrastructure = 5
 			radar_station = 2
 			air_base = 4
-			enrichment_plant = 1
-			barracks = 2
 			
 		}
 		add_core_of = USA

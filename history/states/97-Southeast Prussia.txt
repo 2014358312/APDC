@@ -22,8 +22,6 @@ state = {
 		buildings = {
 			infrastructure = 4
 			air_base = 3
-			missile_silo = 1
-			enrichment_plant = 1
 		}
 	}
 	provinces = {

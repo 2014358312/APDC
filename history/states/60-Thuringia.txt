@@ -20,7 +20,6 @@ state = { #Population Done
 			
 			
 			infrastructure = 5
-			missile_silo = 1
 			
 		}
 		add_core_of = GER

@@ -13,11 +13,7 @@ state = { #Population Done
 
 		buildings = {
 			
-			
-			
-			barracks = 1
 			infrastructure = 5
-			enrichment_plant = 1
 			
 		}
 	}

@@ -29,9 +29,7 @@ state = {
 		}
 		buildings = {
 			radar_station = 1
-			barracks = 1
 			infrastructure = 5
-			missile_silo = 1
 		}
 	}
 	provinces = {

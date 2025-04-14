@@ -19,7 +19,6 @@ state = {
 			infrastructure = 5
 			radar_station = 3
 			nuclear_reactor = 1
-			missile_silo = 1
 			air_base = 4
 			6785 = {
 				naval_base = 1

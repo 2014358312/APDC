@@ -20,11 +20,8 @@ state = {
 			2
 		}
 		buildings = {
-			barracks = 1
-			infrastructure = 6
+			infrastructure = 5
 			air_base = 6
-			enrichment_plant = 1
-			missile_silo = 1
 			radar_station = 2
 			anti_air_building = 2
 		}

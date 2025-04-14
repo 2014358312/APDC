@@ -10,7 +10,6 @@ state = {
 			
 			infrastructure = 5
 			air_base = 2
-			missile_silo = 1
 			11975 = {
 				naval_base = 1
 			}
