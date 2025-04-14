@@ -3,7 +3,7 @@ bookmarks = {
 		name = STARTING_POINT_NAME
 		desc = STARTING_POINT_DESC
 		date = 2060.1.1.12
-		picture = GFX_select_date_1936
+		picture = GFX_select_date_2060
 
 		default_country = GER
 		default = yes
