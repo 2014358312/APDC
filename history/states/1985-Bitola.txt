@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = BUL
+		owner = YUG
 		victory_points = {
 			974 4
 		}
@@ -19,12 +19,8 @@ state = {
 		}
 		buildings = {
 			infrastructure = 3
-			barracks = 1
 		}
-		add_core_of = BUL
-		add_core_of = MAC
-		set_state_flag = state_renamings
-		set_state_flag = GDP_regions_macedonia
+		add_core_of = YUG
 	}
 
 	provinces = {

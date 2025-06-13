@@ -6,12 +6,12 @@ state = { #Population Done
 	state_category = rural
 
 	history = {
-		owner = SPR
+		owner = FSP
 		add_core_of = SPR
+		add_core_of = FSP
 		victory_points = { 9793 10 }
 		victory_points = { 7114 1 }
 		buildings = {
-			barracks = 1
 			infrastructure = 5
 			radar_station = 1
 			air_base = 1
@@ -22,8 +22,6 @@ state = { #Population Done
 				naval_base = 1
 			}
 		}
-		set_state_flag = state_renamings
-		set_state_flag = GDP_category_city
 	}
 	provinces = { 7114 9793 9845 }
 }

@@ -3,18 +3,14 @@ state = {
 	name = "STATE_1714"
 
 	history = {
-		owner = BUL
+		owner = YUG
 		buildings = {
 			infrastructure = 4
 		}
 		victory_points = {
 			9906 1
 		}
-		add_core_of = BUL
-		add_core_of = MAC
-		add_core_of = SER
-		set_state_flag = GDP_regions_vranje
-		set_state_flag = GDP_category_rural
+		add_core_of = YUG
 	}
 
 	provinces = {
