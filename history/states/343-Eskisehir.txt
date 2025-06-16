@@ -4,7 +4,6 @@ state = {
 	manpower = 1393018
 	resources = {
 		chromium = 50
-		uranium = 4
 	}
 
 	state_category = town
@@ -20,7 +19,6 @@ state = {
 		buildings = {
 			infrastructure = 4
 			air_base = 1
-			barracks = 1
 		}
 		add_core_of = TUR
 	}

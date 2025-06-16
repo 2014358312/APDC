@@ -7,9 +7,7 @@ state = {
 		add_core_of = USA
 		buildings = {
 			
-			
-			barracks = 2
-			
+
 			infrastructure = 5
 			air_base = 1
 			radar_station = 2
@@ -29,7 +27,7 @@ state = {
 		victory_points = { # Presque Isle
 			4287 1
 		}
-		set_state_flag = GDP_regions_new_england
+
 	}
 
 	provinces = {

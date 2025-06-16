@@ -8,9 +8,6 @@ state = {
 	history = {
 		owner = USA
 		buildings = {
-			
-			barracks = 1
-			
 			infrastructure = 5
 			radar_station = 3
 		}

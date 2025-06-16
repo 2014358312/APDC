@@ -2,7 +2,7 @@ state = {
 	id = 1312
 	name = "STATE_1312"
 	resources = {
-		uranium = 10.000
+
 	}
 
 	history = {
@@ -20,7 +20,7 @@ state = {
 			}
 		}
 		add_core_of = SAF
-		set_state_flag = state_renamings
+
 	}
 
 	provinces = {

@@ -3,7 +3,6 @@ state = {
 	name = "STATE_166"
 	resources = {
 		steel = 25.000
-		uranium = 6.000
 	}
 
 	history = {
@@ -24,8 +23,7 @@ state = {
 			air_base = 3
 		}
 		add_core_of = SPR
-		set_state_flag = state_renamings
-		set_state_flag = GDP_category_city
+
 	}
 
 	provinces = {

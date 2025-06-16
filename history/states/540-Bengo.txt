@@ -8,7 +8,6 @@ state = {
 	history = {
 		owner = ANG
 		buildings = {
-			barracks = 1
 			infrastructure = 2
 			radar_station = 1
 			air_base = 1

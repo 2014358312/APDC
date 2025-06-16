@@ -6,7 +6,6 @@ state = {
 	history = {
 		owner = SOV
 		add_core_of = SOV
-		#add_core_of = GAC
 		victory_points = {
 			3483
 			4
@@ -17,7 +16,6 @@ state = {
 		}
 		buildings = {
 			infrastructure = 4
-			barracks = 1
 		}
 	}
 	provinces = {

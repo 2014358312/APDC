@@ -13,7 +13,6 @@ state = {
 		}
 		buildings = {
 			infrastructure = 4
-			barracks = 2
 			anti_air_building = 2
 			air_base = 5
 			4516 = {
@@ -22,7 +21,6 @@ state = {
 		}
 		add_core_of = PAK
 		add_claim_by = IND
-		set_state_flag = GDP_regions_bihar
 	}
 	provinces = {
 		4516

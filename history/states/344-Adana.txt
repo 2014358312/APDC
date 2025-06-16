@@ -25,9 +25,7 @@ state = { ###POPS DONE
 			air_base = 2
 			dockyard = 1
 			radar_station = 1
-			barracks = 1
-			
-			
+
 			10056 = {
 				naval_base = 3
 			}

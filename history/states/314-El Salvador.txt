@@ -14,9 +14,6 @@ state = { #Population Done
 			infrastructure = 3
 			air_base = 1
 			
-			
-			barracks = 1
-			
 			12823 = {
 				naval_base = 1
 			}

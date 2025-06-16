@@ -11,9 +11,7 @@ state = {
 		buildings = {
 			
 			
-			
-			barracks = 2
-			
+
 			infrastructure = 3
 			air_base = 2
 			

@@ -21,7 +21,7 @@ state = {
 		}
 		buildings = {
 			
-			barracks = 1
+
 			infrastructure = 5
 			radar_station = 1
 			dockyard = 2
@@ -30,8 +30,7 @@ state = {
 			}
 		}
 		add_core_of = SPR
-		set_state_flag = state_renamings
-		set_state_flag = GDP_category_town
+
 	}
 
 	provinces = {

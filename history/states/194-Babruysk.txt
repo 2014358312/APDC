@@ -17,10 +17,8 @@ state = {
 		}
 		buildings = {
 			infrastructure = 4
-			barracks = 1
 		}
 		add_core_of = SOV
-		set_state_flag = GDP_regions_belarus
 	}
 	provinces = {
 		304

@@ -8,10 +8,8 @@ state = { #Population Done
 		owner = USA
 		add_core_of = USA
 		buildings = {
-			
-			barracks = 1
-			
-			infrastructure = 6
+
+			infrastructure = 5
 			dockyard = 1
 		}
 		victory_points = { # Providence

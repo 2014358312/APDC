@@ -11,7 +11,6 @@ state = {
 		owner = INS
 		add_core_of = INS
 		buildings = {
-			barracks = 1
 			infrastructure = 3
 			
 			air_base = 1
@@ -26,7 +25,6 @@ state = {
 		victory_points = {
 			12129 1
 		}
-		set_state_flag = GDP_regions_kalimantan
 	}
 
 	provinces = {

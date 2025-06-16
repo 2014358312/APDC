@@ -6,8 +6,7 @@ state = {
 		owner = MEX
 		add_extra_state_shared_building_slots = 1
 		buildings = {
-			barracks = 1
-			
+
 			infrastructure = 2
 			radar_station = 1
 			air_base = 1

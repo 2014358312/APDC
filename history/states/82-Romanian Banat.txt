@@ -4,7 +4,6 @@ state = { #Population Done
 	manpower = 1139969
 	resources = {
 		aluminium = 6
-		uranium = 4
 	}
 
 	state_category = town
@@ -14,9 +13,6 @@ state = { #Population Done
 		buildings = {
 			infrastructure = 4
 			
-			
-			
-			barracks = 1
 			
 		}
 		add_core_of = ROM
@@ -29,7 +25,6 @@ state = { #Population Done
 		victory_points = {
 			662 3
 		}
-		set_state_flag = GDP_category_large_city
 	}
 
 	provinces = {

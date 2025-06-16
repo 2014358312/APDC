@@ -21,10 +21,6 @@ state = {
 		}
 		buildings = {
 			
-			barracks = 1
-			
-			
-			
 			
 			infrastructure = 5
 			radar_station = 1

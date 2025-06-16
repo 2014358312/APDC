@@ -8,7 +8,6 @@ state = {
 			15457 5
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 1
 			air_base = 1
 		}

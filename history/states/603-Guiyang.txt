@@ -5,7 +5,6 @@ state = {
 		owner = PRC
 		add_core_of = PRC
 		buildings = {
-			barracks = 1
 			infrastructure = 4
 		}
 		victory_points = {

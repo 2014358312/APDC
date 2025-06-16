@@ -7,13 +7,11 @@ state = {
 		buildings = {
 			infrastructure = 4
 			air_base = 2
-			barracks = 1
 		}
 		victory_points = {
 			792 1
 		}
 		add_core_of = LEB
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

@@ -8,18 +8,14 @@ state = { #Population Done
 	history = {
 		owner = FRA
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			
-			
-			barracks = 1
-			
-			
+
 		}
 		add_core_of = FRA
 		
 		victory_points = { 9507 10 }
 		victory_points = { 9725 1 }
-		set_state_flag = GDP_regions_paris
 	}
 	manpower = 1248824
 	buildings_max_level_factor = 1.000

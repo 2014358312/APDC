@@ -6,8 +6,6 @@ state = {
 		aluminium = 25.000
 		chromium = 4.000
 		tungsten = 2.000
-		power = 3.000
-		uranium = 4.000
 	}
 
 	history = {

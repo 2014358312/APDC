@@ -10,9 +10,6 @@ state = {
 		}
 		buildings = {
 			
-			
-			barracks = 1
-			offices = 4
 			infrastructure = 7
 			air_base = 2
 			radar_station = 2

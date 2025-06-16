@@ -8,9 +8,8 @@ state = {
 	}
 	history = {
 		owner = SOV
-		add_extra_state_shared_building_slots = 3
 		buildings = {
-			barracks = 1
+
 			infrastructure = 4
 		}
 		victory_points = {

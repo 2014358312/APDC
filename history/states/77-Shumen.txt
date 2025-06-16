@@ -21,7 +21,6 @@ state = {
 			9783 = {
 				naval_base = 5
 			}
-			barracks = 1
 		}
 		add_core_of = BUL
 	}

@@ -3,7 +3,6 @@ state = {
 	name = "STATE_2446"
 	resources = {
 		steel = 20.000
-		power = 4.000
 	}
 
 	history = {
@@ -14,7 +13,6 @@ state = {
 		buildings = {
 			infrastructure = 2
 			air_base = 2
-			barracks = 1
 		}
 		victory_points = {
 			15511 10

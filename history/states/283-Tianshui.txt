@@ -14,10 +14,7 @@ state = {
 		buildings = {
 			infrastructure = 2
 			radar_station = 2
-			barracks = 2
 		}
-		set_variable = { china_state_ref = 40 }
-		set_variable = { china_region_ref = 5 }
 	}
 
 	provinces = {

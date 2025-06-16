@@ -9,11 +9,8 @@ state = {
 		owner = USA
 		buildings = {
 			
-			
-			
-			barracks = 1
-			
-			infrastructure = 6
+
+			infrastructure = 5
 			air_base = 2
 			dockyard = 2
 			nuclear_reactor = 1

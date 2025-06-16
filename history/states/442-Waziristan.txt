@@ -14,7 +14,7 @@ state = {
 	}
 	resources = {
 		chromium = 4
-		uranium = 4
+
 	}
 	provinces = {
 		16003

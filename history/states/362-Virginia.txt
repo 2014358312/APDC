@@ -6,11 +6,9 @@ state = {
 		owner = USA
 		buildings = {
 			
-			
-			
-			barracks = 1
+
 			radar_station = 1
-			infrastructure = 6
+			infrastructure = 5
 			dockyard = 4
 			air_base = 10
 			788 = {

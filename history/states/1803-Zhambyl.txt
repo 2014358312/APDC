@@ -5,7 +5,6 @@ state = {
 		steel = 5
 		tungsten = 3
 		aluminium = 2
-		uranium = 1
 	}
 	history = {
 		owner = SOV
@@ -29,7 +28,6 @@ state = {
 			4773
 			3
 		}
-		set_state_flag = state_renamings
 	}
 	provinces = {
 		4492

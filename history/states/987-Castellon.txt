@@ -11,12 +11,9 @@ state = {
 			9896 2
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 5
 		}
 		add_core_of = SPR
-		set_state_flag = state_renamings
-		set_state_flag = GDP_category_city
 	}
 
 	provinces = {

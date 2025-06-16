@@ -32,7 +32,6 @@ state = {
 		}
 		add_core_of = SPR
 		buildings = {
-			barracks = 1
 			infrastructure = 5
 		}
 	}

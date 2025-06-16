@@ -2,7 +2,6 @@ state = {
 	id = 216
 	name = "STATE_216"
 	resources = {
-		uranium = 4
 		steel = 20
 	}
 	history = {
@@ -28,7 +27,6 @@ state = {
 			radar_station = 2
 			air_base = 3
 			anti_air_building = 2
-			barracks = 1
 			11159 = {
 				bunker = 5
 			}

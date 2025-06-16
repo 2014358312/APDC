@@ -8,7 +8,6 @@ state = {
 		owner = PRC
 		add_core_of = PRC
 		buildings = {
-			barracks = 1
 			infrastructure = 3
 		}
 		victory_points = {
@@ -18,12 +17,6 @@ state = {
 		victory_points = {
 			7294
 			3
-		}
-		set_variable = {
-			china_state_ref = 21
-		}
-		set_variable = {
-			china_region_ref = 2
 		}
 	}
 	provinces = {

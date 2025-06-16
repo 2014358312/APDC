@@ -9,10 +9,6 @@ state = {
 		owner = ECU
 		buildings = {
 			
-			
-			
-			barracks = 1
-			
 			infrastructure = 3
 			air_base = 1
 			

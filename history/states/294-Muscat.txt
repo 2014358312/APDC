@@ -10,14 +10,12 @@ state = {
 			13458 = {
 				naval_base = 3
 			}
-			barracks = 1
 			
 		}
 		victory_points = {
 			13458 3
 		}
 		add_core_of = OMA
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

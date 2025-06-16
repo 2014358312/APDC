@@ -9,7 +9,6 @@ state = {
 			4
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 4
 			11595 = {
 				bunker = 5
@@ -18,8 +17,6 @@ state = {
 				bunker = 5
 			}
 		}
-		set_state_flag = state_renamings
-		set_state_flag = GDP_regions_veneto
 	}
 	provinces = {
 		11595

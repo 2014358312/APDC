@@ -14,7 +14,6 @@ state = {
 			radar_station = 1
 			dockyard = 2
 			air_base = 3
-			barracks = 2
 			7798 = {
 				naval_base = 4
 				coastal_bunker = 1

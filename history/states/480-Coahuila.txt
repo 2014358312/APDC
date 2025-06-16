@@ -9,7 +9,6 @@ state = {
 	history = {
 		owner = MEX
 		buildings = {
-			barracks = 4
 			infrastructure = 2
 			air_base = 2
 		}

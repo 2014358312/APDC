@@ -9,7 +9,6 @@ state = {
 	history = {
 		buildings = {
 			infrastructure = 2
-			barracks = 1
 		}
 		owner = MAL
 		add_core_of = MAL

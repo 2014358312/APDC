@@ -5,18 +5,15 @@ state = {
 	resources = {
 		steel = 4
 		chromium = 8
-		power = 1
 	}
 
 	history = {
 		owner = ALB
 		buildings = {
-			barracks = 1
 			infrastructure = 3
 		}
 		victory_points = { 9875 2 }
 		add_core_of = ALB
-		set_state_flag = GDP_regions_albania
 	}
 
 	provinces = {

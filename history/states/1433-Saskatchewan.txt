@@ -39,7 +39,7 @@ state = {
 		victory_points = { # La Ronge
 			1671 1
 		}
-		victory_points = { # Uranium City
+		victory_points = { #   City
 			4695 1
 		}
 	}

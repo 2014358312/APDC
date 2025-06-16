@@ -11,9 +11,6 @@ state = {
 		owner = MEX
 		buildings = {
 			
-			barracks = 1
-			
-			
 			infrastructure = 3
 			dockyard = 1
 			air_base = 1

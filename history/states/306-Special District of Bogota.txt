@@ -2,7 +2,6 @@ state = {
 	id = 306
 	name = "STATE_306"
 	resources = {
-		power = 6
 		steel = 4
 		aluminium = 2
 	}
@@ -12,8 +11,7 @@ state = {
 		add_core_of = CLC
 		add_core_of = CLL
 		buildings = {
-			infrastructure = 6
-			barracks = 1
+			infrastructure = 5
 			air_base = 4
 			15316 = {
 				bunker = 6

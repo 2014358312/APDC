@@ -15,19 +15,11 @@ state = {
 			14632
 			1
 		}
-		set_variable = {
-			china_state_ref = 56
-		}
-		set_variable = {
-			china_region_ref = 7
-		}
-		set_state_flag = state_renamings
+		
 		buildings = {
-			barracks = 1
 			infrastructure = 3
 		}
 		add_core_of = PRC
-		#set_state_flag = state_category_pastoral
 	}
 	provinces = {
 		1502

@@ -6,7 +6,6 @@ state = {
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 3
-			barracks = 1
 		}
 		victory_points = {
 			10619
@@ -24,7 +23,6 @@ state = {
 			10550
 			2
 		}
-		set_state_flag = state_renamings
 	}
 	provinces = {
 		13197

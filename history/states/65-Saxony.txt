@@ -4,7 +4,6 @@ state = { #Population Done
 
 	resources = {
 		steel = 87
-		uranium = 6
 	}
 
 	manpower = 6082802
@@ -22,14 +21,12 @@ state = { #Population Done
 		victory_points = { 15842 5 }
 
 		buildings = {
-			
-			barracks = 1
+
 			infrastructure = 5
 			
 			
 			nuclear_reactor = 1
 		}
-		set_state_flag = GDP_category_city
 	}
 
 	provinces = {

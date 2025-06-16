@@ -2,9 +2,7 @@ state = {
 	id = 424
 	name = "STATE_424"
 	resources = {
-		power = 2
 		chromium = 7
-		uranium = 6
 	}
 	history = {
 		owner = PAK
@@ -46,9 +44,6 @@ state = {
 			1228
 			7
 		}
-		#victory_points = { # Machilipatnam - double vp in province
-		#	7340 5
-		#}
 		victory_points = {
 			1344
 			10
@@ -66,7 +61,6 @@ state = {
 				bunker = 1
 			}
 		}
-		set_state_flag = GDP_regions_andhra_pradesh
 	}
 	provinces = {
 		1228

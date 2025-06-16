@@ -12,9 +12,7 @@ state = { #Population Done
 		owner = GUA
 		buildings = {
 			infrastructure = 3
-			
-			
-			barracks = 1
+
 			air_base = 1
 			
 			10886 = {

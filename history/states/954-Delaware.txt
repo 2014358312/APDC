@@ -9,8 +9,6 @@ state = { #Population Done
 		add_core_of = USA
 		buildings = {
 			
-			barracks = 2
-			
 			infrastructure = 5
 			air_base = 3
 		}

@@ -2,7 +2,7 @@ state = {
 	id = 2421
 	name = "STATE_2421"
 	resources = {
-		uranium = 4
+
 	}
 
 	history = {
@@ -17,10 +17,6 @@ state = {
 		buildings = {
 			infrastructure = 2
 		}
-		set_state_flag = GDP_regions_shanxi
-		set_variable = { china_state_ref = 14 }
-		set_variable = { china_region_ref = 1 }
-		set_state_flag = GDP_category_town
 	}
 
 	provinces = {

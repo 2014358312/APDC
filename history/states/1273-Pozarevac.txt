@@ -4,7 +4,7 @@ state = {
 
 	resources = {
 		steel = 2
-		uranium = 2
+
 	}
 
 	history = {

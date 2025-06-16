@@ -6,15 +6,12 @@ state = {
 		owner = SAF
 		buildings = {
 			
-			barracks = 1
-			
 			infrastructure = 2
 			air_base = 1
 		}
 		victory_points = {
 			13530 7
 		}
-		set_state_flag = state_renamings
 		add_core_of = SAF
 	}
 

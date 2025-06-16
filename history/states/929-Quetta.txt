@@ -3,7 +3,6 @@ state = {
 	name = "STATE_929"
 	resources = {
 		chromium = 4
-		uranium = 4
 	}
 	history = {
 		owner = PAK
@@ -12,7 +11,6 @@ state = {
 		add_claim_by = IND
 		buildings = {
 			infrastructure = 4
-			barracks = 1
 		}
 		victory_points = {
 			15993

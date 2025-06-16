@@ -4,7 +4,6 @@ state = {
 	resources = {
 		steel = 4
 		oil = 12
-		uranium = 2
 	}
 	history = {
 		owner = RZE

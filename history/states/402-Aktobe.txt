@@ -11,7 +11,6 @@ state = {
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			barracks = 2
 		}
 		victory_points = {
 			4294
@@ -30,7 +29,6 @@ state = {
 			1
 		}
 		add_core_of = SOV
-		set_state_flag = state_renamings
 	}
 	provinces = {
 		1220

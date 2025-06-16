@@ -2,9 +2,7 @@ state = {
 	id = 996
 	name = "STATE_996"
 	resources = {
-		power = 5
 		tungsten = 14
-		uranium = 6
 	}
 	provinces = {
 		794 874 939 3845 3874 6867 9770 9800

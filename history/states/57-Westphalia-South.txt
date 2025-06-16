@@ -25,13 +25,11 @@ state = {
 		}
 		buildings = {
 			
-			barracks = 1
-			
+
 			infrastructure = 7
 			air_base = 4
 			
 		}
-		set_state_flag = GDP_category_large_city
 	}
 
 	provinces = {

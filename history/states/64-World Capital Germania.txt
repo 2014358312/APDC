@@ -7,10 +7,8 @@ state = { #Population Done
 		victory_points = { 6521 70 }
 		buildings = {
 			
-			
-			barracks = 1
-			
-			infrastructure = 8
+
+			infrastructure = 5
 			
 			radar_station = 2
 			anti_air_building = 4

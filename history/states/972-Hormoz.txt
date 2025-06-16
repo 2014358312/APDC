@@ -3,7 +3,6 @@ state = {
 	name = "STATE_972"
 	resources = {
 		oil = 22
-		uranium = 2
 		steel = 2
 	}
 	history = {

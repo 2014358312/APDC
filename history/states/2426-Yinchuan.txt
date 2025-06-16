@@ -3,8 +3,6 @@ state = {
 	name = "STATE_2426"
 	resources = {
 		oil = 6.000
-		power = 2.000
-		uranium = 6.000
 	}
 
 	history = {
@@ -25,9 +23,6 @@ state = {
 		buildings = {
 			infrastructure = 3
 		}
-		set_variable = { china_state_ref = 40 }
-		set_variable = { china_region_ref = 5 }
-		set_state_flag = GDP_category_town
 	}
 
 

@@ -13,12 +13,10 @@ state = {
 			11502 10
 		}
 		buildings = {
-			barracks = 3
 			infrastructure = 4
 			
 			anti_air_building = 5
 		}
-		set_state_flag = GDP_category_city
 	}
 
 	provinces = {

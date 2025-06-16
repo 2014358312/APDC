@@ -2,13 +2,12 @@ state = {
 	id = 888
 	name = "STATE_888"
 	resources = {
-		power = 1
+
 	}
 	history = {
 		owner = SOV
 		buildings = {
 			infrastructure = 1
-			barracks = 1
 		}
 		victory_points = {
 			12595

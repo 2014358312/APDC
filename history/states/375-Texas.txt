@@ -6,15 +6,11 @@ state = {
 	resources = {
 		aluminium = 76
 		oil = 183
-		uranium = 6
 	}
 	history = {
 		owner = USA
 		add_core_of = USA
 		buildings = {
-			
-			
-			barracks = 4
 			
 			infrastructure = 5
 			radar_station = 3

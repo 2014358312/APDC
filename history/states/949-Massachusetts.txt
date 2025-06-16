@@ -10,10 +10,8 @@ state = {
 		add_core_of = USA
 		buildings = {
 			
-			
-			barracks = 1
-			
-			infrastructure = 6
+
+			infrastructure = 5
 			radar_station = 2
 			dockyard = 2
 			air_base = 10

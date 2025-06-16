@@ -4,8 +4,7 @@ state = {
 	manpower = 1
 	state_category = rural
 	resources = {
-		power = 3
-		#uranium = 13
+
 	}
 	history = {
 		owner = ZZZ

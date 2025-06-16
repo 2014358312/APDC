@@ -4,7 +4,6 @@ state = {
 	history = {
 		owner = SOV
 		buildings = {
-			barracks = 1
 			infrastructure = 2
 			dockyard = 2
 			7878 = {

@@ -13,11 +13,9 @@ state = {
 		add_core_of = INS
 		buildings = {
 			
-			barracks = 1
 			infrastructure = 5
 			air_base = 1
 		}
-		set_state_flag = GDP_regions_riau
 	}
 
 	provinces = {

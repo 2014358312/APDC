@@ -8,7 +8,6 @@ state = { #Population Done
 	resources = {
 		steel = 63
 		aluminium = 58
-		uranium = 6
 	}
 
 	history = {
@@ -17,8 +16,6 @@ state = { #Population Done
 			
 			infrastructure = 4
 			radar_station = 2
-			
-			barracks = 1
 		}
 		victory_points = { 3768 5 }
 		victory_points = { 6784 5 }

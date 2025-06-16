@@ -3,7 +3,6 @@ state = {
 	name = "STATE_2424"
 	resources = {
 		oil = 4.000
-		uranium = 6.000
 	}
 
 	history = {
@@ -21,8 +20,6 @@ state = {
 		buildings = {
 			infrastructure = 2
 		}
-		set_variable = { china_state_ref = 40 }
-		set_variable = { china_region_ref = 5 }
 	}
 
 	provinces = {

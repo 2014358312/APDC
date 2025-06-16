@@ -2,9 +2,7 @@ state = {
 	id = 2195
 	name = "STATE_2195"
 	resources = {
-		uranium = 2
 		tungsten = 12
-		power = 2
 	}
 	history = {
 		owner = SOV
@@ -32,7 +30,7 @@ state = {
 			1
 		}
 		add_core_of = SOV
-		set_state_flag = state_renamings
+
 	}
 	provinces = {
 		18685

@@ -12,10 +12,6 @@ state = { #Population Done
 			infrastructure = 5
 			dockyard = 2
 			air_base = 5
-			barracks = 1
-			
-			
-			
 			
 			9550 = {
 				coastal_bunker = 3

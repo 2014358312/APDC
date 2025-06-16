@@ -5,9 +5,7 @@ state = {
 	history = {
 		owner = VEN
 		buildings = {
-			barracks = 3
-			
-			
+
 			
 			infrastructure = 5
 			air_base = 2

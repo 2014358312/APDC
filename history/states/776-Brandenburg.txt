@@ -35,8 +35,7 @@ state = {
 			6
 		}
 		buildings = {
-			barracks = 1
-			infrastructure = 6
+			infrastructure = 5
 			radar_station = 2
 			air_base = 6
 			anti_air_building = 3

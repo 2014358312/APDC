@@ -9,9 +9,6 @@ state = {
 		owner = SAF
 		buildings = {
 			
-			
-			barracks = 1
-			
 			infrastructure = 3
 			dockyard = 2
 			
@@ -41,7 +38,6 @@ state = {
 			13503 1
 		}
 		add_core_of = SAF
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

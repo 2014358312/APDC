@@ -20,10 +20,7 @@ state = {
 		buildings = {
 			
 			
-			
-			
-			
-			barracks = 1
+
 			infrastructure = 4
 			radar_station = 2
 			synthetic_refinery = 2
@@ -34,8 +31,7 @@ state = {
 			}
 			dockyard = 2
 		}
-		add_extra_state_shared_building_slots = 2
-		set_state_flag = state_renamings
+
 	}
 
 	provinces = {

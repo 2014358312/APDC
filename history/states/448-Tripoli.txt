@@ -6,7 +6,6 @@ state = {
 		owner = LBA
 		victory_points = { 1149 10 }
 		buildings = {
-			barracks = 1
 			
 			infrastructure = 5
 			radar_station = 1

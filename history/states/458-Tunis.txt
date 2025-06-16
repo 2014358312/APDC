@@ -7,10 +7,7 @@ state = {
 		add_core_of = TUN
 		victory_points = { 11969 20 }
 		buildings = {
-			
-			
-			barracks = 1
-			
+
 			infrastructure = 5
 			air_base = 8
 		}

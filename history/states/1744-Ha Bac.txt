@@ -12,7 +12,6 @@ state = {
 		add_core_of = VIC
 		buildings = {
 			infrastructure = 3
-			barracks = 1
 		}
 		victory_points = { 12048 5 }
 		victory_points = { 19086 1 }

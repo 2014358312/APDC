@@ -3,7 +3,6 @@ state = {
 	name = "STATE_978"
 
 	resources = {
-		uranium = 6
 		steel = 18
 	}
 
@@ -21,7 +20,6 @@ state = {
 		victory_points = {
 			15152 1
 		}
-		set_state_flag = GDP_category_city
 	}
 
 	provinces = {

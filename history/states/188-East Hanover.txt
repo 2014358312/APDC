@@ -19,9 +19,7 @@ state = { #Population Done
 		victory_points = { 6298 6 }
 
 		buildings = {
-			
-			barracks = 2
-			
+
 			infrastructure = 5
 			dockyard = 2
 
@@ -31,7 +29,6 @@ state = { #Population Done
 			}
 			374 = { coastal_bunker = 2 }
 		}
-		set_state_flag = GDP_category_city
 	}
 	provinces = {
 		6377 3271 3326 374 6349 6325 6263 6218 6298 9264

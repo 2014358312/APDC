@@ -30,8 +30,7 @@ state = {
 			571 3
 		}
 		buildings = {
-			barracks = 1
-			
+
 			infrastructure = 5
 			
 		}

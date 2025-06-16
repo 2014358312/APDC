@@ -21,10 +21,8 @@ state = {
 		}
 		buildings = {
 			
-			
-			barracks = 1
-			
-			infrastructure = 7
+
+			infrastructure = 5
 			air_base = 4
 			dockyard = 1
 			

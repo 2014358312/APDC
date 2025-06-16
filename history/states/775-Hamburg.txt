@@ -13,10 +13,8 @@ state = {
 
 		buildings = {
 			
-			
-			barracks = 2
-			prisons = 4
-			infrastructure = 7
+
+			infrastructure = 5
 			dockyard = 3
 			air_base = 3
 			radar_station = 1

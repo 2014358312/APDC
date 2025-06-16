@@ -31,11 +31,7 @@ state = {
 			infrastructure = 5
 			air_base = 1
 			dockyard = 2
-			
-			
-			
-			barracks = 1
-			
+
 			9736 = {
 				bunker = 2
 			}

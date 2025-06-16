@@ -4,7 +4,7 @@ state = {
 
 	resources = {
 		oil = 6
-		uranium = 2
+
 	}
 
 	history = {
@@ -29,8 +29,7 @@ state = {
 		victory_points = {
 			19926 7
 		}
-		set_variable = { china_state_ref = 15 }
-		set_variable = { china_region_ref = 2 }
+
 	}
 
 	provinces = {

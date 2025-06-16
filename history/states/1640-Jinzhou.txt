@@ -2,7 +2,6 @@ state = {
 	id = 1640
 	name = "STATE_1640"
 	resources = {
-		power = 2
 		aluminium = 8
 	}
 	history = {
@@ -31,8 +30,7 @@ state = {
 			china_state_ref = 48
 		}
 		buildings = {
-			infrastructure = 6
-			barracks = 2
+			infrastructure = 5
 		}
 		add_core_of = PRC
 	}

@@ -17,13 +17,11 @@ state = {
 		owner = SPR
 		add_core_of = SPR
 		buildings = {
-			barracks = 1
 			infrastructure = 5
 			9817 = {
 				naval_base = 7
 			}
 		}
-		set_state_flag = GDP_regions_portugal
 	}
 	state_category = city
 	manpower = 2021133

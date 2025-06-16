@@ -4,7 +4,6 @@ state = {
 	resources = {
 		steel = 36.000
 		aluminium = 9.000
-		power = 3.000
 	}
 
 	history = {
@@ -26,10 +25,8 @@ state = {
 			3558 3
 		}
 		buildings = {
-			infrastructure = 6
-			barracks = 2
-			
-			
+			infrastructure = 5
+	
 			
 		}
 	}

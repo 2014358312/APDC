@@ -5,10 +5,7 @@ state = {
 	history = {
 		owner = USA
 		buildings = {
-			
-			
-			
-			barracks = 1
+
 			infrastructure = 5
 			7202 = {
 				naval_base = 2

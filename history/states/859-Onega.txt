@@ -9,7 +9,6 @@ state = {
 		owner = SOV
 		buildings = {
 			infrastructure = 3
-			barracks = 1
 			air_base = 1
 			3092 = {
 				bunker = 1

@@ -10,7 +10,6 @@ state = {
 		add_core_of = SIA
 		buildings = {
 			
-			barracks = 1
 			infrastructure = 3
 		}
 		victory_points = {
@@ -19,7 +18,6 @@ state = {
 		victory_points = {
 			1990 1
 		}
-		set_state_flag = GDP_regions_north_thailand
 	}
 
 	provinces = {

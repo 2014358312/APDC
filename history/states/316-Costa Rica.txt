@@ -14,9 +14,6 @@ state = { #Population Done
 		owner = COS
 		buildings = {
 			infrastructure = 3
-			
-			
-			barracks = 1
 			air_base = 1
 			
 			13087 = {

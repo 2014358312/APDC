@@ -4,7 +4,7 @@ state = {
 	resources = {
 		oil = 6
 		steel = 8
-		uranium = 2
+
 	}
 	history = {
 		owner = TUR
@@ -16,7 +16,6 @@ state = {
 		victory_points = { 16206 2 }
 		buildings = {
 			infrastructure = 4
-			barracks = 1
 			
 		}
 		add_core_of = TUR

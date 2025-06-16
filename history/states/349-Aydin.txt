@@ -5,7 +5,6 @@ state = { #Population Done
 
 	resources = {
 		chromium = 22
-		uranium = 8
 	}
 
 	state_category = town

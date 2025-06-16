@@ -13,13 +13,11 @@ state = { #Population Done
 		owner = LUX
 		add_core_of = LUX
 		buildings = {
-			barracks = 1
-			
+
 			infrastructure = 5
 			
 		}
 		victory_points = { 6583 7 }
-		set_state_flag = GDP_category_large_city
 	}
 
 	provinces = {

@@ -2,7 +2,7 @@ state = {
 	id = 237
 	name = "STATE_237"
 	resources = {
-		uranium = 8
+
 	}
 	history = {
 		owner = SOV
@@ -18,7 +18,6 @@ state = {
 			infrastructure = 2
 			radar_station = 2
 			air_base = 7
-			barracks = 1
 		}
 		add_core_of = SOV
 	}

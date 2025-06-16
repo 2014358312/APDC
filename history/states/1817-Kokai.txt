@@ -4,11 +4,9 @@ state = {
 	resources = {
 		steel = 16
 		tungsten = 13
-		uranium = 5
 	}
 	history = {
 		owner = ZZZ
-		add_core_of = KOR
 		add_core_of = ZZZ
 
 	}

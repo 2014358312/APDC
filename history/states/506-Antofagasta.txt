@@ -10,8 +10,6 @@ state = {
 	history = {
 		owner = CHL
 		buildings = {
-			barracks = 3
-			
 			infrastructure = 3
 			radar_station = 2
 			air_base = 2

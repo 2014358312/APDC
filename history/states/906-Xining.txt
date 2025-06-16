@@ -6,7 +6,6 @@ state = {
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 3
-			barracks = 1
 		}
 		victory_points = {
 			19757

@@ -2,7 +2,6 @@ state = {
 	id = 1802
 	name = "STATE_1802"
 	resources = {
-		uranium = 11
 		steel = 14
 	}
 	history = {
@@ -35,7 +34,7 @@ state = {
 			18669
 			1
 		}
-		set_state_flag = state_renamings
+
 	}
 	provinces = {
 		4686
