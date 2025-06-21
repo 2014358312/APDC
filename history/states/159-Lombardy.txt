@@ -2,7 +2,7 @@ state = {
 	id = 159
 	name = "STATE_159"
 	resources = {
-		power = 6.000
+
 	}
 
 	history = {
@@ -49,7 +49,7 @@ state = {
 		buildings = {
 			
 			
-			infrastructure = 6
+			infrastructure = 5
 			air_base = 10
 		}
 		add_core_of = ITA

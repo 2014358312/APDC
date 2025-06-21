@@ -7,7 +7,7 @@ state = {
 	history = {
 		owner = SOV
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			air_base = 4
 		}
 		victory_points = {
@@ -15,7 +15,6 @@ state = {
 			15
 		}
 		add_core_of = SOV
-		set_state_flag = GDP_regions_lithuania
 	}
 	provinces = {
 		3320

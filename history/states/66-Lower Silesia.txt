@@ -43,7 +43,7 @@ state = {
 			2
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			air_base = 6
 			nuclear_reactor = 1
 		}

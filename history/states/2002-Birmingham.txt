@@ -4,14 +4,13 @@ state = {
 
 	resources = {
 		steel = 22
-		power = 1
 	}
 
 	history = {
 		owner = ENG
 		victory_points = { 9297 30 }
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			
 			
 		}

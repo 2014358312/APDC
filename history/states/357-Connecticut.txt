@@ -9,7 +9,7 @@ state = {
 			
 			
 			
-			infrastructure = 6
+			infrastructure = 5
 			dockyard = 1
 			nuclear_reactor = 2
 			9832 = {

@@ -10,12 +10,11 @@ state = {
 			50
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			anti_air_building = 1
 			air_base = 2
 		}
 		add_core_of = FRA
-		set_state_flag = GDP_regions_paris
 	}
 	provinces = {
 		9523

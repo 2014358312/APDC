@@ -9,7 +9,7 @@ state = {
 		owner = PER
 		buildings = {
 			
-			infrastructure = 6
+			infrastructure = 5
 			radar_station = 1
 			
 			

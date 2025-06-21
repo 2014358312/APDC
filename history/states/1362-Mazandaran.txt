@@ -12,7 +12,7 @@ state = {
 			
 			
 			
-			infrastructure = 6
+			infrastructure = 5
 		}
 		victory_points = {
 			18801 4
@@ -36,7 +36,6 @@ state = {
 			18776 1
 		}
 		add_core_of = PER
-		set_state_flag = GDP_category_large_city
 	}
 
 	provinces = {

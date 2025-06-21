@@ -7,7 +7,7 @@ state = {
 	history = {
 		owner = USA
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			radar_station = 2
 		}
 		add_core_of = CAN
@@ -36,7 +36,7 @@ state = {
 			17262
 			1
 		}
-		set_state_flag = GDP_regions_quebec
+
 	}
 	provinces = {
 		1341
