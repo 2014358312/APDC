@@ -12,7 +12,6 @@ state = {
 			17035 5
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 2
 		}
 	}

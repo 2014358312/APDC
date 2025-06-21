@@ -5,7 +5,6 @@ state = {
 	history = {
 		owner = CHL
 		buildings = {
-			barracks = 1
 			infrastructure = 2
 			14866 = {
 				naval_base = 3
@@ -15,7 +14,6 @@ state = {
 		victory_points = {
 			14866 5
 		}
-		set_state_flag = GDP_regions_tarapaca
 	}
 
 	provinces = {

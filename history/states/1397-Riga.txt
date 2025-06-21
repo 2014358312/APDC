@@ -12,13 +12,12 @@ state = {
 			20
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			anti_air_building = 2
 			1925 = {
 				bunker = 3
 				naval_base = 6
 			}
-			barracks = 1
 		}
 	}
 	provinces = {

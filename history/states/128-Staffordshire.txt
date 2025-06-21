@@ -2,15 +2,12 @@ state = {
 	id = 128
 	name = "STATE_128"
 	resources = {
-		power = 1
+	
 	}
 
 	history = {
 		owner = ENG
 		buildings = {
-			barracks = 1
-			
-			
 			
 			infrastructure = 5
 			air_base = 2

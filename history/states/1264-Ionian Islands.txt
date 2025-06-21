@@ -8,7 +8,6 @@ state = {
 		victory_points = { 10203 1 }
 		buildings = {
 			
-			barracks = 1
 			radar_station = 1
 			infrastructure = 4
 			dockyard = 1
@@ -18,7 +17,6 @@ state = {
 		}
 		add_core_of = GRE
 		add_core_of = ITA
-		set_state_flag = state_renamings
 	}
 
 	provinces = {

@@ -6,7 +6,6 @@ state = {
 	history = {
 		owner = ARG
 		buildings = {
-			barracks = 1
 			infrastructure = 3
 		}
 		victory_points = {
@@ -22,7 +21,6 @@ state = {
 			1
 		}
 		add_core_of = ARG
-		set_state_flag = GDP_regions_santa_fe
 	}
 	provinces = {
 		2172

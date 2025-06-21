@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1618"
 	manpower = 212253
 	resources = {
-		power = 2
+
 	}
 
 	state_category = rural
@@ -14,9 +14,6 @@ state = {
 		victory_points = { 2194 10 }
 		buildings = {
 			infrastructure = 3
-			barracks = 1
-			
-			
 			
 		}
 	}

@@ -17,10 +17,8 @@ state = {
 			1
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 4
 		}
-		set_state_flag = GDP_category_town
 	}
 	provinces = {
 		3470

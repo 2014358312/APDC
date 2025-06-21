@@ -7,7 +7,6 @@ state = {
 		add_core_of = ANG
 		buildings = {
 			
-			barracks = 1
 			infrastructure = 2
 			17933 = {
 				naval_base = 4

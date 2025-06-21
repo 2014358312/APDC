@@ -7,10 +7,6 @@ state = {
 		buildings = {
 			infrastructure = 3
 			
-			
-			
-			barracks = 1
-			
 			air_base = 1
 			
 		}
@@ -18,7 +14,6 @@ state = {
 		victory_points = {
 			5179 15
 		}
-		set_state_flag = GDP_category_pastoral
 	}
 
 	provinces = {

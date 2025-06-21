@@ -12,7 +12,6 @@ state = {
 			2
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 4
 			3790 = {
 				naval_base = 2
@@ -22,7 +21,6 @@ state = {
 			}
 		}
 		add_core_of = SPR
-		set_state_flag = GDP_regions_portugal
 	}
 	provinces = {
 		3790

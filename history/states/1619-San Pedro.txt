@@ -12,10 +12,6 @@ state = {
 		victory_points = { 15270 5 }
 		buildings = {
 			infrastructure = 3
-			barracks = 1
-			
-			
-			
 		}
 		set_state_flag = state_renamings
 	}

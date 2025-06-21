@@ -8,8 +8,6 @@ state = {
 	history = {
 		owner = CHL
 		buildings = {
-			
-			barracks = 1
 			infrastructure = 3
 			radar_station = 2
 		}
@@ -17,7 +15,6 @@ state = {
 		victory_points = {
 			14838 2
 		}
-		set_state_flag = GDP_regions_valparaiso
 	}
 
 	provinces = {

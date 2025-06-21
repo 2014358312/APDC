@@ -11,18 +11,13 @@ state = {
 		victory_points = { 11805 4 }
 		victory_points = { 3861 3 }
 		buildings = {
-			
-			barracks = 1
-			
-			
+
 			infrastructure = 5
 			air_base = 5
 			radar_station = 1
 			dockyard = 3
 		}
 		add_core_of = SPR
-		set_state_flag = GDP_regions_portugal
-		set_state_flag = GDP_category_city
 	}
 
 	provinces = {

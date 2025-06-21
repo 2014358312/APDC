@@ -5,7 +5,6 @@ state = {
 	history = {
 		owner = ARG
 		buildings = {
-			barracks = 1
 			infrastructure = 3
 		}
 		add_core_of = ARG
@@ -18,8 +17,6 @@ state = {
 		victory_points = {
 			17500 2
 		}
-		set_state_flag = GDP_regions_la_plata
-		set_state_flag = GDP_category_town
 	}
 
 	provinces = {

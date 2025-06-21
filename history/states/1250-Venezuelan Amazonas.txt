@@ -5,16 +5,13 @@ state = {
 	history = {
 		owner = VEN
 		buildings = {
-			
-			barracks = 2
+
 			infrastructure = 1
 		}
-		add_extra_state_shared_building_slots = 3
 		add_core_of = VEN
 		victory_points = {
 			5317 3
 		}
-		set_state_flag = GDP_regions_bolivar
 	}
 
 	provinces = {

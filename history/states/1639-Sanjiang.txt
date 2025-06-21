@@ -30,7 +30,6 @@ state = {
 			china_state_ref = 49
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 4
 		}
 		add_core_of = PRC

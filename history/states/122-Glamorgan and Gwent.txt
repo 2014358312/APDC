@@ -7,7 +7,6 @@ state = {
 
 	resources = {
 		steel = 10
-		power = 3
 	}
 
 	history = {
@@ -16,10 +15,6 @@ state = {
 		victory_points = { 407 10 }
 		victory_points = { 16337 10 }
 		buildings = {
-			barracks = 1
-			
-			
-			
 			
 			infrastructure = 5
 			radar_station = 1
@@ -29,7 +24,6 @@ state = {
 			}
 		}
 		add_core_of = ENG
-		set_state_flag = GDP_regions_wales
 	}
 
 	provinces = {

@@ -8,13 +8,10 @@ state = {
 	history = {
 		owner = CHL
 		buildings = {
-			barracks = 1
-			
 			infrastructure = 2
 		}
 		add_core_of = CHL
 		victory_points = { 14810 6 }
-		set_state_flag = GDP_regions_los_lagos
 	}
 
 	provinces = {

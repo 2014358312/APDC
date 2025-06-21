@@ -9,8 +9,6 @@ state = {
 			
 			
 			dockyard = 2
-			
-			barracks = 1
 			air_base = 7
 			10980 = {
 				naval_base = 7
@@ -18,7 +16,6 @@ state = {
 		}
 		victory_points = { 10980 40 }
 		add_core_of = BRA
-		set_state_flag = GDP_regions_rio
 	}
 
 	provinces = {

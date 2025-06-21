@@ -8,7 +8,6 @@ state = {
 	history = {
 		owner = FRA
 		buildings = {
-			barracks = 1
 			infrastructure = 5
 			11420 = {
 				coastal_bunker = 3

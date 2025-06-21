@@ -28,7 +28,6 @@ state = {
 			1
 		}
 		buildings = {
-			barracks = 1
 			infrastructure = 5
 		}
 		add_core_of = PRC

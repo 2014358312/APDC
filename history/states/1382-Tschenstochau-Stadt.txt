@@ -12,11 +12,8 @@ state = {
 			10
 		}
 		buildings = {
-			infrastructure = 6
-			barracks = 1
+			infrastructure = 5
 		}
-		set_state_flag = state_renamings
-		set_state_flag = GDP_category_city
 	}
 	provinces = {
 		3586

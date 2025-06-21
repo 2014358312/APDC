@@ -11,11 +11,9 @@ state = {
 			10
 		}
 		buildings = {
-			infrastructure = 6
-			barracks = 1
+			infrastructure = 5
 		}
 		add_core_of = SOV
-		set_state_flag = GDP_regions_lithuania
 	}
 	provinces = {
 		14574

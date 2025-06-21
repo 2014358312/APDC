@@ -11,10 +11,8 @@ state = {
 		add_core_of = SPR
 
 		buildings = {
-			barracks = 1
 			infrastructure = 4
 		}
-		set_state_flag = GDP_category_city
 	}
 	manpower = 365468
 	buildings_max_level_factor = 1.000

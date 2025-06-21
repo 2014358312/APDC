@@ -11,13 +11,10 @@ state = {
 		victory_points = { 15523 50 }
 		buildings = {
 			
-			
-			barracks = 1
-			
-			
-			infrastructure = 6
+
+			infrastructure = 5
 		}
-		set_state_flag = GDP_category_metropolis
+
 	}
 	manpower = 2189081
 	buildings_max_level_factor = 1.000
