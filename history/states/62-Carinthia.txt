@@ -29,7 +29,6 @@ state = {
 		buildings = {
 			infrastructure = 4
 			radar_station = 2
-			  = 1
 			671 = {
 				bunker = 6
 			}
