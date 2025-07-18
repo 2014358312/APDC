@@ -1,0 +1,18 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_APDC_eventwindow_bg"
+		texturefile = "gfx/interface/APDC_country_event_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_APDC_event_pic_frame"
+		texturefile = "gfx/interface/APDC_event_pic_frame.dds"
+		alwaystransparent = yes
+	}
+	corneredTileSpriteType = {
+		name = "GFX_APDC_tiled_window_transparent"
+		size= { x=3 y=3 }
+		textureFile = "gfx//interface//tiles//tiled_window_transparent.dds"
+		alwaystransparent = yes
+	}
+}
