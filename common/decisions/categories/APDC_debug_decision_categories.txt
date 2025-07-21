@@ -1,0 +1,9 @@
+APDC_debug = {
+	icon = generic_political_discourse
+	visible = {
+		is_debug = yes
+	}
+	allowed = {
+		always = yes
+	}
+}

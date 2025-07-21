@@ -1,0 +1,15 @@
+APDC_debug = {
+	APDC_event_debug_1 = {
+		icon = generic_political_discourse
+		visible = {
+			is_debug = yes
+		}
+		available = {
+			always = yes
+		}
+		complete_effect = {
+			set_variable = { APDC_events = 1 }
+			country_event = APDC_debug_event.1
+		}
+	}
+}

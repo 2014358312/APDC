@@ -1,0 +1,15 @@
+﻿add_namespace = APDC_debug_event
+#测试事件1
+country_event = {
+	id = APDC_debug_event.1
+	title = APDC_debug_event.1.t
+	desc = APDC_debug_event.1.d
+	fire_only_once = no
+	is_triggered_only = yes
+	timeout_days = 10
+	picture = GFX_report_event_APDC_debug_event_1
+	option = {
+		name = APDC_debug_event.1.a	
+		
+	}
+}
