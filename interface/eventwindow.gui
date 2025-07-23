@@ -72,9 +72,9 @@ guiTypes = {
 				spriteType ="GFX_APDC_tiled_window_transparent"
 			}
 			iconType = {
-				name ="secondary_event_picture"
-				spriteType = "GFX_report_event_001"
-				position = { x = 605 y = 0 }
+				name ="APDC_secondary_event_pic"
+				spriteType = "APDC_secondary_event_pic"
+				position = { x = 609 y = 5 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes				
 			}
@@ -115,8 +115,8 @@ guiTypes = {
 
 			iconType = {
 				name ="event_picture"
-				spriteType = "GFX_report_event_001"
-				position = { x = 30 y = 0 }
+				quadTextureSprite = "GFX_report_event_001"
+				position = { x = 34 y = 5 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes				
 			}

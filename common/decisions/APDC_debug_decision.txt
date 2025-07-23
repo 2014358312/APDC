@@ -8,8 +8,19 @@ APDC_debug = {
 			always = yes
 		}
 		complete_effect = {
-			set_variable = { APDC_events = 1 }
-			country_event = APDC_debug_event.1
+			country_event = { id = APDC_events_trigger.1 }
+		}
+	}
+	APDC_event_debug_2 = {
+		icon = generic_political_discourse
+		visible = {
+			is_debug = yes
+		}
+		available = {
+			always = yes
+		}
+		complete_effect = {
+			country_event = { id = APDC_events_trigger.2 }
 		}
 	}
 }

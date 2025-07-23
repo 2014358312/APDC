@@ -1,0 +1,53 @@
+#	Example:
+#
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+APDC_close_event = {
+	clear_variable = APDC_country_events
+}
+#第一选项效果
+APDC_option_a_effects = {
+	if = {
+		limit = {
+			check_variable = { APDC_country_events = 1 } 
+		}
+		add_political_power = 3
+	}
+	else_if = {
+		limit = {
+			check_variable = { APDC_country_events = 2 }
+		}
+		add_political_power = 666
+	}
+}
+#第二选项效果
+APDC_option_b_effects = {
+	if = {
+		limit = {
+			check_variable = { APDC_country_events = 2 } 
+		}
+		add_stability = 0.1
+	}
+}
+#第三选项效果
+APDC_option_c_effects = {
+	if = {
+		limit = {
+			check_variable = { APDC_country_events = 1 }
+		}
+		add_political_power = 66
+	}
+}

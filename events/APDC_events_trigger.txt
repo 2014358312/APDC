@@ -1,0 +1,36 @@
+﻿add_namespace = APDC_events_trigger
+#用于触发事件
+#测试事件
+country_event = {
+	id = APDC_events_trigger.1
+	title = APDC_events_trigger.1.t
+	desc = APDC_events_trigger.1.d
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = yes
+	timeout_days = 10
+	picture = GFX_report_event_APDC_debug_event_1
+	immediate = {
+		set_variable = { APDC_country_events = 1 }
+	}
+	option = {
+		name = APDC_debug_event.1.a	
+	}
+}
+#第二个测试事件
+country_event = {
+	id = APDC_events_trigger.2
+	title = APDC_events_trigger.2.t
+	desc = APDC_events_trigger.2.d
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = yes
+	timeout_days = 10
+	picture = GFX_report_event_APDC_debug_event_1
+	immediate = {
+		set_variable = { APDC_country_events = 2 }
+	}
+	option = {
+		name = APDC_debug_event.2.a	
+	}
+}

@@ -1,0 +1,26 @@
+#国家事件第一图片需在此编辑
+defined_text = { 
+	name = APDC_first_event_pic 
+	text = { trigger = { check_variable = { APDC_country_events = 1 } } localization_key = GFX_report_event_APDC_debug_event_1 }
+	text = { trigger = { check_variable = { APDC_country_events = 2 } } localization_key = GFX_APDC_test_event_pic_0002 }
+	text = { trigger = { check_variable = { APDC_country_events = 3 } } localization_key = GFX_APDC_test_event_pic_0001 }
+	text = {
+		trigger = { 
+
+		}
+		localization_key = GFX_APDC_test_event_pic_0001
+	}
+}
+#国家事件第二图片需在此编辑
+defined_text = { 
+	name = APDC_second_event_pic 
+	text = { trigger = { check_variable = { APDC_country_events = 1 } } localization_key = GFX_APDC_test_event_pic_0001 }
+	text = { trigger = { check_variable = { APDC_country_events = 2 } } localization_key = GFX_report_event_APDC_debug_event_1 }
+	text = { trigger = { check_variable = { APDC_country_events = 3 } } localization_key = GFX_APDC_test_event_pic_0002 }
+	text = {
+		trigger = { 
+
+		}
+		localization_key = GFX_report_event_APDC_debug_event_1
+	}
+}

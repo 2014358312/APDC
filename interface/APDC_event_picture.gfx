@@ -2,6 +2,18 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_report_event_APDC_debug_event_1"
-		texturefile = "gfx/event_picture/report_event_APDC_debug_event_1.dds"
+		textureFile = "gfx//event_picture//report_event_APDC_debug_event_1.dds"
+	}
+	spriteType = {
+		name = "GFX_APDC_test_event_pic_0001"
+		textureFile = "gfx//event_picture//report_event_APDC_debug_event_416.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_APDC_test_event_pic_0002"
+		texturefile = "gfx/event_picture/report_event_APDC_debug_event_416_gif.dds"
+		noOfFrames = 11
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
 	}
 }

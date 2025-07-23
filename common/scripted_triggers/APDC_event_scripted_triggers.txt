@@ -1,0 +1,26 @@
+#	Example:
+#
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+#
+#第二选项触发器
+APDC_event_option_b_trigger = {
+	OR = {
+		check_variable = { APDC_country_events = 2 }
+	}
+}
+#第三选项触发器
+APDC_event_option_c_trigger = {
+	OR = {
+		check_variable = { APDC_country_events = 3 }
+	}
+}
