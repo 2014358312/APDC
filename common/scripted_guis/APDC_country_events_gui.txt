@@ -35,10 +35,10 @@ scripted_gui = {
 		}
 		properties = {
 			APDC_country_first_pic = {
-				image = "[APDC_first_event_pic]"
+				image = "GFX_APDC_first_event_pic_[?APDC_country_events]"
 			}
 			APDC_country_second_pic = {
-				image = "[APDC_second_event_pic]"
+				image = "GFX_APDC_second_event_pic_[?APDC_country_events]"
 			}
 		}
 	}

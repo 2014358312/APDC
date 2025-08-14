@@ -61,7 +61,7 @@ guiTypes = {
 			#第二图片位置
 			iconType = {
 				name ="APDC_country_second_pic"
-				spriteType = "GFX_report_event_APDC_debug_event_1"
+				spriteType = "GFX_APDC_second_event_pic_3"
 				position = { x = 609 y = 5 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes				
@@ -76,7 +76,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "APDC_event_first_Description"
 				position = { x = 45 y = 5 }
-				font = "hoi_16mbs"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "APDC_event_first_Description"	
 				maxWidth = 450
@@ -100,7 +100,7 @@ guiTypes = {
 			#第一图片位置
 			iconType = {
 				name ="APDC_country_first_pic"
-				spriteType = "GFX_APDC_test_event_pic_0001"
+				spriteType = "GFX_APDC_first_event_pic_3"
 				position = { x = 34 y = 5 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes				
@@ -117,7 +117,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "APDC_event_second_Description"
 				position = { x = 560 y = 0 }
-				font = "hoi_16mbs"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "APDC_event_second_Description"	
 				maxWidth = 450
