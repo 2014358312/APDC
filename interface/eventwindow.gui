@@ -5,11 +5,10 @@ guiTypes = {
 #    #  # #  # # ##  #  ###    #       ##   # #  ##  # ##  #   #  
 #  # #  # #  # #  #  #  #  #   #       #    # #  #   #  #  #    # 
  ##   ##   ##  #  #  #  #  #   #       ###   #   ### #  #  #  ##  
-
-	containerWindowType = {
+containerWindowType = {
 		name = "EventWindow"
 		position = { x=-282 y=-310 }	
-		size = { width = 1078 height =614 }
+		size = { width = 585 height =427 }
 		moveable = yes
 		Orientation = CENTER		
 		
@@ -18,41 +17,35 @@ guiTypes = {
 		
 		background = {
 			name = "Background"	
-			spriteType ="GFX_APDC_eventwindow_bg"
+			spriteType ="GFX_tiled_window_transparent"
 		}
-		#iconType = {
-		#	name ="APDC_eventwindow_bg"
-		#	spriteType = "GFX_APDC_eventwindow_bg"
-		#	position = { x = 0 y = 0 }
-		#	Orientation = "UPPER_LEFT"
-		#	alwaystransparent = yes
-		#}
+
 		containerWindowType = {
 			name = "top_Window"
-			moveable = yes
 			position = { x=0 y=0 }	
-			size = { width = 1078 height =68 }
+			size = { width = 581 height =121 }
+			moveable = yes
 			Orientation = UPPER_LEFT
 
 			background = {
 				name = "Background"	
-				spriteType ="GFX_APDC_tiled_window_transparent"
+				spriteType ="GFX_event_report_top_win"
 			}			
 		
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 120 y = 24 }
-				font = "hoi4_typewriter22"
+				position = { x = -20 y = 70 }
+				font = "fzwhjz_20"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
-				maxWidth = 280
+				maxWidth = 551
 				maxHeight = 32
 				format = centre
 			}
 
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=12 y=11}
+				position = {x=10 y=45}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 				pdx_tooltip = "MINIMIZE_EVENT"
@@ -61,44 +54,33 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "midsection"
-			position = { x=0 y=68 }	
-			size = { width = 1078 height = 262 }
+			position = { x=1 y=121 }	
+			size = { width = 582 height = 100 }
 			moveable = yes
 			clipping = no
 			Orientation = UPPER_LEFT
 
 			background = {
 				name = "Background"	
-				spriteType ="GFX_APDC_tiled_window_transparent"
+				quadTextureSprite ="GFX_event_report_tileable_midsection"
 			}
-			iconType = {
-				name ="APDC_secondary_event_pic"
-				spriteType = "APDC_secondary_event_pic"
-				position = { x = 609 y = 5 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes				
-			}
-			iconType = {
-				name ="APDC_event_pic_frame"
-				spriteType = "GFX_APDC_event_pic_frame"
-				position = { x = 605 y = 0 }
-				Orientation = "UPPER_LEFT"
-			}
+
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 45 y = 25 }
-				font = "hoi4_typewriter16"
+				position = { x = 65 y = 0 }
+				font = "fzwhjz_20"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 450
+				maxWidth = 390
 				maxHeight = 230
 				format = left
 			}	
 		}			
+
 		containerWindowType = {
 			name = "bottom_Window"
-			position = { x=0 y=330 }	
-			size = { width = 1078 height = 284 }
+			position = { x=0 y=221 }	
+			size = { width = 581 height = 206 }
 			moveable = yes
 			clipping = no
 			Orientation = UPPER_LEFT
@@ -110,39 +92,23 @@ guiTypes = {
 
 			background = {
 				name = "Background"	
-				spriteType ="GFX_APDC_tiled_window_transparent"
+				spriteType ="GFX_event_report_bottom_win"
 			}
 
 			iconType = {
 				name ="event_picture"
-				quadTextureSprite = "GFX_report_event_001"
-				position = { x = 34 y = 5 }
+				spriteType = "GFX_report_event_001"
+				position = { x = 60 y = -20 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes				
 			}
 
 
-			iconType = {
-				name ="APDC_secondary_event_pic_frame"
-				spriteType = "GFX_APDC_event_pic_frame"
-				position = { x = 30 y = 0 }
-				Orientation = "UPPER_LEFT"
-			}
-			instantTextBoxType = {
-				name = "APDC_secondary_description"
-				position = { x = 560 y = 0 }
-				font = "hoi4_typewriter16"
-				borderSize = {x = 0 y = 0}
-				text = "APDC_secondary_description"	
-				maxWidth = 450
-				maxHeight = 100
-				format = left
-			}
 			gridBoxType = {
 				name = "options_grid"
-				position = { x = 630 y = 100 }
-				size = { width = 300 height = 0 }
-				slotsize = { width = 300 height = 50 }
+				position = { x = 160 y = 0 }
+				size = { width = 300 height = 30 }
+				slotsize = { width = 300 height = 47 }
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
 			}
