@@ -331,6 +331,10 @@ focus_tree = {
 		x = 9
 		y = 9
 		prerequisite = { focus = military_and_bureaucracy }
+
+		completion_reward = {
+            country_event = { id = consolidate_gold_ring_achievements.1 days = 1 }
+        }
 	}
 
 	# 成立后勤协调委员会
@@ -342,6 +346,10 @@ focus_tree = {
 		x = 8
 		y = 10
 		prerequisite = { focus = consolidate_gold_ring_achievements }
+
+		completion_reward = {
+            country_event = { id = establish_logistics_coordination_committee.1 days = 1 }
+        }
 	}
 
 	# 安抚军队不满情绪
@@ -364,6 +372,10 @@ focus_tree = {
 		x = 9
 		y = 10
 		prerequisite = { focus = consolidate_gold_ring_achievements }
+
+		completion_reward = {
+            country_event = { id = assign_officers_to_state_owned.1 days = 1 }
+        }
 	}
 
 	# 就市场经济的几点共识
@@ -386,6 +398,10 @@ focus_tree = {
 		x = 10
 		y = 10
 		prerequisite = { focus = consolidate_gold_ring_achievements }
+
+		completion_reward = {
+            country_event = { id = appoint_inspectors.1 days = 1 }
+        }
 	}
 
 	# 设置经济腐败办事处
@@ -412,6 +428,10 @@ focus_tree = {
 			focus = consensus_on_market_economy
 			focus = establish_economic_corruption_office
 		}
+
+		completion_reward = {
+            country_event = { id = best_officer_in_soviet.1 days = 1 }
+        }
 	}
 
 	# 丰厚的奖励：国家安全局新增预算
@@ -423,6 +443,10 @@ focus_tree = {
 		x = 9
 		y = 13
 		prerequisite = { focus = best_officer_in_soviet }
+
+		completion_reward = {
+            country_event = { id = add_buget_for_KGB.1 days = 1 }
+        }
 	}
 
 
@@ -435,6 +459,10 @@ focus_tree = {
 		x = 13
 		y = 9
 		prerequisite = { focus = military_and_bureaucracy }
+
+		completion_reward = {
+            country_event = { id = promote_silver_ring_scheme.1 days = 1 }
+        }
 	}
 
 	# 开展全国大讨论
@@ -457,6 +485,10 @@ focus_tree = {
 		x = 14
 		y = 10
 		prerequisite = { focus = promote_silver_ring_scheme }
+
+		completion_reward = {
+            country_event = { id = share_success_stories.1 days = 1 }
+        }
 	}
 
 	# “雷声大，雨点小”的改革
@@ -471,5 +503,9 @@ focus_tree = {
 			focus = launch_nationwide_discussion
 			focus = share_success_stories
 		}
+
+		completion_reward = {
+            country_event = { id = thunderous_but_feeble_reform.1 days = 1 }
+        }
 	}
 }
