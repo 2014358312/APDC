@@ -444,7 +444,7 @@ set_stability = 0.5
 			}
 		}
 	}
-	load_oob = "unlock_tanks"
+	# load_oob = "unlock_tanks"
 	
 	set_technology = {
 		interwar_artillery = 1

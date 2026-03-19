@@ -225,7 +225,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7072;15874;sea;8791;-1;-1;-1;-1;;Shikoku-Kansai
 9965;15874;sea;8791;-1;-1;-1;-1;;Shikoku-Kansai
 1092;4179;sea;8791;-1;-1;-1;-1;;Shikoku-Kansai
-13420;19992;sea;2887;-1;-1;-1;-1;;Sint Maarten-St. Kitts
+13420;19994;sea;2887;-1;-1;-1;-1;;Sint Maarten-St. Kitts
 3305;8335;sea;2408;-1;-1;-1;-1;;Sjaelland
 5621;6345;sea;2431;-1;-1;-1;-1;;Sjaelland
 3260;3325;;2408;-1;-1;-1;-1;;Sjaelland-Fyn
@@ -519,9 +519,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7293;10191;sea;2239;-1;-1;-1;-1;;lombok-sumbawa
 19370;19383;sea;8676;-1;-1;-1;-1;;luzon-babuyan
 5201;14797;sea;8913;-1;-1;-1;-1;;magellan strait
-1208;19250;impassable;-1;3325;2559;3326;2559;;malaysia name placement
-19250;19268;impassable;-1;3325;2559;3326;2559;;malaysia name placement
-4367;19268;impassable;-1;3325;2559;3326;2559;;malaysia name placement
+1208;19250;impassable;-1;3325;2559;3326;2559;;malaya name placement
+19250;19268;impassable;-1;3325;2559;3326;2559;;malaya name placement
+4367;19268;impassable;-1;3325;2559;3326;2559;;malaya name placement
 14434;14682;impassable;-1;3325;2559;3326;2559;;malta name placement
 1944;17370;sea;2232;-1;-1;-1;-1;;maracaibo
 15105;15121;sea;15106;-1;-1;-1;-1;;murder island

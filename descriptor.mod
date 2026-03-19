@@ -7,15 +7,12 @@ tags={
 	"SubMod"
 	"Major Mod"
 }
-name="少女前线-APDC "
-dependencies={
-	"阴云下的曙光（测试）"
-}
-replace_path="map/strategicregions"
+name="少女前线-APDC"
+replace_path="common/bookmarks"
+replace_path="common/national_focus"
 replace_path="history/states"
 replace_path="history/units"
-replace_path="common/bookmarks"
-replace_path="map/supplyareas"
-supported_version="1.16.*"
+replace_path="map/strategicregions"
+supported_version="1.17.*"
 path="D:/steam/steamapps/workshop/content/394360/3324222621"
 remote_file_id="3324222621"
