@@ -1,32 +1,5 @@
 ﻿capital = 6 # Brussels
 
-IF = {
-	limit = { 
-		has_dlc = "Gotterdammerung"
-		has_dlc = "La Resistance"
-	}
-	set_technology = {
-		armored_car1 = 1
-	}
-	set_oob = "BEL_WW_1936_lar"
-	ELSE_IF = {
-		limit = {
-			has_dlc = "Gotterdammerung"
-			NOT = {
-				has_dlc = "La Resistance"
-			}
-		}
-		set_oob = "BEL_WW_1936"
-	}
-	ELSE_IF = {
-		limit = {
-			NOT = {
-				has_dlc = "Gotterdammerung"
-			}
-		}
-		set_oob = "BEL_1936"
-	}
-}
 
 if = {
 	limit = {
@@ -35,17 +8,6 @@ if = {
 	set_technology = { bicycle_infantry = 1 }
 }
 
-
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "BEL_1936_air_bba"
-	else = {
-		set_technology = {
-			early_fighter = 1
-		}
-		set_air_oob = "BEL_1936_air_legacy"
-	}
-}
 
 if = {
 	limit = {
@@ -67,15 +29,15 @@ set_technology = {
 	tech_engineers = 1
 	tech_trucks = 1
 	motorised_infantry = 1
-	trench_warfare = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
 	gw_artillery = 1
 	interwar_antitank = 1
-	BEL_chasseurs_ardennais = 1 
 	tech_mountaineers = 1
 }
+
+set_grand_doctrine = grand_battleplan
 
 IF = {
 	limit = {
@@ -109,32 +71,6 @@ if = {
 	}
 }
 
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "BEL_1936_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			engines_1 = 1
-			early_bombs = 1
-			aircraft_construction = 1
-			iw_small_airframe = 1
-			iw_medium_airframe = 1
-			iw_large_airframe = 1
-			bba_early_transport_plane = 1
-		}
-	else = {
-		set_air_oob = "BEL_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			cv_early_fighter = 1
-			cv_naval_bomber1 = 1
-			naval_bomber1 = 1
-			early_bomber = 1
-			CAS1 = 1
-			early_transport_plane = 1
-		}
-	}
-}
 
 ## VARIABLES ##
 
@@ -358,6 +294,17 @@ if = {
 
 IF = {
 	limit = {
+		has_dlc = "Gotterdammerung"
+	}
+	set_autonomy = {
+		target = COG
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+}
+
+IF = {
+	limit = {
 		has_dlc = "No Step Back"
 		has_dlc = "Gotterdammerung"
 	}
@@ -483,31 +430,8 @@ IF = {
 		}
 	}
 
-	IF = {
-		limit = { 
-			has_dlc = "Gotterdammerung"
-		}
-		set_oob = "BEL_WW_1939"
-	}
-	IF = {
-		limit = {
-			NOT = {
-				has_dlc = "Gotterdammerung"
-			}
-		}
-		set_oob = "BEL_1939"
-	}
 
-	if = {
-		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "BEL_1939_air_bba"
-		else = {
-			set_air_oob = "BEL_1939_air_legacy"
-			set_technology = {
-				fighter1 = 1
-			}
-		}
-	}
+	
 
 	if = {
 		limit = {
@@ -543,12 +467,7 @@ IF = {
 		support_weapons = 1
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
+		#air_superiority = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -567,6 +486,11 @@ IF = {
 		synth_oil_experiments = 1
 		fuel_refining2 = 1
 	}
+
+set_grand_doctrine = grand_battleplan
+set_grand_doctrine = new_fleet_in_being
+set_grand_doctrine = new_strategic_destruction
+
 	complete_special_project = {
 		project = sp:sp_air_radar
 	}
@@ -604,10 +528,25 @@ set_convoys = 80
 set_stability = 0.75
 
 IF = {
-	limit = { has_dlc = "Gotterdammerung" }
+	limit = { 
+		has_dlc = "Gotterdammerung" 
+		NOT = {
+			has_dlc = "No Compromise, No Surrender"
+		} 
+	}
 	add_ideas = {
 		BEL_language_barriers_ns
 		BEL_chasseurs_ardennais_ns
+	}
+}
+IF = {
+	limit = { 
+		has_dlc = "Gotterdammerung" 
+		has_dlc = "No Compromise, No Surrender"
+	}
+	add_ideas = {
+		BEL_language_barriers_ns
+		BEL_chasseurs_ardennais_ns_ncns
 	}
 }
 

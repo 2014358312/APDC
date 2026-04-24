@@ -1,129 +1,34 @@
-﻿capital = 361# Washington DC
-oob = "USA_1936"
+﻿capital = 361 # Washington DC
+
+
 starting_train_buffer = 5
+
+
+
+IF = {
+	limit = {
+		has_dlc = "No Compromise, No Surrender"
+	}
+	create_faction_from_template = faction_template_usa_commonwealth
+}
+
 set_research_slots = 4
 set_stability = 0.75
 set_war_support = 0
 add_command_power = 20
-set_autonomy = {
-	target = LIB
-	autonomous_state = autonomy_puppet
-}
-set_autonomy = {
-	target = DOM
-	autonomous_state = autonomy_puppet
-}
-set_autonomy = {
-	target = MOR
-	autonomous_state = autonomy_puppet
-}
-set_autonomy = {
-	target = LUX
-	autonomous_state = autonomy_puppet
-}
-set_autonomy = {
-	target = FRA
-	autonomous_state = autonomy_puppet
-}
 
-set_autonomy = {
-	target = ENG
-	autonomous_state = autonomy_puppet
-}
-
-set_autonomy = {
-	target = SPR
-	autonomous_state = autonomy_puppet
-}
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_naval_oob = "USA_1936_naval_mtg"
-	else = {
-		set_naval_oob = "USA_1936_naval_legacy"
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "By Blood Alone"
-	}
-	set_air_oob = "USA_1936_air_bba"
-	set_technology = {
-		iw_small_airframe = 1
-		basic_small_airframe = 1
-		iw_medium_airframe = 1
-		basic_medium_airframe = 1
-		engines_1 = 1
-		engines_2 = 1
-		aa_lmg = 1
-		early_bombs = 1
-		aircraft_construction = 1
-		air_torpedoe_1 = 1
-		bba_early_transport_plane = 1
-	}
-	else = {
-		set_air_oob = "USA_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			cv_early_fighter = 1
-			cv_naval_bomber1 = 1
-			cv_CAS1 = 1
-			naval_bomber1 = 1
-			CAS1 = 1
-			early_bomber = 1
-			early_transport_plane = 1
-		}
-	}
-}
-
-set_variable = {
-	var = senators_support
-	value = 48
-}
-
-set_variable = {
-	var = senators_total
-	value = 96
-}
-
-set_variable = {
-	var = representatives_support
-	value = 218
-}
-
-set_variable = {
-	var = representatives_total
-	value = 435
-}
-
-set_variable = {
-	var = quorum_low
-	value = 39
-}
-
-set_variable = {
-	var = quorum_medium
-	value = 49
-}
-
-set_variable = {
-	var = quorum_high
-	value = 58
-}
-
+set_variable = { var = senators_support value = 48 }
+set_variable = { var = senators_total value = 96 }
+set_variable = { var = representatives_support value = 218 }
+set_variable = { var = representatives_total value = 435 }
+set_variable = { var = quorum_low value = 39 }
+set_variable = { var = quorum_medium value = 49 }
+set_variable = { var = quorum_high value = 58 }
 USA_recalc_congress_icon_frames = yes
+
 USA = {
-	country_event = {
-		id = usa.50
-		days = 2
-	}
-	country_event = {
-		id = usa.51
-		days = 2
-	}
+	country_event = { id = usa.50 days = 2 }
+	country_event = { id = usa.51 days = 2 }
 }
 
 # Starting tech
@@ -132,12 +37,10 @@ set_technology = {
 	infantry_weapons1 = 1
 	tech_trucks = 1
 	tech_recon = 1
-	tech_support = 1
+	tech_support = 1		
 	tech_engineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	superior_firepower = 1
-	base_strike = 1
 	motorised_infantry = 1
 	fuel_silos = 1
 	fuel_refining = 1
@@ -145,6 +48,9 @@ set_technology = {
 	basic_train = 1
 	engine_tech_1 = 1
 }
+
+set_grand_doctrine = superior_firepower
+set_grand_doctrine = new_base_strike
 
 add_breakthrough_progress = {
 	specialization = specialization_land
@@ -163,15 +69,13 @@ add_breakthrough_progress = {
 
 if = {
 	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
+		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
 		gwtank = 1
+
 	}
 }
-
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -184,11 +88,7 @@ if = {
 }
 
 if = {
-	limit = {
-		not = {
-			has_dlc = "Man the Guns"
-		}
-	}
+	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
 		early_submarine = 1
 		basic_submarine = 1
@@ -203,11 +103,8 @@ if = {
 		transport = 1
 	}
 }
-
 if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
+	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
@@ -222,7 +119,7 @@ if = {
 		basic_ship_hull_carrier = 1
 		basic_battery = 1
 		basic_light_battery = 1
-		basic_medium_battery = 1
+		#basic_medium_battery = 1
 		basic_heavy_battery = 1
 		basic_torpedo = 1
 		sonar = 1
@@ -230,15 +127,47 @@ if = {
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
-		improved_airplane_launcher = 1
+		#improved_airplane_launcher = 1
 		basic_dp_light_battery = 1
 	}
 	add_ideas = MTG_naval_treaty_adherent
 }
+##Monroe Doctrine - We are trying to just remove the dlc check and see what, if any, things break. Will ask QA and BETAs to test new system both with and without ToA
+#IF = {
+#	limit = { has_dlc = "Trial of Allegiance" }
+	add_ideas = USA_monroe_doctrine_enforcer
+#}
+#IF = {
+#	limit = { NOT = { has_dlc = "Trial of Allegiance" }	}
+#	give_guarantee = CAN
+#	give_guarantee = MEX
+#	give_guarantee = CUB
+#	give_guarantee = HAI
+#	give_guarantee = DOM
+#	give_guarantee = GUA
+#	give_guarantee = HON
+#	give_guarantee = ELS
+#	give_guarantee = NIC
+#	give_guarantee = COS
+#	give_guarantee = PAN
+#	give_guarantee = VEN
+#	give_guarantee = COL
+#	give_guarantee = ECU
+#	give_guarantee = PRU
+#	give_guarantee = BRA
+#	give_guarantee = BOL
+#	give_guarantee = CHL
+#	give_guarantee = PAR
+#	give_guarantee = ARG
+#	give_guarantee = URG
+#}
+
 
 1939.1.1 = {
+
 	add_political_power = 1199
 	add_command_power = 100
+	
 	#adding ministers
 	add_ideas = {
 		USA_robert_taft
@@ -257,6 +186,7 @@ if = {
 	remove_ideas = {
 		great_depression
 	}
+
 	#focuses
 	unlock_national_focus = USA_continue_the_new_deal
 	unlock_national_focus = USA_wpa
@@ -264,58 +194,47 @@ if = {
 	complete_national_focus = USA_air_war_plans_division
 	complete_national_focus = USA_war_plans_division
 	complete_national_focus = USA_agricultural_adjustment_act
-	complete_national_focus = USA_neutrality_act
-	complete_national_focus = USA_intervention_in_asia
-	complete_national_focus = USA_war_plan_orange
-	complete_national_focus = USA_intervention_in_europe
-	complete_national_focus = USA_war_plan_black
-	complete_national_focus = USA_strategic_bombing
-	complete_national_focus = USA_fair_labour_standards_act
-	set_global_flag = earhart_disappeared
-	oob = "USA_1939"
+	unlock_national_focus = USA_neutrality_act
+	#Dont want neutrality act event to fire
 	if = {
 		limit = {
-			has_dlc = "Man the Guns"
+			has_dlc = "Arms Against Tyranny"
 		}
-		set_naval_oob = "USA_1939_naval_mtg"
-		else = {
-			set_naval_oob = "USA_1939_naval_legacy"
-		}
-	}
-	if = {
-		limit = {
-			has_dlc = "By Blood Alone"
-		}
-		set_air_oob = "USA_1939_air_bba"
-		set_technology = {
-			iw_large_airframe = 1
-			basic_large_airframe = 1
-			improved_small_airframe = 1
-			aa_hmg = 1
-			air_torpedoe_1 = 1
-		}
-		else = {
-			set_air_oob = "USA_1939_air_legacy"
-			set_technology = {
-				fighter1 = 1
-				cv_fighter1 = 1
-				heavy_fighter1 = 1
-				tactical_bomber1 = 1
-				CAS2 = 1
-				strategic_bomber1 = 1
+		add_ideas = USA_neutrality_act_aat
+		hidden_effect = {
+			add_relation_rule_override = {
+				can_access_market = no
+				trigger = trade_partner_not_at_war
+				usage_desc = trade_partner_not_at_war_tt
 			}
 		}
+		else = {
+			add_ideas = USA_neutrality_act
+		}
 	}
+	complete_national_focus = USA_intervention_in_asia	
+	complete_national_focus = USA_war_plan_orange
+	complete_national_focus = USA_intervention_in_europe		
+	complete_national_focus = USA_war_plan_black
+	complete_national_focus = USA_strategic_bombing
+ 	complete_national_focus = USA_fair_labour_standards_act
+
+	set_global_flag = earhart_disappeared
+	
+	
+
 	complete_special_project = {
 		project = sp:sp_naval_cruiser_submarine
 		scientist = USA_william_francis_gibbs
-		state = 361
+		state = 361 
 	}
+
 	complete_special_project = {
 		project = sp:sp_air_radar
 		scientist = USA_vannevar_bush
 		state = 386
 	}
+
 	IF = {
 		limit = {
 			has_dlc = "Gotterdammerung"
@@ -326,11 +245,13 @@ if = {
 			state = 386
 		}
 	}
+
 	complete_special_project = {
 		project = sp:sp_land_military_engineering_vehicles
 		scientist = USA_john_walter_christie
 		state = 393
 	}
+
 	set_technology = {
 		interwar_artillery = 1
 		interwar_antitank = 1
@@ -338,14 +259,13 @@ if = {
 		support_weapons = 1
 		support_weapons2 = 1
 		marines = 1
+
 		#doctrines
 		#Air
-		air_superiority = 1
-		infrastructure_destruction = 1
-		naval_strike_tactics = 1
-		sup_delay = 1
-		submarine_operations_bs = 1
-		carrier_primacy = 1
+		#air_superiority = 1
+		#infrastructure_destruction = 1
+		#naval_strike_tactics = 1
+
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
@@ -353,6 +273,7 @@ if = {
 		computing_machine = 1
 		basic_encryption = 1
 		basic_decryption = 1
+
 		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
@@ -369,11 +290,7 @@ if = {
 		dispersed_industry3 = 1
 	}
 	if = {
-		limit = {
-			not = {
-				has_dlc = "Man the Guns"
-			}
-		}
+		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
 			improved_submarine = 1
 			basic_destroyer = 1
@@ -382,9 +299,7 @@ if = {
 		}
 	}
 	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
+		limit = { has_dlc = "Man the Guns" }
 		set_technology = {
 			improved_ship_hull_light = 1
 			basic_ship_hull_heavy = 1
@@ -399,14 +314,36 @@ if = {
 	}
 }
 
+set_grand_doctrine = superior_firepower
+set_grand_doctrine = new_base_strike
+set_grand_doctrine = new_strategic_destruction
+
+set_sub_doctrine = assault_infantry
+add_mastery = {
+    amount = 25
+    sub_doctrine = assault_infantry
+}
+set_sub_doctrine = line_of_battle
+add_mastery = {
+    amount = 25
+    sub_doctrine = line_of_battle
+}
+set_sub_doctrine = air_subdoctrine_escort_fighter
+add_mastery = {
+    amount = 25
+    sub_doctrine = air_subdoctrine_escort_fighter
+}
+
+
 set_convoys = 700
+
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
-
 set_popularities = {
 	democratic = 99
 	communism = 1
@@ -420,7 +357,13 @@ add_ideas = {
 	home_of_the_free
 }
 
+
 # DIPLOMACY
+set_autonomy = {
+	target = PHI
+	autonomous_state =  autonomy_colony
+}
+
 1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic
@@ -443,7 +386,6 @@ recruit_character = USA_douglas_macarthur
 recruit_character = USA_walter_krueger
 recruit_character = USA_lloyd_fredendall
 recruit_character = USA_leslie_mcnair
-recruit_character = USA_jonathan_wainwright
 recruit_character = USA_russell_hartle
 recruit_character = USA_leonard_gerow
 recruit_character = USA_edward_brooks
@@ -502,46 +444,40 @@ recruit_character = USA_william_francis_gibbs
 recruit_character = USA_andrew_mckee
 recruit_character = USA_john_walter_christie
 recruit_character = USA_vannevar_bush
+
 if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
+	limit = { not = { has_dlc = "No Compromise, No Surrender" } }
+	recruit_character = USA_jonathan_wainwright
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
 	create_operative_leader = {
 		name = "Josephine Baker"
 		GFX = GFX_portrait_josephine_baker
-		traits = {
-			operative_well_groomed
-		}
+		traits = { operative_well_groomed }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
-		nationalities = {
-			USA
-		}
+		nationalities = { USA }
 	}
+
 	create_operative_leader = {
 		name = "Virginia Hall"
 		GFX = GFX_portrait_virginia_hall
-		traits = {
-			operative_demolition_expert
-		}
+		traits = { operative_demolition_expert }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
-		nationalities = {
-			USA
-		}
+		nationalities = { USA }
 	}
 }
+
 
 ### VARIANTS ###
 # 1936 Start #
 if = {
-	limit = {
-		not = {
-			has_dlc = "Man the Guns"
-		}
-	}
+	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###
 	create_equipment_variant = {
 		name = "Barracuda Class"
@@ -554,6 +490,7 @@ if = {
 		}
 		obsolete = yes
 	}
+
 	create_equipment_variant = {
 		name = "Farragut Class"
 		type = destroyer_1
@@ -564,6 +501,7 @@ if = {
 			ship_anti_air_upgrade = 3
 		}
 	}
+
 	create_equipment_variant = {
 		name = "Portland Class"
 		type = heavy_cruiser_1
@@ -574,6 +512,7 @@ if = {
 			ship_gun_upgrade = 2
 		}
 	}
+
 	create_equipment_variant = {
 		name = "Pennsylvania Class"
 		type = battleship_1
@@ -585,6 +524,7 @@ if = {
 		}
 		obsolete = yes
 	}
+
 	create_equipment_variant = {
 		name = "New Mexico Class"
 		type = battleship_1
@@ -595,6 +535,7 @@ if = {
 			ship_gun_upgrade = 2
 		}
 	}
+
 	create_equipment_variant = {
 		name = "Colorado Class"
 		type = battleship_1
@@ -605,6 +546,7 @@ if = {
 			ship_gun_upgrade = 4
 		}
 	}
+
 	create_equipment_variant = {
 		name = "Yorktown Class"
 		type = carrier_2
@@ -616,13 +558,12 @@ if = {
 		}
 	}
 }
-
 if = {
 	limit = {
 		has_dlc = "By Blood Alone"
 	}
 	create_equipment_variant = {
-		name = "P-6"		#export models only
+		name = "P-6" #export models only
 		type = small_plane_airframe_0
 		modules = {
 			fixed_main_weapon_slot = light_mg_2x
@@ -632,7 +573,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "P-26A"		# Boeing P-26 Peashooter
+		name = "P-26A" # Boeing P-26 Peashooter
 		type = small_plane_airframe_0
 		modules = {
 			fixed_main_weapon_slot = light_mg_2x
@@ -643,7 +584,7 @@ if = {
 		icon = "GFX_USA_light_plane_2_medium"
 	}
 	create_equipment_variant = {
-		name = "O2U"		#
+		name = "O2U" #
 		type = small_plane_cas_airframe_0
 		modules = {
 			fixed_main_weapon_slot = bomb_locks
@@ -653,7 +594,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "SBU Corsair"		#
+		name = "SBU Corsair" #
 		type = cv_small_plane_cas_airframe_0
 		modules = {
 			fixed_main_weapon_slot = bomb_locks
@@ -663,7 +604,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "BM-2"		#
+		name = "BM-2" #
 		type = cv_small_plane_naval_bomber_airframe_0
 		modules = {
 			fixed_main_weapon_slot = torpedo_mounting
@@ -673,7 +614,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "A-12"		#
+		name = "A-12" #
 		type = small_plane_cas_airframe_0
 		modules = {
 			fixed_main_weapon_slot = bomb_locks
@@ -685,7 +626,7 @@ if = {
 		icon = "GFX_USA_CAS1_medium"
 	}
 	create_equipment_variant = {
-		name = "A-17"		#
+		name = "A-17" #
 		type = small_plane_cas_airframe_1
 		modules = {
 			fixed_main_weapon_slot = small_bomb_bay
@@ -696,7 +637,7 @@ if = {
 		icon = "GFX_USA_CAS1_medium"
 	}
 	create_equipment_variant = {
-		name = "P-35A"		#
+		name = "P-35A" #
 		type = small_plane_airframe_1
 		modules = {
 			fixed_main_weapon_slot = light_mg_2x
@@ -707,7 +648,7 @@ if = {
 		icon = "GFX_USA_light_plane_4_medium"
 	}
 	create_equipment_variant = {
-		name = "P-36A"		#
+		name = "P-36A" #
 		type = small_plane_airframe_1
 		modules = {
 			fixed_main_weapon_slot = light_mg_4x
@@ -715,10 +656,10 @@ if = {
 			engine_type_slot = engine_2_1x
 			special_type_slot_1 = empty
 		}
-		icon = "GFX_USA_fighter1_medium"
+		icon = "GFX_light_plane_5_medium"
 	}
 	create_equipment_variant = {
-		name = "B-6A"		#also covers other Keystone bombers
+		name = "B-6A" #also covers other Keystone bombers
 		type = medium_plane_airframe_0
 		modules = {
 			fixed_main_weapon_slot = medium_bomb_bay
@@ -726,9 +667,10 @@ if = {
 			special_type_slot_1 = lmg_defense_turret
 		}
 		obsolete = yes
+		icon = GFX_USA_early_bomber_medium
 	}
 	create_equipment_variant = {
-		name = "B-10"		#
+		name = "B-10" #
 		type = medium_plane_airframe_1
 		modules = {
 			fixed_main_weapon_slot = medium_bomb_bay
@@ -738,7 +680,7 @@ if = {
 		icon = "GFX_medium_plane_1_medium"
 	}
 	create_equipment_variant = {
-		name = "B-18"		#
+		name = "B-18" #
 		type = medium_plane_airframe_1
 		modules = {
 			fixed_main_weapon_slot = medium_bomb_bay
@@ -748,7 +690,7 @@ if = {
 		icon = "GFX_USA_early_bomber_medium"
 	}
 	create_equipment_variant = {
-		name = "P2Y"		#
+		name = "P2Y" #
 		type = medium_plane_airframe_0
 		modules = {
 			fixed_main_weapon_slot = medium_bomb_bay
@@ -758,10 +700,16 @@ if = {
 			special_type_slot_2 = lmg_defense_turret
 		}
 		obsolete = yes
-		icon = "GFX_USA_naval_bomber1_medium"
+		optional_assets = {
+			{
+				icon = "GFX_USA_naval_bomber1_medium"
+				model = "USA_medium_plane_1_entity"
+			}
+		}
+
 	}
 	create_equipment_variant = {
-		name = "PBY"		#
+		name = "PBY" #
 		type = medium_plane_airframe_1
 		modules = {
 			fixed_main_weapon_slot = medium_bomb_bay
@@ -771,10 +719,15 @@ if = {
 			special_type_slot_1 = flying_boat_medium
 			special_type_slot_2 = lmg_defense_turret
 		}
-		icon = "GFX_USA_naval_bomber1_medium"
+		optional_assets = {
+			{
+				icon = "GFX_USA_naval_bomber1_medium"
+				model = "USA_medium_plane_1_entity"
+			}
+		}
 	}
 	create_equipment_variant = {
-		name = "F4B"		#also covers F2F
+		name = "F4B" #also covers F2F
 		type = cv_small_plane_airframe_0
 		modules = {
 			fixed_main_weapon_slot = light_mg_2x
@@ -785,7 +738,7 @@ if = {
 		icon = "GFX_USA_cv_fighter1_medium"
 	}
 	create_equipment_variant = {
-		name = "F3F"		#
+		name = "F3F" #
 		type = cv_small_plane_airframe_0
 		modules = {
 			fixed_main_weapon_slot = light_mg_2x
@@ -795,7 +748,6 @@ if = {
 		icon = "GFX_USA_cv_fighter1_medium"
 	}
 }
-
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -818,8 +770,7 @@ if = {
 		}
 		icon = "GFX_USA_basic_light_tank_medium"
 	}
-	create_equipment_variant = {
-		#Note: There is a copy of this variant in Finnish National Focus file (FIN_bring_foreign_armor_experts). Any changes here should also be applied there
+	create_equipment_variant = { #Note: There is a copy of this variant in Finnish National Focus file (FIN_bring_foreign_armor_experts). Any changes here should also be applied there
 		name = "M2A2"
 		type = light_tank_chassis_1
 		parent_version = 1
@@ -839,14 +790,10 @@ if = {
 		icon = "GFX_USA_basic_light_tank_medium"
 	}
 }
-
 if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
+	limit = { has_dlc = "Man the Guns" }
 	# Submarines #
-	create_equipment_variant = {
-		# represents O/R class, S class
+	create_equipment_variant = {			# represents O/R class, S class
 		name = "S Class"
 		type = ship_hull_submarine_1
 		name_group = USA_SS_HISTORICAL
@@ -859,7 +806,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Barracuda Class"		# represents Barracuda, Dolphin, Cachalot classes
+		name = "Barracuda Class"			# represents Barracuda, Dolphin, Cachalot classes
 		type = ship_hull_submarine_2
 		name_group = USA_SS_HISTORICAL
 		parent_version = 0
@@ -871,7 +818,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Porpoise Class"		# represents Porpoise, Shark, and Perch classes
+		name = "Porpoise Class"				# represents Porpoise, Shark, and Perch classes
 		type = ship_hull_submarine_2
 		name_group = USA_SS_HISTORICAL
 		parent_version = 0
@@ -883,7 +830,7 @@ if = {
 	}
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Clemson Class"		# represents Sampson, Caldwell, Clemson, and Wickes classes
+		name = "Clemson Class"				# represents Sampson, Caldwell, Clemson, and Wickes classes
 		type = ship_hull_light_1
 		name_group = USA_DD_HISTORICAL
 		parent_version = 0
@@ -900,7 +847,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Farragut Class"		# represents Farragut, Porter, Mahan classes
+		name = "Farragut Class"				# represents Farragut, Porter, Mahan classes
 		type = ship_hull_light_1
 		name_group = USA_DD_HISTORICAL
 		parent_version = 0
@@ -954,7 +901,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Oglala Class"		#cruiser minelayers
+		name = "Oglala Class"				#cruiser minelayers
 		type = ship_hull_cruiser_1
 		name_group = USA_MINELAYERS_HISTORICAL
 		parent_version = 0
@@ -972,7 +919,7 @@ if = {
 	}
 	# Heavy Cruisers #
 	create_equipment_variant = {
-		name = "Pensacola Class"		# Pensacola and Northampton classes
+		name = "Pensacola Class"			# Pensacola and Northampton classes
 		type = ship_hull_cruiser_1
 		name_group = USA_CA_HISTORICAL
 		parent_version = 0
@@ -991,7 +938,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Portland Class"		# Portland and New Orleans classes
+		name = "Portland Class"				# Portland and New Orleans classes
 		type = ship_hull_cruiser_2
 		name_group = USA_CA_HISTORICAL
 		parent_version = 0
@@ -1028,27 +975,33 @@ if = {
 		}
 	}
 	# Heavy Cruisers #
-	create_equipment_variant = {
-		name = "Wichita Class"
-		type = ship_hull_cruiser_2
-		name_group = USA_CA_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_medium_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_2
-			fixed_ship_armor_slot = ship_armor_cruiser_3
-			fixed_ship_secondaries_slot = dp_ship_secondaries_1
-			mid_1_custom_slot = ship_airplane_launcher_1
-			mid_2_custom_slot = ship_anti_air_1
-			rear_1_custom_slot = ship_medium_battery_2
+		create_equipment_variant = {
+			name = "Wichita Class"
+			type = ship_hull_cruiser_2
+			name_group = USA_CA_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_2
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_3
+				fixed_ship_secondaries_slot = dp_ship_secondaries_1
+				mid_1_custom_slot = ship_airplane_launcher_1
+				mid_2_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_medium_battery_2
+			}
+			optional_assets = {
+				{
+					icon = "GFX_USA_heavy_cruiser_wichita"
+					model = "USA_heavy_cruiser_4_entity"
+				}
+			}
 		}
-	}
 	# Battleships #
 	create_equipment_variant = {
-		name = "New York Class"		# represents Wyoming (Arkansas) and New York classes
+		name = "New York Class"					# represents Wyoming (Arkansas) and New York classes
 		type = ship_hull_heavy_1
 		name_group = USA_BB_HISTORICAL
 		parent_version = 0
@@ -1068,7 +1021,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Pennsylvania Class"		# represents Pennsylvania, Nevada, Tennessee, and New Mexico classes
+		name = "Pennsylvania Class"				# represents Pennsylvania, and New Mexico classes
 		type = ship_hull_heavy_1
 		name_group = USA_BB_HISTORICAL
 		parent_version = 0
@@ -1088,7 +1041,59 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Colorado Class"
+		name = "Nevada Class"				
+		type = ship_hull_heavy_1
+		name_group = USA_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		optional_assets = {
+			{
+				icon = "GFX_USA_battleship_nevada"
+				model = "USA_battleship_4_entity"
+			}
+		}
+		obsolete = yes
+	}
+		create_equipment_variant = {
+		name = "Tennessee Class"				
+		type = ship_hull_heavy_1
+		name_group = USA_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		optional_assets = {
+			{
+				icon = "GFX_USA_battleship_tennessee"
+				model = "USA_battleship_5_entity"
+			}
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Colorado Class"				
 		type = ship_hull_heavy_1
 		name_group = USA_BB_HISTORICAL
 		parent_version = 0
@@ -1106,8 +1111,38 @@ if = {
 			rear_1_custom_slot = ship_heavy_battery_2
 		}
 		obsolete = yes
+		optional_assets = {
+			{
+				icon = "GFX_USA_battleship_colorado"
+				model = "USA_battleship_3_entity"
+			}
+		}
 	}
 	# Carriers #
+
+	create_equipment_variant = {
+		name = "Langley Class"
+		type = ship_hull_carrier_conversion_bb
+		name_group = USA_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_deck_space
+		}
+		optional_assets = {
+			{
+				icon = "GFX_USA_carrier_langley"
+				model = "USA_carrier_0_entity"
+			}
+		}
+		obsolete = yes
+	}
+
 	create_equipment_variant = {
 		name = "Lexington Class"
 		type = ship_hull_carrier_conversion_bb
@@ -1137,6 +1172,7 @@ if = {
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
 			front_1_custom_slot = ship_deck_space
+			
 		}
 		obsolete = yes
 	}
@@ -1157,14 +1193,11 @@ if = {
 	}
 }
 
+
 # 1939 Start #
 1939.1.1 = {
 	if = {
-		limit = {
-			not = {
-				has_dlc = "Man the Guns"
-			}
-		}
+		limit = { not = { has_dlc = "Man the Guns" } }
 		# Ship variants #
 		create_equipment_variant = {
 			name = "Salmon Class"
@@ -1213,7 +1246,7 @@ if = {
 			has_dlc = "By Blood Alone"
 		}
 		create_equipment_variant = {
-			name = "F2A Buffalo"			#
+			name = "F2A Buffalo" #
 			type = cv_small_plane_airframe_1
 			modules = {
 				fixed_main_weapon_slot = heavy_mg_4x
@@ -1222,7 +1255,7 @@ if = {
 			}
 		}
 		create_equipment_variant = {
-			name = "Vindicator"			#
+			name = "Vindicator" #
 			type = cv_small_plane_cas_airframe_1
 			modules = {
 				fixed_main_weapon_slot = bomb_locks
@@ -1231,7 +1264,7 @@ if = {
 			}
 		}
 		create_equipment_variant = {
-			name = "Devastator"			#
+			name = "Devastator" #
 			type = cv_small_plane_naval_bomber_airframe_1
 			modules = {
 				fixed_main_weapon_slot = torpedo_mounting
@@ -1240,7 +1273,7 @@ if = {
 			}
 		}
 		create_equipment_variant = {
-			name = "B-23"			#
+			name = "B-23" #
 			type = medium_plane_airframe_1
 			modules = {
 				fixed_main_weapon_slot = medium_bomb_bay
@@ -1250,7 +1283,7 @@ if = {
 			icon = "GFX_USA_tactical_bomber1_medium"
 		}
 		create_equipment_variant = {
-			name = "YA-19"			#
+			name = "YA-19" #
 			type = small_plane_cas_airframe_1
 			modules = {
 				fixed_main_weapon_slot = bomb_locks
@@ -1261,7 +1294,7 @@ if = {
 			obsolete = yes
 		}
 		create_equipment_variant = {
-			name = "A-20"			#
+			name = "A-20" #
 			type = small_plane_cas_airframe_2
 			modules = {
 				fixed_main_weapon_slot = small_bomb_bay
@@ -1273,7 +1306,7 @@ if = {
 			icon = "GFX_USA_CAS2_medium"
 		}
 		create_equipment_variant = {
-			name = "B-17"			#
+			name = "B-17" #
 			type = large_plane_airframe_1
 			modules = {
 				fixed_main_weapon_slot = large_bomb_bay
@@ -1286,12 +1319,10 @@ if = {
 		}
 	}
 	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
+		limit = { has_dlc = "Man the Guns" }
 		# Submarines #
 		create_equipment_variant = {
-			name = "Salmon Class"			# represents Salmon and Sargo classes
+			name = "Salmon Class"				# represents Salmon and Sargo classes
 			type = ship_hull_submarine_2
 			name_group = USA_SS_HISTORICAL
 			parent_version = 0
@@ -1303,7 +1334,7 @@ if = {
 		}
 		# Destroyers #
 		create_equipment_variant = {
-			name = "Sims Class"			# represents Gridley, Bagley, Benham, Sims classes
+			name = "Sims Class"					# represents Gridley, Bagley, Benham, Sims classes
 			type = ship_hull_light_2
 			name_group = USA_DD_HISTORICAL
 			parent_version = 0
@@ -1334,6 +1365,7 @@ if = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
+		
 		# Battleships #
 		create_equipment_variant = {
 			name = "North Carolina Class"

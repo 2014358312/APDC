@@ -1,4 +1,4 @@
-﻿capital = 2322
+﻿capital = 183
 
 #oob = ""
 
@@ -23,10 +23,6 @@ set_convoys = 5
 	
 	set_technology = {
 
-		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
-
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
@@ -42,6 +38,9 @@ set_convoys = 5
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
+
+set_grand_doctrine = grand_battleplan
+
 	complete_special_project = {
 		project = sp:sp_air_radar
 	}

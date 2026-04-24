@@ -8,12 +8,8 @@ state = {
 		owner = ZZZ
 		buildings = {
 			infrastructure = 2
-			19234 = {
-				naval_base = 4
-			}
 		}
 		add_core_of = ZZZ
-		set_state_flag = GDP_regions_sabah
 	}
 	provinces = {
 		19234

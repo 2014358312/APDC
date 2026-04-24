@@ -1,0 +1,30 @@
+#####-----> Redo by Pordy <><> <><> <><>
+###--->  New Building Icons w/expanded placement <><> <><> <><>
+spriteTypes = {
+spriteType = {
+ 		name = "GFX_zoom_in"
+ 		texturefile = "gfx//interface//topbar//zoom_in.dds"
+ 		effectFile = "gfx/FX/buttonstate.lua"
+}
+spriteType = {
+ 	name = "GFX_zoom_out"
+ 	texturefile = "gfx//interface//topbar//zoom_out.dds"
+ 	effectFile = "gfx/FX/buttonstate.lua"
+}
+spriteType = {
+	name = "GFX_show_dismissed_alerts_icon"
+	texturefile = "gfx//interface//topbar//show_dismissed_alerts_icon.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+}
+spriteType = {
+  	name = "GFX_menu_button"
+  	texturefile = "gfx//interface//topbar//button_menu.dds"
+  	effectFile = "gfx/FX/buttonstate.lua"
+}
+spriteType = {
+  	name = "GFX_help_button"
+  	texturefile = "gfx//interface//topbar//button_help.dds"
+  	effectFile = "gfx/FX/buttonstate.lua"
+}
+
+}

@@ -9,14 +9,11 @@ state = { #Population Done
 		buildings = {
 			infrastructure = 2
 			air_base = 1
-			19992 = {
-				naval_base = 1
-			}
 		}
 		victory_points = { 19992 1 }
 	}
 
 	provinces = {
-		19992
+		19992 17044
 	}
 }

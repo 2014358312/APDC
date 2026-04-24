@@ -12,7 +12,6 @@ state = {
 			infrastructure = 5
 			radar_station = 2
 			air_base = 3
-			nuclear_reactor = 2
 		}
 		add_core_of = USA
 		victory_points = { # Chicago

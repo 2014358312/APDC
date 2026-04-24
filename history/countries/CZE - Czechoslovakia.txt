@@ -1,41 +1,8 @@
 ﻿capital = 9
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "CZE_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "CZE_1936_nsb"
-}
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "CZE_1936_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			engines_1 = 1
-			engines_2 = 1
-			iw_small_airframe = 1
-			iw_medium_airframe = 1
-			early_bombs = 1
-			bba_early_transport_plane = 1
-		}
-	else = {
-		set_air_oob = "CZE_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			early_bomber = 1
-			CAS1 = 1
-			early_transport_plane = 1
-		}
-	}
-}
+
+
+
 
 set_technology = {
 	infantry_weapons = 1
@@ -49,6 +16,7 @@ set_technology = {
 	fuel_silos = 1
 	basic_train = 1
 }
+
 recruit_character = CZE_karl_albrecht
 recruit_character = CZE_edvard_benesh
 recruit_character = CZE_jaroslav_krejchi
@@ -110,16 +78,19 @@ IF = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "1935.5.19"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 100
+	democratic = 65
+	neutrality = 20
+	fascism = 5
+	communism = 10
 }
-set_cosmetic_tag = CZE_sov
+
 if = {
 	limit = {
 		has_dlc = "Death or Dishonor"
@@ -127,8 +98,9 @@ if = {
 	add_ideas = {
 		CZE_skoda_works
 		CZE_divided_nation
-	}
-	
+}
+	give_guarantee = YUG
+	give_guarantee = ROM
 }
 
 if = {

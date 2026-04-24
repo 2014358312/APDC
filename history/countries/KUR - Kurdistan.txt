@@ -71,15 +71,7 @@ if = {
 		support_weapons = 1
 
 		#doctrines
-		air_superiority = 1
-
-		mass_assault = 1
-		pocket_defence = 1
-		defence_in_depth = 1
-		
-		fleet_in_being = 1
-		convoy_sailing = 1
-		submarine_operations = 1
+		#air_superiority = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -98,6 +90,11 @@ if = {
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
+
+set_grand_doctrine = grand_battleplan
+set_grand_doctrine = new_fleet_in_being
+set_grand_doctrine = new_strategic_destruction
+
 	complete_special_project = {
 		project = sp:sp_air_radar
 	}
@@ -126,15 +123,17 @@ if = {
 
 # There were many Kurdish uprisings in Iraq, Iran, and Turkey in the 20th century, it's difficult to define a "ruling party". Democratic has been chosen since the Dersim Rebellion is the closest uprising to HoI's start date.
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "1935.2.8"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 100
-
+	democratic = 40
+	communism = 25
+	fascism = 30
+	neutrality = 5
 }
 
 # Qazi Muhammad was leader of the short-lived Marxist uprising in Iranian Kurdistan

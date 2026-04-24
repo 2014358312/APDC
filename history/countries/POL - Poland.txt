@@ -1,33 +1,8 @@
 ﻿capital = 10
 
 oob = "POL_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "POL_1936_naval_mtg"
-	else = {
-		set_naval_oob = "POL_1936_naval_legacy"
-	}
-}
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "POL_1936_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			aa_cannon_1 = 1
-			iw_small_airframe = 1
-			basic_small_airframe = 1
-			engines_1 = 1
-			early_bombs = 1
-		}
-	else = {
-		set_air_oob = "POL_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			early_bomber = 1
-			CAS1 = 1
-		}
-	}
-}
+
+
 
 set_research_slots = 3
 
@@ -42,11 +17,12 @@ set_technology = {
 	tech_recon = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	trench_warfare = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	basic_train = 1
 }
+
+set_grand_doctrine = grand_battleplan
 
 if = {
 	limit = {
@@ -183,31 +159,8 @@ if = {
 
 
 	
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "POL_1939_naval_mtg"
-		else = {
-			set_naval_oob = "POL_1939_naval_legacy"
-		}
-	}
-	if = {
-		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "POL_1939_air_bba"
-			set_technology = {
-				iw_medium_airframe = 1
-				basic_medium_airframe = 1
-				engines_2 = 1
-				improved_small_airframe = 1
-				bba_early_transport_plane = 1
-			}
-		else = {
-			set_air_oob = "POL_1939_air_legacy"
-			set_technology = {
-				tactical_bomber1 = 1
-				early_transport_plane = 1
-			}
-		}
-	}
+	
+	
 
 	set_technology = {
 		motorised_infantry = 1
@@ -215,12 +168,7 @@ if = {
 		interwar_artillery = 1
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
+		#air_superiority = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -245,31 +193,16 @@ if = {
 		concentrated_industry3 = 1
 		concentrated_industry4 = 1
 	}
+
+set_grand_doctrine = grand_battleplan
+set_grand_doctrine = new_fleet_in_being
+set_grand_doctrine = new_strategic_destruction
+
 	complete_special_project = {
 		project = sp:sp_air_radar
 	}
-	if = {
-		limit = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
-		set_technology = {
-			basic_light_tank = 1
-		}
-		set_oob = "POL_1939"
-	}
-	if = {
-		limit = {
-			
-			has_dlc = "No Step Back"
-			
-		}
-		set_technology = {
-			basic_light_tank_chassis = 1
-		}
-		set_oob = "POL_1939_nsb"
-	}
+	
+	
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
@@ -331,7 +264,7 @@ if = {
 				fixed_main_weapon_slot = bomb_locks
 				fixed_auxiliary_weapon_slot_1 = light_mg_4x
 				engine_type_slot = engine_2_1x
-				special_type_slot_1 = lmg_defense_turret_2x
+				special_type_slot_1 = lmg_defense_turret
 			}
 		}
 	}
@@ -339,20 +272,26 @@ if = {
 
 
 set_convoys = 10
-set_cosmetic_tag = POL_sov
+
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 100
+	democratic = 32
+	fascism = 11
+	communism = 19
+	neutrality = 38
 }
 
 1939.1.1 = {
 	set_popularities = {
-		communism = 100
+		democratic = 13
+		fascism = 7
+		communism = 2
+		neutrality = 78
 	}
 }
 
@@ -505,15 +444,35 @@ if = {
 			special_type_slot_1 = empty
 		}
 	}
-	create_equipment_variant = {
-		name = "PZL P.23"
-		type = small_plane_cas_airframe_1
-		modules = {
-			fixed_main_weapon_slot = bomb_locks
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = lmg_defense_turret
+	if = {
+		limit = {
+			has_dlc = "Poland: United and Ready"
 		}
+		create_equipment_variant = {
+			name = "PZL P.23"
+			type = small_plane_cas_airframe_1
+			modules = {
+				fixed_main_weapon_slot = bomb_locks
+				engine_type_slot = engine_1_1x
+				special_type_slot_1 = lmg_defense_turret
+			}
+			icon = "GFX_POL_CAS1_medium"
+		}		
 	}
+	if = {
+		limit = {
+			NOT = { has_dlc = "Poland: United and Ready" }
+		}
+		create_equipment_variant = {
+			name = "PZL P.23"
+			type = small_plane_cas_airframe_1
+			modules = {
+				fixed_main_weapon_slot = bomb_locks
+				engine_type_slot = engine_1_1x
+				special_type_slot_1 = lmg_defense_turret
+			}
+		}		
+	}	
 }
 
 ### VARIANTS ###
@@ -576,7 +535,7 @@ if = {
 			}
 			upgrades = {
 				tank_nsb_armor_upgrade = 2
-				tank_nsb_engine_upgrade = 2
+				tank_nsb_engine_upgrade = 3
 			}
 			icon = "GFX_POL_improved_light_tank_medium"
 		}

@@ -1,6 +1,5 @@
 ﻿capital = 295 # Leopoldville/Kinshaasa
 
-set_oob = "COG_1936"
 
 # Starting tech
 set_technology = {
@@ -25,6 +24,7 @@ IF = {
 	}
 
 	# Set Flags
+	set_cosmetic_tag = COG_belgian_congo # The Belgian Congo
 	set_global_flag = COG_no_jft_done  # No focuses have yet to be completed in the JFT
 
 	### Set National Spirits ###
@@ -196,8 +196,6 @@ set_popularities = {
 			has_dlc = "Gotterdammerung"
 		}
 
-		set_oob = "COG_1939"
-
 		# Ideology and Politics 
 		set_politics = {
 			ruling_party = neutrality
@@ -267,10 +265,6 @@ set_popularities = {
 		antitank1 = 1
 		interwar_artillery = 1
 
-		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
-
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
@@ -287,6 +281,9 @@ set_popularities = {
 		dispersed_industry2 = 1
 		excavation1 = 1
 	}
+
+set_grand_doctrine = grand_battleplan
+
 	complete_special_project = {
 		project = sp:sp_air_radar
 	}

@@ -1,4 +1,4 @@
-capital = 1102
+capital = 271
 
 IF = {
 	limit = {
@@ -6,8 +6,6 @@ IF = {
 	}
 	ETH_set_up_lon_arms_resolution_effect = yes 
 	set_war_support = 0.30 # People are beginning to lose heart a bit
-	set_oob = "ETH_1936_bba"
-
 	
 	# add_manpower = 60000 # have already called out the levy in 35
 	set_variable = { var_ETH_chitet_cooldown = 180 }
@@ -127,7 +125,6 @@ IF = {
 	limit = {
 		NOT = { has_dlc = "By Blood Alone" }
 	}
-	set_oob = "ETH_1936"
 	set_variable = { ETH_war_escalation_level = 0 }
 	set_variable = { ETH_war_escalation_length = 123 } # Six months, starting in October
 }
@@ -244,10 +241,6 @@ set_convoys = 5
 	
 	set_technology = {
 
-		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
-
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
@@ -263,6 +256,9 @@ set_convoys = 5
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
+
+set_grand_doctrine = grand_battleplan
+
 	complete_special_project = {
 		project = sp:sp_air_radar
 	}
