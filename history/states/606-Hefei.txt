@@ -2,7 +2,7 @@ state = {
 	id = 606
 	name = "STATE_606"
 	resources = {
-		power = 2
+		
 	}
 	history = {
 		owner = RZE

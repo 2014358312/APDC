@@ -4,7 +4,7 @@ state = {
 
 	resources = {
 		steel = 6
-		power = 2
+		
 		chromium = 8
 	}
 

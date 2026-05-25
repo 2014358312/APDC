@@ -7,7 +7,7 @@ state = {
 	}
 	resources = {
 		rubber = 45
-		power = 2
+		
 	}
 	history = {
 		owner = PAK

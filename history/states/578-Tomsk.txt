@@ -4,7 +4,7 @@ state = {
 	resources = {
 		steel = 24
 		oil = 20
-		power = 2
+		
 	}
 	history = {
 		owner = SOV

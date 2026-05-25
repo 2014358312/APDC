@@ -3,7 +3,7 @@ state = {
 	name = "STATE_414"
 
 	resources = {
-		power = 2
+		
 	}
 
 	history = {

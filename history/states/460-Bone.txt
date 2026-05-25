@@ -42,7 +42,7 @@ state = {
 	}
 	resources = {
 		steel = 20
-		power = 4
+		
 	}
 	provinces = {
 		1058

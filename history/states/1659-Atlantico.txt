@@ -7,7 +7,7 @@ state = {
 
 	resources = {
 		chromium = 6
-		power = 4
+		
 	}
 
 	history = {

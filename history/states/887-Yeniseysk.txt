@@ -5,7 +5,7 @@ state = {
 		oil = 8
 		tungsten = 8
 		steel = 13
-		power = 1
+		
 	}
 	history = {
 		owner = SOV

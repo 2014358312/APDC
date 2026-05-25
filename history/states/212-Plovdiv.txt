@@ -3,7 +3,6 @@ state = {
 	name = "STATE_212"
 	resources = {
 		chromium = 6.000
-		power = 4.000
 	}
 
 	history = {

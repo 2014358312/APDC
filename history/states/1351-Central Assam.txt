@@ -7,7 +7,7 @@ state = {
 		12366
 	}
 	resources = {
-		power = 1
+		
 	}
 	history = {
 		owner = PAK

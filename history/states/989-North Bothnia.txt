@@ -5,7 +5,7 @@ state = {
 		steel = 60
 		tungsten = 40
 		chromium = 25
-		power = 4
+		
 	}
 	history = {
 
