@@ -2,8 +2,8 @@ state = {
 	id = 1713
 	name = "STATE_1713"
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = PRC
+		add_core_of = PRC
 	}
 	provinces = {
 		861

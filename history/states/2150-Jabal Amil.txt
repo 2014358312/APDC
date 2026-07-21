@@ -3,7 +3,7 @@ state = {
 	name = "STATE_2150"
 
 	history = {
-		owner = LEB
+		owner = ISR
 		buildings = {
 			infrastructure = 4
 			
@@ -14,7 +14,7 @@ state = {
 		}
 		victory_points = { 11919 3 }
 		victory_points = { 6636 1 }
-		add_core_of = LEB
+		add_core_of = ISR
 		set_state_flag = state_renamings
 	}
 	provinces = {

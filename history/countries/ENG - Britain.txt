@@ -19,3 +19,8 @@ set_popularities = {
 	fascism = 2
 	communism = 1
 }
+
+#非军事区
+120 = { set_demilitarized_zone = yes }
+337 = { set_demilitarized_zone = yes }
+1322 = { set_demilitarized_zone = yes }

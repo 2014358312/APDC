@@ -9,8 +9,8 @@ state = {
 		6851
 	}
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = PRC
+		add_core_of = PRC
 	}
 	manpower = 3
 	state_category = enclave

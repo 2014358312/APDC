@@ -12,7 +12,7 @@ state = {
 			
 		}
 		victory_points = { 14455 20 }
-		add_core_of = PAL
+		add_core_of = ISR
 	}
 	provinces = {
 		14455

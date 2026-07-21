@@ -7,17 +7,16 @@ state = {
 	}
 
 	history = {
-		owner = BRA
+		owner = AMZ
 		buildings = {
 			infrastructure = 1
 			air_base = 1
 			radar_station = 2
 		}
-		add_core_of = BRA
+		add_core_of = AMZ
 		victory_points = {
 			10934 10
 		}
-		set_state_flag = GDP_regions_amazonas
 	}
 
 	provinces = {

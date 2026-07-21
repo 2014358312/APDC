@@ -5,12 +5,11 @@ state = {
 		rubber = 8.000
 		}
 	history = {
-		owner = BRA
+		owner = AMZ
 		buildings = {
 			infrastructure = 1
 		}
-		set_state_flag = GDP_regions_amazonas
-		add_core_of = BRA
+		add_core_of = AMZ
 		victory_points = {
 			14763 2
 		}

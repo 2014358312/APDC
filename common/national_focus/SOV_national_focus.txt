@@ -18,7 +18,13 @@ focus_tree = {
 		x = 9
 		y = 0
 		cost = 5
-		completion_reward = {}
+		completion_reward = {
+			
+set_autonomy = {
+	target = POL
+	autonomy_state = autonomy_communist_satellite
+}
+		}
 	}
 
 	# 金环计划

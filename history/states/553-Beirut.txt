@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = LEB
+		owner = ISR
 		victory_points = {
 			18595 20
 		}
@@ -21,7 +21,7 @@ state = {
 				naval_base = 3
 			}
 		}
-		add_core_of = LEB
+		add_core_of = ISR
 		set_state_flag = state_renamings
 	}
 

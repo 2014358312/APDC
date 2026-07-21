@@ -2,7 +2,7 @@ state = {
 	id = 1
 	name = "STATE_1"
 	history = {
-		owner = FFR
+		owner = FRA
 		victory_points = {
 			11804
 			3
@@ -18,7 +18,7 @@ state = {
 				naval_base = 3
 			}
 		}
-		add_core_of = FFR
+		add_core_of = FRA
 	}
 	provinces = {
 		3838

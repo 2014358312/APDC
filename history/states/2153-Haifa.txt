@@ -12,7 +12,7 @@ state = {
 			synthetic_refinery = 1
 		}
 		victory_points = { 1065 15 }
-		add_core_of = PAL
+		add_core_of = ISR
 	}
 
 	provinces = {

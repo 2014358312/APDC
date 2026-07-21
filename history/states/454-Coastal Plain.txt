@@ -22,7 +22,7 @@ state = {
 			18585
 			1
 		}
-		add_core_of = PAL
+		add_core_of = ISR
 	}
 	provinces = {
 		1201

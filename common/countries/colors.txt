@@ -20,10 +20,6 @@ FRA = {
 	color = rgb { 0 70 215 }
 	color_ui = rgb { 0 70 215 }
 }
-FFR = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
-}
 LUX = {
 	color = rgb { 0 67 204 }
 	color_ui = rgb { 0 67 204 }
@@ -35,8 +31,8 @@ HOL = {	color = rgb { 203 138 74 }
 		color_ui = rgb { 255 179 96 }
 }
 CZE = {
-	color = rgb { 157 0 0 }
-	color_ui = rgb { 157 0 0 }
+	color = rgb { 125 0 0 }
+	color_ui = rgb { 125 0 0 }
 }
 POL = {
 	color = rgb { 125 0 0 }
@@ -62,17 +58,13 @@ SPR = {
 	color = rgb { 104 140 200 }
 	color_ui = rgb { 104 140 200 }
 }
-FSP = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
-}
 ITA = {
 	color = rgb { 67 127 63 }
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {
-	color = rgb { 130 0 0 }
-	color_ui = rgb { 130 0 0 }
+	color = rgb { 125 0 0 }
+	color_ui = rgb { 125 0 0 }
 }
 YUG = {
 	color = rgb { 72 73 126 }
@@ -103,8 +95,8 @@ DEN = {
 	color_ui = rgb { 199 151 121 }
 }
 BUL = {
-	color = rgb { 146 0 0 }
-	color_ui = rgb { 146 0 0 }
+	color = rgb { 125 0 0 }
+	color_ui = rgb { 125 0 0 }
 }
 POR = {
 	color = rgb { 39 116 70 }
@@ -119,8 +111,8 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 139 0 0 }
-	color_ui = rgb { 139 0 0 }
+	color = rgb { 125 0 0 }
+	color_ui = rgb { 125 0 0 }
 }
 AFG = {
 	color = rgb { 64 160 167 }

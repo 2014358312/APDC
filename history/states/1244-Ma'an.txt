@@ -7,14 +7,14 @@ state = {
 	}
 
 	history = {
-		owner = JOR
+		owner = ISR
 		victory_points = {
 			11976 1
 		}
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = JOR
+		add_core_of = ISR
 		set_state_flag = state_renamings
 	}
 

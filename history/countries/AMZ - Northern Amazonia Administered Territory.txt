@@ -1,4 +1,6 @@
-﻿capital = 554 #大马士革
+﻿capital = 1483 #帕拉
+
+set_research_slots = 3
 
 set_politics = {
 	ruling_party = democratic
@@ -6,9 +8,11 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 50
-	fascism = 10
+	democratic = 60
+	fascism = 30
 	communism = 10
-	neutrality = 30
+	neutrality = 0
 }
+

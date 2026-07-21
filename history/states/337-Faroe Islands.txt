@@ -4,8 +4,8 @@ state = {
 	manpower = 1
 	state_category = rural
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = ENG
+		add_core_of = ENG
 	}
 	provinces = {
 		13003

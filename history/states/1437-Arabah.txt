@@ -8,7 +8,7 @@ state = {
 	state_category = wasteland
 	history = {
 		owner = ISR
-		add_core_of = PAL
+		add_core_of = ISR
 		victory_points = {
 			14452
 			1

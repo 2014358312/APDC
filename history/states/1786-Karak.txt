@@ -5,11 +5,11 @@ state = {
 		oil = 2
 	}
 	history = {
-		owner = JOR
+		owner = ISR
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = JOR
+		add_core_of = ISR
 		victory_points = {
 			10089
 			1

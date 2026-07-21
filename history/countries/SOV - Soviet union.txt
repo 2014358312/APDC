@@ -19,3 +19,31 @@ set_popularities = {
 	fascism = 2
 	communism = 88
 }
+
+set_autonomy = {
+	target = POL
+	autonomy_state = autonomy_satellite
+}
+set_autonomy = {
+	target = CZE
+	autonomy_state = autonomy_satellite
+}
+set_autonomy = {
+	target = HUN
+	autonomy_state = autonomy_satellite
+}
+set_autonomy = {
+	target = ROM
+	autonomy_state = autonomy_satellite
+}
+set_autonomy = {
+	target = BUL
+	autonomy_state = autonomy_satellite
+}
+
+#非军事区
+213 = { set_demilitarized_zone = yes }
+215 = { set_demilitarized_zone = yes }
+1359 = { set_demilitarized_zone = yes }
+1712 = { set_demilitarized_zone = yes }
+1722 = { set_demilitarized_zone = yes }
