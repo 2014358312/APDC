@@ -1,0 +1,1576 @@
+focus_tree = {
+	id = GER_APDC_focus_tree
+	default = no
+	country = {
+		factor = 0
+		modifier = {
+			add = 1000
+			tag = GER
+		}
+	}
+	initial_show_position = {
+		x = 13
+		y = 0
+	}
+	continuous_focus_position = {
+		x = 50
+		y = 1040
+	}
+	focus = {
+		id = GER_convene_peoples_chamber
+		x = 13
+		y = 0
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		completion_reward = {
+			add_political_power = 20
+			add_timed_idea = {
+				idea = GER_APDC_political_consultative_conference
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = GER_resolve_west_german_industries
+		x = -9
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_convene_peoples_chamber
+		}
+		completion_reward = {
+			country_event = {
+				id = GER_APDC.1
+				hours = 1
+			}
+			add_timed_idea = {
+				idea = GER_APDC_unassimilated_west_german_industry
+				days = 730
+			}
+		}
+		relative_position_id = GER_convene_peoples_chamber
+	}
+	focus = {
+		id = GER_court_west_german_industries
+		x = -3
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		mutually_exclusive = {
+			focus = GER_absorb_west_german_industries
+		}
+		prerequisite = {
+			focus = GER_resolve_west_german_industries
+		}
+		completion_reward = {
+			add_political_power = 30
+			remove_ideas = GER_APDC_unassimilated_west_german_industry
+			add_ideas = GER_APDC_dance_with_wolves
+			42 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			50 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			51 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			52 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			53 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			54 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			55 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			56 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			57 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			58 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			59 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			68 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			72 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			188 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			775 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1026 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1373 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1809 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1810 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1811 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			1815 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+		relative_position_id = GER_resolve_west_german_industries
+	}
+	focus = {
+		id = GER_preferential_policies
+		x = -1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_court_west_german_industries
+		}
+		completion_reward = {
+			add_ideas = GER_APDC_preferential_policy_modifier
+			add_timed_idea = {
+				idea = GER_APDC_tax_haven
+				days = 1095
+			}
+		}
+		relative_position_id = GER_court_west_german_industries
+	}
+	focus = {
+		id = GER_government_industry_unity
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_preferential_policies
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GER_APDC_tax_haven
+				add_idea = GER_APDC_all_german_industrial_consensus
+			}
+		}
+		relative_position_id = GER_preferential_policies
+	}
+	focus = {
+		id = GER_substitute_the_goods
+		x = 1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_court_west_german_industries
+		}
+		completion_reward = {
+			add_ideas = GER_APDC_counterfeit_production
+		}
+		relative_position_id = GER_court_west_german_industries
+	}
+	focus = {
+		id = GER_wait_for_the_opportunity
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_substitute_the_goods
+		}
+		completion_reward = {
+			add_political_power = 25
+			swap_ideas = {
+				remove_idea = GER_APDC_counterfeit_production
+				add_idea = GER_APDC_seize_the_opportunity
+			}
+		}
+		relative_position_id = GER_substitute_the_goods
+	}
+	focus = {
+		id = GER_absorb_west_german_industries
+		x = 3
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		mutually_exclusive = {
+			focus = GER_court_west_german_industries
+		}
+		prerequisite = {
+			focus = GER_resolve_west_german_industries
+		}
+		completion_reward = {
+			remove_ideas = GER_APDC_unassimilated_west_german_industry
+			add_timed_idea = {
+				idea = GER_APDC_nationalization_by_administrative_order
+				days = 365
+			}
+			42 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			50 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			51 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			52 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			53 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			54 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			55 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			56 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			57 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			58 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			59 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			68 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			72 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			188 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			775 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			1026 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			1373 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			1809 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			1810 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			1811 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			1815 = {
+				if = {
+					limit = {
+						is_fully_controlled_by = ROOT
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+		}
+		relative_position_id = GER_resolve_west_german_industries
+	}
+	focus = {
+		id = GER_preserve_original_structure
+		x = -2
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_absorb_west_german_industries
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = GER_APDC_old_wine_in_new_bottles
+				days = 365
+			}
+		}
+		relative_position_id = GER_absorb_west_german_industries
+	}
+	focus = {
+		id = GER_win_over_the_workers
+		x = -1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_preserve_original_structure
+		}
+		completion_reward = {
+			add_ideas = GER_APDC_class_friendship_across_the_elbe
+		}
+		relative_position_id = GER_preserve_original_structure
+	}
+	focus = {
+		id = GER_business_as_usual
+		x = 1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_preserve_original_structure
+		}
+		completion_reward = {
+			remove_ideas = GER_APDC_old_wine_in_new_bottles
+			add_timed_idea = {
+				idea = GER_APDC_equal_treatment
+				days = 365
+			}
+		}
+		relative_position_id = GER_preserve_original_structure
+	}
+	focus = {
+		id = GER_reorganize_state_enterprises
+		x = 2
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_absorb_west_german_industries
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = GER_APDC_state_owned_system_from_scratch
+				days = 365
+			}
+		}
+		relative_position_id = GER_absorb_west_german_industries
+	}
+	focus = {
+		id = GER_reconstitute_original_entities
+		x = -1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_reorganize_state_enterprises
+		}
+		completion_reward = {
+			remove_ideas = GER_APDC_state_owned_system_from_scratch
+			add_ideas = GER_APDC_genuine_public_ownership
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+		}
+		relative_position_id = GER_reorganize_state_enterprises
+	}
+	focus = {
+		id = GER_unite_east_and_west
+		x = 1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_reorganize_state_enterprises
+		}
+		completion_reward = {
+			add_ideas = GER_APDC_technical_consortium
+		}
+		relative_position_id = GER_reorganize_state_enterprises
+	}
+	focus = {
+		id = GER_modernize_army_equipment
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_convene_peoples_chamber
+		}
+		completion_reward = {
+			add_ideas = GER_APDC_equipment_renewal_plan
+			add_tech_bonus = {
+				name = GER_APDC_infantry_equipment_bonus
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				name = GER_APDC_small_arms_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+		relative_position_id = GER_convene_peoples_chamber
+	}
+	focus = {
+		id = GER_full_domestic_production
+		x = -2
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_modernize_army_equipment
+		}
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 4514
+				producer = GER
+			}
+			swap_ideas = {
+				remove_idea = GER_APDC_equipment_renewal_plan
+				add_idea = GER_APDC_domestically_produced_equipment
+			}
+		}
+		relative_position_id = GER_modernize_army_equipment
+	}
+	focus = {
+		id = GER_independent_armaments_industry
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_full_domestic_production
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = GER_APDC_armaments_independence_modifier
+			custom_effect_tooltip = GER_APDC_monthly_industrial_development_75_tt
+			custom_effect_tooltip = GER_APDC_treasury_minus_2000000_tt
+			hidden_effect = {
+				add_to_variable = {
+					GER_APDC_monthly_industrial_development = 0.075
+				}
+				add_to_variable = {
+					GER_APDC_treasury = -2000000
+				}
+			}
+			swap_ideas = {
+				remove_idea = GER_APDC_domestically_produced_equipment
+				add_idea = GER_APDC_next_generation_domestic_equipment
+			}
+		}
+		relative_position_id = GER_full_domestic_production
+	}
+	focus = {
+		id = GER_extend_warsaw_pact_equipment
+		x = 2
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_modernize_army_equipment
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = GER_APDC_warsaw_pact_life_extension_modifier
+			custom_effect_tooltip = GER_APDC_monthly_industrial_development_15_tt
+			hidden_effect = {
+				add_to_variable = {
+					GER_APDC_monthly_industrial_development = 0.015
+				}
+			}
+			swap_ideas = {
+				remove_idea = GER_APDC_equipment_renewal_plan
+				add_idea = GER_APDC_recycled_warsaw_pact_equipment
+			}
+		}
+		relative_position_id = GER_modernize_army_equipment
+	}
+	focus = {
+		id = GER_extend_existing_equipment
+		x = -1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		mutually_exclusive = {
+			focus = GER_integrate_warsaw_pact_production
+		}
+		prerequisite = {
+			focus = GER_extend_warsaw_pact_equipment
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 7500
+				producer = GER
+			}
+			add_tech_bonus = {
+				name = GER_APDC_infantry_equipment_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				name = GER_APDC_small_arms_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+			custom_effect_tooltip = GER_APDC_monthly_military_development_05_tt
+			hidden_effect = {
+				add_to_variable = {
+					GER_APDC_monthly_military_development = 0.005
+				}
+			}
+			swap_ideas = {
+				remove_idea = GER_APDC_recycled_warsaw_pact_equipment
+				add_idea = GER_APDC_rediscovered_old_armories
+			}
+		}
+		relative_position_id = GER_extend_warsaw_pact_equipment
+	}
+	focus = {
+		id = GER_old_blades_still_sharp
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_extend_existing_equipment
+		}
+		relative_position_id = GER_extend_existing_equipment
+	}
+	focus = {
+		id = GER_integrate_warsaw_pact_production
+		x = 1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		mutually_exclusive = {
+			focus = GER_extend_existing_equipment
+		}
+		prerequisite = {
+			focus = GER_extend_warsaw_pact_equipment
+		}
+		relative_position_id = GER_extend_warsaw_pact_equipment
+	}
+	focus = {
+		id = GER_blade_of_rus
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_integrate_warsaw_pact_production
+		}
+		relative_position_id = GER_integrate_warsaw_pact_production
+	}
+	focus = {
+		id = GER_visit_security_services
+		x = 6
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_convene_peoples_chamber
+		}
+		relative_position_id = GER_convene_peoples_chamber
+	}
+	focus = {
+		id = GER_reward_our_own
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_visit_security_services
+		}
+		relative_position_id = GER_visit_security_services
+	}
+	focus = {
+		id = GER_raise_benefits
+		x = -1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_reward_our_own
+		}
+		relative_position_id = GER_reward_our_own
+	}
+	focus = {
+		id = GER_generate_additional_revenue
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_raise_benefits
+		}
+		relative_position_id = GER_raise_benefits
+	}
+	focus = {
+		id = GER_optimize_benefits
+		x = 1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_reward_our_own
+		}
+		relative_position_id = GER_reward_our_own
+	}
+	focus = {
+		id = GER_make_do_and_mend
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_optimize_benefits
+		}
+		relative_position_id = GER_optimize_benefits
+	}
+	focus = {
+		id = GER_consult_warsaw_pact_colleagues
+		x = 9
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_convene_peoples_chamber
+		}
+		relative_position_id = GER_convene_peoples_chamber
+	}
+	focus = {
+		id = GER_negotiate_new_aid
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_consult_warsaw_pact_colleagues
+		}
+		relative_position_id = GER_consult_warsaw_pact_colleagues
+	}
+	focus = {
+		id = GER_days_of_potatoes_and_cabbage
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_negotiate_new_aid
+		}
+		relative_position_id = GER_negotiate_new_aid
+	}
+	focus = {
+		id = GER_fire_in_the_east
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_days_of_potatoes_and_cabbage
+		}
+		relative_position_id = GER_days_of_potatoes_and_cabbage
+	}
+	focus = {
+		id = GER_red_and_black
+		x = 27
+		y = 0
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		completion_reward = {
+			add_political_power = 100
+			country_event = {
+				id = GER_APDC.2
+				hours = 1
+			}
+			add_timed_idea = {
+				idea = GER_APDC_age_of_red_and_black
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = GER_watch_the_east
+		x = -2
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_red_and_black
+		}
+		completion_reward = {
+			add_ideas = GER_APDC_fires_in_the_east
+		}
+		relative_position_id = GER_red_and_black
+	}
+	focus = {
+		id = GER_watch_the_border
+		x = -1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_watch_the_east
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = GER_APDC_border_defense_assessment
+			hidden_effect = {
+				set_country_flag = GER_APDC_border_defense_assessment_unlocked
+			}
+			add_ideas = GER_APDC_oder_under_alert
+		}
+		relative_position_id = GER_watch_the_east
+	}
+	focus = {
+		id = GER_deploy_the_army
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_watch_the_border
+		}
+		completion_reward = {
+			custom_effect_tooltip = GER_APDC_create_three_border_garrison_divisions_tt
+			hidden_effect = {
+				division_template = {
+					name = GER_APDC_border_garrison_template
+					is_locked = no
+					regiments = {
+						infantry = {
+							x = 0
+							y = 0
+						}
+						infantry = {
+							x = 0
+							y = 1
+						}
+						infantry = {
+							x = 0
+							y = 2
+						}
+						infantry = {
+							x = 1
+							y = 0
+						}
+						infantry = {
+							x = 1
+							y = 1
+						}
+						infantry = {
+							x = 1
+							y = 2
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						OR = {
+							state = 60
+							state = 61
+							state = 64
+							state = 65
+							state = 776
+							state = 1813
+							state = 1814
+						}
+					}
+					create_unit = {
+						division = "division_template = \"GER_APDC_border_garrison_template\" start_experience_factor = 0.3 start_equipment_factor = 1 start_manpower_factor = 1"
+						owner = ROOT
+						count = 3
+					}
+				}
+			}
+			if = {
+				limit = {
+					SOV = {
+						exists = yes
+					}
+				}
+				SOV = {
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = GER_APDC_border_coordination_opinion
+					}
+				}
+			}
+		}
+		relative_position_id = GER_watch_the_border
+	}
+	focus = {
+		id = GER_let_no_one_through
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_deploy_the_army
+		}
+		relative_position_id = GER_deploy_the_army
+	}
+	focus = {
+		id = GER_determine_the_situation
+		x = 1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_watch_the_east
+		}
+		completion_reward = {
+			add_ideas = GER_APDC_nationwide_lockdown
+			country_event = {
+				id = GER_APDC.3
+				hours = 1
+			}
+		}
+		relative_position_id = GER_watch_the_east
+	}
+	focus = {
+		id = GER_contact_trapped_personnel
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_determine_the_situation
+		}
+		relative_position_id = GER_determine_the_situation
+	}
+	focus = {
+		id = GER_deploy_border_company_nine
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_contact_trapped_personnel
+		}
+		completion_reward = {
+			custom_effect_tooltip = GER_APDC_create_border_company_nine_tt
+			hidden_effect = {
+				division_template = {
+					name = GER_APDC_border_company_nine_template
+					is_locked = yes
+					force_allow_recruiting = yes
+					regiments = {
+						infantry = {
+							x = 0
+							y = 0
+						}
+						infantry = {
+							x = 0
+							y = 1
+						}
+						infantry = {
+							x = 0
+							y = 2
+						}
+						infantry = {
+							x = 1
+							y = 0
+						}
+						infantry = {
+							x = 1
+							y = 1
+						}
+						infantry = {
+							x = 1
+							y = 2
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						OR = {
+							state = 60
+							state = 61
+							state = 64
+							state = 65
+							state = 776
+							state = 1813
+							state = 1814
+						}
+					}
+					create_unit = {
+						division = "name = \"GER_APDC_border_company_nine_unit\" division_template = \"GER_APDC_border_company_nine_template\" start_experience_factor = 0.75 start_equipment_factor = 1 start_manpower_factor = 1"
+						owner = ROOT
+						count = 1
+					}
+				}
+				set_country_flag = GER_APDC_border_company_nine_guerrilla_specialist_interface
+				set_country_flag = GER_APDC_border_company_nine_night_raid_interface
+				set_country_flag = GER_APDC_border_company_nine_poland_efficiency_interface
+			}
+			add_ideas = GER_APDC_ghost_beyond_the_oder
+		}
+		relative_position_id = GER_contact_trapped_personnel
+	}
+	focus = {
+		id = GER_stand_ready
+		x = 0
+		y = 4
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_deploy_border_company_nine
+		}
+		prerequisite = {
+			focus = GER_let_no_one_through
+		}
+		completion_reward = {
+			remove_ideas = GER_APDC_age_of_red_and_black
+			remove_ideas = GER_APDC_fires_in_the_east
+			remove_ideas = GER_APDC_nationwide_lockdown
+			add_ideas = GER_APDC_readiness_level_three
+			hidden_effect = {
+				set_country_flag = GER_APDC_free_conscription_law_upgrade
+			}
+			country_event = {
+				id = GER_APDC.4
+				hours = 1
+			}
+		}
+		relative_position_id = GER_watch_the_east
+	}
+	focus = {
+		id = GER_stabilize_the_home_front
+		x = 2
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_red_and_black
+		}
+		relative_position_id = GER_red_and_black
+	}
+	focus = {
+		id = GER_partial_state_of_emergency
+		x = -1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_stabilize_the_home_front
+		}
+		completion_reward = {
+			add_stability = 0.05
+			add_timed_idea = {
+				idea = GER_APDC_internal_unity_in_emergency
+				days = 180
+			}
+		}
+		relative_position_id = GER_stabilize_the_home_front
+	}
+	focus = {
+		id = GER_city_travel_restrictions
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_partial_state_of_emergency
+		}
+		completion_reward = {
+			add_ideas = GER_APDC_transport_controls
+		}
+		relative_position_id = GER_partial_state_of_emergency
+	}
+	focus = {
+		id = GER_control_population_movement
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_city_travel_restrictions
+		}
+		completion_reward = {
+			add_ideas = GER_APDC_travel_permit_system
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.05
+			}
+		}
+		relative_position_id = GER_city_travel_restrictions
+	}
+	focus = {
+		id = GER_guard_against_extremists
+		x = 1
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_stabilize_the_home_front
+		}
+		completion_reward = {
+			add_ideas = GER_APDC_guard_against_extremists
+		}
+		relative_position_id = GER_stabilize_the_home_front
+	}
+	focus = {
+		id = GER_stasi_round_the_clock_surveillance
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_guard_against_extremists
+		}
+		completion_reward = {
+			remove_ideas = GER_APDC_guard_against_extremists
+			add_ideas = GER_APDC_eyes_everywhere
+		}
+		relative_position_id = GER_guard_against_extremists
+	}
+	focus = {
+		id = GER_arrest_the_uncontrollable
+		x = 0
+		y = 1
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_stasi_round_the_clock_surveillance
+		}
+		completion_reward = {
+			country_event = {
+				id = GER_APDC.5
+				hours = 1
+			}
+			unlock_decision_tooltip = GER_APDC_arrest_uncontrollable_decision
+			hidden_effect = {
+				set_country_flag = GER_APDC_arrest_uncontrollable_decision_unlocked
+			}
+		}
+		relative_position_id = GER_stasi_round_the_clock_surveillance
+	}
+	focus = {
+		id = GER_all_is_quiet
+		x = 0
+		y = 4
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_control_population_movement
+		}
+		prerequisite = {
+			focus = GER_arrest_the_uncontrollable
+		}
+		completion_reward = {
+			add_ideas = GER_APDC_quiet_homeland
+			custom_effect_tooltip = GER_APDC_traumatic_memory_1825_tt
+			hidden_effect = {
+				add_timed_idea = {
+					idea = GER_APDC_traumatic_memory
+					days = 1825
+				}
+			}
+		}
+		relative_position_id = GER_stabilize_the_home_front
+	}
+	focus = {
+		id = GER_where_does_the_future_lie
+		x = 0
+		y = 6
+		cost = 5
+		continue_if_invalid = no
+		cancel_if_invalid = yes
+		prerequisite = {
+			focus = GER_stand_ready
+		}
+		prerequisite = {
+			focus = GER_all_is_quiet
+		}
+		completion_reward = {
+			news_event = {
+				id = GER_APDC.7
+				hours = 1
+			}
+		}
+		relative_position_id = GER_red_and_black
+	}
+}

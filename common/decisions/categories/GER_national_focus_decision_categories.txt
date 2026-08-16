@@ -1,0 +1,5 @@
+GER_APDC_border_defense_assessment = {
+    visible_when_empty = yes
+    allowed = { original_tag = GER }
+    visible = { has_country_flag = GER_APDC_border_defense_assessment_unlocked }
+}

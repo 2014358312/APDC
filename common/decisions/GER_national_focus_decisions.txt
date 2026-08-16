@@ -1,0 +1,32 @@
+GER_APDC_border_defense_assessment = {
+}
+
+political_actions = {
+    GER_APDC_arrest_uncontrollable_decision = {
+        allowed = { original_tag = GER }
+        available = { has_country_flag = GER_APDC_arrest_uncontrollable_decision_unlocked }
+        visible = { has_country_flag = GER_APDC_arrest_uncontrollable_decision_unlocked }
+        cost = 20
+        fire_only_once = yes
+        complete_effect = {
+            add_popularity = { ideology = democratic popularity = -0.10 }
+            add_popularity = { ideology = fascism popularity = -0.10 }
+            add_popularity = { ideology = neutrality popularity = -0.10 }
+            if = {
+                limit = { SOV = { exists = yes } }
+                SOV = { add_opinion_modifier = { target = ROOT modifier = GER_APDC_security_cooperation_opinion } }
+            }
+            every_country = {
+                limit = {
+                    exists = yes
+                    NOT = { tag = ROOT }
+                    OR = { original_tag = ALB original_tag = BEL original_tag = BUL original_tag = CAN original_tag = CRO original_tag = CZE original_tag = DEN original_tag = ENG original_tag = EST original_tag = FIN original_tag = FRA original_tag = GRE original_tag = HUN original_tag = ICE original_tag = ITA original_tag = LAT original_tag = LIT original_tag = LUX original_tag = MAC original_tag = MNT original_tag = HOL original_tag = NOR original_tag = POL original_tag = POR original_tag = ROM original_tag = SLO original_tag = SLV original_tag = SPR original_tag = SWE original_tag = TUR original_tag = USA }
+                }
+                add_opinion_modifier = { target = ROOT modifier = GER_APDC_human_rights_condemnation_opinion }
+            }
+            add_timed_idea = { idea = GER_APDC_arrest_crackdown days = 30 }
+            clr_country_flag = GER_APDC_arrest_uncontrollable_decision_unlocked
+        }
+        ai_will_do = { factor = 1 }
+    }
+}

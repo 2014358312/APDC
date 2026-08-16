@@ -1,0 +1,58 @@
+add_namespace = GER_APDC
+
+country_event = {
+    id = GER_APDC.1
+    title = GER_APDC.1.t
+    desc = GER_APDC.1.d
+    is_triggered_only = yes
+    option = { name = GER_APDC.placeholder }
+}
+
+country_event = {
+    id = GER_APDC.2
+    title = GER_APDC.2.t
+    desc = GER_APDC.2.d
+    is_triggered_only = yes
+    option = { name = GER_APDC.placeholder }
+}
+
+country_event = {
+    id = GER_APDC.3
+    title = GER_APDC.3.t
+    desc = GER_APDC.3.d
+    is_triggered_only = yes
+    option = { name = GER_APDC.placeholder }
+}
+
+country_event = {
+    id = GER_APDC.4
+    title = GER_APDC.4.t
+    desc = GER_APDC.4.d
+    is_triggered_only = yes
+    option = { name = GER_APDC.placeholder }
+}
+
+country_event = {
+    id = GER_APDC.5
+    title = GER_APDC.5.t
+    desc = GER_APDC.5.d
+    is_triggered_only = yes
+    option = { name = GER_APDC.placeholder }
+}
+
+country_event = {
+    id = GER_APDC.6
+    title = GER_APDC.6.t
+    desc = GER_APDC.6.d
+    is_triggered_only = yes
+    option = { name = GER_APDC.placeholder }
+}
+
+news_event = {
+    id = GER_APDC.7
+    title = GER_APDC.7.t
+    desc = GER_APDC.7.d
+    is_triggered_only = yes
+    major = yes
+    option = { name = GER_APDC.placeholder }
+}

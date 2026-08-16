@@ -1,0 +1,199 @@
+ideas = {
+    country = {
+        GER_APDC_political_consultative_conference = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { political_power_gain = 0.25 stability_factor = 0.05 }
+        }
+        GER_APDC_unassimilated_west_german_industry = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { production_factory_max_efficiency_factor = -0.10 stability_factor = -0.05 }
+        }
+        GER_APDC_dance_with_wolves = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { production_factory_max_efficiency_factor = 0.05 democratic_drift = 0.02 }
+        }
+        GER_APDC_tax_haven = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            on_add = { add_to_variable = { GER_APDC_foreign_investment_penetration_growth_rate = 0.10 } }
+            on_remove = { add_to_variable = { GER_APDC_foreign_investment_penetration_growth_rate = -0.10 } }
+            modifier = { stability_factor = -0.03 custom_modifier_tooltip = GER_APDC_foreign_investment_growth_plus_10_tt }
+        }
+        GER_APDC_all_german_industrial_consensus = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { production_factory_max_efficiency_factor = 0.10 stability_factor = 0.05 }
+        }
+        GER_APDC_counterfeit_production = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            on_add = { add_to_variable = { GER_APDC_foreign_investment_penetration_growth_rate = -0.10 } }
+            on_remove = { add_to_variable = { GER_APDC_foreign_investment_penetration_growth_rate = 0.10 } }
+            modifier = { production_factory_max_efficiency_factor = -0.025 custom_modifier_tooltip = GER_APDC_foreign_investment_growth_minus_10_tt }
+        }
+        GER_APDC_seize_the_opportunity = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            on_add = { add_to_variable = { GER_APDC_foreign_investment_penetration_growth_rate = -0.10 } }
+            on_remove = { add_to_variable = { GER_APDC_foreign_investment_penetration_growth_rate = 0.10 } }
+            modifier = { production_factory_max_efficiency_factor = 0.05 stability_factor = 0.035 custom_modifier_tooltip = GER_APDC_foreign_investment_growth_minus_10_tt }
+        }
+        GER_APDC_nationalization_by_administrative_order = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { stability_factor = -0.10 production_factory_max_efficiency_factor = -0.05 }
+        }
+        GER_APDC_old_wine_in_new_bottles = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { stability_factor = -0.05 fascism_drift = 0.03 }
+        }
+        GER_APDC_class_friendship_across_the_elbe = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { stability_factor = 0.10 production_speed_buildings_factor = 0.05 }
+        }
+        GER_APDC_equal_treatment = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { communism_drift = 0.03 }
+        }
+        GER_APDC_state_owned_system_from_scratch = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { stability_factor = 0.10 }
+        }
+        GER_APDC_genuine_public_ownership = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { production_factory_efficiency_gain_factor = 0.10 production_factory_max_efficiency_factor = 0.05 stability_factor = 0.10 }
+        }
+        GER_APDC_technical_consortium = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { production_factory_max_efficiency_factor = 0.10 research_speed_factor = 0.05 }
+        }
+        GER_APDC_equipment_renewal_plan = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { production_factory_max_efficiency_factor = 0.15 factory_energy_consumption = -0.05 research_speed_factor = 0.05 }
+        }
+        GER_APDC_domestically_produced_equipment = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { production_factory_max_efficiency_factor = 0.20 factory_energy_consumption = -0.075 research_speed_factor = 0.05 industrial_capacity_factory = 0.05 }
+        }
+        GER_APDC_next_generation_domestic_equipment = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            on_add = { add_to_variable = { GER_APDC_military_factory_maintenance_factor = -0.20 } }
+            on_remove = { add_to_variable = { GER_APDC_military_factory_maintenance_factor = 0.20 } }
+            modifier = { production_factory_max_efficiency_factor = 0.20 factory_energy_consumption = -0.10 research_speed_factor = 0.15 industrial_capacity_factory = 0.05 custom_modifier_tooltip = GER_APDC_military_factory_maintenance_minus_20_tt }
+        }
+        GER_APDC_recycled_warsaw_pact_equipment = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            on_add = { add_to_variable = { GER_APDC_military_factory_maintenance_factor = -0.25 } }
+            on_remove = { add_to_variable = { GER_APDC_military_factory_maintenance_factor = 0.25 } }
+            modifier = { production_factory_max_efficiency_factor = -0.05 factory_energy_consumption = -0.125 research_speed_factor = 0.05 industrial_capacity_factory = 0.05 custom_modifier_tooltip = GER_APDC_military_factory_maintenance_minus_25_tt }
+        }
+        GER_APDC_rediscovered_old_armories = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            on_add = { add_to_variable = { GER_APDC_military_factory_maintenance_factor = -0.35 } }
+            on_remove = { add_to_variable = { GER_APDC_military_factory_maintenance_factor = 0.35 } }
+            modifier = { production_factory_max_efficiency_factor = -0.075 factory_energy_consumption = -0.175 research_speed_factor = 0.075 industrial_capacity_factory = 0.02 custom_modifier_tooltip = GER_APDC_military_factory_maintenance_minus_35_tt }
+        }
+        GER_APDC_age_of_red_and_black = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { stability_factor = -0.05 war_support_factor = 0.05 }
+        }
+        GER_APDC_fires_in_the_east = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { experience_gain_army = 0.03 stability_factor = -0.02 }
+        }
+        GER_APDC_oder_under_alert = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { resistance_growth_on_our_occupied_states = -0.10 }
+        }
+        GER_APDC_nationwide_lockdown = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { monthly_population = -0.80 stability_factor = -0.05 consumer_goods_factor = 0.02 }
+        }
+        GER_APDC_ghost_beyond_the_oder = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { custom_modifier_tooltip = GER_APDC_border_company_nine_secret_operations_tt }
+        }
+        GER_APDC_readiness_level_three = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { army_org_factor = 0.05 industrial_capacity_factory = 0.10 stability_factor = -0.05 consumer_goods_factor = 0.03 custom_modifier_tooltip = GER_APDC_free_conscription_law_upgrade_tt }
+        }
+        GER_APDC_internal_unity_in_emergency = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            on_add = { add_to_variable = { GER_APDC_non_SED_party_support_growth_factor = -0.25 } }
+            on_remove = { add_to_variable = { GER_APDC_non_SED_party_support_growth_factor = 0.25 } }
+            modifier = { custom_modifier_tooltip = GER_APDC_other_parties_growth_minus_25_tt }
+        }
+        GER_APDC_transport_controls = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { army_speed_factor = 0.05 industrial_capacity_factory = -0.05 stability_factor = -0.02 }
+        }
+        GER_APDC_travel_permit_system = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { stability_factor = -0.05 intelligence_agency_defense = 0.25 enemy_operative_detection_chance_factor = 0.15 }
+        }
+        GER_APDC_guard_against_extremists = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { stability_factor = 0.05 recruitable_population_factor = -0.10 }
+        }
+        GER_APDC_eyes_everywhere = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { stability_factor = 0.15 recruitable_population_factor = -0.30 }
+        }
+        GER_APDC_arrest_crackdown = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { stability_factor = -0.05 }
+        }
+        GER_APDC_quiet_homeland = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { stability_factor = 0.20 }
+        }
+        GER_APDC_traumatic_memory = {
+            allowed = { original_tag = GER }
+            visible = { always = no }
+            removal_cost = -1
+            on_remove = { country_event = { id = GER_APDC.6 hours = 1 } }
+        }
+        GER_APDC_preferential_policy_modifier = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { consumer_goods_factor = 0.03 }
+        }
+        GER_APDC_armaments_independence_modifier = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { production_speed_buildings_factor = 0.05 industrial_capacity_factory = 0.075 }
+        }
+        GER_APDC_warsaw_pact_life_extension_modifier = {
+            allowed = { original_tag = GER }
+            removal_cost = -1
+            modifier = { production_speed_buildings_factor = 0.005 industrial_capacity_factory = 0.125 }
+        }
+    }
+}

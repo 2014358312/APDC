@@ -1,0 +1,5 @@
+opinion_modifiers = {
+    GER_APDC_border_coordination_opinion = { value = 5 }
+    GER_APDC_security_cooperation_opinion = { value = 10 }
+    GER_APDC_human_rights_condemnation_opinion = { value = -5 }
+}
