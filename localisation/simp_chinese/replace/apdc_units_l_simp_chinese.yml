@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ mechanized: "履带装甲运兵车"
+ armored_car: "轮式装甲运兵车"
+ sp_artillery_brigade: "自行火炮"
+ sp_artillery: "自行火炮支援连"
+ sp_anti_air_brigade: "自行防空车"
+ sp_anti_air: "自行防空支援连"
+ rocket_artillery_brigade: "自行火箭炮"
+ rocket_artillery: "自行火箭炮支援连"
+ infantry_fighting_vehicle: "步兵战车"
+ mega_cruiser: "超级巡洋舰"
+ transport_helicopter: "直升机步兵"
+ helicopter_gunship: "武装直升机"

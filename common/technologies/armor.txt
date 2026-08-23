@@ -1,0 +1,1400 @@
+technologies = {
+	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
+	gwtank = { #Leichttraktor
+
+		enable_equipments = {
+			gw_tank_equipment
+
+		}
+		enable_subunits = {
+			light_armor
+		}
+		on_research_complete_limit = {
+			NOT = {	has_template_containing_unit = light_armor }
+			NOT = {	has_template_containing_unit = heavy_armor }
+			NOT = {	has_template_containing_unit = medium_armor }
+		}
+		on_research_complete = {
+			hidden_effect = {
+				if = {
+					limit = {
+						has_tech = motorised_infantry
+					}
+
+					load_oob = "unlock_tanks_mot"
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = motorised_infantry }
+					}
+
+					load_oob = "unlock_tanks"
+				}
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		path = {
+			leads_to_tech = basic_light_tank
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2000
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2061.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2062.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2063.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	basic_light_tank = { 
+
+		enable_equipments = {
+			light_tank_equipment_1
+		}
+
+		on_research_complete_limit = {
+			NOT = {	has_template_containing_unit = light_armor }
+			NOT = {	has_template_containing_unit = heavy_armor }
+			NOT = {	has_template_containing_unit = medium_armor }
+		}
+		on_research_complete = {
+			hidden_effect = {
+				if = {
+					limit = {
+						has_tech = motorised_infantry
+					}
+
+					load_oob = "unlock_tanks_mot"
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = motorised_infantry }
+					}
+
+					load_oob = "unlock_tanks"
+				}
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		path = {
+			leads_to_tech = improved_light_tank
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2050
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 2 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2061.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2062.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2063.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	improved_light_tank = { 
+
+		enable_equipments = {
+			light_tank_equipment_2
+		}
+
+		path = {
+			leads_to_tech = advanced_light_tank
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2060
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 4 }
+		}
+
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				is_major = yes
+				has_war = yes
+				factor = 10 
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2061.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2062.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2063.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	advanced_light_tank = { 
+
+		enable_equipments = {
+			light_tank_equipment_3
+		}
+		path = {
+			leads_to_tech = advanced_light_tank_2
+			research_cost = 1
+		}
+		research_cost = 2
+		start_year = 2065
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 6 }
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				is_major = no
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2066.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2067.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2068.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	advanced_light_tank_2 = { 
+
+		enable_equipments = {
+			light_tank_equipment_4
+		}
+		path = {
+			leads_to_tech = future_light_tank
+			research_cost = 1
+		}
+		research_cost = 2
+		start_year = 2065
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 8 }
+		}
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				is_major = no
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2066.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2067.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2068.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	future_light_tank = { 
+
+		enable_equipments = {
+			light_tank_equipment_5
+		}
+
+		research_cost = 2
+		start_year = 2075
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 10 }
+		}
+
+
+		ai_will_do = {
+			base = 0.5
+			modifier = {
+				is_major = no
+				factor = 2
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2076.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2077.1.1"
+			}
+
+			modifier = {
+				factor = 1.1
+				date > "2078.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+
+	main_battle_tank = { 
+
+		enable_equipments = {
+			modern_tank_equipment_1
+		}
+		enable_subunits = {
+			modern_armor
+		}
+
+		path = {
+			leads_to_tech = main_battle_tank2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improve_ap1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = amphibious_tank
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 2000
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2061.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2062.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2063.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+	main_battle_tank2 = { 
+
+		enable_equipments = {
+			modern_tank_equipment_2
+		}
+		path = {
+			leads_to_tech = main_battle_tank3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improve_ap1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improve_armor1
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 2050
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 2 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2061.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2062.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2063.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+	main_battle_tank3 = { 
+
+		enable_equipments = {
+			modern_tank_equipment_3
+		}
+		path = {
+			leads_to_tech = main_battle_tank4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improve_he1
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 2060
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 4 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2061.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2062.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2063.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+	main_battle_tank4 = { 
+
+		enable_equipments = {
+			modern_tank_equipment_4
+		}
+		
+		path = {
+			leads_to_tech = main_battle_tank5
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improve_ap2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improve_armor2
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 2065
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 6 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2066.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2067.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2068.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	main_battle_tank5 = { 
+
+		enable_equipments = {
+			modern_tank_equipment_5
+		}
+		path = {
+			leads_to_tech = main_battle_tank6
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improve_he2
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 2070
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 8 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2071.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2072.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2073.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	main_battle_tank6 = { 
+
+		enable_equipments = {
+			modern_tank_equipment_6
+		}
+
+		path = {
+			leads_to_tech = improve_ap3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improve_armor3
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 2075
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 10 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2076.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2077.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2078.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+	improve_ap1 = {
+		modern_armor = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+		light_armor = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+		infantry_fighting_vehicle = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+		path = {
+			leads_to_tech = improve_ap2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2050
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 2 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improve_ap2 = {
+		modern_armor = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+		light_armor = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+		infantry_fighting_vehicle = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+		path = {
+			leads_to_tech = improve_ap3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2065
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 6 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improve_ap3 = {
+		modern_armor = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+		light_armor = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		infantry_fighting_vehicle = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2075
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 10 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improve_he1 = {
+		modern_armor = {
+			soft_attack = 0.05
+			defense = 0.1
+		}
+		light_armor = {
+			soft_attack = 0.05
+			defense = 0.1
+		}
+		infantry_fighting_vehicle = {
+			soft_attack = 0.05
+			defense = 0.1
+		}
+		path = {
+			leads_to_tech = improve_he2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2060
+		folder = {
+			name = armour_folder
+			position = { x = -3 y = 4 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	improve_he2 = {
+		modern_armor = {
+			soft_attack = 0.05
+			defense = 0.1
+		}
+		light_armor = {
+			soft_attack = 0.05
+			defense = 0.1
+		}
+		infantry_fighting_vehicle = {
+			soft_attack = 0.05
+			defense = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2070
+		folder = {
+			name = armour_folder
+			position = { x = -3 y = 8 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improve_armor1 = {
+		modern_armor = {
+			armor_value = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		light_armor = {
+			armor_value = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		infantry_fighting_vehicle = {
+			armor_value = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2050
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 2 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improve_armor2 = {
+		modern_armor = {
+			armor_value = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		light_armor = {
+			armor_value = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		infantry_fighting_vehicle = {
+			armor_value = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2065
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 6 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	improve_armor3 = {
+		modern_armor = {
+			armor_value = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		light_armor = {
+			armor_value = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		infantry_fighting_vehicle = {
+			armor_value = 0.05
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2075
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 10 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_main_battle_armor
+			mio_cat_tech_main_battle_armor_and_modules
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_fighting_vehicle = { 
+
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_0
+		}
+		enable_subunits = {
+			infantry_fighting_vehicle
+		}
+		sub_technologies = {
+			amphibious_mechanized
+		}
+		path = {
+			leads_to_tech = infantry_fighting_vehicle2
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 2000
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2061.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2062.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2063.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_infantry_fighting_vehicle
+		}
+		special_project_specialization = { specialization_land }
+	}
+	infantry_fighting_vehicle2 = { 
+
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_1
+		}
+		path = {
+			leads_to_tech = infantry_fighting_vehicle3
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 2050
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 2 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2061.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2062.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2063.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_infantry_fighting_vehicle
+		}
+		special_project_specialization = { specialization_land }
+	}
+	infantry_fighting_vehicle3 = { 
+
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_2
+		}
+		sub_technologies = {
+			amphibious_mechanized2
+		}
+		path = {
+			leads_to_tech = infantry_fighting_vehicle4
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 2060
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 4 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2061.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2062.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2063.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_infantry_fighting_vehicle
+		}
+		special_project_specialization = { specialization_land }
+	}
+	infantry_fighting_vehicle4 = { 
+
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_3
+		}
+		path = {
+			leads_to_tech = infantry_fighting_vehicle5
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 2065
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 6 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2066.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2067.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2068.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_infantry_fighting_vehicle
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	infantry_fighting_vehicle5 = { 
+
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_4
+		}
+		path = {
+			leads_to_tech = infantry_fighting_vehicle6
+			research_cost_coeff = 1
+		}
+		sub_technologies = {
+			amphibious_mechanized3
+		}
+		research_cost = 2
+		start_year = 2070
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 8 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2071.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2072.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2073.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_infantry_fighting_vehicle
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	infantry_fighting_vehicle6 = { 
+
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_5
+		}
+		research_cost = 2
+		start_year = 2075
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 10 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2076.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2077.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2078.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_infantry_fighting_vehicle
+		}
+		special_project_specialization = { specialization_land }
+	}
+	amphibious_tank = { 
+
+		enable_equipments = {
+			amphibious_tank_equipment_1
+		}
+		enable_subunits = {
+			amphibious_armor
+		}
+		path = {
+			leads_to_tech = amphibious_tank2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 1 }
+		}
+		research_cost = 2
+		start_year = 2000
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2061.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2062.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2063.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			tp_tech
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	amphibious_tank2 = { 
+
+		enable_equipments = {
+			amphibious_tank_equipment_2
+		}
+		path = {
+			leads_to_tech = amphibious_tank3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 6 }
+		}
+		research_cost = 2
+		start_year = 2065
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2066.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2067.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2068.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			tp_tech
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	amphibious_tank3 = { 
+
+		enable_equipments = {
+			amphibious_tank_equipment_3
+		}
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 10 }
+		}
+		research_cost = 2
+		start_year = 2075
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				date > "2076.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2077.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "2078.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			tp_tech
+		}
+		special_project_specialization = { specialization_land }
+	}
+	amphibious_mechanized = {
+		enable_equipments = {
+			amphibious_mechanized_equipment_1
+		}
+		enable_subunits = {
+			amphibious_mechanized
+		}
+		research_cost = 1.5
+		start_year = 2000
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_infantry_fighting_vehicle
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	amphibious_mechanized2 = {
+		enable_equipments = {
+			amphibious_mechanized_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 2060
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_infantry_fighting_vehicle
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	amphibious_mechanized3 = {
+		enable_equipments = {
+			amphibious_mechanized_equipment_1
+		}
+		research_cost = 1.5
+		start_year = 2070
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_infantry_fighting_vehicle
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+		special_project_specialization = { specialization_land }
+	}
+}

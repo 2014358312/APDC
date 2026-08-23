@@ -1,0 +1,16 @@
+version="0.1"
+tags={
+	"Alternative History"
+	"Gameplay"
+	"National Focuses"
+	"Map"
+	"SubMod"
+	"Major Mod"
+}
+name="科技树"
+replace_path="common/ai_equipment"
+replace_path="common/ai_strategy"
+replace_path="common/raids"
+replace_path="common/special_projects/projects"
+supported_version="1.17.*"
+path="D:/APDC/apdc_tech"
