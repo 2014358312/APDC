@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = MEX
+		owner = GDB
 		buildings = {
 			
 			
@@ -16,7 +16,7 @@ state = {
 			radar_station = 1
 			air_base = 3
 		}
-		add_core_of = MEX
+		add_core_of = GDB
 		victory_points = {
 			5021 10
 		}

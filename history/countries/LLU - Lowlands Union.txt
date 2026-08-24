@@ -1,0 +1,18 @@
+capital = 1734 # Brussels
+
+set_war_support = 0.15
+set_stability = 0.7
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2059.6.3"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 70
+	neutrality = 15
+	fascism = 12
+	communism = 3
+}
