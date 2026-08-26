@@ -1,0 +1,27 @@
+defined_text = {
+	name = APDC_super_event_title
+	text = {
+		localization_key = APDC_super_event_empty
+	}
+}
+
+defined_text = {
+	name = APDC_super_event_quote
+	text = {
+		localization_key = APDC_super_event_empty
+	}
+}
+
+defined_text = {
+	name = APDC_super_event_attribution
+	text = {
+		localization_key = APDC_super_event_empty
+	}
+}
+
+defined_text = {
+	name = APDC_super_event_comment
+	text = {
+		localization_key = APDC_super_event_empty
+	}
+}

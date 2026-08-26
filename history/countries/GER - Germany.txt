@@ -10,6 +10,11 @@ set_convoys = 200
 set_stability = 0.75
 set_war_support = 0.3
 
+recruit_character = GER_APDC_rudolf_von_oberstein
+recruit_character = GER_APDC_heinrich_schweinsteiger
+recruit_character = GER_APDC_romy_riefenstahl
+recruit_character = GER_APDC_eugene_rugosa
+
 set_politics = {
 	ruling_party = communism
 	last_election = "2058.1.1"

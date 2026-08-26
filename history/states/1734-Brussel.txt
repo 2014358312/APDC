@@ -5,7 +5,7 @@ state = {
 	manpower = 1492751
 	state_category = large_city
 	history = {
-		owner = LUX
+		owner = LLU
 		victory_points = {
 			516
 			40
@@ -13,7 +13,7 @@ state = {
 		buildings = {
 			infrastructure = 5
 		}
-		add_core_of = LUX
+		add_core_of = LLU
 		add_core_of = BEL
 	}
 	provinces = {
