@@ -1,0 +1,20 @@
+# Additional intelligence-agency logo for Germany.
+# The Stasi entry and its communist-Germany default are supplied by vanilla;
+# this mod overrides that entry's texture at the same virtual path.
+intelligence_agency = {
+	picture = GFX_APDC_intelligence_agency_logo_GER_state_security
+	names = { APDC_GER_STATE_SECURITY_AGENCY }
+
+	default = { always = no }
+	available = { original_tag = GER }
+}
+
+# The vanilla USA entry remains the country's first/default entry; this mod
+# replaces its texture with the CIA logo and adds OSS as an alternate choice.
+intelligence_agency = {
+	picture = GFX_APDC_intelligence_agency_logo_USA_oss
+	names = { APDC_USA_OSS_AGENCY }
+
+	default = { always = no }
+	available = { original_tag = USA }
+}

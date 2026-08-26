@@ -6,9 +6,9 @@ state = { #Population Done
 	state_category = city
 
 	history = {
-		owner = LUX
+		owner = LLU
 		add_core_of = HOL
-		add_core_of = LUX
+		add_core_of = LLU
 		victory_points = { 6286 5 }
 		victory_points = { 13295 4 }
 		victory_points = { 11456 10 }
