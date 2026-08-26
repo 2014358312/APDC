@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_portrait_GER_APDC_rudolf_von_oberstein"
-		texturefile = "gfx/leaders/GER/GER_APDC_rudolf_von_oberstein.dds"
-	}
-}

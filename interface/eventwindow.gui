@@ -5,10 +5,10 @@ guiTypes = {
 #    #  # #  # # ##  #  ###    #       ##   # #  ##  # ##  #   #  
 #  # #  # #  # #  #  #  #  #   #       #    # #  #   #  #  #    # 
  ##   ##   ##  #  #  #  #  #   #       ###   #   ### #  #  #  ##  
-	containerWindowType = {
+containerWindowType = {
 		name = "EventWindow"
 		position = { x=-282 y=-310 }	
-		size = { width = 581 height =427 }
+		size = { width = 585 height =427 }
 		moveable = yes
 		Orientation = CENTER		
 		
@@ -34,7 +34,7 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 14 y = 70 }
+				position = { x = -20 y = 70 }
 				font = "fzwhjz_20"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
@@ -54,8 +54,8 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "midsection"
-			position = { x=0 y=121 }	
-			size = { width = 580 height = 100 }
+			position = { x=1 y=121 }	
+			size = { width = 582 height = 100 }
 			moveable = yes
 			clipping = no
 			Orientation = UPPER_LEFT
@@ -67,11 +67,11 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 31 y = 0 }
+				position = { x = 65 y = 0 }
 				font = "fzwhjz_20"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 512
+				maxWidth = 390
 				maxHeight = 230
 				format = left
 			}	
@@ -98,14 +98,15 @@ guiTypes = {
 			iconType = {
 				name ="event_picture"
 				spriteType = "GFX_report_event_001"
-				position = { x = 5 y = 5 }
+				position = { x = 60 y = -20 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes				
 			}
 
+
 			gridBoxType = {
 				name = "options_grid"
-				position = { x = 215 y = -1 }
+				position = { x = 160 y = 0 }
 				size = { width = 300 height = 30 }
 				slotsize = { width = 300 height = 47 }
 				max_slots_horizontal = 1
@@ -297,20 +298,6 @@ guiTypes = {
 			}
 		}
 
-		containerWindowType = {
-			name = "bottom_window_end"
-			position = { x=0 y=-100 }
-			size = { width = 581 height = 59 }
-			moveable = yes
-			Orientation = UPPER_LEFT
-			#fade_type = linear
-			#fade_time = 5000
-
-			background = {
-				name = "Background"	
-				spriteType ="GFX_tiled_window_transparent"
-			}
-		}
 	}
 
 
@@ -481,7 +468,7 @@ guiTypes = {
 			{
 				name ="event_picture"
 				spriteType = "GFX_news_event_001"
-				position = { x = 60 y = 91 }
+				position = { x = 59 y = 91 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
