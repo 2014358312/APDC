@@ -1,4 +1,4 @@
-﻿capital = 160 # Veneto
+capital = 160 # Veneto
 
 set_research_slots = 3
 
@@ -9,15 +9,15 @@ set_stability = 0.5
 set_war_support = 0.5
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 15
+	liberalism = 15
 	fascism = 10
 	communism = 15
-	neutrality = 60
+	dictatorship = 60
 }

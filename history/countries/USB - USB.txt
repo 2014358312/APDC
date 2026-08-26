@@ -1,4 +1,4 @@
-﻿capital = 992 # District of Columbia
+capital = 992 # District of Columbia
 
 set_research_slots = 3
 
@@ -9,13 +9,13 @@ set_stability = 0.75
 set_war_support = 0.5
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	neutrality = 99
+	dictatorship = 99
 	communism = 1
 }

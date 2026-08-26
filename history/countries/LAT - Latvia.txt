@@ -1,19 +1,19 @@
-﻿capital = 1397 # Riga
+capital = 1397 # Riga
 
 set_research_slots = 3
 
 set_convoys = 10
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.10.3"
 	election_frequency = 10
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 30
+	liberalism = 30
 	fascism = 15
 	communism = 15
-	neutrality = 40
+	dictatorship = 40
 }

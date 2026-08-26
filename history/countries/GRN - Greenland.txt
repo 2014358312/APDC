@@ -1,17 +1,17 @@
-﻿capital = 101 # Greenland
+capital = 101 # Greenland
 
 set_research_slots = 2
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 94
+	liberalism = 94
 	fascism = 2
 	communism = 2
-	neutrality = 2
+	dictatorship = 2
 }

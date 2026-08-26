@@ -1,4 +1,4 @@
-﻿capital = 980 # Delhi
+capital = 980 # Delhi
 
 set_convoys = 20
 
@@ -7,15 +7,15 @@ set_stability = 0.6
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 17
+	liberalism = 17
 	fascism = 2
 	communism = 1
-	neutrality = 80
+	dictatorship = 80
 }

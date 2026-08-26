@@ -1,4 +1,4 @@
-﻿capital = 7 # North Holland
+capital = 7 # North Holland
 
 set_research_slots = 3
 
@@ -11,14 +11,14 @@ set_war_support = 0
 add_command_power = 10
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 93
+	liberalism = 93
 	fascism = 4
 	communism = 3
 }

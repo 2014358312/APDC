@@ -1,17 +1,17 @@
-﻿capital = 288 # Rangoon
+capital = 288 # Rangoon
 
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 72
+	liberalism = 72
 	fascism = 2
 	communism = 14
-	neutrality = 12
+	dictatorship = 12
 }

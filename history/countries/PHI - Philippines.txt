@@ -1,4 +1,4 @@
-﻿capital = 327 # Greater Manila
+capital = 327 # Greater Manila
 
 set_convoys = 50
 
@@ -7,14 +7,14 @@ set_stability = 0.50
 set_war_support = 0.15
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.9.15"
 	election_frequency = 72
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 82
+	liberalism = 82
 	fascism = 9
 	communism = 9
 }

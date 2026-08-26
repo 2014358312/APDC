@@ -1,0 +1,73 @@
+bitmapfonts = {
+	# Dedicated cabinet font. Lowercase codes a/c/d/e/f/h/i/j/k are the
+	# exact RGB colours of APDC's nine main ideologies.
+	bitmapfont = {
+		name = "APDC_cabinet_18"
+		fontfiles = {
+			"gfx/fonts/hoi_18mbs"
+			"gfx/fonts/hoi_18mbs_cryllic"
+		}
+		color = 0xffffffff
+		textcolors = {
+			G = { 86 172 91 }
+			R = { 222 86 70 }
+			Y = { 238 201 35 }
+			T = { 255 255 255 }
+			a = { 162 6 6 }
+			c = { 220 30 30 }
+			d = { 237 56 110 }
+			e = { 10 48 186 }
+			f = { 231 180 27 }
+			h = { 148 148 148 }
+			i = { 73 73 73 }
+			j = { 106 62 3 }
+			k = { 179 209 88 }
+		}
+	}
+
+	bitmapfont_override = {
+		name = "APDC_cabinet_18"
+		fontfiles = {
+			"gfx/fonts/chinese/hoi_18mbs_1of4EX"
+			"gfx/fonts/chinese/hoi_18mbs_2of4EX"
+			"gfx/fonts/chinese/hoi_18mbs_3of4EX"
+			"gfx/fonts/chinese/hoi_18mbs_4of4EX"
+		}
+		languages = { "l_simp_chinese" }
+	}
+
+
+	# Larger party-name font used by the cabinet list's visual hierarchy.
+	bitmapfont = {
+		name = "APDC_cabinet_24"
+		fontfiles = { "gfx/fonts/hoi_24header" }
+		cursor_offset = { 0 4 }
+		color = 0xffffffff
+		textcolors = {
+			G = { 86 172 91 }
+			R = { 222 86 70 }
+			Y = { 238 201 35 }
+			T = { 255 255 255 }
+			a = { 162 6 6 }
+			c = { 220 30 30 }
+			d = { 237 56 110 }
+			e = { 10 48 186 }
+			f = { 231 180 27 }
+			h = { 148 148 148 }
+			i = { 73 73 73 }
+			j = { 106 62 3 }
+			k = { 179 209 88 }
+		}
+	}
+
+	bitmapfont_override = {
+		name = "APDC_cabinet_24"
+		fontfiles = {
+			"gfx/fonts/chinese/hoi_24header_1of4"
+			"gfx/fonts/chinese/hoi_24header_2of4"
+			"gfx/fonts/chinese/hoi_24header_3of4"
+			"gfx/fonts/chinese/hoi_24header_4of4"
+		}
+		languages = { "l_simp_chinese" }
+	}
+}

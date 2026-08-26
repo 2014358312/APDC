@@ -1,4 +1,4 @@
-﻿capital = 812 # Qingdao
+capital = 812 # Qingdao
 
 set_research_slots = 3
 
@@ -17,8 +17,8 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 0
-	democratic = 15
+	dictatorship = 0
+	liberalism = 15
 	fascism = 80
 	communism = 5
 }

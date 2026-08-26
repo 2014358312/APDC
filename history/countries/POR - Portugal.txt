@@ -1,4 +1,4 @@
-﻿capital = 1674 # Lisboa
+capital = 1674 # Lisboa
 
 set_research_slots = 3
 
@@ -7,7 +7,7 @@ set_convoys = 100
 set_stability = 0.75
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -16,6 +16,6 @@ set_politics = {
 set_popularities = {
 	fascism = 10
 	communism = 10
-	neutrality = 60
-	democratic = 20
+	dictatorship = 60
+	liberalism = 20
 }

@@ -1,17 +1,17 @@
-﻿capital = 500 # Rio de Janerio
+capital = 500 # Rio de Janerio
 
 set_convoys = 40
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.7.17"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 50
-	neutrality = 25
+	liberalism = 50
+	dictatorship = 25
 	fascism = 15
 	communism = 10
 }

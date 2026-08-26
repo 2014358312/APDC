@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_APDC_governing_coalition_party_bg"
+		textureFile = "gfx/interface/APDC/governing_coalition_party_bg.dds"
+	}
+}

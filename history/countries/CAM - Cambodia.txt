@@ -1,16 +1,16 @@
-﻿capital = 1535 # Phnom Penh
+capital = 1535 # Phnom Penh
 
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.2.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 40
+	liberalism = 40
 	communism = 25
-	neutrality = 35
+	dictatorship = 35
 }

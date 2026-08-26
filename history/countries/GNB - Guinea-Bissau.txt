@@ -1,4 +1,4 @@
-﻿capital = 296 # Portuguese Guinea
+capital = 296 # Portuguese Guinea
 
 set_convoys = 10
 
@@ -10,8 +10,8 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 25
+	liberalism = 25
 	fascism = 20
 	communism = 50
-	neutrality = 5
+	dictatorship = 5
 }

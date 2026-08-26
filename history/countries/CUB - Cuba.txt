@@ -1,17 +1,17 @@
-﻿capital = 315 # Havana
+capital = 315 # Havana
 
 set_convoys = 20
 
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.1.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
+	liberalism = 98
 	communism = 2
 }

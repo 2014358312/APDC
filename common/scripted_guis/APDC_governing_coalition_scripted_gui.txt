@@ -1,0 +1,48 @@
+scripted_gui = {
+	APDC_governing_coalition_highlights = {
+		context_type = player_context
+		window_name = "APDC_governing_coalition_highlights"
+		parent_window_name = "APDC_governing_coalition_background_hook"
+
+		visible = { always = yes }
+
+		triggers = {
+			APDC_coalition_communism_bg_visible = {
+				APDC_is_communism_in_governing_coalition = yes
+				NOT = { has_government = communism }
+			}
+			APDC_coalition_socialism_bg_visible = {
+				APDC_is_socialism_in_governing_coalition = yes
+				NOT = { has_government = socialism }
+			}
+			APDC_coalition_social_democracy_bg_visible = {
+				APDC_is_social_democracy_in_governing_coalition = yes
+				NOT = { has_government = social_democracy }
+			}
+			APDC_coalition_conservatism_bg_visible = {
+				APDC_is_conservatism_in_governing_coalition = yes
+				NOT = { has_government = conservatism }
+			}
+			APDC_coalition_liberalism_bg_visible = {
+				APDC_is_liberalism_in_governing_coalition = yes
+				NOT = { has_government = liberalism }
+			}
+			APDC_coalition_authoritarianism_bg_visible = {
+				APDC_is_authoritarianism_in_governing_coalition = yes
+				NOT = { has_government = authoritarianism }
+			}
+			APDC_coalition_dictatorship_bg_visible = {
+				APDC_is_dictatorship_in_governing_coalition = yes
+				NOT = { has_government = dictatorship }
+			}
+			APDC_coalition_fascism_bg_visible = {
+				APDC_is_fascism_in_governing_coalition = yes
+				NOT = { has_government = fascism }
+			}
+			APDC_coalition_fundamentalism_bg_visible = {
+				APDC_is_fundamentalism_in_governing_coalition = yes
+				NOT = { has_government = fundamentalism }
+			}
+		}
+	}
+}

@@ -1,16 +1,16 @@
-﻿capital = 312 # Honduras
+capital = 312 # Honduras
 
 set_convoys = 10
 
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.10.28"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 100
+	liberalism = 100
 }

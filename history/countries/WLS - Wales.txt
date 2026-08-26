@@ -1,16 +1,16 @@
-﻿capital = 122 # Glamorgan and Gwent
+capital = 122 # Glamorgan and Gwent
 
 set_convoys = 20
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 93
+	liberalism = 93
 	fascism = 3
 	communism = 4
 }

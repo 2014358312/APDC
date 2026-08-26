@@ -1,4 +1,4 @@
-﻿capital = 85 # Danzig-West Prussia
+capital = 85 # Danzig-West Prussia
 
 set_research_slots = 3
 
@@ -10,8 +10,8 @@ set_politics = {
 }
 
 set_popularities = { #popularities based on 1933 election statistics.
-	democratic = 22
+	liberalism = 22
 	fascism = 62
 	communism = 6
-	neutrality = 10
+	dictatorship = 10
 }

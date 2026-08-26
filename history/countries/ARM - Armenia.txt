@@ -1,9 +1,9 @@
-﻿capital = 230 # Yerevan
+capital = 230 # Yerevan
 
 set_research_slots = 3
 
 set_popularities = {
 	fascism = 34
-	democratic = 30
+	liberalism = 30
 	communism = 36
 }

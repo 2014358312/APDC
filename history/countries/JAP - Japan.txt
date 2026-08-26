@@ -1,4 +1,4 @@
-﻿capital = 282 # Tokyo
+capital = 282 # Tokyo
 
 set_fuel_ratio = 1.0
 
@@ -11,7 +11,7 @@ set_stability = 0.2 # Was one of the countries in roughest internal shape at thi
 set_war_support = 0.6 # Was 0.8, but will make you have to scale up with Militarism a bit
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -19,7 +19,7 @@ set_politics = {
 
 set_popularities = {
 	fascism = 35
-	neutrality = 40
-	democratic = 23
+	dictatorship = 40
+	liberalism = 23
 	communism = 2
 }

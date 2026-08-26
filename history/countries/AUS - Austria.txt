@@ -1,16 +1,16 @@
-﻿capital = 1025 #维也纳
+capital = 1025 #维也纳
 
 set_research_slots = 3
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 48
+	dictatorship = 48
 	fascism = 50
-	democratic = 1
+	liberalism = 1
 	communism = 1
 }

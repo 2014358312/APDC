@@ -1,0 +1,37 @@
+# APDC governing coalition query API.  All triggers use country scope.
+
+APDC_is_communism_in_governing_coalition = {
+	has_country_flag = APDC_governing_coalition_communism
+}
+
+APDC_is_socialism_in_governing_coalition = {
+	has_country_flag = APDC_governing_coalition_socialism
+}
+
+APDC_is_social_democracy_in_governing_coalition = {
+	has_country_flag = APDC_governing_coalition_social_democracy
+}
+
+APDC_is_conservatism_in_governing_coalition = {
+	has_country_flag = APDC_governing_coalition_conservatism
+}
+
+APDC_is_liberalism_in_governing_coalition = {
+	has_country_flag = APDC_governing_coalition_liberalism
+}
+
+APDC_is_authoritarianism_in_governing_coalition = {
+	has_country_flag = APDC_governing_coalition_authoritarianism
+}
+
+APDC_is_dictatorship_in_governing_coalition = {
+	has_country_flag = APDC_governing_coalition_dictatorship
+}
+
+APDC_is_fascism_in_governing_coalition = {
+	has_country_flag = APDC_governing_coalition_fascism
+}
+
+APDC_is_fundamentalism_in_governing_coalition = {
+	has_country_flag = APDC_governing_coalition_fundamentalism
+}

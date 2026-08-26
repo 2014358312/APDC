@@ -1,4 +1,4 @@
-﻿capital = 61 # Mecklenburg-Vorpommern
+capital = 61 # Mecklenburg-Vorpommern
 
 set_research_slots = 3
 
@@ -7,7 +7,7 @@ set_convoys = 50
 set_stability = 0.75
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -15,8 +15,8 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 3
+	liberalism = 3
 	fascism = 40
 	communism = 7
-	neutrality = 50
+	dictatorship = 50
 }

@@ -1,13 +1,13 @@
-﻿capital = 49 #安卡拉
+capital = 49 #安卡拉
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.2.8"
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 6
-	neutrality = 94
+	liberalism = 6
+	dictatorship = 94
 }
 
 set_convoys = 20

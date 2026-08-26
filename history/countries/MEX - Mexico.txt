@@ -1,4 +1,4 @@
-﻿capital = 277 # Mexico City
+capital = 277 # Mexico City
 
 set_convoys = 45
 
@@ -7,15 +7,15 @@ set_stability = 0.2
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.7.1"
 	election_frequency = 72
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 18
+	liberalism = 18
 	fascism = 20
 	communism = 9
-	neutrality = 53
+	dictatorship = 53
 }

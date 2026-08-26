@@ -1,4 +1,4 @@
-﻿capital = 109 # Northern Croatia
+capital = 109 # Northern Croatia
 
 set_research_slots = 2
 
@@ -12,7 +12,7 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 15
+	liberalism = 15
 	fascism = 75
 	communism = 10
 }

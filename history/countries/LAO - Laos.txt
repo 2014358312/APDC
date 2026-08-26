@@ -1,9 +1,9 @@
-﻿capital = 670 # Vientiane
+capital = 670 # Vientiane
 
 set_research_slots = 3
 
 set_popularities = {
-	democratic = 25
+	liberalism = 25
 	communism = 35
-	neutrality = 40
+	dictatorship = 40
 }

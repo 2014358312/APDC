@@ -1,17 +1,17 @@
-﻿capital = 828 # Conakry
+capital = 828 # Conakry
 
 set_convoys = 10
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 25
+	liberalism = 25
 	fascism = 20
 	communism = 5
-	neutrality = 50
+	dictatorship = 50
 }

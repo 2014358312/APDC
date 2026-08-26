@@ -1,15 +1,15 @@
-﻿capital = 1607 # Trelew
+capital = 1607 # Trelew
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 20
+	liberalism = 20
 	communism = 10
 	fascism = 0
-	neutrality = 70
+	dictatorship = 70
 }

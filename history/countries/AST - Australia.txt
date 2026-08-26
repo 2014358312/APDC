@@ -1,4 +1,4 @@
-﻿capital = 1215 # Australian Capital Territory
+capital = 1215 # Australian Capital Territory
 
 set_convoys = 100
 
@@ -7,13 +7,13 @@ set_stability = 0.8
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
+	liberalism = 98
 	communism = 2
 }

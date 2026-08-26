@@ -1,14 +1,14 @@
-﻿capital = 169 #塞维利亚
+capital = 169 #塞维利亚
 
 set_convoys = 20
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
+	liberalism = 5
 	fascism = 5
 	communism = 5
-	neutrality = 85
+	dictatorship = 85
 }

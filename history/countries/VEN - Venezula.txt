@@ -1,4 +1,4 @@
-﻿capital = 307 # Miranda
+capital = 307 # Miranda
 
 set_convoys = 10
 
@@ -10,7 +10,7 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 5
+	liberalism = 5
 	fascism = 80
 	communism = 15
 }

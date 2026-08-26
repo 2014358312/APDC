@@ -1,10 +1,10 @@
-﻿capital = 231 # Ostgeorgien
+capital = 231 # Ostgeorgien
 
 set_research_slots = 3
 
 set_popularities = {
-	democratic = 40
+	liberalism = 40
 	communism = 40
 	fascism = 10
-	neutrality = 10
+	dictatorship = 10
 }

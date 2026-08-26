@@ -1,19 +1,19 @@
-﻿capital = 141 # City of Stockholm
+capital = 141 # City of Stockholm
 
 set_research_slots = 3
 
 set_convoys = 25
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.9.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 75
-	neutrality = 14
+	liberalism = 75
+	dictatorship = 14
 	communism = 8
 	fascism = 3
 }

@@ -1,17 +1,17 @@
-﻿capital = 279 # Santiago
+capital = 279 # Santiago
 
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 80
+	liberalism = 80
 	communism = 10
 	fascism = 7
-	neutrality = 3
+	dictatorship = 3
 }

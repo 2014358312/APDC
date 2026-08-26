@@ -13,7 +13,7 @@ ideas = {
         GER_APDC_dance_with_wolves = {
             allowed = { original_tag = GER }
             removal_cost = -1
-            modifier = { production_factory_max_efficiency_factor = 0.05 democratic_drift = 0.02 }
+            modifier = { production_factory_max_efficiency_factor = 0.05 liberalism_drift = 0.02 }
         }
         GER_APDC_tax_haven = {
             allowed = { original_tag = GER }

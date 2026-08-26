@@ -1,4 +1,4 @@
-﻿capital = 284 # North Island
+capital = 284 # North Island
 
 set_convoys = 70
 
@@ -7,12 +7,12 @@ set_stability = 0.8
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.11.27"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 100
+	liberalism = 100
 }

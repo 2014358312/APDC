@@ -9,13 +9,13 @@ add_command_power = 20
 set_convoys = 500
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.11.14"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 97
+	liberalism = 97
 	fascism = 2
 	communism = 1
 }

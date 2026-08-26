@@ -1,17 +1,17 @@
-﻿capital = 658 # Abu Dhabi
+capital = 658 # Abu Dhabi
 
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 50
+	liberalism = 50
 	fascism = 0
 	communism = 1
-	neutrality = 49
+	dictatorship = 49
 }

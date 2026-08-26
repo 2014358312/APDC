@@ -1,4 +1,4 @@
-﻿capital = 70 # Bratislava
+capital = 70 # Bratislava
 
 set_politics = {
 	ruling_party = fascism
@@ -8,7 +8,7 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 5
+	liberalism = 5
 	fascism = 90
 	communism = 5
 }

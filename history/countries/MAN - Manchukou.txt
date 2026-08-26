@@ -1,4 +1,4 @@
-﻿capital = 801 # Harbin
+capital = 801 # Harbin
 
 set_convoys = 5
 
@@ -11,5 +11,5 @@ set_politics = {
 
 set_popularities = {
 	fascism = 80
-	neutrality = 20
+	dictatorship = 20
 }

@@ -1,4 +1,4 @@
-﻿capital = 1734 # Brussel
+capital = 1734 # Brussel
 
 set_research_slots = 3
 
@@ -9,14 +9,14 @@ set_stability = 0.75
 set_war_support = 0.3 #we see what you are doing there Adolf
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.1.1" #Was 1932.11.27 but changed to allow for Government Resigns focus to simulate this election.
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 83
+	liberalism = 83
 	fascism = 11
 	communism = 6
 }

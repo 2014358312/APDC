@@ -12,7 +12,7 @@ bookmarks = {
 		}
 		PRC = {
 			history = PRC_STARTING_POINT_DESC
-			ideology = Revision_of_socialism
+			ideology = communism
 			ideas={
 				
 			}
@@ -22,7 +22,7 @@ bookmarks = {
 		}
 		PAK = {
 			history = PAK_STARTING_POINT_DESC
-			ideology = Revision_of_socialism
+			ideology = dictatorship
 			ideas={
 				
 			}
@@ -32,7 +32,7 @@ bookmarks = {
 		}
 		GER = {
 			history = GER_STARTING_POINT_DESC
-			ideology = Corporate_domination
+			ideology = communism
 			ideas={
 				
 			}
@@ -42,7 +42,7 @@ bookmarks = {
 		}
 		USA = {
 			history = USA_STARTING_POINT_DESC
-			ideology = Revision_of_socialism
+			ideology = liberalism
 			ideas={
 				
 			}

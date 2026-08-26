@@ -1,4 +1,4 @@
-﻿capital = 100 # Iceland
+capital = 100 # Iceland
 
 set_research_slots = 2
 
@@ -7,14 +7,14 @@ set_convoys = 30
 set_stability = 0.65
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 96
+	liberalism = 96
 	fascism = 2
 	communism = 2
 }

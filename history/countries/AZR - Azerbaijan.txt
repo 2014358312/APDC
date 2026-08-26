@@ -1,9 +1,9 @@
-﻿capital = 1552 # Baku
+capital = 1552 # Baku
 
 set_research_slots = 3
 
 set_popularities = {
-	democratic = 30
+	liberalism = 30
 	communism = 40
-	neutrality = 30
+	dictatorship = 30
 }

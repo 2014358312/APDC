@@ -1,0 +1,33 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_APDC_blank_cabinet_character"
+		texturefile = "gfx/interface/cabinet/APDC_blank_cabinet_character.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_APDC_cabinet_slot_hitbox"
+		texturefile = "gfx/interface/cabinet/APDC_cabinet_slot_hitbox.dds"
+	}
+	spriteType = {
+		name = "GFX_APDC_cabinet_member_panel_bg"
+		texturefile = "gfx/interface/cabinet/APDC_cabinet_member_panel_bg.png"
+		transparencecheck = yes
+	}
+	spriteType = {
+		# Nine high-resolution seamless wedges, one frame per APDC ideology colour.
+		# One hundred rotated instances form the coalition-only pie chart.
+		name = "GFX_APDC_cabinet_pie_segment"
+		texturefile = "gfx/interface/cabinet/APDC_cabinet_pie_segments.png"
+		noOfFrames = 9
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_APDC_cabinet_ideology_swatch"
+		texturefile = "gfx/interface/cabinet/APDC_cabinet_ideology_swatches.png"
+		noOfFrames = 9
+	}
+	spriteType = {
+		name = "GFX_APDC_cabinet_panel_footer"
+		texturefile = "gfx/interface/cabinet/APDC_cabinet_panel_footer.png"
+	}
+}

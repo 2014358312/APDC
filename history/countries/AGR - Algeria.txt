@@ -1,15 +1,15 @@
-﻿capital = 784 #阿尔及尔
+capital = 784 #阿尔及尔
 
 set_convoys = 20
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 25
+	liberalism = 25
 	fascism = 20
 	communism = 5
-	neutrality = 50
+	dictatorship = 50
 }

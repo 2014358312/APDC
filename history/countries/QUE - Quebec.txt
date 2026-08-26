@@ -1,17 +1,17 @@
-﻿capital = 2465 # Grand-Montreal
+capital = 2465 # Grand-Montreal
 
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.10.14"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 70
+	liberalism = 70
 	fascism = 10
 	communism = 15
-	neutrality = 5
+	dictatorship = 5
 }

@@ -1,4 +1,4 @@
-﻿capital = 1102 # Shewa
+capital = 1102 # Shewa
 
 set_research_slots = 3
 
@@ -16,8 +16,8 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 15
+	liberalism = 15
 	fascism = 60
 	communism = 15
-	neutrality = 10
+	dictatorship = 10
 }

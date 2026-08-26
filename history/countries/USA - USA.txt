@@ -1,4 +1,4 @@
-﻿capital = 992 #华盛顿特区
+capital = 992 #华盛顿特区
 
 starting_train_buffer = 5
 
@@ -8,13 +8,13 @@ set_war_support = 0
 add_command_power = 20
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2059.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
+	liberalism = 99
 	communism = 1
 }
 

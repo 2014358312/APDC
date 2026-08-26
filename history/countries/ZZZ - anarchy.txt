@@ -1,4 +1,4 @@
-﻿capital = 1
+capital = 1
 
 recruit_character = ZZZ_Nothing
 
@@ -7,12 +7,12 @@ set_research_slots = 0
 load_focus_tree = ZZZ_national_focus #If you touch this the bookmark gets fucked
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	elections_allowed = no
 
 }
 set_popularities = {
-	neutrality = 100
+	dictatorship = 100
 }
 country_lock_all_division_template = yes
 set_political_power = 1999

@@ -1,11 +1,11 @@
-﻿capital = 751 # Singapore
+capital = 751 # Singapore
 
 set_research_slots = 3
 
 set_convoys = 25
 
 set_popularities = {
-	democratic = 33
+	liberalism = 33
 	communism = 33
-	neutrality = 34
+	dictatorship = 34
 }

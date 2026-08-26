@@ -1,14 +1,14 @@
-﻿capital = 267 #喀布尔
+capital = 267 #喀布尔
 
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	elections_allowed = no
 }
 	
 set_popularities = {
 	fascism = 20
 	communism = 10
-	neutrality = 70
+	dictatorship = 70
 }

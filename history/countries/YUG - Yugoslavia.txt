@@ -1,18 +1,18 @@
-﻿capital = 1272 #贝尔格莱德
+capital = 1272 #贝尔格莱德
 
 set_research_slots = 3
 
 set_convoys = 10
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2059.5.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 15
+	liberalism = 15
 	fascism = 10
 	communism = 15
-	neutrality = 60
+	dictatorship = 60
 }

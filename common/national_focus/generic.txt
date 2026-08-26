@@ -1,4 +1,4 @@
-﻿search_filter_prios = {
+search_filter_prios = {
 	FOCUS_FILTER_POLITICAL = 1010
 	
 	FOCUS_FILTER_RESEARCH = 522
@@ -1932,7 +1932,7 @@ focus_tree = {
 			OR = {
 				has_government = fascism
 				has_government = communism
-				has_government = neutrality
+				has_government = dictatorship
 			}
 		}
 		x = -1
@@ -1952,7 +1952,7 @@ focus_tree = {
 				OR = {
 					AND = {
 						is_historical_focus_on = yes
-						has_government = neutrality
+						has_government = dictatorship
 					}
 					has_idea = neutrality_idea
 				}
@@ -1976,7 +1976,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = fascism
-				has_government = neutrality
+				has_government = dictatorship
 			}
 		}
 		x = -2
@@ -2031,7 +2031,7 @@ focus_tree = {
 				else = {
 					OR = {
 						has_government = communism
-						has_government = neutrality
+						has_government = dictatorship
 					}
 				}
 			}
@@ -2079,8 +2079,8 @@ focus_tree = {
 		mutually_exclusive = { focus = collectivist_ethos }
 		available = {
 			OR = {
-				has_government = democratic
-				has_government = neutrality
+				has_government = liberalism
+				has_government = dictatorship
 			}
 		}
 		x = 1
@@ -2120,7 +2120,7 @@ focus_tree = {
 				NOT = {
 					any_neighbor_country = {
 						is_major = yes
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}

@@ -1,15 +1,15 @@
-﻿capital = 1629 # Montevideo
+capital = 1629 # Montevideo
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 15
+	liberalism = 15
 	communism = 10
-	neutrality = 70
+	dictatorship = 70
 	fascism = 5
 }

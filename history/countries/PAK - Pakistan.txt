@@ -1,12 +1,12 @@
 capital = 443
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 17
+	liberalism = 17
 	fascism = 2
 	communism = 1
-	neutrality = 80
+	dictatorship = 80
 }

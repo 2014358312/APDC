@@ -1,16 +1,16 @@
-﻿capital = 629 # Hawaii
+capital = 629 # Hawaii
 
 set_convoys = 20
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.1.1"
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 38
+	liberalism = 38
 	fascism = 6
 	communism = 6
-	neutrality = 50
+	dictatorship = 50
 }

@@ -1,0 +1,108 @@
+ideas = {
+	poverty_level_idea = {
+		law = yes
+		use_list_view = yes
+
+		no_poverty = {
+			cost = -1
+			traits = { poverty_idea }
+			default = yes
+			allowed = { always = yes }
+			available = { has_idea = no_poverty }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = { }
+		}
+
+		poverty5 = {
+			cost = -1
+			traits = { poverty_idea }
+			allowed = { always = yes }
+			available = { has_idea = poverty5 }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				monthly_population = -0.04
+				production_speed_buildings_factor = -0.05
+				consumer_goods_factor = 0.08
+			}
+		}
+
+		poverty4 = {
+			cost = -1
+			traits = { poverty_idea }
+			allowed = { always = yes }
+			available = { has_idea = poverty4 }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				monthly_population = -0.07
+				production_speed_buildings_factor = -0.10
+				consumer_goods_factor = 0.14
+				research_speed_factor = -0.025
+			}
+		}
+
+		poverty3 = {
+			cost = -1
+			traits = { poverty_idea }
+			allowed = { always = yes }
+			available = { has_idea = poverty3 }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				monthly_population = -0.12
+				production_speed_buildings_factor = -0.15
+				consumer_goods_factor = 0.20
+				research_speed_factor = -0.05
+			}
+		}
+
+		poverty2 = {
+			cost = -1
+			traits = { poverty_idea }
+			picture = poverty_generic
+			allowed = { always = yes }
+			available = { has_idea = poverty2 }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				monthly_population = -0.13
+				production_speed_buildings_factor = -0.16
+				consumer_goods_factor = 0.22
+				research_speed_factor = -0.075
+			}
+		}
+
+		poverty1 = {
+			cost = -1
+			traits = { poverty_idea }
+			allowed = { always = yes }
+			available = { has_idea = poverty1 }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				monthly_population = -0.14
+				production_speed_buildings_factor = -0.18
+				consumer_goods_factor = 0.26
+				research_speed_factor = -0.1
+			}
+		}
+
+		poverty = {
+			cost = -1
+			traits = { poverty_idea }
+			allowed = { always = yes }
+			available = { has_idea = poverty }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				monthly_population = -0.15
+				production_speed_buildings_factor = -0.20
+				consumer_goods_factor = 0.3
+				conscription = -0.009
+				research_speed_factor = -0.15
+			}
+		}
+	}
+}

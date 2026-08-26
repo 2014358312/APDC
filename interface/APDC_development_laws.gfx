@@ -1,0 +1,79 @@
+spriteTypes = {
+	# Poverty
+	spriteType = {
+		name = "GFX_idea_no_poverty"
+		texturefile = "gfx/interface/ideas/LAWS/Poverty/idea_no_poverty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_poverty_generic"
+		texturefile = "gfx/interface/ideas/LAWS/Poverty/idea_poverty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_poverty"
+		texturefile = "gfx/interface/ideas/LAWS/Poverty/idea_poverty_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_poverty1"
+		texturefile = "gfx/interface/ideas/LAWS/Poverty/idea_poverty_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_poverty3"
+		texturefile = "gfx/interface/ideas/LAWS/Poverty/idea_poverty_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_poverty4"
+		texturefile = "gfx/interface/ideas/LAWS/Poverty/idea_poverty_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_poverty5"
+		texturefile = "gfx/interface/ideas/LAWS/Poverty/idea_poverty_5.dds"
+	}
+
+	# Scientific development
+	spriteType = {
+		name = "GFX_idea_big_science_base"
+		texturefile = "gfx/interface/ideas/LAWS/Science/idea_city_smaller_center.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_proper_science_base"
+		texturefile = "gfx/interface/ideas/LAWS/Science/idea_city_center.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_better_science_base"
+		texturefile = "gfx/interface/ideas/LAWS/Science/idea_poor_science_base.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_poor_science_base"
+		texturefile = "gfx/interface/ideas/LAWS/Science/idea_poor_science_base_book.dds"
+	}
+
+	# Society development
+	spriteType = {
+		name = "GFX_idea_modern_society"
+		texturefile = "gfx/interface/ideas/LAWS/Development/idea_modern_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_outdated_industry"
+		texturefile = "gfx/interface/ideas/LAWS/Development/idea_oldindustrialsector.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pre_industrial_society"
+		texturefile = "gfx/interface/ideas/LAWS/Development/idea_pre_industrial_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_agrarian_society"
+		texturefile = "gfx/interface/ideas/LAWS/Development/idea_agrarian_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tribal_society"
+		texturefile = "gfx/interface/ideas/LAWS/Development/idea_tribal_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communal_society"
+		texturefile = "gfx/interface/ideas/LAWS/Development/idea_communal_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_detached_country"
+		texturefile = "gfx/interface/ideas/LAWS/Development/idea_detached_country.dds"
+	}
+}

@@ -1,18 +1,18 @@
-﻿capital = 1315 # Tyrone and Fermanagh
+capital = 1315 # Tyrone and Fermanagh
 
 set_research_slots = 3
 
 set_convoys = 10
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.1.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
+	liberalism = 98
 	fascism = 1
 	communism = 1
 }

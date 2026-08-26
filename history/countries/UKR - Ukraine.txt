@@ -1,9 +1,9 @@
-﻿capital = 1428 # City of Kyiv
+capital = 1428 # City of Kyiv
 
 set_research_slots = 3
 
 set_popularities = {
-	democratic = 20
+	liberalism = 20
 	fascism = 30
 	communism = 50
 }

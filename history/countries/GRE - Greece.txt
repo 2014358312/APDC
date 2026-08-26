@@ -1,4 +1,4 @@
-﻿capital = 1262 #雅典
+capital = 1262 #雅典
 
 set_politics = {
 	ruling_party = communism
@@ -7,10 +7,10 @@ set_politics = {
 	elections_allowed = yes 
 }
 set_popularities = {
-	democratic = 23
+	liberalism = 23
 	fascism = 2
 	communism = 57
-	neutrality = 18
+	dictatorship = 18
 }
 
 set_stability = 0.72

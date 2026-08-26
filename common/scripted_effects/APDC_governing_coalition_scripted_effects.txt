@@ -1,0 +1,171 @@
+# APDC governing coalition API
+#
+# Coalition membership is stored on each country as one flag per main
+# ideology.  Content should use these effects instead of setting the flags
+# directly, so the storage format can be changed later without rewriting
+# focuses, events or decisions.
+
+APDC_add_communism_to_governing_coalition = {
+	set_country_flag = APDC_governing_coalition_communism
+}
+
+APDC_remove_communism_from_governing_coalition = {
+	if = {
+		limit = { NOT = { has_government = communism } }
+		clr_country_flag = APDC_governing_coalition_communism
+		APDC_cabinet_remove_party_members_communism = yes
+	}
+}
+
+APDC_add_socialism_to_governing_coalition = {
+	set_country_flag = APDC_governing_coalition_socialism
+}
+
+APDC_remove_socialism_from_governing_coalition = {
+	if = {
+		limit = { NOT = { has_government = socialism } }
+		clr_country_flag = APDC_governing_coalition_socialism
+		APDC_cabinet_remove_party_members_socialism = yes
+	}
+}
+
+APDC_add_social_democracy_to_governing_coalition = {
+	set_country_flag = APDC_governing_coalition_social_democracy
+}
+
+APDC_remove_social_democracy_from_governing_coalition = {
+	if = {
+		limit = { NOT = { has_government = social_democracy } }
+		clr_country_flag = APDC_governing_coalition_social_democracy
+		APDC_cabinet_remove_party_members_social_democracy = yes
+	}
+}
+
+APDC_add_conservatism_to_governing_coalition = {
+	set_country_flag = APDC_governing_coalition_conservatism
+}
+
+APDC_remove_conservatism_from_governing_coalition = {
+	if = {
+		limit = { NOT = { has_government = conservatism } }
+		clr_country_flag = APDC_governing_coalition_conservatism
+		APDC_cabinet_remove_party_members_conservatism = yes
+	}
+}
+
+APDC_add_liberalism_to_governing_coalition = {
+	set_country_flag = APDC_governing_coalition_liberalism
+}
+
+APDC_remove_liberalism_from_governing_coalition = {
+	if = {
+		limit = { NOT = { has_government = liberalism } }
+		clr_country_flag = APDC_governing_coalition_liberalism
+		APDC_cabinet_remove_party_members_liberalism = yes
+	}
+}
+
+APDC_add_authoritarianism_to_governing_coalition = {
+	set_country_flag = APDC_governing_coalition_authoritarianism
+}
+
+APDC_remove_authoritarianism_from_governing_coalition = {
+	if = {
+		limit = { NOT = { has_government = authoritarianism } }
+		clr_country_flag = APDC_governing_coalition_authoritarianism
+		APDC_cabinet_remove_party_members_authoritarianism = yes
+	}
+}
+
+APDC_add_dictatorship_to_governing_coalition = {
+	set_country_flag = APDC_governing_coalition_dictatorship
+}
+
+APDC_remove_dictatorship_from_governing_coalition = {
+	if = {
+		limit = { NOT = { has_government = dictatorship } }
+		clr_country_flag = APDC_governing_coalition_dictatorship
+		APDC_cabinet_remove_party_members_dictatorship = yes
+	}
+}
+
+APDC_add_fascism_to_governing_coalition = {
+	set_country_flag = APDC_governing_coalition_fascism
+}
+
+APDC_remove_fascism_from_governing_coalition = {
+	if = {
+		limit = { NOT = { has_government = fascism } }
+		clr_country_flag = APDC_governing_coalition_fascism
+		APDC_cabinet_remove_party_members_fascism = yes
+	}
+}
+
+APDC_add_fundamentalism_to_governing_coalition = {
+	set_country_flag = APDC_governing_coalition_fundamentalism
+}
+
+APDC_remove_fundamentalism_from_governing_coalition = {
+	if = {
+		limit = { NOT = { has_government = fundamentalism } }
+		clr_country_flag = APDC_governing_coalition_fundamentalism
+		APDC_cabinet_remove_party_members_fundamentalism = yes
+	}
+}
+
+# Ensures that the party actually forming the government is always a member.
+APDC_add_current_ruling_party_to_governing_coalition = {
+	if = {
+		limit = { has_government = communism }
+		APDC_add_communism_to_governing_coalition = yes
+	}
+	else_if = {
+		limit = { has_government = socialism }
+		APDC_add_socialism_to_governing_coalition = yes
+	}
+	else_if = {
+		limit = { has_government = social_democracy }
+		APDC_add_social_democracy_to_governing_coalition = yes
+	}
+	else_if = {
+		limit = { has_government = conservatism }
+		APDC_add_conservatism_to_governing_coalition = yes
+	}
+	else_if = {
+		limit = { has_government = liberalism }
+		APDC_add_liberalism_to_governing_coalition = yes
+	}
+	else_if = {
+		limit = { has_government = authoritarianism }
+		APDC_add_authoritarianism_to_governing_coalition = yes
+	}
+	else_if = {
+		limit = { has_government = dictatorship }
+		APDC_add_dictatorship_to_governing_coalition = yes
+	}
+	else_if = {
+		limit = { has_government = fascism }
+		APDC_add_fascism_to_governing_coalition = yes
+	}
+	else_if = {
+		limit = { has_government = fundamentalism }
+		APDC_add_fundamentalism_to_governing_coalition = yes
+	}
+}
+
+# Removes all partners, then restores the current ruling party as the sole
+# member.  This is the safe reset operation for a newly formed government.
+APDC_clear_governing_coalition = {
+	# Use the public removal API so every departing party's cabinet members
+	# are expelled from all six seats before it becomes opposition.
+	APDC_remove_communism_from_governing_coalition = yes
+	APDC_remove_socialism_from_governing_coalition = yes
+	APDC_remove_social_democracy_from_governing_coalition = yes
+	APDC_remove_conservatism_from_governing_coalition = yes
+	APDC_remove_liberalism_from_governing_coalition = yes
+	APDC_remove_authoritarianism_from_governing_coalition = yes
+	APDC_remove_dictatorship_from_governing_coalition = yes
+	APDC_remove_fascism_from_governing_coalition = yes
+	APDC_remove_fundamentalism_from_governing_coalition = yes
+	APDC_add_current_ruling_party_to_governing_coalition = yes
+}

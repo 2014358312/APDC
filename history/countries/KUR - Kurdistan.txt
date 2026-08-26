@@ -1,17 +1,17 @@
-﻿capital = 352 # Van
+capital = 352 # Van
 
 set_research_slots = 2
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.2.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 40
+	liberalism = 40
 	communism = 25
 	fascism = 30
-	neutrality = 5
+	dictatorship = 5
 }

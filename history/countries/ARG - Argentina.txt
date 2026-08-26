@@ -1,17 +1,17 @@
-﻿capital = 1511 # Capital Federal
+capital = 1511 # Capital Federal
 
 set_convoys = 120
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.11.8"
 	election_frequency = 72
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 25
+	liberalism = 25
 	fascism = 20
 	communism = 25
-	neutrality = 30
+	dictatorship = 30
 }

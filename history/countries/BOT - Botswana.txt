@@ -1,14 +1,14 @@
-﻿capital = 1050 # Southeast District
+capital = 1050 # Southeast District
 
 set_convoys = 5
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	dictatorship = 100
 }

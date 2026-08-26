@@ -1,17 +1,17 @@
-﻿capital = 268 #奥萨
+capital = 268 #奥萨
 
 add_manpower = 15000
 
 set_convoys = 10
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 0
+	liberalism = 0
 	fascism = 20
 	communism = 5
-	neutrality = 75
+	dictatorship = 75
 }

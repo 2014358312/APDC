@@ -1,17 +1,17 @@
-﻿capital = 1896 # Peshawar
+capital = 1896 # Peshawar
 
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 30
+	liberalism = 30
 	communism = 5
-	neutrality = 60
+	dictatorship = 60
 	fascism = 5
 }

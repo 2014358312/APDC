@@ -1,10 +1,10 @@
-﻿capital = 1404 # Minsk
+capital = 1404 # Minsk
 
 set_research_slots = 3
 
 set_popularities = {
-	democratic = 15
-	neutrality = 20
+	liberalism = 15
+	dictatorship = 20
 	communism = 60
 	fascism = 5
 }

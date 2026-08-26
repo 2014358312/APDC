@@ -1,15 +1,15 @@
-﻿capital = 474 # Yucatan
+capital = 474 # Yucatan
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 60
+	liberalism = 60
 	communism = 30
-	neutrality = 10
+	dictatorship = 10
 	fascism = 0
 }

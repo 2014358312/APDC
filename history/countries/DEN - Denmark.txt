@@ -1,4 +1,4 @@
-﻿capital = 37 # Copenhagen
+capital = 37 # Copenhagen
 
 set_research_slots = 3
 
@@ -9,15 +9,15 @@ set_stability = 0.9
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.10.22"
 	election_frequency = 42
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 94
+	liberalism = 94
 	fascism = 1
 	communism = 2
-	neutrality = 3
+	dictatorship = 3
 }

@@ -1,4 +1,4 @@
-﻿capital = 1442 #莫斯科
+capital = 1442 #莫斯科
 
 starting_train_buffer = 3.0
 
@@ -15,7 +15,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
+	liberalism = 10
 	fascism = 2
 	communism = 88
 }

@@ -1,4 +1,4 @@
-﻿capital = 1689 # Provincia de Lima
+capital = 1689 # Provincia de Lima
 
 set_convoys = 5
 
@@ -10,6 +10,6 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 49
+	liberalism = 49
 	fascism = 51
 }

@@ -1,17 +1,17 @@
-﻿capital = 313 # Guatemala
+capital = 313 # Guatemala
 
 set_convoys = 5
 
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 30
-	neutrality = 70
+	liberalism = 30
+	dictatorship = 70
 }

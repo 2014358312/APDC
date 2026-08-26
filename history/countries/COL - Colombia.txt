@@ -1,15 +1,15 @@
-﻿capital = 306 # Special District of Bogota
+capital = 306 # Special District of Bogota
 
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 99
+	liberalism = 99
 	communism = 1
 }

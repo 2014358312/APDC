@@ -937,7 +937,7 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 89 y = 0 }
+			position = { x= 89 y = 29 }
 			#Orientation = "UPPER_LEFT"
 			frame = 1
 		}

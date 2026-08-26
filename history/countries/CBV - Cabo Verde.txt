@@ -1,4 +1,4 @@
-﻿capital = 702 # Cape Verde
+capital = 702 # Cape Verde
 
 set_research_slots = 3
 
@@ -12,6 +12,6 @@ set_politics = {
 set_popularities = {
 	fascism = 5
 	communism = 50
-	neutrality = 5
-	democratic = 40
+	dictatorship = 5
+	liberalism = 40
 }

@@ -1,16 +1,16 @@
-﻿capital = 615 # Taiyuan
+capital = 615 # Taiyuan
 
 set_stability = 0.65
 
 set_war_support = 0.4
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dictatorship
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	dictatorship = 100
 }

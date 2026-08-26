@@ -1,4 +1,4 @@
-﻿capital = 897 # Oslo
+capital = 897 # Oslo
 
 set_research_slots = 3
 
@@ -9,14 +9,14 @@ set_stability = 0.60
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 96
+	liberalism = 96
 	fascism = 2
 	communism = 2
 }

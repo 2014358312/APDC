@@ -1,19 +1,19 @@
-﻿capital = 1616 # Asuncion
+capital = 1616 # Asuncion
 
 set_research_slots = 2
 
 set_stability = 0.26
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 55
+	liberalism = 55
 	communism = 30
-	neutrality = 10
+	dictatorship = 10
 	fascism = 5
 }
