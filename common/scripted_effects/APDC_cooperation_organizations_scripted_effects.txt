@@ -1,0 +1,101 @@
+# Cooperation organizations are independent from military factions.
+# A country can currently belong to at most one cooperation organization.
+
+APDC_clear_cooperation_organization_membership = {
+	# The country-scope array is the live data source for the panel's
+	# dynamic member list.  Removing the scope here keeps GUI data and the
+	# membership flag in lockstep for every future member country.
+	remove_from_array = {
+		array = global.APDC_fifth_international_cooperation_members
+		value = THIS
+	}
+	# If the leaving country is the chair, remove the stale chair scope too.
+	# A later chair appointment uses the setter below and needs no GUI change.
+	remove_from_array = {
+		array = global.APDC_fifth_international_cooperation_chair
+		value = THIS
+	}
+	# Active ballots are scope arrays too.  A departing member must vanish
+	# from whichever vote column currently contains it.
+	remove_from_array = {
+		array = global.APDC_cooperation_vote_supporters
+		value = THIS
+	}
+	remove_from_array = {
+		array = global.APDC_cooperation_vote_abstainers
+		value = THIS
+	}
+	remove_from_array = {
+		array = global.APDC_cooperation_vote_vetoers
+		value = THIS
+	}
+	clr_country_flag = APDC_cooperation_organization_fifth_international_member
+}
+
+APDC_join_fifth_international_cooperation_organization = {
+	APDC_clear_cooperation_organization_membership = yes
+	set_country_flag = APDC_cooperation_organization_fifth_international_member
+	add_to_array = {
+		array = global.APDC_fifth_international_cooperation_members
+		value = THIS
+	}
+	# Countries joining during a live ballot begin in the abstention column.
+	if = {
+		limit = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
+		add_to_array = {
+			array = global.APDC_cooperation_vote_abstainers
+			value = THIS
+		}
+	}
+}
+
+APDC_leave_cooperation_organization = {
+	APDC_clear_cooperation_organization_membership = yes
+}
+
+# Run in the new chair country's scope.  Keeping the chair as a country-scope
+# array lets the same dynamic entry update its flag and localized name without
+# any GUI rewrite when leadership changes later.
+APDC_set_fifth_international_cooperation_chair = {
+	clear_array = global.APDC_fifth_international_cooperation_chair
+	add_to_array = {
+		array = global.APDC_fifth_international_cooperation_chair
+		value = THIS
+	}
+}
+
+# Rebuild the member array from authoritative membership flags.  Opening the
+# panel calls this once, which also migrates saves created before the arrays
+# existed.  The chair array is preserved unless it has never been initialized.
+# Normal joins and leaves update the member array immediately.
+APDC_refresh_fifth_international_cooperation_scope_arrays = {
+	clear_array = global.APDC_fifth_international_cooperation_members
+
+	every_country = {
+		limit = {
+			exists = yes
+			has_country_flag = APDC_cooperation_organization_fifth_international_member
+		}
+		add_to_array = {
+			array = global.APDC_fifth_international_cooperation_members
+			value = THIS
+		}
+	}
+
+	# Old-save migration only: initialize the opening chair if no chair scope
+	# has been stored.  A later chair change is therefore never overwritten.
+	if = {
+		limit = {
+			check_variable = { global.APDC_fifth_international_cooperation_chair^num = 0 }
+		}
+		SOV = {
+			if = {
+				limit = {
+					exists = yes
+					has_country_flag = APDC_cooperation_organization_fifth_international_member
+				}
+				APDC_set_fifth_international_cooperation_chair = yes
+			}
+		}
+	}
+}

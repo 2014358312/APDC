@@ -39,3 +39,10 @@ set_popularities = {
 	dictatorship = 0
 	fundamentalism = 0
 }
+
+# Germany starts as leader of the Warsaw Pact and may create factions.
+set_rule = { can_create_factions = yes }
+create_faction_from_template = faction_template_APDC_warsaw_pact
+add_to_faction = GER
+
+APDC_join_fifth_international_cooperation_organization = yes

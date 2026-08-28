@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_faction_logo_APDC_warsaw_pact"
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_APDC_warsaw_pact.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_faction_logo_APDC_warsaw_pact_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_APDC_warsaw_pact_miniature.dds"
+	}
+}

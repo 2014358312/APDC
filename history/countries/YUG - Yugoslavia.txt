@@ -16,3 +16,5 @@ set_popularities = {
 	communism = 15
 	dictatorship = 60
 }
+
+APDC_join_fifth_international_cooperation_organization = yes

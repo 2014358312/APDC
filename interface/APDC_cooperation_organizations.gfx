@@ -1,0 +1,91 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_APDC_cooperation_organization_fifth_international"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/fifth_international.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_organization_none"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/no_cooperation_organization.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_organization_entry_hitbox"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/entry_hitbox.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_organization_panel_main"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/panel/cooperation_organization_panel_main.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_organization_panel_lower"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/panel/cooperation_organization_panel_lower.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_organization_panel_tab"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/panel/cooperation_organization_panel_tab.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_organization_chair_frame"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/panel/cooperation_organization_chair_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_organization_member_frame"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/panel/cooperation_organization_member_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_organization_player_member_frame"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/panel/cooperation_organization_player_member_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_organization_member_hitbox"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/panel/cooperation_organization_member_hitbox.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_law_group_background"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/law_group_background.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_law_option_available"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/law_option_available.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_law_option_selected"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/law_option_selected.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_law_option_unavailable"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/law_option_unavailable.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_law_option_hitbox"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/law_option_hitbox.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_vote_support"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/vote_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_vote_abstain"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/vote_abstain.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_cooperation_vote_veto"
+		textureFile = "gfx/interface/APDC/cooperation_organizations/legislation/vote_veto.dds"
+	}
+}

@@ -32,6 +32,6 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ideology_fundamentalism_group"
-		texturefile = "gfx/interface/ideologies/APDC_original_neutrality_group.dds"
+		texturefile = "gfx/interface/ideologies/APDC_fundamentalism_group.dds"
 	}
 }

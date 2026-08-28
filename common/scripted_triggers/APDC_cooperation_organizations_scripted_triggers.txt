@@ -1,0 +1,11 @@
+APDC_is_fifth_international_cooperation_organization_member = {
+	has_country_flag = APDC_cooperation_organization_fifth_international_member
+}
+
+APDC_has_cooperation_organization = {
+	APDC_is_fifth_international_cooperation_organization_member = yes
+}
+
+APDC_has_no_cooperation_organization = {
+	NOT = { APDC_has_cooperation_organization = yes }
+}

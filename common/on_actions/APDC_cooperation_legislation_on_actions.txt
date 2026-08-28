@@ -1,0 +1,21 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			# A single country scope is sufficient because all legislation data is
+			# global.  Opening the panel also initializes old saves on demand.
+			GER = {
+				APDC_initialize_cooperation_legislation = yes
+				APDC_repair_cooperation_timer_daily_rate = yes
+			}
+		}
+	}
+
+	# Use the tag-specific daily pulse so the global timer is advanced exactly
+	# once per in-game day.  A generic daily action may be evaluated in multiple
+	# country contexts when the full mod's on-actions are merged.
+	on_daily_GER = {
+		effect = {
+			APDC_cooperation_legislation_daily_tick = yes
+		}
+	}
+}

@@ -47,3 +47,6 @@ set_autonomy = {
 1359 = { set_demilitarized_zone = yes }
 1712 = { set_demilitarized_zone = yes }
 1722 = { set_demilitarized_zone = yes }
+
+APDC_join_fifth_international_cooperation_organization = yes
+APDC_set_fifth_international_cooperation_chair = yes

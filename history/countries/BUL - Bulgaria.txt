@@ -13,3 +13,5 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
+
+APDC_join_fifth_international_cooperation_organization = yes

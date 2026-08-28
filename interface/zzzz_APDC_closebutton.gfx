@@ -1,0 +1,9 @@
+spriteTypes = {
+	# Frame 1: enabled. Frame 2: disabled (trigger with enabled = no).
+	spriteType = {
+		name = "GFX_closebutton"
+		texturefile = "gfx/interface/closebutton.dds"
+		noOfFrames = 2
+		effectFile = "gfx/FX/APDC_buttonstate_close_twoframe.shader"
+	}
+}
