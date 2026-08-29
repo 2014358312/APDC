@@ -999,10 +999,6 @@ faction_goal_indifference_is_a_threat = {
 			IF = {
 				limit = { NOT = { has_completed_goal = faction_goal_indifference_is_a_threat } }
 				add_political_power = 50
-				add_popularity = {
-					ideology = communism
-					popularity = 0.05
-				}
 			}
 		}
 	}

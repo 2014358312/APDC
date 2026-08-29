@@ -2,13 +2,15 @@ capital = 267 #喀布尔
 
 set_research_slots = 3
 
+APDC_set_economic_system_traditional_agriculture = yes
+
+recruit_character = AFG_taliban_tribes
+
 set_politics = {
 	ruling_party = dictatorship
 	elections_allowed = no
 }
 	
 set_popularities = {
-	fascism = 20
-	communism = 10
-	dictatorship = 70
+	dictatorship = 100
 }

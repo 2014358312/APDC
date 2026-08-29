@@ -48,5 +48,24 @@ set_autonomy = {
 1712 = { set_demilitarized_zone = yes }
 1722 = { set_demilitarized_zone = yes }
 
+# The New Soviet Union establishes and leads the Warsaw Pact using the existing
+# APDC template and icon.
+set_rule = { can_create_factions = yes }
+create_faction_from_template = faction_template_APDC_warsaw_pact
+add_to_faction = SOV
+add_to_faction = GER
+add_to_faction = ANG
+add_to_faction = BUL
+add_to_faction = CUB
+add_to_faction = CZE
+add_to_faction = EGY
+add_to_faction = GRE
+add_to_faction = HUN
+add_to_faction = KUR
+add_to_faction = MON
+add_to_faction = PER
+add_to_faction = ROM
+add_to_faction = YEM
+
 APDC_join_fifth_international_cooperation_organization = yes
 APDC_set_fifth_international_cooperation_chair = yes

@@ -10,39 +10,47 @@ set_stability = 0.75
 set_war_support = 0.3
 
 recruit_character = GER_APDC_rudolf_von_oberstein
+recruit_character = GER_APDC_karl_hoffmann
+recruit_character = GER_APDC_felix_koch
+recruit_character = GER_APDC_wilden_kurz
+recruit_character = GER_APDC_gilfa_ulrich
+recruit_character = GER_APDC_alexis_richter
+recruit_character = GER_APDC_johann_strauss
+recruit_character = GER_APDC_lukas_baumann
+recruit_character = GER_APDC_ilan_walter
 recruit_character = GER_APDC_heinrich_schweinsteiger
 recruit_character = GER_APDC_romy_riefenstahl
 recruit_character = GER_APDC_eugene_rugosa
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = socialism
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-# Opening governing coalition: German Communist Party, Socialist Party,
-# Social Democratic Party and the National Administrative Council.
-APDC_add_communism_to_governing_coalition = yes
+# Germany's economic system is an explicit scenario definition rather than a
+# government-based fallback.
+APDC_set_economic_system_market_socialism = yes
+
+# Opening governing coalition: Socialist Unity Party of Germany and the
+# Social Democratic Party of Germany.
 APDC_add_socialism_to_governing_coalition = yes
 APDC_add_social_democracy_to_governing_coalition = yes
-APDC_add_authoritarianism_to_governing_coalition = yes
 
 set_popularities = {
 	liberalism = 10
 	fascism = 0
-	communism = 45
-	socialism = 30
+	communism = 0
+	socialism = 40
 	social_democracy = 10
-	conservatism = 0
-	authoritarianism = 5
+	conservatism = 30
+	authoritarianism = 10
 	dictatorship = 0
 	fundamentalism = 0
 }
 
-# Germany starts as leader of the Warsaw Pact and may create factions.
-set_rule = { can_create_factions = yes }
-create_faction_from_template = faction_template_APDC_warsaw_pact
-add_to_faction = GER
+# Germany begins inside the Soviet-led Warsaw Pact and cannot create factions.
+set_rule = { can_create_factions = no }
 
 APDC_join_fifth_international_cooperation_organization = yes

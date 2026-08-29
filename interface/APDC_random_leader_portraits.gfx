@@ -1,0 +1,602 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_1"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_male_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_1_small"
+		texturefile = "gfx/interface/ideas/APDC_europe_generic_political_male_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_2"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_male_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_2_small"
+		texturefile = "gfx/interface/ideas/APDC_europe_generic_political_male_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_3"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_male_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_3_small"
+		texturefile = "gfx/interface/ideas/APDC_europe_generic_political_male_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_4"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_male_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_4_small"
+		texturefile = "gfx/interface/ideas/APDC_europe_generic_political_male_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_5"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_male_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_5_small"
+		texturefile = "gfx/interface/ideas/APDC_europe_generic_political_male_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_6"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_male_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_6_small"
+		texturefile = "gfx/interface/ideas/APDC_europe_generic_political_male_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_7"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_male_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_7_small"
+		texturefile = "gfx/interface/ideas/APDC_europe_generic_political_male_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_8"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_male_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_male_8_small"
+		texturefile = "gfx/interface/ideas/APDC_europe_generic_political_male_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_female_1"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_female_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_female_2"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_female_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_female_3"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_female_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_female_4"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_female_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_female_5"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_female_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_female_6"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_female_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_female_7"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_female_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_europe_generic_political_female_8"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_female_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_male_1"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_male_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_male_2"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_male_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_male_3"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_male_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_male_4"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_male_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_male_5"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_male_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_male_6"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_male_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_male_7"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_male_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_male_8"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_male_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_female_1"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_female_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_female_2"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_female_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_female_3"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_female_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_female_4"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_female_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_female_5"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_female_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_female_6"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_female_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_female_7"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_female_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_north_america_generic_political_female_8"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_female_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_male_1"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_male_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_male_2"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_male_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_male_3"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_male_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_male_4"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_male_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_male_5"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_male_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_male_6"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_male_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_male_7"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_male_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_male_8"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_male_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_female_1"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_female_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_female_2"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_female_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_female_3"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_female_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_female_4"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_female_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_female_5"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_female_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_female_6"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_female_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_female_7"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_female_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_south_america_generic_political_female_8"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_female_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_male_1"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_male_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_male_2"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_male_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_male_3"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_male_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_male_4"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_male_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_male_5"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_male_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_male_6"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_male_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_male_7"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_male_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_male_8"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_male_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_female_1"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_female_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_female_2"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_female_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_female_3"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_female_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_female_4"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_female_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_female_5"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_female_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_female_6"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_female_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_female_7"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_female_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_australia_generic_political_female_8"
+		texturefile = "gfx/leaders/APDC/australia/generic_political_female_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_male_1"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_male_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_male_2"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_male_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_male_3"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_male_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_male_4"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_male_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_male_5"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_male_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_male_6"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_male_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_male_7"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_male_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_male_8"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_male_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_female_1"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_female_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_female_2"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_female_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_female_3"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_female_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_female_4"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_female_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_female_5"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_female_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_female_6"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_female_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_female_7"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_female_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_asia_generic_political_female_8"
+		texturefile = "gfx/leaders/APDC/asia/generic_political_female_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_male_1"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_male_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_male_2"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_male_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_male_3"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_male_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_male_4"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_male_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_male_5"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_male_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_male_6"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_male_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_male_7"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_male_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_male_8"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_male_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_female_1"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_female_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_female_2"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_female_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_female_3"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_female_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_female_4"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_female_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_female_5"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_female_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_female_6"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_female_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_female_7"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_female_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_middle_east_generic_political_female_8"
+		texturefile = "gfx/leaders/APDC/middle_east/generic_political_female_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_male_1"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_male_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_male_2"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_male_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_male_3"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_male_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_male_4"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_male_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_male_5"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_male_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_male_6"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_male_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_male_7"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_male_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_male_8"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_male_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_female_1"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_female_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_female_2"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_female_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_female_3"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_female_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_female_4"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_female_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_female_5"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_female_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_female_6"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_female_6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_female_7"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_female_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_africa_generic_political_female_8"
+		texturefile = "gfx/leaders/APDC/africa/generic_political_female_8.dds"
+	}
+
+}

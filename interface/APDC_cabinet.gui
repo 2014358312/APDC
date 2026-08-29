@@ -15,18 +15,12 @@ guiTypes = {
 		size = { width = 550 height = 606 }
 		clipping = no
 		instantTextboxType = { name = "APDC_cabinet_advisors_title" position = { x = 26 y = 461 } font = "hoi_18mbs" text = "APDC_CABINET_ADVISORS_TITLE" maxWidth = 195 maxHeight = 18 format = center alwaystransparent = yes }
-		buttonType = { name = "APDC_cabinet_slot_1_button" position = { x = 26 y = 480 } size = { x = 65 y = 67 } spriteType = "GFX_APDC_cabinet_slot_hitbox" clicksound = click_default pdx_tooltip = "APDC_CABINET_SLOT_1_TOOLTIP" }
-		iconType = { name = "APDC_cabinet_slot_1_portrait" position = { x = 26 y = 480 } spriteType = "GFX_select_advisor" alwaystransparent = yes }
-		buttonType = { name = "APDC_cabinet_slot_2_button" position = { x = 91 y = 480 } size = { x = 65 y = 67 } spriteType = "GFX_APDC_cabinet_slot_hitbox" clicksound = click_default pdx_tooltip = "APDC_CABINET_SLOT_2_TOOLTIP" }
-		iconType = { name = "APDC_cabinet_slot_2_portrait" position = { x = 91 y = 480 } spriteType = "GFX_select_advisor" alwaystransparent = yes }
-		buttonType = { name = "APDC_cabinet_slot_3_button" position = { x = 156 y = 480 } size = { x = 65 y = 67 } spriteType = "GFX_APDC_cabinet_slot_hitbox" clicksound = click_default pdx_tooltip = "APDC_CABINET_SLOT_3_TOOLTIP" }
-		iconType = { name = "APDC_cabinet_slot_3_portrait" position = { x = 156 y = 480 } spriteType = "GFX_select_advisor" alwaystransparent = yes }
-		buttonType = { name = "APDC_cabinet_slot_4_button" position = { x = 26 y = 545 } size = { x = 65 y = 67 } spriteType = "GFX_APDC_cabinet_slot_hitbox" clicksound = click_default pdx_tooltip = "APDC_CABINET_SLOT_4_TOOLTIP" }
-		iconType = { name = "APDC_cabinet_slot_4_portrait" position = { x = 26 y = 545 } spriteType = "GFX_select_advisor" alwaystransparent = yes }
-		buttonType = { name = "APDC_cabinet_slot_5_button" position = { x = 91 y = 545 } size = { x = 65 y = 67 } spriteType = "GFX_APDC_cabinet_slot_hitbox" clicksound = click_default pdx_tooltip = "APDC_CABINET_SLOT_5_TOOLTIP" }
-		iconType = { name = "APDC_cabinet_slot_5_portrait" position = { x = 91 y = 545 } spriteType = "GFX_select_advisor" alwaystransparent = yes }
-		buttonType = { name = "APDC_cabinet_slot_6_button" position = { x = 156 y = 545 } size = { x = 65 y = 67 } spriteType = "GFX_APDC_cabinet_slot_hitbox" clicksound = click_default pdx_tooltip = "APDC_CABINET_SLOT_6_TOOLTIP" }
-		iconType = { name = "APDC_cabinet_slot_6_portrait" position = { x = 156 y = 545 } spriteType = "GFX_select_advisor" alwaystransparent = yes }
+		buttonType = { name = "APDC_cabinet_slot_1_button" position = { x = 26 y = 480 } size = { x = 65 y = 67 } spriteType = "GFX_select_advisor" clicksound = click_default pdx_tooltip = "APDC_CABINET_SLOT_1_TOOLTIP" }
+		buttonType = { name = "APDC_cabinet_slot_2_button" position = { x = 91 y = 480 } size = { x = 65 y = 67 } spriteType = "GFX_select_advisor" clicksound = click_default pdx_tooltip = "APDC_CABINET_SLOT_2_TOOLTIP" }
+		buttonType = { name = "APDC_cabinet_slot_3_button" position = { x = 156 y = 480 } size = { x = 65 y = 67 } spriteType = "GFX_select_advisor" clicksound = click_default pdx_tooltip = "APDC_CABINET_SLOT_3_TOOLTIP" }
+		buttonType = { name = "APDC_cabinet_slot_4_button" position = { x = 26 y = 545 } size = { x = 65 y = 67 } spriteType = "GFX_select_advisor" clicksound = click_default pdx_tooltip = "APDC_CABINET_SLOT_4_TOOLTIP" }
+		buttonType = { name = "APDC_cabinet_slot_5_button" position = { x = 91 y = 545 } size = { x = 65 y = 67 } spriteType = "GFX_select_advisor" clicksound = click_default pdx_tooltip = "APDC_CABINET_SLOT_5_TOOLTIP" }
+		buttonType = { name = "APDC_cabinet_slot_6_button" position = { x = 156 y = 545 } size = { x = 65 y = 67 } spriteType = "GFX_select_advisor" clicksound = click_default pdx_tooltip = "APDC_CABINET_SLOT_6_TOOLTIP" }
 	}
 	containerWindowType = {
 		name = "APDC_cabinet_member_panel"

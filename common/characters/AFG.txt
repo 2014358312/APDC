@@ -1,0 +1,16 @@
+characters = {
+	AFG_taliban_tribes = {
+		name = AFG_taliban_tribes
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AFG_taliban_tribes
+			}
+		}
+		country_leader = {
+			ideology = theocracy
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

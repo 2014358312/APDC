@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_AFG_taliban_tribes"
+		texturefile = "gfx/leaders/AFG/AFG_taliban_tribes.dds"
+	}
+}

@@ -1,5 +1,45 @@
 # Scripted localisation for cabinet roles, six slots and the large member panel.
 
+# Resolve party names from the country currently opening the cabinet.  Keeping
+# the ideology suffix here means the panel follows each country's real party
+# localisation instead of carrying a second, hard-coded set of party names.
+defined_text = {
+	name = APDCCabinetPartyCommunismName
+	text = { localization_key = [ROOT.GetTag]_communism_party }
+}
+defined_text = {
+	name = APDCCabinetPartySocialismName
+	text = { localization_key = [ROOT.GetTag]_socialism_party }
+}
+defined_text = {
+	name = APDCCabinetPartySocialDemocracyName
+	text = { localization_key = [ROOT.GetTag]_social_democracy_party }
+}
+defined_text = {
+	name = APDCCabinetPartyConservatismName
+	text = { localization_key = [ROOT.GetTag]_conservatism_party }
+}
+defined_text = {
+	name = APDCCabinetPartyLiberalismName
+	text = { localization_key = [ROOT.GetTag]_liberalism_party }
+}
+defined_text = {
+	name = APDCCabinetPartyAuthoritarianismName
+	text = { localization_key = [ROOT.GetTag]_authoritarianism_party }
+}
+defined_text = {
+	name = APDCCabinetPartyDictatorshipName
+	text = { localization_key = [ROOT.GetTag]_dictatorship_party }
+}
+defined_text = {
+	name = APDCCabinetPartyFascismName
+	text = { localization_key = [ROOT.GetTag]_fascism_party }
+}
+defined_text = {
+	name = APDCCabinetPartyFundamentalismName
+	text = { localization_key = [ROOT.GetTag]_fundamentalism_party }
+}
+
 defined_text = {
 	name = APDCPrimeMinisterPortrait
 	text = { trigger = { has_variable = APDC_prime_minister_character } localization_key = GFX_[?APDC_prime_minister_character.GetTokenKey] }
@@ -526,4 +566,3 @@ defined_text = {
 	text = { trigger = { APDC_cabinet_selected_candidate_is_fundamentalism = yes } localization_key = APDC_CABINET_PARTY_FUNDAMENTALISM_COLORED }
 	text = { localization_key = APDC_CABINET_EMPTY_TEXT }
 }
-

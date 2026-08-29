@@ -143,21 +143,12 @@ guiTypes = {
 
 		buttonType = {
 			name = "APDC_cooperation_organization_entry_button"
-			position = { x = 0 y = 0 }
-			size = { x = 109 y = 103 }
-			spriteType = "GFX_APDC_cooperation_organization_entry_hitbox"
-			pdx_tooltip = "APDC_COOPERATION_ORGANIZATION_ENTRY_TOOLTIP"
-		}
-
-		iconType = {
-			name = "APDC_cooperation_organization_icon"
 			position = { x = 53 y = 57 }
 			centerposition = yes
 			spriteType = "GFX_APDC_cooperation_organization_none"
-			# Keep organization source textures at their native dimensions.
-			# Every current and future organization icon uses this shared scale.
 			scale = 1.06
-			alwaystransparent = yes
+			clicksound = click_default
+			pdx_tooltip = "APDC_COOPERATION_ORGANIZATION_ENTRY_TOOLTIP"
 		}
 	}
 

@@ -1,8 +1,9 @@
 ﻿l_simp_chinese:
  #政党
- GER_fascism_party: "国家社会主义德意志工人党"
- GER_fascism_party_long: "国家社会主义德意志工人党"
- GER_communism_party: "德国共产党"
+ GER_fascism_party: "德国自由独立党"
+ GER_fascism_party_long: "德国自由独立党"
+ GER_communism_party: "德国共产主义者同盟"
+ GER_communism_party_long: "德国共产主义者同盟"
  GER_democratic_party: "中央党"
  GER_neutrality_party_civil_war: "军政府"
  GER_neutrality_party_kaiserreich: "国家人民党"

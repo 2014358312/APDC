@@ -14,12 +14,12 @@ scripted_gui = {
 		parent_window_token = politics_tab
 		window_name = "APDC_cabinet_advisors"
 		properties = {
-			APDC_cabinet_slot_1_portrait = { image = "[APDCCabinetSlot1Portrait]" }
-			APDC_cabinet_slot_2_portrait = { image = "[APDCCabinetSlot2Portrait]" }
-			APDC_cabinet_slot_3_portrait = { image = "[APDCCabinetSlot3Portrait]" }
-			APDC_cabinet_slot_4_portrait = { image = "[APDCCabinetSlot4Portrait]" }
-			APDC_cabinet_slot_5_portrait = { image = "[APDCCabinetSlot5Portrait]" }
-			APDC_cabinet_slot_6_portrait = { image = "[APDCCabinetSlot6Portrait]" }
+			APDC_cabinet_slot_1_button = { image = "[APDCCabinetSlot1Portrait]" }
+			APDC_cabinet_slot_2_button = { image = "[APDCCabinetSlot2Portrait]" }
+			APDC_cabinet_slot_3_button = { image = "[APDCCabinetSlot3Portrait]" }
+			APDC_cabinet_slot_4_button = { image = "[APDCCabinetSlot4Portrait]" }
+			APDC_cabinet_slot_5_button = { image = "[APDCCabinetSlot5Portrait]" }
+			APDC_cabinet_slot_6_button = { image = "[APDCCabinetSlot6Portrait]" }
 		}
 		effects = {
 			APDC_cabinet_slot_1_button_click = { set_variable = { APDC_cabinet_selected_slot = 1 } APDC_update_cabinet_statistics = yes }
@@ -6580,4 +6580,3 @@ scripted_gui = {
 		}
 	}
 }
-

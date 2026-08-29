@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_APDC_politics_leader_frame"
+		textureFile = "gfx/interface/APDC/politics/pol_leader_frame.dds"
+		transparencecheck = yes
+	}
+}

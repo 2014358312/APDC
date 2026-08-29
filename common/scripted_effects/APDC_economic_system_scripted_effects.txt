@@ -1,0 +1,183 @@
+# Public economic-system API.  Content should call one of the APDC_set_...
+# effects instead of adding ideas directly; this preserves the one-system-only
+# invariant and gives later focuses/events a stable way to change the system.
+
+APDC_clear_economic_system = {
+	remove_ideas = {
+		APDC_economic_system_traditional_agriculture_idea
+		APDC_economic_system_dependent_economy_idea
+		APDC_economic_system_free_market_idea
+		APDC_economic_system_mixed_market_idea
+		APDC_economic_system_state_guided_idea
+		APDC_economic_system_state_capitalism_idea
+		APDC_economic_system_market_socialism_idea
+		APDC_economic_system_decentralized_planning_idea
+		APDC_economic_system_central_planning_idea
+	}
+}
+
+APDC_set_economic_system_traditional_agriculture = {
+	APDC_clear_economic_system = yes
+	add_ideas = APDC_economic_system_traditional_agriculture_idea
+}
+
+APDC_set_economic_system_dependent_economy = {
+	APDC_clear_economic_system = yes
+	add_ideas = APDC_economic_system_dependent_economy_idea
+}
+
+APDC_set_economic_system_free_market = {
+	APDC_clear_economic_system = yes
+	add_ideas = APDC_economic_system_free_market_idea
+}
+
+APDC_set_economic_system_mixed_market = {
+	APDC_clear_economic_system = yes
+	add_ideas = APDC_economic_system_mixed_market_idea
+}
+
+APDC_set_economic_system_state_guided = {
+	APDC_clear_economic_system = yes
+	add_ideas = APDC_economic_system_state_guided_idea
+}
+
+APDC_set_economic_system_state_capitalism = {
+	APDC_clear_economic_system = yes
+	add_ideas = APDC_economic_system_state_capitalism_idea
+}
+
+APDC_set_economic_system_market_socialism = {
+	APDC_clear_economic_system = yes
+	add_ideas = APDC_economic_system_market_socialism_idea
+}
+
+APDC_set_economic_system_decentralized_planning = {
+	APDC_clear_economic_system = yes
+	add_ideas = APDC_economic_system_decentralized_planning_idea
+}
+
+APDC_set_economic_system_central_planning = {
+	APDC_clear_economic_system = yes
+	add_ideas = APDC_economic_system_central_planning_idea
+}
+
+# Initial classification.  Explicit country groups take precedence, followed
+# by government-family defaults so every current or future tag receives a
+# sensible system even if it has no bespoke APDC history yet.
+APDC_assign_initial_economic_system = {
+	if = {
+		limit = { tag = GER }
+		APDC_set_economic_system_market_socialism = yes
+	}
+	else_if = {
+		limit = { is_subject = yes }
+		APDC_set_economic_system_dependent_economy = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				tag = AFA tag = AFG tag = BAR tag = BEG tag = BHU tag = BRD
+				tag = CAR tag = CHA tag = ETH tag = GBA tag = HAR tag = IMO
+				tag = KAS tag = KHM tag = KLT tag = KUM tag = LAO tag = MRT
+				tag = NEP tag = NGR tag = ORO tag = PSH tag = QEM tag = SID
+				tag = SOM tag = TIB tag = TIG tag = VOL tag = WES tag = YEM
+			}
+		}
+		APDC_set_economic_system_traditional_agriculture = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				tag = BHR tag = BRN tag = DJI tag = GAB tag = KUW tag = LBA
+				tag = OMA tag = QAT tag = UAE tag = COG tag = RCG tag = EQG
+			}
+		}
+		APDC_set_economic_system_dependent_economy = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				tag = SOV tag = PRC tag = DDR tag = POL tag = CZE tag = HUN
+				tag = ROM tag = BUL tag = ALB tag = MON tag = TAN tag = SIK
+			}
+		}
+		APDC_set_economic_system_central_planning = yes
+	}
+	else_if = {
+		limit = {
+			OR = { tag = YUG tag = GRE tag = CBV tag = GNB tag = CUB }
+		}
+		APDC_set_economic_system_decentralized_planning = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				tag = USA tag = ENG tag = CAN tag = AST tag = NZL tag = IRE
+				tag = HOL tag = SWI tag = LUX tag = ICE tag = ISR tag = HAW
+			}
+		}
+		APDC_set_economic_system_free_market = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				tag = FRA tag = ITA tag = BEL tag = DEN tag = NOR tag = SWE
+				tag = FIN tag = SPR tag = POR tag = AUS tag = BRA tag = CHL
+			}
+		}
+		APDC_set_economic_system_mixed_market = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				tag = JAP tag = KOR tag = SIA tag = VIN tag = MAL tag = INS
+				tag = PHI tag = TUR tag = RAJ tag = MEX tag = ARG
+			}
+		}
+		APDC_set_economic_system_state_guided = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				tag = CHI tag = MAN tag = RNG tag = GDC tag = GXC tag = SHX
+				tag = YUN tag = XSM tag = MEN tag = PER tag = SAU
+			}
+		}
+		APDC_set_economic_system_state_capitalism = yes
+	}
+	else_if = {
+		limit = { has_government = communism }
+		APDC_set_economic_system_central_planning = yes
+	}
+	else_if = {
+		limit = { has_government = socialism }
+		APDC_set_economic_system_market_socialism = yes
+	}
+	else_if = {
+		limit = { has_government = social_democracy }
+		APDC_set_economic_system_mixed_market = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				has_government = liberalism
+				has_government = conservatism
+			}
+		}
+		APDC_set_economic_system_free_market = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				has_government = authoritarianism
+				has_government = dictatorship
+				has_government = fascism
+				has_government = fundamentalism
+			}
+		}
+		APDC_set_economic_system_state_capitalism = yes
+	}
+	else = {
+		APDC_set_economic_system_mixed_market = yes
+	}
+}

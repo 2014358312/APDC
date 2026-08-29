@@ -1,0 +1,1902 @@
+# APDC random political leader portraits.
+# Vanilla/DLC political portrait pools are excluded by replace_path="portraits".
+# Non-political portrait pools are preserved separately in APDC_preserved_nonpolitical_portraits.txt.
+
+continent = {
+	name = europe
+	political = {
+		communism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_4"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+			}
+		}
+		socialism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+			}
+		}
+		social_democracy = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+			}
+		}
+		conservatism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+			}
+		}
+		liberalism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+			}
+		}
+		authoritarianism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_2"
+				"GFX_APDC_europe_generic_political_male_3"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_4"
+				"GFX_APDC_europe_generic_political_female_5"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+			}
+		}
+		dictatorship = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_2"
+				"GFX_APDC_europe_generic_political_male_3"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_4"
+				"GFX_APDC_europe_generic_political_female_5"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_1"
+				"GFX_APDC_europe_generic_political_male_2"
+				"GFX_APDC_europe_generic_political_male_3"
+				"GFX_APDC_europe_generic_political_male_4"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_4"
+				"GFX_APDC_europe_generic_political_female_5"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+				"GFX_APDC_europe_generic_political_female_8"
+			}
+		}
+		fundamentalism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_1"
+				"GFX_APDC_europe_generic_political_male_4"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_4"
+				"GFX_APDC_europe_generic_political_female_5"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+				"GFX_APDC_europe_generic_political_female_8"
+			}
+		}
+	}
+}
+
+continent = {
+	name = north_america
+	political = {
+		communism = {
+			male = {
+				"GFX_APDC_north_america_generic_political_male_1"
+				"GFX_APDC_north_america_generic_political_male_2"
+				"GFX_APDC_north_america_generic_political_male_3"
+				"GFX_APDC_north_america_generic_political_male_4"
+				"GFX_APDC_north_america_generic_political_male_5"
+				"GFX_APDC_north_america_generic_political_male_6"
+			}
+			female = {
+				"GFX_APDC_north_america_generic_political_female_1"
+				"GFX_APDC_north_america_generic_political_female_2"
+				"GFX_APDC_north_america_generic_political_female_3"
+				"GFX_APDC_north_america_generic_political_female_4"
+				"GFX_APDC_north_america_generic_political_female_5"
+				"GFX_APDC_north_america_generic_political_female_6"
+			}
+		}
+		socialism = {
+			male = {
+				"GFX_APDC_north_america_generic_political_male_1"
+				"GFX_APDC_north_america_generic_political_male_2"
+				"GFX_APDC_north_america_generic_political_male_3"
+				"GFX_APDC_north_america_generic_political_male_4"
+				"GFX_APDC_north_america_generic_political_male_5"
+				"GFX_APDC_north_america_generic_political_male_6"
+			}
+			female = {
+				"GFX_APDC_north_america_generic_political_female_1"
+				"GFX_APDC_north_america_generic_political_female_2"
+				"GFX_APDC_north_america_generic_political_female_3"
+				"GFX_APDC_north_america_generic_political_female_4"
+				"GFX_APDC_north_america_generic_political_female_5"
+				"GFX_APDC_north_america_generic_political_female_6"
+			}
+		}
+		social_democracy = {
+			male = {
+				"GFX_APDC_north_america_generic_political_male_1"
+				"GFX_APDC_north_america_generic_political_male_6"
+			}
+			female = {
+				"GFX_APDC_north_america_generic_political_female_1"
+				"GFX_APDC_north_america_generic_political_female_6"
+			}
+		}
+		conservatism = {
+			male = {
+				"GFX_APDC_north_america_generic_political_male_1"
+				"GFX_APDC_north_america_generic_political_male_6"
+			}
+			female = {
+				"GFX_APDC_north_america_generic_political_female_1"
+				"GFX_APDC_north_america_generic_political_female_6"
+			}
+		}
+		liberalism = {
+			male = {
+				"GFX_APDC_north_america_generic_political_male_1"
+				"GFX_APDC_north_america_generic_political_male_6"
+			}
+			female = {
+				"GFX_APDC_north_america_generic_political_female_1"
+				"GFX_APDC_north_america_generic_political_female_6"
+			}
+		}
+		authoritarianism = {
+			male = {
+				"GFX_APDC_north_america_generic_political_male_1"
+				"GFX_APDC_north_america_generic_political_male_2"
+				"GFX_APDC_north_america_generic_political_male_3"
+				"GFX_APDC_north_america_generic_political_male_4"
+				"GFX_APDC_north_america_generic_political_male_5"
+				"GFX_APDC_north_america_generic_political_male_6"
+				"GFX_APDC_north_america_generic_political_male_7"
+			}
+			female = {
+				"GFX_APDC_north_america_generic_political_female_1"
+				"GFX_APDC_north_america_generic_political_female_2"
+				"GFX_APDC_north_america_generic_political_female_3"
+				"GFX_APDC_north_america_generic_political_female_4"
+				"GFX_APDC_north_america_generic_political_female_5"
+				"GFX_APDC_north_america_generic_political_female_6"
+				"GFX_APDC_north_america_generic_political_female_7"
+			}
+		}
+		dictatorship = {
+			male = {
+				"GFX_APDC_north_america_generic_political_male_1"
+				"GFX_APDC_north_america_generic_political_male_2"
+				"GFX_APDC_north_america_generic_political_male_3"
+				"GFX_APDC_north_america_generic_political_male_4"
+				"GFX_APDC_north_america_generic_political_male_5"
+				"GFX_APDC_north_america_generic_political_male_6"
+				"GFX_APDC_north_america_generic_political_male_7"
+			}
+			female = {
+				"GFX_APDC_north_america_generic_political_female_1"
+				"GFX_APDC_north_america_generic_political_female_2"
+				"GFX_APDC_north_america_generic_political_female_3"
+				"GFX_APDC_north_america_generic_political_female_4"
+				"GFX_APDC_north_america_generic_political_female_5"
+				"GFX_APDC_north_america_generic_political_female_6"
+				"GFX_APDC_north_america_generic_political_female_7"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_APDC_north_america_generic_political_male_1"
+				"GFX_APDC_north_america_generic_political_male_2"
+				"GFX_APDC_north_america_generic_political_male_3"
+				"GFX_APDC_north_america_generic_political_male_4"
+				"GFX_APDC_north_america_generic_political_male_5"
+				"GFX_APDC_north_america_generic_political_male_6"
+				"GFX_APDC_north_america_generic_political_male_7"
+				"GFX_APDC_north_america_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_north_america_generic_political_female_1"
+				"GFX_APDC_north_america_generic_political_female_2"
+				"GFX_APDC_north_america_generic_political_female_3"
+				"GFX_APDC_north_america_generic_political_female_4"
+				"GFX_APDC_north_america_generic_political_female_5"
+				"GFX_APDC_north_america_generic_political_female_6"
+				"GFX_APDC_north_america_generic_political_female_7"
+				"GFX_APDC_north_america_generic_political_female_8"
+			}
+		}
+		fundamentalism = {
+			male = {
+				"GFX_APDC_north_america_generic_political_male_1"
+				"GFX_APDC_north_america_generic_political_male_2"
+				"GFX_APDC_north_america_generic_political_male_3"
+				"GFX_APDC_north_america_generic_political_male_4"
+				"GFX_APDC_north_america_generic_political_male_5"
+				"GFX_APDC_north_america_generic_political_male_6"
+				"GFX_APDC_north_america_generic_political_male_7"
+				"GFX_APDC_north_america_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_north_america_generic_political_female_1"
+				"GFX_APDC_north_america_generic_political_female_2"
+				"GFX_APDC_north_america_generic_political_female_3"
+				"GFX_APDC_north_america_generic_political_female_4"
+				"GFX_APDC_north_america_generic_political_female_5"
+				"GFX_APDC_north_america_generic_political_female_6"
+				"GFX_APDC_north_america_generic_political_female_7"
+				"GFX_APDC_north_america_generic_political_female_8"
+			}
+		}
+	}
+}
+
+continent = {
+	name = south_america
+	political = {
+		communism = {
+			male = {
+				"GFX_APDC_south_america_generic_political_male_1"
+				"GFX_APDC_south_america_generic_political_male_2"
+				"GFX_APDC_south_america_generic_political_male_3"
+				"GFX_APDC_south_america_generic_political_male_4"
+				"GFX_APDC_south_america_generic_political_male_5"
+				"GFX_APDC_south_america_generic_political_male_6"
+				"GFX_APDC_south_america_generic_political_male_7"
+				"GFX_APDC_south_america_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_south_america_generic_political_female_1"
+				"GFX_APDC_south_america_generic_political_female_2"
+				"GFX_APDC_south_america_generic_political_female_3"
+				"GFX_APDC_south_america_generic_political_female_5"
+				"GFX_APDC_south_america_generic_political_female_6"
+				"GFX_APDC_south_america_generic_political_female_8"
+			}
+		}
+		socialism = {
+			male = {
+				"GFX_APDC_south_america_generic_political_male_1"
+				"GFX_APDC_south_america_generic_political_male_2"
+				"GFX_APDC_south_america_generic_political_male_3"
+				"GFX_APDC_south_america_generic_political_male_4"
+				"GFX_APDC_south_america_generic_political_male_5"
+				"GFX_APDC_south_america_generic_political_male_6"
+				"GFX_APDC_south_america_generic_political_male_7"
+				"GFX_APDC_south_america_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_south_america_generic_political_female_1"
+				"GFX_APDC_south_america_generic_political_female_2"
+				"GFX_APDC_south_america_generic_political_female_3"
+				"GFX_APDC_south_america_generic_political_female_5"
+				"GFX_APDC_south_america_generic_political_female_6"
+				"GFX_APDC_south_america_generic_political_female_8"
+			}
+		}
+		social_democracy = {
+			male = {
+				"GFX_APDC_south_america_generic_political_male_1"
+				"GFX_APDC_south_america_generic_political_male_3"
+				"GFX_APDC_south_america_generic_political_male_7"
+			}
+			female = {
+				"GFX_APDC_south_america_generic_political_female_1"
+				"GFX_APDC_south_america_generic_political_female_2"
+				"GFX_APDC_south_america_generic_political_female_3"
+				"GFX_APDC_south_america_generic_political_female_7"
+			}
+		}
+		conservatism = {
+			male = {
+				"GFX_APDC_south_america_generic_political_male_1"
+				"GFX_APDC_south_america_generic_political_male_3"
+				"GFX_APDC_south_america_generic_political_male_7"
+			}
+			female = {
+				"GFX_APDC_south_america_generic_political_female_1"
+				"GFX_APDC_south_america_generic_political_female_2"
+				"GFX_APDC_south_america_generic_political_female_3"
+				"GFX_APDC_south_america_generic_political_female_7"
+			}
+		}
+		liberalism = {
+			male = {
+				"GFX_APDC_south_america_generic_political_male_1"
+				"GFX_APDC_south_america_generic_political_male_3"
+				"GFX_APDC_south_america_generic_political_male_7"
+			}
+			female = {
+				"GFX_APDC_south_america_generic_political_female_1"
+				"GFX_APDC_south_america_generic_political_female_2"
+				"GFX_APDC_south_america_generic_political_female_3"
+				"GFX_APDC_south_america_generic_political_female_7"
+			}
+		}
+		authoritarianism = {
+			male = {
+				"GFX_APDC_south_america_generic_political_male_1"
+				"GFX_APDC_south_america_generic_political_male_2"
+				"GFX_APDC_south_america_generic_political_male_3"
+				"GFX_APDC_south_america_generic_political_male_4"
+				"GFX_APDC_south_america_generic_political_male_5"
+				"GFX_APDC_south_america_generic_political_male_6"
+				"GFX_APDC_south_america_generic_political_male_7"
+				"GFX_APDC_south_america_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_south_america_generic_political_female_1"
+				"GFX_APDC_south_america_generic_political_female_2"
+				"GFX_APDC_south_america_generic_political_female_4"
+				"GFX_APDC_south_america_generic_political_female_5"
+				"GFX_APDC_south_america_generic_political_female_6"
+				"GFX_APDC_south_america_generic_political_female_7"
+				"GFX_APDC_south_america_generic_political_female_8"
+			}
+		}
+		dictatorship = {
+			male = {
+				"GFX_APDC_south_america_generic_political_male_1"
+				"GFX_APDC_south_america_generic_political_male_2"
+				"GFX_APDC_south_america_generic_political_male_3"
+				"GFX_APDC_south_america_generic_political_male_4"
+				"GFX_APDC_south_america_generic_political_male_5"
+				"GFX_APDC_south_america_generic_political_male_6"
+				"GFX_APDC_south_america_generic_political_male_7"
+				"GFX_APDC_south_america_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_south_america_generic_political_female_1"
+				"GFX_APDC_south_america_generic_political_female_2"
+				"GFX_APDC_south_america_generic_political_female_4"
+				"GFX_APDC_south_america_generic_political_female_5"
+				"GFX_APDC_south_america_generic_political_female_6"
+				"GFX_APDC_south_america_generic_political_female_7"
+				"GFX_APDC_south_america_generic_political_female_8"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_APDC_south_america_generic_political_male_1"
+				"GFX_APDC_south_america_generic_political_male_2"
+				"GFX_APDC_south_america_generic_political_male_3"
+				"GFX_APDC_south_america_generic_political_male_4"
+				"GFX_APDC_south_america_generic_political_male_5"
+				"GFX_APDC_south_america_generic_political_male_6"
+				"GFX_APDC_south_america_generic_political_male_7"
+				"GFX_APDC_south_america_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_south_america_generic_political_female_1"
+				"GFX_APDC_south_america_generic_political_female_2"
+				"GFX_APDC_south_america_generic_political_female_4"
+				"GFX_APDC_south_america_generic_political_female_5"
+				"GFX_APDC_south_america_generic_political_female_6"
+				"GFX_APDC_south_america_generic_political_female_8"
+			}
+		}
+		fundamentalism = {
+			male = {
+				"GFX_APDC_south_america_generic_political_male_1"
+				"GFX_APDC_south_america_generic_political_male_2"
+				"GFX_APDC_south_america_generic_political_male_3"
+				"GFX_APDC_south_america_generic_political_male_4"
+				"GFX_APDC_south_america_generic_political_male_5"
+				"GFX_APDC_south_america_generic_political_male_6"
+				"GFX_APDC_south_america_generic_political_male_7"
+				"GFX_APDC_south_america_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_south_america_generic_political_female_1"
+				"GFX_APDC_south_america_generic_political_female_2"
+				"GFX_APDC_south_america_generic_political_female_4"
+				"GFX_APDC_south_america_generic_political_female_5"
+				"GFX_APDC_south_america_generic_political_female_6"
+				"GFX_APDC_south_america_generic_political_female_8"
+			}
+		}
+	}
+}
+
+continent = {
+	name = australia
+	political = {
+		communism = {
+			male = {
+				"GFX_APDC_australia_generic_political_male_1"
+				"GFX_APDC_australia_generic_political_male_2"
+				"GFX_APDC_australia_generic_political_male_4"
+				"GFX_APDC_australia_generic_political_male_5"
+				"GFX_APDC_australia_generic_political_male_6"
+				"GFX_APDC_australia_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_australia_generic_political_female_1"
+				"GFX_APDC_australia_generic_political_female_2"
+				"GFX_APDC_australia_generic_political_female_3"
+				"GFX_APDC_australia_generic_political_female_4"
+				"GFX_APDC_australia_generic_political_female_5"
+				"GFX_APDC_australia_generic_political_female_8"
+			}
+		}
+		socialism = {
+			male = {
+				"GFX_APDC_australia_generic_political_male_1"
+				"GFX_APDC_australia_generic_political_male_2"
+				"GFX_APDC_australia_generic_political_male_4"
+				"GFX_APDC_australia_generic_political_male_5"
+				"GFX_APDC_australia_generic_political_male_6"
+				"GFX_APDC_australia_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_australia_generic_political_female_1"
+				"GFX_APDC_australia_generic_political_female_2"
+				"GFX_APDC_australia_generic_political_female_3"
+				"GFX_APDC_australia_generic_political_female_4"
+				"GFX_APDC_australia_generic_political_female_5"
+				"GFX_APDC_australia_generic_political_female_8"
+			}
+		}
+		social_democracy = {
+			male = {
+				"GFX_APDC_australia_generic_political_male_1"
+				"GFX_APDC_australia_generic_political_male_2"
+				"GFX_APDC_australia_generic_political_male_4"
+				"GFX_APDC_australia_generic_political_male_5"
+			}
+			female = {
+				"GFX_APDC_australia_generic_political_female_1"
+				"GFX_APDC_australia_generic_political_female_4"
+				"GFX_APDC_australia_generic_political_female_5"
+			}
+		}
+		conservatism = {
+			male = {
+				"GFX_APDC_australia_generic_political_male_1"
+				"GFX_APDC_australia_generic_political_male_2"
+				"GFX_APDC_australia_generic_political_male_4"
+				"GFX_APDC_australia_generic_political_male_5"
+			}
+			female = {
+				"GFX_APDC_australia_generic_political_female_1"
+				"GFX_APDC_australia_generic_political_female_4"
+				"GFX_APDC_australia_generic_political_female_5"
+			}
+		}
+		liberalism = {
+			male = {
+				"GFX_APDC_australia_generic_political_male_1"
+				"GFX_APDC_australia_generic_political_male_2"
+				"GFX_APDC_australia_generic_political_male_4"
+				"GFX_APDC_australia_generic_political_male_5"
+			}
+			female = {
+				"GFX_APDC_australia_generic_political_female_1"
+				"GFX_APDC_australia_generic_political_female_4"
+				"GFX_APDC_australia_generic_political_female_5"
+			}
+		}
+		authoritarianism = {
+			male = {
+				"GFX_APDC_australia_generic_political_male_1"
+				"GFX_APDC_australia_generic_political_male_2"
+				"GFX_APDC_australia_generic_political_male_3"
+				"GFX_APDC_australia_generic_political_male_4"
+				"GFX_APDC_australia_generic_political_male_5"
+				"GFX_APDC_australia_generic_political_male_6"
+				"GFX_APDC_australia_generic_political_male_7"
+				"GFX_APDC_australia_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_australia_generic_political_female_1"
+				"GFX_APDC_australia_generic_political_female_2"
+				"GFX_APDC_australia_generic_political_female_3"
+				"GFX_APDC_australia_generic_political_female_4"
+				"GFX_APDC_australia_generic_political_female_5"
+				"GFX_APDC_australia_generic_political_female_6"
+				"GFX_APDC_australia_generic_political_female_7"
+				"GFX_APDC_australia_generic_political_female_8"
+			}
+		}
+		dictatorship = {
+			male = {
+				"GFX_APDC_australia_generic_political_male_1"
+				"GFX_APDC_australia_generic_political_male_2"
+				"GFX_APDC_australia_generic_political_male_3"
+				"GFX_APDC_australia_generic_political_male_4"
+				"GFX_APDC_australia_generic_political_male_5"
+				"GFX_APDC_australia_generic_political_male_6"
+				"GFX_APDC_australia_generic_political_male_7"
+				"GFX_APDC_australia_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_australia_generic_political_female_1"
+				"GFX_APDC_australia_generic_political_female_2"
+				"GFX_APDC_australia_generic_political_female_3"
+				"GFX_APDC_australia_generic_political_female_4"
+				"GFX_APDC_australia_generic_political_female_5"
+				"GFX_APDC_australia_generic_political_female_6"
+				"GFX_APDC_australia_generic_political_female_7"
+				"GFX_APDC_australia_generic_political_female_8"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_APDC_australia_generic_political_male_1"
+				"GFX_APDC_australia_generic_political_male_2"
+				"GFX_APDC_australia_generic_political_male_3"
+				"GFX_APDC_australia_generic_political_male_4"
+				"GFX_APDC_australia_generic_political_male_5"
+				"GFX_APDC_australia_generic_political_male_6"
+				"GFX_APDC_australia_generic_political_male_7"
+				"GFX_APDC_australia_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_australia_generic_political_female_1"
+				"GFX_APDC_australia_generic_political_female_2"
+				"GFX_APDC_australia_generic_political_female_3"
+				"GFX_APDC_australia_generic_political_female_4"
+				"GFX_APDC_australia_generic_political_female_5"
+				"GFX_APDC_australia_generic_political_female_6"
+				"GFX_APDC_australia_generic_political_female_7"
+				"GFX_APDC_australia_generic_political_female_8"
+			}
+		}
+		fundamentalism = {
+			male = {
+				"GFX_APDC_australia_generic_political_male_1"
+				"GFX_APDC_australia_generic_political_male_2"
+				"GFX_APDC_australia_generic_political_male_3"
+				"GFX_APDC_australia_generic_political_male_4"
+				"GFX_APDC_australia_generic_political_male_5"
+				"GFX_APDC_australia_generic_political_male_6"
+				"GFX_APDC_australia_generic_political_male_7"
+				"GFX_APDC_australia_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_australia_generic_political_female_1"
+				"GFX_APDC_australia_generic_political_female_2"
+				"GFX_APDC_australia_generic_political_female_3"
+				"GFX_APDC_australia_generic_political_female_4"
+				"GFX_APDC_australia_generic_political_female_5"
+				"GFX_APDC_australia_generic_political_female_6"
+				"GFX_APDC_australia_generic_political_female_7"
+				"GFX_APDC_australia_generic_political_female_8"
+			}
+		}
+	}
+}
+
+continent = {
+	name = africa
+	political = {
+		communism = {
+			male = {
+				"GFX_APDC_africa_generic_political_male_1"
+				"GFX_APDC_africa_generic_political_male_3"
+				"GFX_APDC_africa_generic_political_male_7"
+				"GFX_APDC_africa_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_africa_generic_political_female_1"
+				"GFX_APDC_africa_generic_political_female_3"
+				"GFX_APDC_africa_generic_political_female_7"
+				"GFX_APDC_africa_generic_political_female_8"
+			}
+		}
+		socialism = {
+			male = {
+				"GFX_APDC_africa_generic_political_male_1"
+				"GFX_APDC_africa_generic_political_male_3"
+				"GFX_APDC_africa_generic_political_male_7"
+				"GFX_APDC_africa_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_africa_generic_political_female_1"
+				"GFX_APDC_africa_generic_political_female_3"
+				"GFX_APDC_africa_generic_political_female_7"
+				"GFX_APDC_africa_generic_political_female_8"
+			}
+		}
+		social_democracy = {
+			male = {
+				"GFX_APDC_africa_generic_political_male_1"
+				"GFX_APDC_africa_generic_political_male_3"
+				"GFX_APDC_africa_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_africa_generic_political_female_1"
+				"GFX_APDC_africa_generic_political_female_3"
+				"GFX_APDC_africa_generic_political_female_4"
+			}
+		}
+		conservatism = {
+			male = {
+				"GFX_APDC_africa_generic_political_male_1"
+				"GFX_APDC_africa_generic_political_male_3"
+				"GFX_APDC_africa_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_africa_generic_political_female_1"
+				"GFX_APDC_africa_generic_political_female_3"
+				"GFX_APDC_africa_generic_political_female_4"
+			}
+		}
+		liberalism = {
+			male = {
+				"GFX_APDC_africa_generic_political_male_1"
+				"GFX_APDC_africa_generic_political_male_3"
+				"GFX_APDC_africa_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_africa_generic_political_female_1"
+				"GFX_APDC_africa_generic_political_female_3"
+				"GFX_APDC_africa_generic_political_female_4"
+			}
+		}
+		authoritarianism = {
+			male = {
+				"GFX_APDC_africa_generic_political_male_1"
+				"GFX_APDC_africa_generic_political_male_2"
+				"GFX_APDC_africa_generic_political_male_3"
+				"GFX_APDC_africa_generic_political_male_4"
+				"GFX_APDC_africa_generic_political_male_5"
+				"GFX_APDC_africa_generic_political_male_6"
+				"GFX_APDC_africa_generic_political_male_7"
+				"GFX_APDC_africa_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_africa_generic_political_female_1"
+				"GFX_APDC_africa_generic_political_female_2"
+				"GFX_APDC_africa_generic_political_female_3"
+				"GFX_APDC_africa_generic_political_female_4"
+				"GFX_APDC_africa_generic_political_female_5"
+				"GFX_APDC_africa_generic_political_female_6"
+				"GFX_APDC_africa_generic_political_female_7"
+				"GFX_APDC_africa_generic_political_female_8"
+			}
+		}
+		dictatorship = {
+			male = {
+				"GFX_APDC_africa_generic_political_male_1"
+				"GFX_APDC_africa_generic_political_male_2"
+				"GFX_APDC_africa_generic_political_male_3"
+				"GFX_APDC_africa_generic_political_male_4"
+				"GFX_APDC_africa_generic_political_male_5"
+				"GFX_APDC_africa_generic_political_male_6"
+				"GFX_APDC_africa_generic_political_male_7"
+				"GFX_APDC_africa_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_africa_generic_political_female_1"
+				"GFX_APDC_africa_generic_political_female_2"
+				"GFX_APDC_africa_generic_political_female_3"
+				"GFX_APDC_africa_generic_political_female_4"
+				"GFX_APDC_africa_generic_political_female_5"
+				"GFX_APDC_africa_generic_political_female_6"
+				"GFX_APDC_africa_generic_political_female_7"
+				"GFX_APDC_africa_generic_political_female_8"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_APDC_africa_generic_political_male_1"
+				"GFX_APDC_africa_generic_political_male_2"
+				"GFX_APDC_africa_generic_political_male_3"
+				"GFX_APDC_africa_generic_political_male_4"
+				"GFX_APDC_africa_generic_political_male_5"
+				"GFX_APDC_africa_generic_political_male_6"
+				"GFX_APDC_africa_generic_political_male_7"
+				"GFX_APDC_africa_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_africa_generic_political_female_1"
+				"GFX_APDC_africa_generic_political_female_2"
+				"GFX_APDC_africa_generic_political_female_3"
+				"GFX_APDC_africa_generic_political_female_4"
+				"GFX_APDC_africa_generic_political_female_5"
+				"GFX_APDC_africa_generic_political_female_6"
+				"GFX_APDC_africa_generic_political_female_7"
+				"GFX_APDC_africa_generic_political_female_8"
+			}
+		}
+		fundamentalism = {
+			male = {
+				"GFX_APDC_africa_generic_political_male_1"
+				"GFX_APDC_africa_generic_political_male_2"
+				"GFX_APDC_africa_generic_political_male_3"
+				"GFX_APDC_africa_generic_political_male_4"
+				"GFX_APDC_africa_generic_political_male_5"
+				"GFX_APDC_africa_generic_political_male_6"
+				"GFX_APDC_africa_generic_political_male_7"
+				"GFX_APDC_africa_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_africa_generic_political_female_1"
+				"GFX_APDC_africa_generic_political_female_2"
+				"GFX_APDC_africa_generic_political_female_3"
+				"GFX_APDC_africa_generic_political_female_4"
+				"GFX_APDC_africa_generic_political_female_5"
+				"GFX_APDC_africa_generic_political_female_6"
+				"GFX_APDC_africa_generic_political_female_7"
+				"GFX_APDC_africa_generic_political_female_8"
+			}
+		}
+	}
+}
+
+continent = {
+	name = asia
+	political = {
+		communism = {
+			male = {
+				"GFX_APDC_asia_generic_political_male_1"
+				"GFX_APDC_asia_generic_political_male_2"
+				"GFX_APDC_asia_generic_political_male_3"
+				"GFX_APDC_asia_generic_political_male_4"
+				"GFX_APDC_asia_generic_political_male_6"
+			}
+			female = {
+				"GFX_APDC_asia_generic_political_female_1"
+				"GFX_APDC_asia_generic_political_female_3"
+				"GFX_APDC_asia_generic_political_female_5"
+				"GFX_APDC_asia_generic_political_female_7"
+			}
+		}
+		socialism = {
+			male = {
+				"GFX_APDC_asia_generic_political_male_1"
+				"GFX_APDC_asia_generic_political_male_2"
+				"GFX_APDC_asia_generic_political_male_3"
+				"GFX_APDC_asia_generic_political_male_4"
+				"GFX_APDC_asia_generic_political_male_6"
+			}
+			female = {
+				"GFX_APDC_asia_generic_political_female_1"
+				"GFX_APDC_asia_generic_political_female_3"
+				"GFX_APDC_asia_generic_political_female_5"
+				"GFX_APDC_asia_generic_political_female_7"
+			}
+		}
+		social_democracy = {
+			male = {
+				"GFX_APDC_asia_generic_political_male_1"
+				"GFX_APDC_asia_generic_political_male_3"
+				"GFX_APDC_asia_generic_political_male_6"
+				"GFX_APDC_asia_generic_political_male_7"
+			}
+			female = {
+				"GFX_APDC_asia_generic_political_female_1"
+				"GFX_APDC_asia_generic_political_female_3"
+				"GFX_APDC_asia_generic_political_female_4"
+				"GFX_APDC_asia_generic_political_female_5"
+				"GFX_APDC_asia_generic_political_female_7"
+			}
+		}
+		conservatism = {
+			male = {
+				"GFX_APDC_asia_generic_political_male_1"
+				"GFX_APDC_asia_generic_political_male_3"
+				"GFX_APDC_asia_generic_political_male_6"
+				"GFX_APDC_asia_generic_political_male_7"
+			}
+			female = {
+				"GFX_APDC_asia_generic_political_female_1"
+				"GFX_APDC_asia_generic_political_female_3"
+				"GFX_APDC_asia_generic_political_female_4"
+				"GFX_APDC_asia_generic_political_female_5"
+				"GFX_APDC_asia_generic_political_female_7"
+			}
+		}
+		liberalism = {
+			male = {
+				"GFX_APDC_asia_generic_political_male_1"
+				"GFX_APDC_asia_generic_political_male_3"
+				"GFX_APDC_asia_generic_political_male_6"
+				"GFX_APDC_asia_generic_political_male_7"
+			}
+			female = {
+				"GFX_APDC_asia_generic_political_female_1"
+				"GFX_APDC_asia_generic_political_female_3"
+				"GFX_APDC_asia_generic_political_female_4"
+				"GFX_APDC_asia_generic_political_female_5"
+				"GFX_APDC_asia_generic_political_female_7"
+			}
+		}
+		authoritarianism = {
+			male = {
+				"GFX_APDC_asia_generic_political_male_1"
+				"GFX_APDC_asia_generic_political_male_2"
+				"GFX_APDC_asia_generic_political_male_3"
+				"GFX_APDC_asia_generic_political_male_4"
+				"GFX_APDC_asia_generic_political_male_5"
+				"GFX_APDC_asia_generic_political_male_6"
+				"GFX_APDC_asia_generic_political_male_7"
+				"GFX_APDC_asia_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_asia_generic_political_female_1"
+				"GFX_APDC_asia_generic_political_female_2"
+				"GFX_APDC_asia_generic_political_female_3"
+				"GFX_APDC_asia_generic_political_female_4"
+				"GFX_APDC_asia_generic_political_female_5"
+				"GFX_APDC_asia_generic_political_female_6"
+				"GFX_APDC_asia_generic_political_female_7"
+				"GFX_APDC_asia_generic_political_female_8"
+			}
+		}
+		dictatorship = {
+			male = {
+				"GFX_APDC_asia_generic_political_male_1"
+				"GFX_APDC_asia_generic_political_male_2"
+				"GFX_APDC_asia_generic_political_male_3"
+				"GFX_APDC_asia_generic_political_male_4"
+				"GFX_APDC_asia_generic_political_male_5"
+				"GFX_APDC_asia_generic_political_male_6"
+				"GFX_APDC_asia_generic_political_male_7"
+				"GFX_APDC_asia_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_asia_generic_political_female_1"
+				"GFX_APDC_asia_generic_political_female_2"
+				"GFX_APDC_asia_generic_political_female_3"
+				"GFX_APDC_asia_generic_political_female_4"
+				"GFX_APDC_asia_generic_political_female_5"
+				"GFX_APDC_asia_generic_political_female_6"
+				"GFX_APDC_asia_generic_political_female_7"
+				"GFX_APDC_asia_generic_political_female_8"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_APDC_asia_generic_political_male_1"
+				"GFX_APDC_asia_generic_political_male_2"
+				"GFX_APDC_asia_generic_political_male_3"
+				"GFX_APDC_asia_generic_political_male_4"
+				"GFX_APDC_asia_generic_political_male_5"
+				"GFX_APDC_asia_generic_political_male_6"
+				"GFX_APDC_asia_generic_political_male_7"
+				"GFX_APDC_asia_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_asia_generic_political_female_1"
+				"GFX_APDC_asia_generic_political_female_2"
+				"GFX_APDC_asia_generic_political_female_3"
+				"GFX_APDC_asia_generic_political_female_4"
+				"GFX_APDC_asia_generic_political_female_5"
+				"GFX_APDC_asia_generic_political_female_6"
+				"GFX_APDC_asia_generic_political_female_7"
+				"GFX_APDC_asia_generic_political_female_8"
+			}
+		}
+		fundamentalism = {
+			male = {
+				"GFX_APDC_asia_generic_political_male_1"
+				"GFX_APDC_asia_generic_political_male_2"
+				"GFX_APDC_asia_generic_political_male_3"
+				"GFX_APDC_asia_generic_political_male_4"
+				"GFX_APDC_asia_generic_political_male_5"
+				"GFX_APDC_asia_generic_political_male_6"
+				"GFX_APDC_asia_generic_political_male_7"
+				"GFX_APDC_asia_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_asia_generic_political_female_1"
+				"GFX_APDC_asia_generic_political_female_2"
+				"GFX_APDC_asia_generic_political_female_3"
+				"GFX_APDC_asia_generic_political_female_4"
+				"GFX_APDC_asia_generic_political_female_5"
+				"GFX_APDC_asia_generic_political_female_6"
+				"GFX_APDC_asia_generic_political_female_7"
+				"GFX_APDC_asia_generic_political_female_8"
+			}
+		}
+	}
+}
+
+continent = {
+	name = middle_east
+	political = {
+		communism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		socialism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		social_democracy = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+			}
+		}
+		conservatism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+			}
+		}
+		liberalism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+			}
+		}
+		authoritarianism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		dictatorship = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		fundamentalism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+	}
+}
+
+
+continent = {
+	name = antarctica
+	political = {
+		communism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_4"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+			}
+		}
+		socialism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+			}
+		}
+		social_democracy = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+			}
+		}
+		conservatism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+			}
+		}
+		liberalism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+			}
+		}
+		authoritarianism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_2"
+				"GFX_APDC_europe_generic_political_male_3"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_4"
+				"GFX_APDC_europe_generic_political_female_5"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+			}
+		}
+		dictatorship = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_2"
+				"GFX_APDC_europe_generic_political_male_3"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_4"
+				"GFX_APDC_europe_generic_political_female_5"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_1"
+				"GFX_APDC_europe_generic_political_male_2"
+				"GFX_APDC_europe_generic_political_male_3"
+				"GFX_APDC_europe_generic_political_male_4"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_4"
+				"GFX_APDC_europe_generic_political_female_5"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+				"GFX_APDC_europe_generic_political_female_8"
+			}
+		}
+		fundamentalism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_1"
+				"GFX_APDC_europe_generic_political_male_4"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_4"
+				"GFX_APDC_europe_generic_political_female_5"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+				"GFX_APDC_europe_generic_political_female_8"
+			}
+		}
+	}
+}
+
+continent = {
+	name = eastern_europe
+	political = {
+		communism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_4"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+			}
+		}
+		socialism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+			}
+		}
+		social_democracy = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+			}
+		}
+		conservatism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+			}
+		}
+		liberalism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+			}
+		}
+		authoritarianism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_2"
+				"GFX_APDC_europe_generic_political_male_3"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_4"
+				"GFX_APDC_europe_generic_political_female_5"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+			}
+		}
+		dictatorship = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_2"
+				"GFX_APDC_europe_generic_political_male_3"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_4"
+				"GFX_APDC_europe_generic_political_female_5"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_1"
+				"GFX_APDC_europe_generic_political_male_2"
+				"GFX_APDC_europe_generic_political_male_3"
+				"GFX_APDC_europe_generic_political_male_4"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_4"
+				"GFX_APDC_europe_generic_political_female_5"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+				"GFX_APDC_europe_generic_political_female_8"
+			}
+		}
+		fundamentalism = {
+			male = {
+				"GFX_APDC_europe_generic_political_male_1"
+				"GFX_APDC_europe_generic_political_male_4"
+				"GFX_APDC_europe_generic_political_male_5"
+				"GFX_APDC_europe_generic_political_male_6"
+				"GFX_APDC_europe_generic_political_male_7"
+				"GFX_APDC_europe_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_europe_generic_political_female_1"
+				"GFX_APDC_europe_generic_political_female_2"
+				"GFX_APDC_europe_generic_political_female_3"
+				"GFX_APDC_europe_generic_political_female_4"
+				"GFX_APDC_europe_generic_political_female_5"
+				"GFX_APDC_europe_generic_political_female_6"
+				"GFX_APDC_europe_generic_political_female_7"
+				"GFX_APDC_europe_generic_political_female_8"
+			}
+		}
+	}
+}
+
+continent = {
+	name = pakistan
+	political = {
+		communism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		socialism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		social_democracy = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+			}
+		}
+		conservatism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+			}
+		}
+		liberalism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+			}
+		}
+		authoritarianism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		dictatorship = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		fundamentalism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+	}
+}
+
+continent = {
+	name = gangetic_plain
+	political = {
+		communism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		socialism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		social_democracy = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+			}
+		}
+		conservatism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+			}
+		}
+		liberalism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+			}
+		}
+		authoritarianism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		dictatorship = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		fundamentalism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+	}
+}
+
+continent = {
+	name = india
+	political = {
+		communism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		socialism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		social_democracy = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+			}
+		}
+		conservatism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+			}
+		}
+		liberalism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+			}
+		}
+		authoritarianism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		dictatorship = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+		fundamentalism = {
+			male = {
+				"GFX_APDC_middle_east_generic_political_male_1"
+				"GFX_APDC_middle_east_generic_political_male_2"
+				"GFX_APDC_middle_east_generic_political_male_3"
+				"GFX_APDC_middle_east_generic_political_male_4"
+				"GFX_APDC_middle_east_generic_political_male_5"
+				"GFX_APDC_middle_east_generic_political_male_6"
+				"GFX_APDC_middle_east_generic_political_male_7"
+				"GFX_APDC_middle_east_generic_political_male_8"
+			}
+			female = {
+				"GFX_APDC_middle_east_generic_political_female_1"
+				"GFX_APDC_middle_east_generic_political_female_2"
+				"GFX_APDC_middle_east_generic_political_female_3"
+				"GFX_APDC_middle_east_generic_political_female_4"
+				"GFX_APDC_middle_east_generic_political_female_5"
+				"GFX_APDC_middle_east_generic_political_female_6"
+				"GFX_APDC_middle_east_generic_political_female_7"
+				"GFX_APDC_middle_east_generic_political_female_8"
+			}
+		}
+	}
+}

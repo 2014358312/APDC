@@ -5,7 +5,7 @@ scripted_gui = {
 		window_name = "APDC_cooperation_organization_entry"
 
 		properties = {
-			APDC_cooperation_organization_icon = {
+			APDC_cooperation_organization_entry_button = {
 				image = "[APDCCooperationOrganizationIcon]"
 			}
 		}

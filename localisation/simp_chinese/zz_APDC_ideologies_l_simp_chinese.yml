@@ -115,6 +115,8 @@
 
  constitutional_rossartrism:0 "宪政罗克萨特主义"
  constitutional_rossartrism_desc:0 "宪政罗克萨特主义支持以超国家宪章整合边境、资源和净化工程，建立强有力的联合行政机关，但要求其权限、成员权利与权力移交程序受到成文规则约束。"
+ persian_rossartrism:0 "波斯罗克萨特主义"
+ persian_rossartrism_desc:0 "波斯罗克萨特主义将罗克萨特式超国家整合移植到伊朗高原，主张由强势国家统合波斯各民族、坍塌污染区、交通走廊与人形工业，并以文明共同体的名义压制地方分离和党派竞争。"
  corporate_council:0 "企业委员会"
  corporate_council_desc:0 "企业委员会由掌握工业、人形制造、物流和安全合同的企业代表共同执政，以投资能力和技术贡献而非普选授权分配政治席位。"
  non_dominant_system:0 "无支配体制"
@@ -124,6 +126,8 @@
 
  absolute_monarchy:0 "绝对君主制"
  absolute_monarchy_desc:0 "绝对君主制把主权集中于世袭君主及其宫廷，军队、土地、净化资源和人形武装均被视为王权直接支配的国家资产。"
+ theocracy:0 "神权制"
+ theocracy_desc:0 "神权制宣称北兰岛事件、坍塌辐射与战后浩劫证明世俗秩序已经失去正统，由宗教领袖垄断立法与行政权；军队、净化设施及战术人形皆被置于教法监督之下，以启示而非民意决定国家方向。"
  military_state:0 "军队国家"
  military_state_desc:0 "军队国家并非由军人临时接管，而是把整个社会永久编入国防体系；行政区、企业、学校和人形生产线都按战略需要组织。"
  transitional_government:0 "过渡政府"

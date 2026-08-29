@@ -2,13 +2,18 @@ capital = 1035 # Luanda
 
 set_convoys = 5
 
+recruit_character = ANG_luis_da_silva
+
 set_politics = {
-	ruling_party = dictatorship
+	ruling_party = socialism
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	dictatorship = 100
+	socialism = 100
 }
+
+APDC_set_economic_system_market_socialism = yes
+APDC_join_fifth_international_cooperation_organization = yes

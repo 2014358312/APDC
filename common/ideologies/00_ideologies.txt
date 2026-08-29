@@ -276,6 +276,7 @@ ideologies = {
 	authoritarianism = {
 		types = {
 			constitutional_rossartrism = { can_be_randomly_selected = no }
+			persian_rossartrism = { can_be_randomly_selected = no }
 			corporate_council = { }
 			non_dominant_system = { }
 			guardian_authoritarianism = { can_be_randomly_selected = no }
@@ -322,6 +323,7 @@ ideologies = {
 	dictatorship = {
 		types = {
 			absolute_monarchy = { }
+			theocracy = { }
 			military_state = { }
 			transitional_government = { }
 			military_junta = { }

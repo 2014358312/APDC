@@ -32,7 +32,7 @@ bookmarks = {
 		}
 		GER = {
 			history = GER_STARTING_POINT_DESC
-			ideology = communism
+			ideology = socialism
 			ideas={
 				
 			}

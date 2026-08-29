@@ -1,0 +1,39 @@
+scripted_gui = {
+	APDC_economic_system_ui = {
+		context_type = player_context
+		window_name = "APDC_economic_system_window"
+		parent_window_name = "APDC_economic_system_hook"
+
+		visible = { always = yes }
+
+		triggers = {
+			APDC_economic_system_traditional_agriculture_visible = {
+				has_idea = APDC_economic_system_traditional_agriculture_idea
+			}
+			APDC_economic_system_dependent_economy_visible = {
+				has_idea = APDC_economic_system_dependent_economy_idea
+			}
+			APDC_economic_system_free_market_visible = {
+				has_idea = APDC_economic_system_free_market_idea
+			}
+			APDC_economic_system_mixed_market_visible = {
+				has_idea = APDC_economic_system_mixed_market_idea
+			}
+			APDC_economic_system_state_guided_visible = {
+				has_idea = APDC_economic_system_state_guided_idea
+			}
+			APDC_economic_system_state_capitalism_visible = {
+				has_idea = APDC_economic_system_state_capitalism_idea
+			}
+			APDC_economic_system_market_socialism_visible = {
+				has_idea = APDC_economic_system_market_socialism_idea
+			}
+			APDC_economic_system_decentralized_planning_visible = {
+				has_idea = APDC_economic_system_decentralized_planning_idea
+			}
+			APDC_economic_system_central_planning_visible = {
+				has_idea = APDC_economic_system_central_planning_idea
+			}
+		}
+	}
+}

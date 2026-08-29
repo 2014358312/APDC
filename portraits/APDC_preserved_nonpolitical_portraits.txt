@@ -1,0 +1,2930 @@
+# Preserved vanilla/DLC non-political portrait pools for APDC.
+# Generated from the locally installed HOI4 1.19.2 portrait databases.
+# All political blocks were removed so only APDC political portraits can be selected.
+
+# Preserved from: 00_portraits.txt
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+
+	operative = {
+		male = {
+			"GFX_portrait_operative_unknown"
+		}
+		female = {
+			"GFX_portrait_operative_unknown"
+		}
+	}
+
+	male = {
+		"GFX_portrait_unknown"
+	}
+	female = {
+		"GFX_portrait_unknown_female"
+	}
+}
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+			"GFX_portrait_caucasian_generic_navy_1"
+			"GFX_portrait_caucasian_generic_navy_2"
+		}
+	}
+	
+
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+			"GFX_portrait_caucasian_generic_navy_1"
+			"GFX_portrait_caucasian_generic_navy_2"
+		}
+	}
+
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+			"GFX_portrait_south_america_generic_navy_22"
+			"GFX_portrait_south_america_generic_navy_23"
+		}
+	}
+	
+
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+			"GFX_portrait_caucasian_generic_navy_1"
+			"GFX_portrait_caucasian_generic_navy_2"
+		}
+	}
+	
+
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+			"GFX_portrait_africa_generic_navy_7"
+			"GFX_portrait_africa_generic_navy_8"
+		}
+	}
+	
+
+
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+
+
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_land_1"
+			"GFX_Portrait_Arabia_Generic_land_2"
+			"GFX_Portrait_Arabia_Generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_navy_1"
+			"GFX_Portrait_Arabia_Generic_navy_2"
+			"GFX_Portrait_Arabia_Generic_navy_3"
+			"GFX_portrait_arabia_generic_navy_6"
+			"GFX_portrait_arabia_generic_navy_7"
+		}
+	}
+	
+
+}
+
+GER = {
+	army = {
+		male = {
+			"GFX_Portrait_Germany_Generic_land_1"
+			"GFX_Portrait_Germany_Generic_land_2"
+			"GFX_Portrait_Germany_Generic_land_3"
+			"GFX_Portrait_Germany_Generic_land_4"
+			"GFX_Portrait_Germany_Generic_land_5"
+			"GFX_Portrait_Germany_Generic_land_6"
+			"GFX_Portrait_Germany_Generic_land_7"
+			"GFX_Portrait_Germany_Generic_land_8"
+			"GFX_Portrait_Germany_Generic_land_9"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Germany_Generic_navy_1"
+			"GFX_Portrait_Germany_Generic_navy_2"
+			"GFX_Portrait_Germany_Generic_navy_3"
+			"GFX_portrait_Germany_generic_navy_4"
+			"GFX_portrait_Germany_generic_navy_5"
+		}
+	}
+}
+
+ENG = {
+	army = {
+		male = {
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+			"GFX_Portrait_Britain_Generic_land_6"
+			"GFX_Portrait_Britain_Generic_land_7"
+			"GFX_Portrait_Britain_Generic_land_8"
+			"GFX_Portrait_Britain_Generic_land_9"
+			"GFX_Portrait_Britain_Generic_land_10"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+			"GFX_portrait_Britain_generic_navy_4"
+			"GFX_portrait_Britain_generic_navy_5"
+		}
+	}
+}
+
+AST = {
+	army = {
+		male = {
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+			"GFX_Portrait_Britain_Generic_land_6"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+			"GFX_portrait_Britain_generic_navy_4"
+			"GFX_portrait_Britain_generic_navy_5"
+		}
+	}
+}
+
+CAN = {
+	army = {
+		male = {
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+			"GFX_Portrait_Britain_Generic_land_6"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+			"GFX_portrait_Britain_generic_navy_4"
+			"GFX_portrait_Britain_generic_navy_5"
+		}
+	}
+}
+
+NZL = {
+	army = {
+		male = {
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+			"GFX_Portrait_Britain_Generic_land_6"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+			"GFX_portrait_Britain_generic_navy_4"
+			"GFX_portrait_Britain_generic_navy_5"
+		}
+	}
+}
+
+FRA = {
+	army = {
+		male = {
+			"GFX_Portrait_France_Generic_land_1"
+			"GFX_Portrait_France_Generic_land_2"
+			"GFX_Portrait_France_Generic_land_3"
+			"GFX_Portrait_France_Generic_land_4"
+			"GFX_Portrait_France_Generic_land_5"
+			"GFX_Portrait_France_Generic_land_6"
+			"GFX_Portrait_France_Generic_land_7"
+			"GFX_Portrait_France_Generic_land_8"
+			"GFX_Portrait_France_Generic_land_9"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_France_Generic_navy_1"
+			"GFX_Portrait_France_Generic_navy_2"
+			"GFX_Portrait_France_Generic_navy_3"
+			"GFX_portrait_France_generic_navy_4"
+			"GFX_portrait_France_generic_navy_5"
+		}
+	}
+}
+
+ITA = {
+	army = {
+		male = {
+			"GFX_Portrait_Italy_Generic_land_1"
+			"GFX_Portrait_Italy_Generic_land_2"
+			"GFX_Portrait_Italy_Generic_land_3"
+			"GFX_Portrait_Italy_Generic_land_4"
+			"GFX_Portrait_Italy_Generic_land_5"
+			"GFX_Portrait_Italy_Generic_land_6"
+			"GFX_Portrait_Italy_Generic_land_7"
+			"GFX_Portrait_Italy_Generic_land_8"
+		}
+		female = {
+			"GFX_portrait_ITA_generic_female_1"
+			"GFX_portrait_ITA_generic_female_2"
+			"GFX_portrait_ITA_generic_female_3"
+			"GFX_portrait_ITA_generic_female_4"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Italy_Generic_navy_1"
+			"GFX_Portrait_Italy_Generic_navy_2"
+			"GFX_Portrait_Italy_Generic_navy_3"
+			"GFX_portrait_Italy_generic_navy_4"
+			"GFX_portrait_Italy_generic_navy_5"
+		}
+	}
+}
+
+JAP = {
+	army = {
+		male = {
+			"GFX_Portrait_Japan_Generic_land_1"
+			#"GFX_Portrait_Japan_Generic_land_2" 
+			"GFX_Portrait_Japan_Generic_land_3"
+			"GFX_Portrait_Japan_Generic_land_4"
+			"GFX_Portrait_Japan_Generic_land_5"
+			#"GFX_Portrait_Japan_Generic_land_6"
+			"GFX_Portrait_Japan_Generic_land_7"
+			"GFX_Portrait_Japan_Generic_land_8"
+			"GFX_Portrait_Japan_Generic_land_9"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Japan_Generic_navy_1"
+			"GFX_Portrait_Japan_Generic_navy_2"
+			"GFX_Portrait_Japan_Generic_navy_3"
+			"GFX_portrait_Japan_generic_navy_4"
+			"GFX_portrait_Japan_generic_navy_5"
+		}
+	}
+}
+
+SOV = {
+	army = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_land_1"
+			"GFX_Portrait_Soviet_Generic_land_2"
+			"GFX_Portrait_Soviet_Generic_land_3"
+			"GFX_Portrait_Soviet_Generic_land_4"
+			"GFX_Portrait_Soviet_Generic_land_5"
+			"GFX_Portrait_Soviet_Magic_Winner"
+			"GFX_Portrait_Soviet_Generic_land_6"
+			"GFX_Portrait_Soviet_Generic_land_7"
+			"GFX_Portrait_Soviet_Generic_land_8"
+			"GFX_Portrait_Soviet_Generic_land_9"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_navy_1"
+			"GFX_Portrait_Soviet_Generic_navy_2"
+			"GFX_Portrait_Soviet_Generic_navy_3"
+			"GFX_portrait_Soviet_generic_navy_4"
+			"GFX_portrait_Soviet_generic_navy_5"
+		}
+	}
+}
+
+USA = {
+	army = {
+		male = {
+			"GFX_Portrait_USA_Generic_land_1"
+			"GFX_Portrait_USA_Generic_land_2"
+			"GFX_Portrait_USA_Generic_land_3"
+			"GFX_Portrait_USA_Generic_land_4"
+			"GFX_Portrait_USA_Generic_land_5"
+			"GFX_Portrait_USA_Generic_land_6"
+			"GFX_Portrait_USA_Generic_land_7"
+			"GFX_Portrait_USA_Generic_land_8"
+			"GFX_Portrait_USA_Generic_land_9"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_USA_Generic_navy_1"
+			"GFX_Portrait_USA_Generic_navy_2"
+			"GFX_Portrait_USA_Generic_navy_3"
+			"GFX_portrait_USA_generic_navy_4"
+			"GFX_portrait_USA_generic_navy_5"
+		}
+	}
+}
+
+SAF = {
+	army = {
+		male = {
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+			"GFX_Portrait_Britain_Generic_land_6"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+			"GFX_portrait_Britain_generic_navy_4"
+			"GFX_portrait_Britain_generic_navy_5"
+		}
+	}
+}
+
+SAF_COM = {
+	army = {
+		male = {
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+			"GFX_Portrait_Britain_Generic_land_6"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+			"GFX_portrait_Britain_generic_navy_4"
+			"GFX_portrait_Britain_generic_navy_5"
+		}
+	}
+}
+
+RAJ_UK = {
+	army = {
+		male = {
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+			"GFX_Portrait_Britain_Generic_land_6"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+			"GFX_portrait_Britain_generic_navy_4"
+			"GFX_portrait_Britain_generic_navy_5"
+		}
+	}
+}
+
+MAL_UK = {
+	army = {
+		male = {
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+			"GFX_Portrait_Britain_Generic_land_6"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+			"GFX_portrait_Britain_generic_navy_4"
+			"GFX_portrait_Britain_generic_navy_5"
+		}
+	}
+}
+
+
+RAJ = {
+	army = {
+		male = {
+			"GFX_Portrait_The_Raj_Army_Generic"
+			"GFX_Portrait_The_Raj_Army_Generic_2"
+			
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_portrait_south_asia_generic_navy_1"
+			"GFX_portrait_south_asia_generic_navy_2"
+		}
+	}
+	
+}
+
+PAK = {
+	army = {
+		male = {
+			"GFX_Portrait_The_Raj_Army_Generic"
+			"GFX_Portrait_The_Raj_Army_Generic_2"
+			
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_portrait_south_asia_generic_navy_1"
+			"GFX_portrait_south_asia_generic_navy_2"
+		}
+	}
+	
+}
+
+SPR = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+			"GFX_portrait_caucasian_generic_navy_1"
+			"GFX_portrait_caucasian_generic_navy_2"
+		}
+	}
+}
+
+AFG = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+			"GFX_portrait_south_america_generic_navy_22"
+			"GFX_portrait_south_america_generic_navy_23"
+		}
+	}
+}
+
+MEX = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+			"GFX_portrait_south_america_generic_navy_22"
+			"GFX_portrait_south_america_generic_navy_23"
+		}
+	}	
+}
+
+INS_HOL = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+			
+		}
+	}
+}
+
+HOL = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_portrait_europe_generic_land_13"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+			"GFX_portrait_caucasian_generic_navy_1"
+			"GFX_portrait_caucasian_generic_navy_2"
+		}
+	}
+
+}
+
+TUR = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+			"GFX_portrait_south_america_generic_navy_22"
+			"GFX_portrait_south_america_generic_navy_23"
+		}
+	}	
+}
+
+GEO = {
+	army = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_land_1"
+			"GFX_Portrait_Soviet_Generic_land_2"
+			"GFX_Portrait_Soviet_Generic_land_3"
+			"GFX_Portrait_Soviet_Generic_land_4"
+			"GFX_Portrait_Soviet_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_navy_1"
+			"GFX_Portrait_Soviet_Generic_navy_2"
+			"GFX_Portrait_Soviet_Generic_navy_3"
+		}
+	}
+}
+
+BAH = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+			"GFX_portrait_africa_generic_navy_7"
+			"GFX_portrait_africa_generic_navy_8"
+			
+		}
+	}
+	
+}
+
+BLZ = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+			"GFX_portrait_south_america_generic_navy_22"
+			"GFX_portrait_south_america_generic_navy_23"
+		}
+	}
+	
+}
+
+FIN = {
+	army = {
+		male = {
+			"GFX_portrait_Finland_Generic_land_1"
+			"GFX_portrait_Finland_Generic_land_2"
+			"GFX_portrait_Finland_Generic_land_3"
+			"GFX_portrait_Finland_Generic_land_4"
+			"GFX_portrait_Finland_Generic_land_5"
+			"GFX_portrait_Finland_Generic_land_6"
+			"GFX_portrait_Finland_Generic_land_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_Finland_Generic_navy_1"
+			"GFX_portrait_Finland_Generic_navy_2"
+			"GFX_portrait_Finland_Generic_navy_3"
+		}
+	}
+	
+}
+
+#SAMI
+SMI = {
+	army = {
+		male = {
+			"GFX_portrait_generic_sami_army_general_1"
+			"GFX_portrait_generic_sami_army_general_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_generic_sami_navy_admiral_1"
+		}
+	}
+	
+}
+
+# Karelia
+KAR = {
+	army = {
+		male = {
+			"GFX_portrait_Finland_Generic_land_1"
+			"GFX_portrait_Finland_Generic_land_2"
+			"GFX_portrait_Finland_Generic_land_3"
+			"GFX_portrait_Finland_Generic_land_4"
+			"GFX_portrait_Finland_Generic_land_5"
+			"GFX_portrait_Finland_Generic_land_6"
+			"GFX_portrait_Finland_Generic_land_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_Finland_Generic_navy_1"
+			"GFX_portrait_Finland_Generic_navy_2"
+			"GFX_portrait_Finland_Generic_navy_3"
+		}
+	}
+	
+}
+
+PHI = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}
+
+MAL = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}
+
+INS = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}	
+
+SNG = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}
+
+SAR = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}
+
+SAB = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}
+
+BRN = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}
+
+TML = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}
+
+BLI = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}	
+
+ATJ = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}	
+
+SSI = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}	
+
+POK = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}	
+
+GOW = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}	
+
+TNE = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}	
+
+SIA = {
+	army = {
+		male = {
+			"GFX_portrait_se_asia_generic_land_1"
+			"GFX_portrait_se_asia_generic_land_2"
+			"GFX_portrait_se_asia_generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_se_asia_generic_navy_1"
+			"GFX_portrait_se_asia_generic_navy_2"
+			"GFX_portrait_se_asia_generic_navy_3"
+			"GFX_portrait_asia_generic_navy_11"
+			"GFX_portrait_asia_generic_navy_12"
+		}
+	}
+}
+
+# Preserved from: 998_scientist_portraits.txt
+
+continent = {
+	name = north_america
+	scientist = {
+		female = {
+			"GFX_portrait_generic_europe_female_01"
+			"GFX_portrait_generic_europe_female_02"
+			"GFX_portrait_generic_europe_female_03"
+			"GFX_portrait_generic_europe_female_04"
+			"GFX_portrait_generic_europe_female_05"
+			"GFX_portrait_generic_europe_female_06"
+			"GFX_portrait_generic_europe_female_07"
+			"GFX_portrait_generic_europe_female_08"
+			"GFX_portrait_generic_europe_female_09"
+			"GFX_portrait_generic_europe_female_10"
+			"GFX_portrait_generic_europe_female_11"
+			"GFX_portrait_generic_europe_female_12"
+			"GFX_portrait_generic_europe_female_13"
+			"GFX_portrait_generic_europe_female_14"
+			"GFX_portrait_generic_europe_female_15"
+			"GFX_portrait_generic_europe_female_16"
+		}
+		male = {
+			"GFX_portrait_generic_europe_male_01"
+			"GFX_portrait_generic_europe_male_02"
+			"GFX_portrait_generic_europe_male_03"
+			"GFX_portrait_generic_europe_male_04"
+			"GFX_portrait_generic_europe_male_05"
+			"GFX_portrait_generic_europe_male_06"
+			"GFX_portrait_generic_europe_male_07"
+			"GFX_portrait_generic_europe_male_08"
+			"GFX_portrait_generic_europe_male_09"
+			"GFX_portrait_generic_europe_male_10"
+			"GFX_portrait_generic_europe_male_11"
+			"GFX_portrait_generic_europe_male_12"
+			"GFX_portrait_generic_europe_male_13"
+			"GFX_portrait_generic_europe_male_14"
+			"GFX_portrait_generic_europe_male_15"
+			"GFX_portrait_generic_europe_male_16"
+		}
+	}
+}
+
+continent = {
+	name = europe
+	scientist = {
+		female = {
+			"GFX_portrait_generic_europe_female_01"
+			"GFX_portrait_generic_europe_female_02"
+			"GFX_portrait_generic_europe_female_03"
+			"GFX_portrait_generic_europe_female_04"
+			"GFX_portrait_generic_europe_female_05"
+			"GFX_portrait_generic_europe_female_06"
+			"GFX_portrait_generic_europe_female_07"
+			"GFX_portrait_generic_europe_female_08"
+			"GFX_portrait_generic_europe_female_09"
+			"GFX_portrait_generic_europe_female_10"
+			"GFX_portrait_generic_europe_female_11"
+			"GFX_portrait_generic_europe_female_12"
+			"GFX_portrait_generic_europe_female_13"
+			"GFX_portrait_generic_europe_female_14"
+			"GFX_portrait_generic_europe_female_15"
+			"GFX_portrait_generic_europe_female_16"
+		}
+		male = {
+			"GFX_portrait_generic_europe_male_01"
+			"GFX_portrait_generic_europe_male_02"
+			"GFX_portrait_generic_europe_male_03"
+			"GFX_portrait_generic_europe_male_04"
+			"GFX_portrait_generic_europe_male_05"
+			"GFX_portrait_generic_europe_male_06"
+			"GFX_portrait_generic_europe_male_07"
+			"GFX_portrait_generic_europe_male_08"
+			"GFX_portrait_generic_europe_male_09"
+			"GFX_portrait_generic_europe_male_10"
+			"GFX_portrait_generic_europe_male_11"
+			"GFX_portrait_generic_europe_male_12"
+			"GFX_portrait_generic_europe_male_13"
+			"GFX_portrait_generic_europe_male_14"
+			"GFX_portrait_generic_europe_male_15"
+			"GFX_portrait_generic_europe_male_16"
+		}
+	}
+}
+
+continent = {
+	name = africa
+	scientist = {
+		female = {
+			"GFX_portrait_generic_africa_female_01"
+			"GFX_portrait_generic_africa_female_02"
+			"GFX_portrait_generic_africa_female_03"
+			"GFX_portrait_generic_africa_female_04"
+			"GFX_portrait_generic_africa_female_05"
+			"GFX_portrait_generic_africa_female_06"
+			"GFX_portrait_generic_africa_female_07"
+			"GFX_portrait_generic_africa_female_08"
+		}
+		male = {
+			"GFX_portrait_generic_africa_male_01"
+			"GFX_portrait_generic_africa_male_02"
+			"GFX_portrait_generic_africa_male_03"
+			"GFX_portrait_generic_africa_male_04"
+			"GFX_portrait_generic_africa_male_05"
+			"GFX_portrait_generic_africa_male_06"
+			"GFX_portrait_generic_africa_male_07"
+			"GFX_portrait_generic_africa_male_08"
+		}
+	}
+}
+
+continent = {
+	name = middle_east
+	scientist = {
+		female = {
+			"GFX_portrait_generic_arabia_female_01"
+			"GFX_portrait_generic_arabia_female_02"
+			"GFX_portrait_generic_arabia_female_03"
+			"GFX_portrait_generic_arabia_female_04"
+			"GFX_portrait_generic_arabia_female_05"
+			"GFX_portrait_generic_arabia_female_06"
+			"GFX_portrait_generic_arabia_female_07"
+			"GFX_portrait_generic_arabia_female_08"
+		}
+		male = {
+			"GFX_portrait_generic_arabia_male_01"
+			"GFX_portrait_generic_arabia_male_02"
+			"GFX_portrait_generic_arabia_male_03"
+			"GFX_portrait_generic_arabia_male_04"
+			"GFX_portrait_generic_arabia_male_05"
+			"GFX_portrait_generic_arabia_male_06"
+			"GFX_portrait_generic_arabia_male_07"
+			"GFX_portrait_generic_arabia_male_08"
+		}
+	}
+}
+
+continent = {
+	name = asia
+	scientist = {
+		female = {
+			"GFX_portrait_generic_asia_female_01"
+			"GFX_portrait_generic_asia_female_02"
+			"GFX_portrait_generic_asia_female_03"
+			"GFX_portrait_generic_asia_female_04"
+			"GFX_portrait_generic_asia_female_05"
+			"GFX_portrait_generic_asia_female_06"
+			"GFX_portrait_generic_asia_female_07"
+			"GFX_portrait_generic_asia_female_08"
+		}
+		male = {
+			"GFX_portrait_generic_asia_male_01"
+			"GFX_portrait_generic_asia_male_02"
+			"GFX_portrait_generic_asia_male_03"
+			"GFX_portrait_generic_asia_male_04"
+			"GFX_portrait_generic_asia_male_05"
+			"GFX_portrait_generic_asia_male_06"
+			"GFX_portrait_generic_asia_male_07"
+			"GFX_portrait_generic_asia_male_08"
+		}
+	}
+}
+
+continent = {
+	name = south_america
+	scientist = {
+		female = {
+			"GFX_portrait_generic_southamerica_female_01"
+			"GFX_portrait_generic_southamerica_female_02"
+			"GFX_portrait_generic_southamerica_female_03"
+			"GFX_portrait_generic_southamerica_female_04"
+			"GFX_portrait_generic_southamerica_female_05"
+			"GFX_portrait_generic_southamerica_female_06"
+			"GFX_portrait_generic_southamerica_female_07"
+			"GFX_portrait_generic_southamerica_female_08"
+		}
+		male = {
+			"GFX_portrait_generic_southamerica_male_01"
+			"GFX_portrait_generic_southamerica_male_02"
+			"GFX_portrait_generic_southamerica_male_03"
+			"GFX_portrait_generic_southamerica_male_04"
+			"GFX_portrait_generic_southamerica_male_05"
+			"GFX_portrait_generic_southamerica_male_06"
+			"GFX_portrait_generic_southamerica_male_07"
+			"GFX_portrait_generic_southamerica_male_08"
+		}
+	}
+}
+
+continent = {
+	name = australia
+	scientist = {
+		female = {
+			"GFX_portrait_generic_australia_female_01"
+			"GFX_portrait_generic_australia_female_02"
+			"GFX_portrait_generic_australia_female_03"
+			"GFX_portrait_generic_europe_female_02"
+			"GFX_portrait_generic_europe_female_04"
+			"GFX_portrait_generic_europe_female_06"
+			"GFX_portrait_generic_europe_female_10"
+			"GFX_portrait_generic_europe_female_12"
+			"GFX_portrait_generic_europe_female_14"
+		}
+		male = {
+			"GFX_portrait_generic_australia_male_01"
+			"GFX_portrait_generic_australia_male_02"
+			"GFX_portrait_generic_australia_male_03"
+			"GFX_portrait_generic_europe_male_02"
+			"GFX_portrait_generic_europe_male_04"
+			"GFX_portrait_generic_europe_male_06"
+			"GFX_portrait_generic_europe_male_10"
+			"GFX_portrait_generic_europe_male_14"
+			"GFX_portrait_generic_europe_male_15"
+		}
+	}
+}
+
+PAK = {
+	scientist = {
+		female = {
+			"GFX_portrait_generic_india_female_01"
+			"GFX_portrait_generic_india_female_02"
+			"GFX_portrait_generic_india_female_03"
+			"GFX_portrait_generic_india_female_04"
+			"GFX_portrait_generic_india_female_05"
+			"GFX_portrait_generic_india_female_06"
+		}
+		male = {
+			"GFX_portrait_generic_india_male_01"
+			"GFX_portrait_generic_india_male_02"
+			"GFX_portrait_generic_india_male_03"
+			"GFX_portrait_generic_india_male_04"
+			"GFX_portrait_generic_india_male_05"
+			"GFX_portrait_generic_india_male_06"
+		}
+	}
+}
+
+RAJ = {
+	scientist = {
+		female = {
+			"GFX_portrait_generic_india_female_01"
+			"GFX_portrait_generic_india_female_02"
+			"GFX_portrait_generic_india_female_03"
+			"GFX_portrait_generic_india_female_04"
+			"GFX_portrait_generic_india_female_05"
+			"GFX_portrait_generic_india_female_06"
+		}
+		male = {
+			"GFX_portrait_generic_india_male_01"
+			"GFX_portrait_generic_india_male_02"
+			"GFX_portrait_generic_india_male_03"
+			"GFX_portrait_generic_india_male_04"
+			"GFX_portrait_generic_india_male_05"
+			"GFX_portrait_generic_india_male_06"
+		}
+	}
+}
+
+RAJ_UK = {
+	scientist = {
+		female = {
+			"GFX_portrait_generic_india_female_01"
+			"GFX_portrait_generic_india_female_02"
+			"GFX_portrait_generic_india_female_03"
+			"GFX_portrait_generic_india_female_04"
+			"GFX_portrait_generic_india_female_05"
+			"GFX_portrait_generic_india_female_06"
+			"GFX_portrait_generic_europe_female_01"
+			"GFX_portrait_generic_europe_female_02"
+			"GFX_portrait_generic_europe_female_03"
+			"GFX_portrait_generic_europe_female_04"
+			"GFX_portrait_generic_europe_female_05"
+			"GFX_portrait_generic_europe_female_06"
+			"GFX_portrait_generic_europe_female_07"
+			"GFX_portrait_generic_europe_female_08"
+			"GFX_portrait_generic_europe_female_09"
+			"GFX_portrait_generic_europe_female_10"
+			"GFX_portrait_generic_europe_female_11"
+			"GFX_portrait_generic_europe_female_12"
+			"GFX_portrait_generic_europe_female_13"
+			"GFX_portrait_generic_europe_female_14"
+			"GFX_portrait_generic_europe_female_15"
+			"GFX_portrait_generic_europe_female_16"
+		}
+		male = {
+			"GFX_portrait_generic_india_male_01"
+			"GFX_portrait_generic_india_male_02"
+			"GFX_portrait_generic_india_male_03"
+			"GFX_portrait_generic_india_male_04"
+			"GFX_portrait_generic_india_male_05"
+			"GFX_portrait_generic_india_male_06"
+			"GFX_portrait_generic_europe_male_01"
+			"GFX_portrait_generic_europe_male_02"
+			"GFX_portrait_generic_europe_male_03"
+			"GFX_portrait_generic_europe_male_04"
+			"GFX_portrait_generic_europe_male_05"
+			"GFX_portrait_generic_europe_male_06"
+			"GFX_portrait_generic_europe_male_07"
+			"GFX_portrait_generic_europe_male_08"
+			"GFX_portrait_generic_europe_male_09"
+			"GFX_portrait_generic_europe_male_10"
+			"GFX_portrait_generic_europe_male_11"
+			"GFX_portrait_generic_europe_male_12"
+			"GFX_portrait_generic_europe_male_13"
+			"GFX_portrait_generic_europe_male_14"
+			"GFX_portrait_generic_europe_male_15"
+			"GFX_portrait_generic_europe_male_16"
+		}
+	}
+}
+
+MAL_UK = {
+	scientist = {
+		female = {
+			"GFX_portrait_generic_asia_female_02"
+			"GFX_portrait_generic_asia_female_04"
+			"GFX_portrait_generic_asia_female_06"
+			"GFX_portrait_generic_asia_female_08"
+			"GFX_portrait_generic_europe_female_01"
+			"GFX_portrait_generic_europe_female_02"
+			"GFX_portrait_generic_europe_female_03"
+			"GFX_portrait_generic_europe_female_04"
+			"GFX_portrait_generic_europe_female_05"
+			"GFX_portrait_generic_europe_female_06"
+			"GFX_portrait_generic_europe_female_07"
+			"GFX_portrait_generic_europe_female_08"
+			"GFX_portrait_generic_europe_female_09"
+			"GFX_portrait_generic_europe_female_10"
+			"GFX_portrait_generic_europe_female_11"
+			"GFX_portrait_generic_europe_female_12"
+			"GFX_portrait_generic_europe_female_13"
+			"GFX_portrait_generic_europe_female_14"
+			"GFX_portrait_generic_europe_female_15"
+			"GFX_portrait_generic_europe_female_16"
+		}
+		male = {
+			"GFX_portrait_generic_asia_male_02"
+			"GFX_portrait_generic_asia_male_04"
+			"GFX_portrait_generic_asia_male_06"
+			"GFX_portrait_generic_asia_male_08"
+			"GFX_portrait_generic_europe_male_01"
+			"GFX_portrait_generic_europe_male_02"
+			"GFX_portrait_generic_europe_male_03"
+			"GFX_portrait_generic_europe_male_04"
+			"GFX_portrait_generic_europe_male_05"
+			"GFX_portrait_generic_europe_male_06"
+			"GFX_portrait_generic_europe_male_07"
+			"GFX_portrait_generic_europe_male_08"
+			"GFX_portrait_generic_europe_male_09"
+			"GFX_portrait_generic_europe_male_10"
+			"GFX_portrait_generic_europe_male_11"
+			"GFX_portrait_generic_europe_male_12"
+			"GFX_portrait_generic_europe_male_13"
+			"GFX_portrait_generic_europe_male_14"
+			"GFX_portrait_generic_europe_male_15"
+			"GFX_portrait_generic_europe_male_16"
+		}
+	}
+}
+
+SAF = {
+	scientist = {
+		female = {
+			"GFX_portrait_generic_europe_female_01"
+			"GFX_portrait_generic_europe_female_02"
+			"GFX_portrait_generic_europe_female_03"
+			"GFX_portrait_generic_europe_female_04"
+			"GFX_portrait_generic_europe_female_05"
+			"GFX_portrait_generic_europe_female_06"
+			"GFX_portrait_generic_europe_female_07"
+			"GFX_portrait_generic_europe_female_08"
+			"GFX_portrait_generic_europe_female_09"
+			"GFX_portrait_generic_europe_female_10"
+			"GFX_portrait_generic_europe_female_11"
+			"GFX_portrait_generic_europe_female_12"
+			"GFX_portrait_generic_europe_female_13"
+			"GFX_portrait_generic_europe_female_14"
+			"GFX_portrait_generic_europe_female_15"
+			"GFX_portrait_generic_europe_female_16"
+			"GFX_portrait_generic_africa_female_01"
+			"GFX_portrait_generic_africa_female_04"
+			"GFX_portrait_generic_africa_female_05"
+			"GFX_portrait_generic_africa_female_08"
+		}
+		male = {
+			"GFX_portrait_generic_europe_male_01"
+			"GFX_portrait_generic_europe_male_02"
+			"GFX_portrait_generic_europe_male_03"
+			"GFX_portrait_generic_europe_male_04"
+			"GFX_portrait_generic_europe_male_05"
+			"GFX_portrait_generic_europe_male_06"
+			"GFX_portrait_generic_europe_male_07"
+			"GFX_portrait_generic_europe_male_08"
+			"GFX_portrait_generic_europe_male_09"
+			"GFX_portrait_generic_europe_male_10"
+			"GFX_portrait_generic_europe_male_11"
+			"GFX_portrait_generic_europe_male_12"
+			"GFX_portrait_generic_europe_male_13"
+			"GFX_portrait_generic_europe_male_14"
+			"GFX_portrait_generic_europe_male_15"
+			"GFX_portrait_generic_europe_male_16"
+			"GFX_portrait_generic_africa_male_01"
+			"GFX_portrait_generic_africa_male_04"
+			"GFX_portrait_generic_africa_male_05"
+			"GFX_portrait_generic_africa_male_08"
+		}
+	}
+}
+
+SAF_COM = {
+	scientist = {
+		female = {
+			"GFX_portrait_generic_africa_female_01"
+			"GFX_portrait_generic_africa_female_02"
+			"GFX_portrait_generic_africa_female_03"
+			"GFX_portrait_generic_africa_female_04"
+			"GFX_portrait_generic_africa_female_05"
+			"GFX_portrait_generic_africa_female_06"
+			"GFX_portrait_generic_africa_female_07"
+			"GFX_portrait_generic_africa_female_08"
+		}
+		male = {
+			"GFX_portrait_generic_africa_male_01"
+			"GFX_portrait_generic_africa_male_02"
+			"GFX_portrait_generic_africa_male_03"
+			"GFX_portrait_generic_africa_male_04"
+			"GFX_portrait_generic_africa_male_05"
+			"GFX_portrait_generic_africa_male_06"
+			"GFX_portrait_generic_africa_male_07"
+			"GFX_portrait_generic_africa_male_08"
+		}
+	}
+}
+
+INS_HOL = {
+	scientist = {
+		female = {
+			"GFX_portrait_generic_asia_female_02"
+			"GFX_portrait_generic_asia_female_04"
+			"GFX_portrait_generic_asia_female_06"
+			"GFX_portrait_generic_asia_female_08"
+			"GFX_portrait_generic_europe_female_01"
+			"GFX_portrait_generic_europe_female_02"
+			"GFX_portrait_generic_europe_female_03"
+			"GFX_portrait_generic_europe_female_04"
+			"GFX_portrait_generic_europe_female_05"
+			"GFX_portrait_generic_europe_female_06"
+			"GFX_portrait_generic_europe_female_07"
+			"GFX_portrait_generic_europe_female_08"
+			"GFX_portrait_generic_europe_female_09"
+			"GFX_portrait_generic_europe_female_10"
+			"GFX_portrait_generic_europe_female_11"
+			"GFX_portrait_generic_europe_female_12"
+			"GFX_portrait_generic_europe_female_13"
+			"GFX_portrait_generic_europe_female_14"
+			"GFX_portrait_generic_europe_female_15"
+			"GFX_portrait_generic_europe_female_16"
+		}
+		male = {
+			"GFX_portrait_generic_asia_male_02"
+			"GFX_portrait_generic_asia_male_04"
+			"GFX_portrait_generic_asia_male_06"
+			"GFX_portrait_generic_asia_male_08"
+			"GFX_portrait_generic_europe_male_01"
+			"GFX_portrait_generic_europe_male_02"
+			"GFX_portrait_generic_europe_male_03"
+			"GFX_portrait_generic_europe_male_04"
+			"GFX_portrait_generic_europe_male_05"
+			"GFX_portrait_generic_europe_male_06"
+			"GFX_portrait_generic_europe_male_07"
+			"GFX_portrait_generic_europe_male_08"
+			"GFX_portrait_generic_europe_male_09"
+			"GFX_portrait_generic_europe_male_10"
+			"GFX_portrait_generic_europe_male_11"
+			"GFX_portrait_generic_europe_male_12"
+			"GFX_portrait_generic_europe_male_13"
+			"GFX_portrait_generic_europe_male_14"
+			"GFX_portrait_generic_europe_male_15"
+			"GFX_portrait_generic_europe_male_16"
+		}
+	}
+}
+
+AFG = {
+	scientist = {
+		female = {
+			"GFX_portrait_generic_arabia_female_01"
+			"GFX_portrait_generic_arabia_female_02"
+			"GFX_portrait_generic_arabia_female_03"
+			"GFX_portrait_generic_arabia_female_04"
+			"GFX_portrait_generic_arabia_female_05"
+			"GFX_portrait_generic_arabia_female_06"
+			"GFX_portrait_generic_arabia_female_07"
+			"GFX_portrait_generic_arabia_female_08"
+		}
+		male = {
+			"GFX_portrait_generic_arabia_male_01"
+			"GFX_portrait_generic_arabia_male_02"
+			"GFX_portrait_generic_arabia_male_03"
+			"GFX_portrait_generic_arabia_male_04"
+			"GFX_portrait_generic_arabia_male_05"
+			"GFX_portrait_generic_arabia_male_06"
+			"GFX_portrait_generic_arabia_male_07"
+			"GFX_portrait_generic_arabia_male_08"
+		}
+	}
+}
+
+MEX = {
+	scientist = {
+		female = {
+			"GFX_portrait_generic_southamerica_female_01"
+			"GFX_portrait_generic_southamerica_female_02"
+			"GFX_portrait_generic_southamerica_female_03"
+			"GFX_portrait_generic_southamerica_female_04"
+			"GFX_portrait_generic_southamerica_female_05"
+			"GFX_portrait_generic_southamerica_female_06"
+			"GFX_portrait_generic_southamerica_female_07"
+			"GFX_portrait_generic_southamerica_female_08"
+		}
+		male = {
+			"GFX_portrait_generic_southamerica_male_01"
+			"GFX_portrait_generic_southamerica_male_02"
+			"GFX_portrait_generic_southamerica_male_03"
+			"GFX_portrait_generic_southamerica_male_04"
+			"GFX_portrait_generic_southamerica_male_05"
+			"GFX_portrait_generic_southamerica_male_06"
+			"GFX_portrait_generic_southamerica_male_07"
+			"GFX_portrait_generic_southamerica_male_08"
+		}
+	}
+}
+
+# Preserved from: 01_anniversary_portraits.txt
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			"GFX_Portrait_europe_generic_land_6"	
+			"GFX_portrait_europe_generic_land_7"
+			"GFX_portrait_europe_generic_land_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_europe_generic_navy_4"	
+			"GFX_portrait_europe_generic_navy_5"	
+		}
+	}
+	
+
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			"GFX_Portrait_europe_generic_land_6"	
+			"GFX_portrait_europe_generic_land_7"
+			"GFX_portrait_europe_generic_land_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_europe_generic_navy_4"	
+			"GFX_portrait_europe_generic_navy_5"	
+		}
+	}
+
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+		}
+	}
+	
+
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			"GFX_Portrait_europe_generic_land_6"	
+			"GFX_portrait_europe_generic_land_7"
+			"GFX_portrait_europe_generic_land_8"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_europe_generic_navy_4"	
+			"GFX_portrait_europe_generic_navy_5"	
+		}
+	}
+	
+
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_4"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_4"
+		}
+	}
+	
+
+
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			"GFX_portrait_asia_generic_land_6"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_asia_generic_navy_4"
+		}
+	}
+
+
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_land_1"
+			"GFX_Portrait_Arabia_Generic_land_2"
+			"GFX_Portrait_Arabia_Generic_land_3"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_navy_1"
+			"GFX_Portrait_Arabia_Generic_navy_2"
+			"GFX_Portrait_Arabia_Generic_navy_3"
+		}
+	}
+	
+
+}
+
+GER = {
+	army = {
+		male = {
+			"GFX_Portrait_Germany_Generic_land_1"
+			"GFX_Portrait_Germany_Generic_land_2"
+			"GFX_Portrait_Germany_Generic_land_3"
+			"GFX_Portrait_Germany_Generic_land_4"
+			"GFX_Portrait_Germany_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Germany_Generic_navy_1"
+			"GFX_Portrait_Germany_Generic_navy_2"
+			"GFX_Portrait_Germany_Generic_navy_3"
+		}
+	}
+}
+
+ENG = {
+	army = {
+		male = {
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+		}
+	}
+}
+
+FRA = {
+	army = {
+		male = {
+			"GFX_Portrait_France_Generic_land_1"
+			"GFX_Portrait_France_Generic_land_2"
+			"GFX_Portrait_France_Generic_land_3"
+			"GFX_Portrait_France_Generic_land_4"
+			"GFX_Portrait_France_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_France_Generic_navy_1"
+			"GFX_Portrait_France_Generic_navy_2"
+			"GFX_Portrait_France_Generic_navy_3"
+		}
+	}
+}
+
+ITA = {
+	army = {
+		male = {
+			"GFX_Portrait_Italy_Generic_land_1"
+			"GFX_Portrait_Italy_Generic_land_2"
+			"GFX_Portrait_Italy_Generic_land_3"
+			"GFX_Portrait_Italy_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Italy_Generic_navy_1"
+			"GFX_Portrait_Italy_Generic_navy_2"
+			"GFX_Portrait_Italy_Generic_navy_3"
+		}
+	}
+}
+
+JAP = {
+	army = {
+		male = {
+			"GFX_Portrait_Japan_Generic_land_1"
+			#"GFX_Portrait_Japan_Generic_land_2"
+			"GFX_Portrait_Japan_Generic_land_3"
+			"GFX_Portrait_Japan_Generic_land_4"
+			"GFX_Portrait_Japan_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Japan_Generic_navy_1"
+			"GFX_Portrait_Japan_Generic_navy_2"
+			"GFX_Portrait_Japan_Generic_navy_3"
+		}
+	}
+}
+
+SOV = {
+	army = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_land_1"
+			"GFX_Portrait_Soviet_Generic_land_2"
+			"GFX_Portrait_Soviet_Generic_land_3"
+			"GFX_Portrait_Soviet_Generic_land_4"
+			"GFX_Portrait_Soviet_Generic_land_5"
+			"GFX_Portrait_Soviet_Magic_Winner"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_navy_1"
+			"GFX_Portrait_Soviet_Generic_navy_2"
+			"GFX_Portrait_Soviet_Generic_navy_3"
+		}
+	}
+}
+
+USA = {
+	army = {
+		male = {
+			"GFX_Portrait_USA_Generic_land_1"
+			"GFX_Portrait_USA_Generic_land_2"
+			"GFX_Portrait_USA_Generic_land_3"
+			"GFX_Portrait_USA_Generic_land_4"
+			"GFX_Portrait_USA_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_USA_Generic_navy_1"
+			"GFX_Portrait_USA_Generic_navy_2"
+			"GFX_Portrait_USA_Generic_navy_3"
+		}
+	}
+}
+
+SAF = {
+	army = {
+		male = {
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+		}
+	}
+}
+
+SAF_COM = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+		}
+	}
+}
+
+RAJ_UK = {
+	army = {
+		male = {
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+		}
+	}
+}
+
+MAL_UK = {
+	army = {
+		male = {
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+		}
+	}
+}
+
+
+RAJ = {
+	army = {
+		male = {
+			"GFX_Portrait_The_Raj_Army_Generic"
+			"GFX_Portrait_The_Raj_Army_Generic_2"
+			
+		}
+	}
+	
+}
+
+PAK = {
+	army = {
+		male = {
+			"GFX_Portrait_The_Raj_Army_Generic"
+			"GFX_Portrait_The_Raj_Army_Generic_2"
+			
+		}
+	}
+	
+}
+
+SPR = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+		}
+	}
+}
+
+AFG = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+		}
+	}
+}
+
+MEX = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+		}
+	}	
+}
+
+TUR = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+		}
+	}	
+}
+
+GEO = {
+	army = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_land_1"
+			"GFX_Portrait_Soviet_Generic_land_2"
+			"GFX_Portrait_Soviet_Generic_land_3"
+			"GFX_Portrait_Soviet_Generic_land_4"
+			"GFX_Portrait_Soviet_Generic_land_5"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Soviet_Generic_navy_1"
+			"GFX_Portrait_Soviet_Generic_navy_2"
+			"GFX_Portrait_Soviet_Generic_navy_3"
+		}
+	}
+}
+
+# Preserved from: 02_tiger_portraits.txt
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			"GFX_portrait_europe_generic_land_10"	
+			"GFX_portrait_europe_generic_land_11"
+			"GFX_portrait_europe_generic_land_12"
+			"GFX_portrait_europe_generic_land_14"	
+			"GFX_portrait_europe_generic_land_15"
+			"GFX_portrait_europe_generic_land_16"
+			"GFX_portrait_europe_generic_land_17"
+			"GFX_portrait_europe_generic_land_18"
+		}
+	}
+	
+	navy = {
+		male = {
+			
+		}
+	}
+	
+
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			"GFX_portrait_europe_generic_land_10"	
+			"GFX_portrait_europe_generic_land_11"
+			"GFX_portrait_europe_generic_land_12"
+			"GFX_portrait_europe_generic_land_14"	
+			"GFX_portrait_europe_generic_land_15"
+			"GFX_portrait_europe_generic_land_16"
+			"GFX_portrait_europe_generic_land_17"
+			"GFX_portrait_europe_generic_land_18"
+		}
+	}
+	
+	navy = {
+		male = {
+			
+		}
+	}
+
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			"GFX_portrait_south_america_generic_land_6"
+			"GFX_portrait_south_america_generic_land_7"
+			"GFX_portrait_south_america_generic_land_8"
+			"GFX_portrait_south_america_generic_land_9"
+			"GFX_portrait_south_america_generic_land_10"
+		}
+	}
+	
+	navy = {
+		male = {
+			
+		}
+	}
+	
+
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			"GFX_portrait_europe_generic_land_10"	
+			"GFX_portrait_europe_generic_land_11"
+			"GFX_portrait_europe_generic_land_12"
+			"GFX_portrait_europe_generic_land_14"	
+			"GFX_portrait_europe_generic_land_15"
+			"GFX_portrait_europe_generic_land_16"
+			"GFX_portrait_europe_generic_land_17"
+			"GFX_portrait_europe_generic_land_18"
+		}
+	}
+	
+	navy = {
+		male = {
+		
+		}
+	}
+	
+
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			"GFX_portrait_africa_generic_land_5"
+			"GFX_portrait_africa_generic_land_6"
+			"GFX_portrait_africa_generic_land_7"
+		}
+	}
+	
+	navy = {
+		male = {
+			
+		}
+	}
+	
+
+
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			"GFX_portrait_asia_generic_land_7"
+			"GFX_portrait_asia_generic_land_8"
+			"GFX_portrait_asia_generic_land_9"
+			"GFX_portrait_asia_generic_land_10"
+			"GFX_portrait_asia_generic_land_11"
+			"GFX_portrait_asia_generic_land_12"
+			"GFX_portrait_asia_generic_land_13"
+			"GFX_portrait_asia_generic_land_14"
+		}
+	}
+	
+	navy = {
+		male = {
+			
+		}
+	}
+
+
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			"GFX_portrait_arabia_generic_land_5"
+			"GFX_portrait_arabia_generic_land_6"
+			"GFX_portrait_arabia_generic_land_7"
+		}
+	}
+	
+	navy = {
+		male = {
+		
+		}
+	}
+	
+
+}
+
+RAJ = {
+	army = {
+		male = {
+			"GFX_Portrait_The_Raj_Army_Generic"
+			"GFX_Portrait_The_Raj_Army_Generic_2"
+			"GFX_portrait_india_generic_land_3"
+			"GFX_portrait_india_generic_land_4"
+		}
+	}
+	navy = {
+		
+	}
+}
+
+PAK = {
+	army = {
+		male = {
+			"GFX_Portrait_The_Raj_Army_Generic"
+			"GFX_Portrait_The_Raj_Army_Generic_2"
+			"GFX_portrait_india_generic_land_3"
+			"GFX_portrait_india_generic_land_4"
+		}
+	}
+	navy = {
+		
+	}
+}
+
+# Preserved from: 03_mtg_portraits.txt
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_europe_generic_navy_4"
+			"GFX_portrait_europe_generic_navy_5"
+			"GFX_portrait_europe_generic_navy_6"
+			"GFX_portrait_europe_generic_navy_7"
+		}
+	}
+	
+
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_europe_generic_navy_4"
+			"GFX_portrait_europe_generic_navy_5"
+			"GFX_portrait_europe_generic_navy_6"
+			"GFX_portrait_europe_generic_navy_7"
+		}
+	}
+
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			
+		}
+	}
+	
+	navy = {
+		male = {
+			
+		}
+	}
+	
+
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_portrait_europe_generic_navy_4"
+			"GFX_portrait_europe_generic_navy_5"
+			"GFX_portrait_europe_generic_navy_6"
+			"GFX_portrait_europe_generic_navy_7"
+		}
+	}
+	
+
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_5"
+			"GFX_Portrait_Africa_Generic_navy_6"			
+		}
+	}
+	
+
+
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			
+		}
+	}
+	
+	navy = {
+		male = {
+			
+		}
+	}
+
+
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			
+		}
+	}
+	
+	navy = {
+		male = {
+		
+		}
+	}
+	
+
+}
+RAJ = {
+	army = {
+		male = {
+
+		}
+	}
+	navy = {
+		male = {
+			"GFX_Portrait_The_Raj_Generic_navy_1"
+			"GFX_Portrait_The_Raj_Generic_navy_2"
+		}
+	}
+}
+
+PAK = {
+	army = {
+		male = {
+			
+		}
+	}
+	navy = {
+		male = {
+			"GFX_Portrait_The_Raj_Generic_navy_1"
+			"GFX_Portrait_The_Raj_Generic_navy_2"
+			
+		}
+	}
+}
+
+# Preserved from: 05_bba_portraits.txt
+
+ETH = {
+	army = {
+		male = {
+			"GFX_portrait_ETH_generic_male_1"
+			"GFX_portrait_ETH_generic_male_2"
+			"GFX_portrait_ETH_generic_male_3"
+			"GFX_portrait_ETH_generic_male_4"			
+		}
+		female = {
+			"GFX_portrait_ETH_generic_female_1"
+			"GFX_portrait_ETH_generic_female_2"
+			"GFX_portrait_ETH_generic_female_3"
+		}
+	}
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+		female = {
+			"GFX_portrait_ETH_generic_naval_female_1"
+			"GFX_portrait_ETH_generic_naval_female_3"
+		}
+	}
+}
+
+ETH_african_union = {
+	army = {
+		male = {
+			"GFX_portrait_ETH_generic_male_1"
+			"GFX_portrait_ETH_generic_male_2"
+			"GFX_portrait_ETH_generic_male_3"
+			"GFX_portrait_ETH_generic_male_4"
+			"GFX_Portrait_Africa_Generic_land_1"
+			"GFX_Portrait_Africa_Generic_land_2"
+			"GFX_Portrait_Africa_Generic_land_3"
+			"GFX_Portrait_South_Africa_Army_Generic"
+			"GFX_Portrait_South_Africa_Army_Generic_2"			
+		}
+		female = {
+			"GFX_portrait_ETH_generic_female_1"
+			"GFX_portrait_ETH_generic_female_2"
+			"GFX_portrait_ETH_generic_female_3"		
+		}
+	}
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_1"
+			"GFX_Portrait_Africa_Generic_navy_2"
+			"GFX_Portrait_Africa_Generic_navy_3"
+		}
+		female = {
+			"GFX_portrait_ETH_generic_naval_female_1"
+			"GFX_portrait_ETH_generic_naval_female_3"
+		}
+	}
+}
+
+# Preserved from: 027_lar_portraits.txt
+
+continent = {
+	name = north_america
+	operative = {
+		female = {
+			"GFX_portrait_europe_generic_operative_female_1"
+			"GFX_portrait_europe_generic_operative_female_2"
+			"GFX_portrait_europe_generic_operative_female_3"
+			"GFX_portrait_europe_generic_operative_female_4"
+			"GFX_portrait_europe_generic_operative_female_5"
+			"GFX_portrait_europe_generic_operative_female_6"
+			"GFX_portrait_europe_generic_operative_female_7"
+			"GFX_portrait_europe_generic_operative_female_8"
+			"GFX_portrait_europe_generic_operative_female_9"
+			"GFX_portrait_europe_generic_operative_female_10"
+			"GFX_portrait_europe_generic_operative_female_11"
+			"GFX_portrait_europe_generic_operative_female_13"
+			"GFX_portrait_europe_generic_operative_female_14"
+			"GFX_portrait_europe_generic_operative_female_15"
+			"GFX_portrait_europe_generic_operative_female_16"
+			"GFX_portrait_europe_generic_operative_female_17"
+			"GFX_portrait_europe_generic_operative_female_18"
+			"GFX_portrait_europe_generic_operative_female_19"
+			"GFX_portrait_europe_generic_operative_female_20"
+			"GFX_portrait_europe_generic_operative_female_21"
+			"GFX_portrait_europe_generic_operative_female_22"
+			"GFX_portrait_europe_generic_operative_female_23"
+			"GFX_portrait_europe_generic_operative_female_24"
+			"GFX_portrait_europe_generic_operative_female_25"
+			"GFX_portrait_europe_generic_operative_female_26"
+		}
+		male = {
+			"GFX_portrait_europe_generic_operative_male_1"
+			"GFX_portrait_europe_generic_operative_male_2"
+			"GFX_portrait_europe_generic_operative_male_3"
+			"GFX_portrait_europe_generic_operative_male_4"
+			"GFX_portrait_europe_generic_operative_male_5"
+			"GFX_portrait_europe_generic_operative_male_6"
+			"GFX_portrait_europe_generic_operative_male_7"
+			"GFX_portrait_europe_generic_operative_male_8"
+			"GFX_portrait_europe_generic_operative_male_9"
+			"GFX_portrait_europe_generic_operative_male_10"
+			"GFX_portrait_europe_generic_operative_male_11"
+			"GFX_portrait_europe_generic_operative_male_12"
+			"GFX_portrait_europe_generic_operative_male_13"
+			"GFX_portrait_europe_generic_operative_male_14"
+			"GFX_portrait_europe_generic_operative_male_15"
+			"GFX_portrait_europe_generic_operative_male_16"
+			"GFX_portrait_europe_generic_operative_male_17"
+			"GFX_portrait_europe_generic_operative_male_18"
+			"GFX_portrait_europe_generic_operative_male_19"
+			"GFX_portrait_europe_generic_operative_male_20"
+			"GFX_portrait_europe_generic_operative_male_21"
+			"GFX_portrait_europe_generic_operative_male_22"
+			"GFX_portrait_europe_generic_operative_male_23"
+			"GFX_portrait_europe_generic_operative_male_24"
+			"GFX_portrait_europe_generic_operative_male_25"
+		}
+	}
+}
+
+continent = {
+	name = europe
+	operative = {
+		female = {
+			"GFX_portrait_europe_generic_operative_female_1"
+			"GFX_portrait_europe_generic_operative_female_2"
+			"GFX_portrait_europe_generic_operative_female_3"
+			"GFX_portrait_europe_generic_operative_female_4"
+			"GFX_portrait_europe_generic_operative_female_5"
+			"GFX_portrait_europe_generic_operative_female_6"
+			"GFX_portrait_europe_generic_operative_female_7"
+			"GFX_portrait_europe_generic_operative_female_8"
+			"GFX_portrait_europe_generic_operative_female_9"
+			"GFX_portrait_europe_generic_operative_female_10"
+			"GFX_portrait_europe_generic_operative_female_11"
+			"GFX_portrait_europe_generic_operative_female_13"
+			"GFX_portrait_europe_generic_operative_female_14"
+			"GFX_portrait_europe_generic_operative_female_15"
+			"GFX_portrait_europe_generic_operative_female_16"
+			"GFX_portrait_europe_generic_operative_female_17"
+			"GFX_portrait_europe_generic_operative_female_18"
+			"GFX_portrait_europe_generic_operative_female_19"
+			"GFX_portrait_europe_generic_operative_female_20"
+			"GFX_portrait_europe_generic_operative_female_21"
+			"GFX_portrait_europe_generic_operative_female_22"
+			"GFX_portrait_europe_generic_operative_female_23"
+			"GFX_portrait_europe_generic_operative_female_24"
+			"GFX_portrait_europe_generic_operative_female_25"
+			"GFX_portrait_europe_generic_operative_female_26"
+		}
+		male = {
+			"GFX_portrait_europe_generic_operative_male_1"
+			"GFX_portrait_europe_generic_operative_male_2"
+			"GFX_portrait_europe_generic_operative_male_3"
+			"GFX_portrait_europe_generic_operative_male_4"
+			"GFX_portrait_europe_generic_operative_male_5"
+			"GFX_portrait_europe_generic_operative_male_6"
+			"GFX_portrait_europe_generic_operative_male_7"
+			"GFX_portrait_europe_generic_operative_male_8"
+			"GFX_portrait_europe_generic_operative_male_9"
+			"GFX_portrait_europe_generic_operative_male_10"
+			"GFX_portrait_europe_generic_operative_male_11"
+			"GFX_portrait_europe_generic_operative_male_12"
+			"GFX_portrait_europe_generic_operative_male_13"
+			"GFX_portrait_europe_generic_operative_male_14"
+			"GFX_portrait_europe_generic_operative_male_15"
+			"GFX_portrait_europe_generic_operative_male_16"
+			"GFX_portrait_europe_generic_operative_male_17"
+			"GFX_portrait_europe_generic_operative_male_18"
+			"GFX_portrait_europe_generic_operative_male_19"
+			"GFX_portrait_europe_generic_operative_male_20"
+			"GFX_portrait_europe_generic_operative_male_21"
+			"GFX_portrait_europe_generic_operative_male_22"
+			"GFX_portrait_europe_generic_operative_male_23"
+			"GFX_portrait_europe_generic_operative_male_24"
+			"GFX_portrait_europe_generic_operative_male_25"
+		}
+	}
+}
+
+continent = {
+	name = africa
+	operative = {
+		female = {
+			"GFX_portrait_africa_generic_operative_female_1"
+			"GFX_portrait_africa_generic_operative_female_2"
+			"GFX_portrait_africa_generic_operative_female_3"
+			"GFX_portrait_africa_generic_operative_female_4"
+			"GFX_portrait_africa_generic_operative_female_5"
+			"GFX_portrait_africa_generic_operative_female_6"
+			"GFX_portrait_africa_generic_operative_female_7"
+			"GFX_portrait_africa_generic_operative_female_8"
+			"GFX_portrait_africa_generic_operative_female_9"
+		}
+		male = {
+			"GFX_portrait_africa_generic_operative_male_1"
+			"GFX_portrait_africa_generic_operative_male_2"
+			"GFX_portrait_africa_generic_operative_male_3"
+			"GFX_portrait_africa_generic_operative_male_4"
+			"GFX_portrait_africa_generic_operative_male_5"
+			"GFX_portrait_africa_generic_operative_male_6"
+			"GFX_portrait_africa_generic_operative_male_7"
+			"GFX_portrait_africa_generic_operative_male_8"
+			"GFX_portrait_africa_generic_operative_male_9"
+		}
+	}
+}
+
+continent = {
+	name = middle_east
+	operative = {
+		female = {
+			"GFX_portrait_arabia_generic_operative_female_1"
+			"GFX_portrait_arabia_generic_operative_female_2"
+			"GFX_portrait_arabia_generic_operative_female_3"
+			"GFX_portrait_arabia_generic_operative_female_4"
+			"GFX_portrait_arabia_generic_operative_female_5"
+			"GFX_portrait_arabia_generic_operative_female_6"
+		}
+		male = {
+			"GFX_portrait_arabia_generic_operative_male_1"
+			"GFX_portrait_arabia_generic_operative_male_2"
+			"GFX_portrait_arabia_generic_operative_male_3"
+			"GFX_portrait_arabia_generic_operative_male_4"
+			"GFX_portrait_arabia_generic_operative_male_5"
+			"GFX_portrait_arabia_generic_operative_male_6"
+		}
+	}
+}
+
+continent = {
+	name = asia
+	operative = {
+		female = {
+			"GFX_portrait_asia_generic_operative_female_1"
+			"GFX_portrait_asia_generic_operative_female_2"
+			"GFX_portrait_asia_generic_operative_female_3"
+			"GFX_portrait_asia_generic_operative_female_4"
+			"GFX_portrait_asia_generic_operative_female_5"
+			"GFX_portrait_asia_generic_operative_female_6"
+			"GFX_portrait_asia_generic_operative_female_7"
+			"GFX_portrait_asia_generic_operative_female_8"
+			"GFX_portrait_asia_generic_operative_female_9"
+		}
+		male = {
+			"GFX_portrait_asia_generic_operative_male_1"
+			"GFX_portrait_asia_generic_operative_male_2"
+			"GFX_portrait_asia_generic_operative_male_3"
+			"GFX_portrait_asia_generic_operative_male_4"
+			"GFX_portrait_asia_generic_operative_male_5"
+			"GFX_portrait_asia_generic_operative_male_6"
+			"GFX_portrait_asia_generic_operative_male_7"
+			"GFX_portrait_asia_generic_operative_male_8"
+			"GFX_portrait_asia_generic_operative_male_9"
+		}
+	}
+}
+
+continent = {
+	name = south_america
+	operative = {
+		female = {
+			"GFX_portrait_south_america_generic_operative_female_1"
+			"GFX_portrait_south_america_generic_operative_female_2"
+			"GFX_portrait_south_america_generic_operative_female_3"
+			"GFX_portrait_south_america_generic_operative_female_4"
+			"GFX_portrait_south_america_generic_operative_female_5"
+			"GFX_portrait_south_america_generic_operative_female_6"
+		}
+		male = {
+			"GFX_portrait_south_america_generic_operative_male_1"
+			"GFX_portrait_south_america_generic_operative_male_2"
+			"GFX_portrait_south_america_generic_operative_male_3"
+			"GFX_portrait_south_america_generic_operative_male_4"
+			"GFX_portrait_south_america_generic_operative_male_5"
+			"GFX_portrait_south_america_generic_operative_male_6"
+		}
+	}
+}
+
+continent = {
+	name = australia
+	operative = {
+		female = {
+			"GFX_portrait_africa_generic_operative_female_8"
+			"GFX_portrait_asia_generic_operative_female_2"
+			"GFX_portrait_asia_generic_operative_female_8"
+			"GFX_portrait_asia_generic_operative_female_9"
+			"GFX_portrait_europe_generic_operative_female_1"
+			"GFX_portrait_europe_generic_operative_female_2"
+			"GFX_portrait_europe_generic_operative_female_3"
+			"GFX_portrait_europe_generic_operative_female_4"
+			"GFX_portrait_europe_generic_operative_female_5"
+			"GFX_portrait_europe_generic_operative_female_6"
+			"GFX_portrait_europe_generic_operative_female_8"
+			"GFX_portrait_europe_generic_operative_female_10"
+			"GFX_portrait_europe_generic_operative_female_13"
+			"GFX_portrait_europe_generic_operative_female_17"
+			"GFX_portrait_europe_generic_operative_female_20"
+		}
+		male = {
+			"GFX_portrait_africa_generic_operative_male_3"
+			"GFX_portrait_asia_generic_operative_male_1"
+			"GFX_portrait_asia_generic_operative_male_5"
+			"GFX_portrait_asia_generic_operative_male_6"
+			"GFX_portrait_asia_generic_operative_male_7"
+			"GFX_portrait_europe_generic_operative_male_2"
+			"GFX_portrait_europe_generic_operative_male_3"
+			"GFX_portrait_europe_generic_operative_male_5"
+			"GFX_portrait_europe_generic_operative_male_6"
+			"GFX_portrait_europe_generic_operative_male_7"
+			"GFX_portrait_europe_generic_operative_male_8"
+			"GFX_portrait_europe_generic_operative_male_9"
+			"GFX_portrait_europe_generic_operative_male_10"
+			"GFX_portrait_europe_generic_operative_male_11"
+			"GFX_portrait_europe_generic_operative_male_12"
+			"GFX_portrait_europe_generic_operative_male_13"
+			"GFX_portrait_europe_generic_operative_male_14"
+			"GFX_portrait_europe_generic_operative_male_15"
+			"GFX_portrait_europe_generic_operative_male_16"
+			"GFX_portrait_europe_generic_operative_male_17"
+			"GFX_portrait_europe_generic_operative_male_18"
+			"GFX_portrait_europe_generic_operative_male_19"
+			"GFX_portrait_europe_generic_operative_male_20"
+			"GFX_portrait_europe_generic_operative_male_21"
+			"GFX_portrait_europe_generic_operative_male_22"
+			"GFX_portrait_europe_generic_operative_male_23"
+			"GFX_portrait_europe_generic_operative_male_24"
+			"GFX_portrait_europe_generic_operative_male_25"
+		}
+	}
+}
+
+RAJ = {
+	operative = {
+		female = {
+			"GFX_portrait_india_generic_operative_female_1"
+			"GFX_portrait_india_generic_operative_female_2"
+			"GFX_portrait_india_generic_operative_female_3"
+			"GFX_portrait_india_generic_operative_female_4"
+			"GFX_portrait_india_generic_operative_female_5"
+		}
+		male = {
+			"GFX_portrait_india_generic_operative_male_1"
+			"GFX_portrait_india_generic_operative_male_2"
+			"GFX_portrait_india_generic_operative_male_3"
+			"GFX_portrait_india_generic_operative_male_4"
+			"GFX_portrait_india_generic_operative_male_5"
+		}
+	}
+}
+
+# Preserved from: 046_goe_portraits.txt
+
+
+AFG = {
+	army = {
+		male = {
+			"GFX_portrait_AFG_generic_land_1"
+			"GFX_portrait_AFG_generic_land_2"
+			"GFX_portrait_AFG_generic_land_3"
+			"GFX_portrait_AFG_generic_land_4"
+		}
+	}
+	navy = {
+		male = {
+			"GFX_portrait_AFG_generic_navy_1"
+			"GFX_portrait_AFG_generic_navy_2"
+		}
+		
+	}
+}
+
+
+PER = {
+	army = {
+		male = {
+			"GFX_portrait_PER_generic_military_1"
+			"GFX_Portrait_Arabia_Generic_land_1"
+			"GFX_Portrait_Arabia_Generic_land_2"
+			"GFX_Portrait_Arabia_Generic_land_3"
+		}
+	}
+	navy = {
+		male = {
+			"GFX_portrait_PER_generic_navy_1"
+			"GFX_Portrait_Arabia_Generic_navy_1"
+			"GFX_Portrait_Arabia_Generic_navy_2"
+			"GFX_Portrait_Arabia_Generic_navy_3"
+		}
+		
+	}
+}
