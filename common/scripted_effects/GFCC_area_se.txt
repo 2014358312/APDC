@@ -1,0 +1,796 @@
+#GFCC_area_Pollution_effects_1 净化塔工作效果
+#GFCC_area_Pollution_effects_2 全局辐射修正
+#GFCC_area_Pollution_effects_3 坍塌污染初始化
+#GFCC_area_Pollution_effects_4 添加/删除，辐射修正
+#GFCC_area_Pollution_effects_5 净化区辐射效果 如果白区存在，则自动净化周围辐射，直到成为绿区
+#GFCC_area_Pollution_effects_6 黄区辐射效果 如果存在黄区，则周围地区每月增加辐射，直到成为绿区
+#GFCC_area_Pollution_effects_7 红区辐射效果 如果存在红区，则周围地区每天增加辐射，直到成为红区
+
+#GFCC_area_security_effects_0 安全度初始化
+#GFCC_area_reconstruction_effects_0 重建度初始化
+#GFCC_area_state_is_combat_bubble 检测是否有战斗 - 二线省份判定（后方）【已弃用】
+#GFCC_state_is_partially_occupied 前线省份判定（争夺地区）【已弃用】
+#GFCC_state_isnt_fully_controlled_owner 联合判定【已弃用】
+
+#GFCC_area_security_effects_1 安全度的副作用 对地区的破坏效果 目标区域
+#GFCC_area_security_effects_2 安全度每周更新：受污染度与重建度影响
+#GFCC_area_security_effects_3 安全度效果修正（动态修正添加/移除）
+#GFCC_area_reconstruction_effects_1 重建度受战争影响：争夺中且基础设施受损时下降
+#GFCC_area_reconstruction_effects_3 重建度增长：完全控制或和平时增长，增长率受安全度影响
+#GFCC_area_reconstruction_effects_4 重建度效果修正（动态修正添加/移除）
+#GFCC_area_reconstruction_effects_5 污染度对重建度修正
+
+#
+
+
+#净化塔工作效果
+GFCC_area_Pollution_effects_1 = {
+	if = {
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 0 }
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_to_variable = { GFCC_area_Pollution_var = -10 }
+		clamp_variable = {
+			var = GFCC_area_Pollution_var
+			min = 0
+			max = 99999
+		}
+	}
+}
+
+# 全局辐射修正
+# 黑区周边辐射
+GFCC_area_Pollution_effects_2 = {
+	if = {
+		limit = {
+			any_neighbor_state = {
+				has_state_flag = GFCC_area_Pollution_flag #如果有污染标记，则以下成立
+				check_variable = { GFCC_area_Pollution_var > 9999 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { GFCC_area_Pollution_var > 149 }
+				check_variable = { GFCC_area_Pollution_var < 5000 }
+			}
+			add_to_variable = { GFCC_area_Pollution_var = 5 }
+		}
+		if = {
+			limit = {
+				check_variable = { GFCC_area_Pollution_var > -1 }
+				check_variable = { GFCC_area_Pollution_var < 150 }
+			}
+			add_to_variable = { GFCC_area_Pollution_var = 10 }
+		}
+		clamp_variable = {
+			var = GFCC_area_Pollution_var
+			min = 0
+			max = 9999
+		}
+	}
+}
+
+# 坍塌污染初始化
+GFCC_area_Pollution_effects_3 = {
+	
+	set_state_flag = GFCC_area_Pollution_flag #污染标记（用于判定是否受污染影响）
+	set_variable = { GFCC_area_Pollution_var = 0 } #污染度数值，初始为0
+}
+#添加/删除，辐射修正
+GFCC_area_Pollution_effects_4 = {
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_Pollution_modifiers_1
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_1 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_Pollution_modifiers_2
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_2 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_Pollution_modifiers_3
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_3 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_Pollution_modifiers_4
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_4 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_Pollution_modifiers_5
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_5 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_Pollution_modifiers_6
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_6 }
+	}
+	if = { #白区
+		limit = {
+			check_variable = { GFCC_area_Pollution_var = 0 }
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_1 }
+	}
+	if = { #绿区
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 0 }
+			check_variable = { GFCC_area_Pollution_var < 11 }
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_2 }
+	}
+	if = { #黄区
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 10 }
+			check_variable = { GFCC_area_Pollution_var < 150 }
+			GFCC_area_Pollution_B1 < 1
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_4 }
+	}
+	if = { #净化区
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 10 }
+			check_variable = { GFCC_area_Pollution_var < 150 }
+			GFCC_area_Pollution_B1 > 0
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_3 }
+	}
+	if = { #红区
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 149 }
+			check_variable = { GFCC_area_Pollution_var < 10000 }
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_5 }
+	}
+	if = { #黑区
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 9999 }
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_6 }
+	}
+}
+#净化区辐射效果 如果白区存在，则自动净化周围辐射，直到成为绿区
+GFCC_area_Pollution_effects_5 = {
+	if = {
+		limit = {
+			any_neighbor_state = {
+				has_state_flag = GFCC_area_Pollution_flag #如果有污染标记，则以下成立
+				check_variable = { GFCC_area_Pollution_var = 0 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { GFCC_area_Pollution_var > 0 }
+			}
+			add_to_variable = { GFCC_area_Pollution_var = -1 }
+		}
+		random_list = {
+			10 = { add_to_variable = { GFCC_area_Pollution_var = -1 } }
+			90 = { }
+		}
+		clamp_variable = {
+			var = GFCC_area_Pollution_var
+			min = 0
+			max = 99999
+		}
+	}
+}
+#黄区辐射效果 如果存在黄区，则周围地区每月增加辐射，直到成为绿区
+GFCC_area_Pollution_effects_6 = {
+	if = {
+		limit = {
+			any_neighbor_state = {
+				has_state_flag = GFCC_area_Pollution_flag #如果有污染标记，则以下成立
+				check_variable = { GFCC_area_Pollution_var > 10 }
+				check_variable = { GFCC_area_Pollution_var < 150 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { GFCC_area_Pollution_var > -1 }
+				check_variable = { GFCC_area_Pollution_var < 10 }
+			}
+			add_to_variable = { GFCC_area_Pollution_var = 1 }
+		}
+		random_list = {
+			10 = { add_to_variable = { GFCC_area_Pollution_var = 1 } }
+			90 = { }
+		}
+		clamp_variable = {
+			var = GFCC_area_Pollution_var
+			min = 0
+			max = 99999
+		}
+	}
+}
+#红区辐射效果 如果存在红区，则周围地区每月增加辐射，直到成为黄区
+GFCC_area_Pollution_effects_7 = {
+	if = {
+		limit = {
+			any_neighbor_state = {
+				has_state_flag = GFCC_area_Pollution_flag #如果有污染标记，则以下成立
+				check_variable = { GFCC_area_Pollution_var > 149 }
+				check_variable = { GFCC_area_Pollution_var < 10000 }
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { GFCC_area_Pollution_var > -1 }
+				check_variable = { GFCC_area_Pollution_var < 140 }
+			}
+			add_to_variable = { GFCC_area_Pollution_var = 5 }
+			random_list = {
+				10 = { add_to_variable = { GFCC_area_Pollution_var = 5 } }
+				90 = { }
+			}
+		}
+		clamp_variable = {
+			var = GFCC_area_Pollution_var
+			min = 0
+			max = 99999
+		}
+	}
+}
+
+# 安全度初始化
+GFCC_area_security_effects_0 = {
+	set_state_flag = GFCC_area_security_flag #安全度标记（用于判定是否受安全度影响）
+	set_variable = { var = GFCC_area_security_var value = 100 } #安全度数值，初始为100
+	clamp_variable = {
+		var = GFCC_area_security_var
+		min = 0
+		max = 100
+	}
+}
+# 重建度初始化
+GFCC_area_reconstruction_effects_0 = {
+	set_state_flag = GFCC_area_reconstruction_flag #重建度标记（用于判定是否受重建度影响）
+	set_variable = {
+		var = GFCC_area_reconstruction_var
+		value = 100 #默认100，完全重建
+	}
+	clamp_variable = {
+		var = GFCC_area_reconstruction_var
+		min = 0
+		max = 100
+	}
+}
+
+#检测是否有战斗
+#二线省份判定（后方）
+# GFCC_area_state_is_combat_bubble = {
+# 	# custom_trigger_tooltip = {
+# 	# 	tooltip = state_is_combat_bubble_tt
+		
+# 		OR = {
+# 			is_fully_controlled_by = controller
+# 			is_fully_controlled_by = owner
+# 		}
+		
+# 		any_neighbor_state = {
+# 			controller = { has_war_with = PREV.PREV.controller }
+# 		}
+		
+# 		check_variable = { var = damaged_building_level@infrastructure value = 0 compare = greater_than }
+# 	# }
+# }
+# #前线省份判定（争夺地区）
+# GFCC_state_is_partially_occupied = {
+# 	# custom_trigger_tooltip = {
+# 	# 	tooltip = state_is_partially_occupied_tt
+		
+# 		NOT = {
+# 			OR = {
+# 				is_fully_controlled_by = controller
+# 				is_fully_controlled_by = owner
+# 			}
+# 		}
+		
+# 		check_variable = { var = damaged_building_level@infrastructure value = 0 compare = greater_than }
+# 	# }
+# }
+#联合判定
+# GFCC_state_isnt_fully_controlled_owner = {
+# 	# custom_trigger_tooltip = {
+# 	# 	tooltip = state_isnt_fully_controlled_owner_tt
+		
+# 		OR = {
+# 			GFCC_state_is_partially_occupied = yes
+# 			# 省份处于部分占领状态（正在交火，控制权未满 100%）。
+# 			# 且基础设施已受损。
+# 			GFCC_area_state_is_combat_bubble = yes
+# 			# 省份虽被完全控制，但因为各种原因基础设施已受损。
+# 		}
+# 	# }
+# }
+
+#重建度受战争影响：争夺中的地区且基础设施受损时重建度下降
+GFCC_area_reconstruction_effects_1 = {
+	if = {
+		limit = {
+			has_state_flag = GFCC_area_reconstruction_flag #如果有重建度标记，则以下成立
+			NOT = {
+				OR = {
+					is_fully_controlled_by = controller
+					is_fully_controlled_by = owner
+				}
+			}
+			check_variable = { var = damaged_building_level@infrastructure value = 0 compare = greater_than } #基础设施受损检测
+		}
+		add_to_variable = {
+			var = GFCC_area_reconstruction_var
+			value = -3
+		}
+		clamp_variable = {
+			var = GFCC_area_reconstruction_var
+			min = 0
+			max = 100
+		}
+	}
+}
+#重建度增长：完全控制或和平时增长，增长率受安全度影响
+GFCC_area_reconstruction_effects_3 = {
+	if = {
+		limit = {
+			has_state_flag = GFCC_area_reconstruction_flag #如果有重建度标记，则以下成立
+			OR = {
+				is_fully_controlled_by = controller
+				is_fully_controlled_by = owner
+				controller = { has_war = no }
+			}
+		}
+		#增长率取决于安全度
+		if = {
+			limit = {
+				check_variable = { GFCC_area_security_var > 79 }
+			}
+			add_to_variable = {
+				var = GFCC_area_reconstruction_var
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { GFCC_area_security_var > 59 }
+			}
+			add_to_variable = {
+				var = GFCC_area_reconstruction_var
+				value = 0.6
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { GFCC_area_security_var > 39 }
+			}
+			add_to_variable = {
+				var = GFCC_area_reconstruction_var
+				value = 0.3
+			}
+		}
+		else = {
+			add_to_variable = {
+				var = GFCC_area_reconstruction_var
+				value = 0.1
+			}
+		}
+		clamp_variable = {
+			var = GFCC_area_reconstruction_var
+			min = 0
+			max = 100
+		}
+	}
+}
+#重建度效果修正（动态修正添加/移除）
+GFCC_area_reconstruction_effects_4 = {
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_reconstruction_modifiers_1
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_1 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_reconstruction_modifiers_2
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_2 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_reconstruction_modifiers_3
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_3 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_reconstruction_modifiers_4
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_4 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_reconstruction_modifiers_5
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_5 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_reconstruction_modifiers_6
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_6 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_reconstruction_modifiers_7
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_7 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_reconstruction_modifiers_8
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_8 }
+	}
+	if = { #重建度100
+		limit = {
+			check_variable = { GFCC_area_reconstruction_var = 100 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_1 }
+	}
+	else_if = { #重建度90-99
+		limit = {
+			check_variable = { GFCC_area_reconstruction_var > 89 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_2 }
+	}
+	else_if = { #重建度80-89
+		limit = {
+			check_variable = { GFCC_area_reconstruction_var > 79 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_3 }
+	}
+	else_if = { #重建度70-79
+		limit = {
+			check_variable = { GFCC_area_reconstruction_var > 69 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_4 }
+	}
+	else_if = { #重建度60-69
+		limit = {
+			check_variable = { GFCC_area_reconstruction_var > 59 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_5 }
+	}
+	else_if = { #重建度50-59
+		limit = {
+			check_variable = { GFCC_area_reconstruction_var > 49 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_6 }
+	}
+	else_if = { #重建度1-49
+		limit = {
+			check_variable = { GFCC_area_reconstruction_var > 0 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_7 }
+	}
+	else = { #重建度0
+		add_dynamic_modifier = { modifier = GFCC_area_reconstruction_modifiers_8 }
+	}
+}
+#污染度对重建度的影响
+GFCC_area_reconstruction_effects_5 = {
+	if = { #白区
+		limit = {
+			check_variable = { GFCC_area_Pollution_var = 0 }
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_to_variable = {
+			var = GFCC_area_reconstruction_var
+			value = 1
+		}
+	}
+	if = { #绿区
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 0 }
+			check_variable = { GFCC_area_Pollution_var < 11 }
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_to_variable = {
+			var = GFCC_area_reconstruction_var
+			value = 0.5
+		}
+	}
+	if = { #黄区
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 10 }
+			check_variable = { GFCC_area_Pollution_var < 150 }
+			GFCC_area_Pollution_B1 < 1
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_4 }
+		add_to_variable = {
+			var = GFCC_area_reconstruction_var
+			value = 0
+		}
+	}
+	if = { #净化区
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 10 }
+			check_variable = { GFCC_area_Pollution_var < 150 }
+			GFCC_area_Pollution_B1 > 0
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_3 }
+		add_to_variable = {
+			var = GFCC_area_reconstruction_var
+			value = 0.5
+		}
+	}
+	if = { #红区
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 149 }
+			check_variable = { GFCC_area_Pollution_var < 10000 }
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_Pollution_modifiers_5 }
+		add_to_variable = {
+			var = GFCC_area_reconstruction_var
+			value = -1
+		}
+	}
+	if = { #黑区
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 9999 }
+			# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+		}
+		add_to_variable = {
+			var = GFCC_area_reconstruction_var
+			value = -2
+		}
+	}
+	clamp_variable = {
+		var = GFCC_area_reconstruction_var
+		min = 0
+		max = 100
+	}
+}
+
+# 安全度的副作用 对地区的破坏效果 目标区域
+GFCC_area_security_effects_1 = {
+	from = {
+		random_list = {
+			20 = {
+				damage_building = {
+					type = arms_factory
+					damage = 1
+				}
+			}
+			20 = {
+				damage_building = {
+					type = GFCC_area_Pollution_B1
+					damage = 1
+				}
+			}
+			20 = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			20 = {
+				damage_building = {
+					type = infrastructure
+					damage = 1
+				}
+			}
+			20 = {
+				
+			}
+		}
+	}
+}
+# 安全度每周更新：安全度受污染度与重建度影响
+GFCC_area_security_effects_2 = {
+	#污染度影响（污染度越高，安全度越低）
+	if = {
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 9999 } #黑区
+		}
+		add_to_variable = {
+			var = GFCC_area_security_var
+			value = -2
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 149 } #红区
+		}
+		add_to_variable = {
+			var = GFCC_area_security_var
+			value = -1
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { GFCC_area_Pollution_var > 10 } #黄区/蓝区
+		}
+		add_to_variable = {
+			var = GFCC_area_security_var
+			value = -0.5
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { GFCC_area_Pollution_var = 0 } #白区
+		}
+		add_to_variable = {
+			var = GFCC_area_security_var
+			value = 0.1
+		}
+	}
+	#重建度影响（重建度越低，安全度越低）
+	if = {
+		limit = {
+			check_variable = { GFCC_area_reconstruction_var < 50 }
+		}
+		add_to_variable = {
+			var = GFCC_area_security_var
+			value = -0.5
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { GFCC_area_reconstruction_var < 70 }
+		}
+		add_to_variable = {
+			var = GFCC_area_security_var
+			value = -0.25
+		}
+	}
+	#战争影响（争夺中的地区安全度下降）
+	if = {
+		limit = {
+			NOT = {
+				OR = {
+					is_fully_controlled_by = controller
+					is_fully_controlled_by = owner
+				}
+			}
+			check_variable = { var = damaged_building_level@infrastructure value = 0 compare = greater_than } #基础设施受损检测
+		}
+		add_to_variable = {
+			var = GFCC_area_security_var
+			value = -0.1
+		}
+	}
+	#占领影响（非核心且抵抗度高、顺从度低的地区）
+	if = {
+		limit = {
+			# NOT = { is_core_of = controller }
+			resistance > 50
+			compliance < 30
+		}
+		add_to_variable = {
+			var = GFCC_area_security_var
+			value = -0.1
+		}
+	}
+	#自然恢复（红区以下、重建充分且完全控制时恢复）
+	if = {
+		limit = {
+			check_variable = { GFCC_area_Pollution_var < 150 }
+			check_variable = { GFCC_area_reconstruction_var > 69 }
+			OR = {
+				is_fully_controlled_by = controller
+				is_fully_controlled_by = owner
+			}
+		}
+		add_to_variable = {
+			var = GFCC_area_security_var
+			value = 1
+		}
+	}
+	clamp_variable = {
+		var = GFCC_area_security_var
+		min = 0
+		max = 100
+	}
+}
+#安全度效果修正（动态修正添加/移除）
+GFCC_area_security_effects_3 = {
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_security_modifiers_1
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_security_modifiers_1 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_security_modifiers_2
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_security_modifiers_2 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_security_modifiers_3
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_security_modifiers_3 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_security_modifiers_4
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_security_modifiers_4 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_security_modifiers_5
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_security_modifiers_5 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_security_modifiers_6
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_security_modifiers_6 }
+	}
+	if = {
+		limit = {
+			has_dynamic_modifier = GFCC_area_security_modifiers_7
+		}
+		remove_dynamic_modifier = { modifier = GFCC_area_security_modifiers_7 }
+	}
+	if = { #安全度100 完全安全
+		limit = {
+			check_variable = { GFCC_area_security_var = 100 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_security_modifiers_1 }
+	}
+	else_if = { #安全度80-99 安全
+		limit = {
+			check_variable = { GFCC_area_security_var > 79 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_security_modifiers_2 }
+	}
+	else_if = { #安全度60-79 较为安全
+		limit = {
+			check_variable = { GFCC_area_security_var > 59 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_security_modifiers_3 }
+	}
+	else_if = { #安全度40-59 一般
+		limit = {
+			check_variable = { GFCC_area_security_var > 39 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_security_modifiers_4 }
+	}
+	else_if = { #安全度20-39 危险
+		limit = {
+			check_variable = { GFCC_area_security_var > 19 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_security_modifiers_5 }
+	}
+	else_if = { #安全度1-19 高危
+		limit = {
+			check_variable = { GFCC_area_security_var > 0 }
+		}
+		add_dynamic_modifier = { modifier = GFCC_area_security_modifiers_6 }
+	}
+	else = { #安全度0 失控
+		add_dynamic_modifier = { modifier = GFCC_area_security_modifiers_7 }
+	}
+}

@@ -1,0 +1,16 @@
+GFCC_area_Pollution = {
+	# priority = 1000
+	visible = {
+		# has_idea = SL2_diguobianfangjun_idea
+		# tag = SL2
+		# NOT = { has_country_flag = ACG_began_hide_flag }
+		# if = {
+		# 	limit = {
+		# 		NOT = { TAG = ACG }
+		# 		country_exists = ACG
+		# 	}
+		# 	always = no
+		# }
+		# is_ai = no
+	}
+}

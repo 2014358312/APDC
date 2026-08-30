@@ -1,0 +1,15 @@
+SpriteTypes = {
+
+	#建筑物
+	spriteType = {
+		name = "GFX_OGAS_SLE_buildings_icon_small"
+		texturefile = "gfx/interface/buildings/OGAS_SLE_buildings_icon_small.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_OGAS_SLE_buildings_icon"
+		texturefile = "gfx/interface/buildings/OGAS_SLE_buildings_icon.dds"
+		noOfFrames = 2
+	}
+	
+}

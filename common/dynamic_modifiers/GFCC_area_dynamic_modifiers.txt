@@ -1,0 +1,383 @@
+#污染度数值设定
+#白区-净土
+#绿区-安全区
+#蓝区-净化区
+#黄区-过渡区
+#红区-高危区
+#黑区-禁区
+
+# GFCC_area_Pollution_modifiers = { #地区坍塌污染数值
+# 	enable = {	#启用条件
+# 		# NOT = { has_tech = SLE_OGAS_B_tech }
+# 		# is_controlled_by = event_target:SLE_country
+# 	}
+# 	remove_trigger = {	#移除条件
+		
+# 	}
+	
+# 	icon = GFX_modifiers_generic_military_plans
+	
+# 	# modifier_local_manpower = 0.2 #本地人力
+# 	# production_speed_buildings_factor = 1 #建造速度、建设
+# 	# required_garrison_factor = 1 #驻军需求
+# 	# state_resources_factor = -1 #本地资源
+# 	# recruitable_population_factor = -1 #可征募人口
+# 	# local_factories = -1 #本地工厂
+# 	# disable_strategic_redeployment = yes #禁用战略部署
+	
+# }
+
+GFCC_area_Pollution_modifiers_1 = { #白区
+	enable = {	#启用条件
+		# check_variable = { GFCC_area_Pollution_var = 0 }
+	}
+	remove_trigger = {	#移除条件
+		# check_variable = { GFCC_area_Pollution_var > 0 }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	monthly_population = 0.1 #每月人口增长
+	# production_speed_buildings_factor = -0.6 #建造速度、建设
+	# required_garrison_factor = 0.6 #驻军需求
+	# state_resources_factor = -0.6 #本地资源
+	# recruitable_population_factor = -0.6 #可征募人口
+	# local_factories = -0.6 #本地工厂
+
+	# custom_modifier_tooltip = GFCC_area_Pollution_var_text
+	# custom_trigger_tooltip = { tooltip = GFCC_area_Pollution_var_text }
+}
+GFCC_area_Pollution_modifiers_2 = { #绿区
+	enable = {	#启用条件
+		# check_variable = { GFCC_area_Pollution_var > 0 }
+		# check_variable = { GFCC_area_Pollution_var < 11 }
+	}
+	remove_trigger = {	#移除条件
+		# OR = {
+		# 	check_variable = { GFCC_area_Pollution_var = 0 }
+		# 	check_variable = { GFCC_area_Pollution_var > 10 }
+		# }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	monthly_population = 0.05 #每月人口增长
+	# army_morale_factor = -0.05 #组织度恢复
+	army_speed_factor = -0.1 #陆军师速度
+	production_speed_buildings_factor = -0.2 #建造速度、建设
+	required_garrison_factor = 0.2 #驻军需求
+	# state_resources_factor = -0.2 #本地资源
+	recruitable_population_factor = -0.2 #可征募人口
+	attrition = 0.1 #损耗
+	# local_factories = -0.2 #本地工厂
+}
+
+GFCC_area_Pollution_modifiers_3 = { #蓝区
+	enable = {	#启用条件
+		# check_variable = { GFCC_area_Pollution_var > 10 }
+		# check_variable = { GFCC_area_Pollution_var < 150 }
+		# GFCC_area_Pollution_B1 > 0
+	}
+	remove_trigger = {	#移除条件
+		# or = {
+		# 	check_variable = { GFCC_area_Pollution_var < 11 }
+		# 	check_variable = { GFCC_area_Pollution_var > 149 }
+		# }
+		# GFCC_area_Pollution_B1 = 0
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+
+	# monthly_population = -0.05 #每月人口增长
+	# army_morale_factor = -0.1	#组织度恢复
+	army_speed_factor = -0.1 #陆军师速度
+	# dig_in_speed_factor = -0.1 #挖掘速度
+	air_accidents_factor = 0.15 #空军事故
+	production_speed_buildings_factor = -0.3 #建造速度、建设
+	required_garrison_factor = 0.3 #驻军需求
+	state_resources_factor = -0.3 #本地资源
+	recruitable_population_factor = -0.3 #可征募人口
+	local_factories = -0.3 #本地工厂
+	attrition = 0.1 #损耗
+	# disable_strategic_redeployment = yes #禁用战略部署
+}
+GFCC_area_Pollution_modifiers_4 = { #黄区
+	enable = {	#启用条件
+		# check_variable = { GFCC_area_Pollution_var > 10 }
+		# check_variable = { GFCC_area_Pollution_var < 150 }
+		# GFCC_area_Pollution_B1 = 0
+	}
+	remove_trigger = {	#移除条件
+		# OR = {
+		# 	check_variable = { GFCC_area_Pollution_var > 149 }
+		# 	GFCC_area_Pollution_B1 > 0
+		# }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	monthly_population = -0.05 #每月人口增长
+	# army_morale_factor = -0.2	#组织度恢复
+	army_speed_factor = -0.2 #陆军师速度
+	dig_in_speed_factor = -0.1 #挖掘速度
+	air_accidents_factor = 0.3 #空军事故
+	production_speed_buildings_factor = -0.4 #建造速度、建设
+	required_garrison_factor = 0.4 #驻军需求
+	state_resources_factor = -0.4 #本地资源
+	recruitable_population_factor = -0.4 #可征募人口
+	local_factories = -0.4 #本地工厂
+	attrition = 0.2 #损耗
+	# disable_strategic_redeployment = yes #禁用战略部署
+}
+GFCC_area_Pollution_modifiers_5 = { #红区
+	enable = {	#启用条件
+		# check_variable = { GFCC_area_Pollution_var > 149 }
+		# check_variable = { GFCC_area_Pollution_var < 10000 }
+	}
+	remove_trigger = {	#移除条件
+		# or = {
+		# 	check_variable = { GFCC_area_Pollution_var < 150 }
+		# 	check_variable = { GFCC_area_Pollution_var > 9999 }
+		# }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	monthly_population = -0.2 #每月人口增长
+	# army_morale_factor = -0.25	#组织度恢复
+	army_speed_factor = -0.25 #陆军师速度
+	dig_in_speed_factor = -0.2 #挖掘速度
+	air_accidents_factor = 0.2 #空军事故
+	production_speed_buildings_factor = -0.8 #建造速度、建设
+	required_garrison_factor = 0.8 #驻军需求
+	state_resources_factor = -0.8 #本地资源
+	recruitable_population_factor = -0.8 #可征募人口
+	local_factories = -0.8 #本地工厂
+	attrition = 0.25 #损耗
+	disable_strategic_redeployment = yes #禁用战略部署
+}
+GFCC_area_Pollution_modifiers_6 = { #黑区
+	enable = {	#启用条件
+		# always = yes
+		# check_variable = { GFCC_area_Pollution_var > 9999 }
+	}
+	remove_trigger = {	#移除条件
+		# check_variable = { GFCC_area_Pollution_var < 9999 }
+		# check_variable = { GFCC_area_Pollution_var < 101 }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_manpower = -0.4 #每月人口增长
+	# army_morale_factor = -0.3	#组织度恢复
+	army_speed_factor = -0.3 #陆军师速度
+	dig_in_speed_factor = -0.3 #挖掘速度
+	air_accidents_factor = 0.4 #空军事故
+	production_speed_buildings_factor = -1 #建造速度、建设
+	required_garrison_factor = 1 #驻军需求
+	state_resources_factor = -1 #本地资源
+	recruitable_population_factor = -1 #可征募人口
+	local_factories = -1 #本地工厂
+	attrition = 0.3 #损耗
+	disable_strategic_redeployment = yes #禁用战略部署
+}
+
+
+
+
+#重建度修正
+GFCC_area_reconstruction_modifiers_1 = { #重建度100
+	enable = {	#启用条件
+		check_variable = { GFCC_area_reconstruction_var = 100 }
+	}
+	remove_trigger = {	#移除条件
+		check_variable = { GFCC_area_reconstruction_var < 100 }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	# local_factories = 0.5 #本地工厂
+}
+GFCC_area_reconstruction_modifiers_2 = { #重建度90
+	enable = {	#启用条件
+		check_variable = { GFCC_area_reconstruction_var < 100 }
+		check_variable = { GFCC_area_reconstruction_var > 89 }
+	}
+	remove_trigger = {	#移除条件
+		check_variable = { GFCC_area_reconstruction_var < 90 }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = -0.1 #本地工厂
+}
+GFCC_area_reconstruction_modifiers_3 = { #重建度80
+	enable = {	#启用条件
+		check_variable = { GFCC_area_reconstruction_var < 90 }
+		check_variable = { GFCC_area_reconstruction_var > 79 }
+	}
+	remove_trigger = {	#移除条件
+		check_variable = { GFCC_area_reconstruction_var < 80 }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = -0.2 #本地工厂
+}
+GFCC_area_reconstruction_modifiers_4 = { #重建度70
+	enable = {	#启用条件
+		check_variable = { GFCC_area_reconstruction_var < 80 }
+		check_variable = { GFCC_area_reconstruction_var > 69 }
+	}
+	remove_trigger = {	#移除条件
+		check_variable = { GFCC_area_reconstruction_var < 70 }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = -0.3 #本地工厂
+}
+GFCC_area_reconstruction_modifiers_5 = { #重建度60
+	enable = {	#启用条件
+		check_variable = { GFCC_area_reconstruction_var < 70 }
+		check_variable = { GFCC_area_reconstruction_var > 59 }
+	}
+	remove_trigger = {	#移除条件
+		check_variable = { GFCC_area_reconstruction_var < 60 }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = -0.4 #本地工厂
+	army_speed_factor = -0.05 #陆军师速度
+}
+GFCC_area_reconstruction_modifiers_6 = { #重建度50
+	enable = {	#启用条件
+		check_variable = { GFCC_area_reconstruction_var < 60 }
+		check_variable = { GFCC_area_reconstruction_var > 49 }
+	}
+	remove_trigger = {	#移除条件
+		check_variable = { GFCC_area_reconstruction_var < 50 }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = -0.5 #本地工厂
+	army_speed_factor = -0.1 #陆军师速度
+}
+GFCC_area_reconstruction_modifiers_7 = { #重建度50以下
+	enable = {	#启用条件
+		check_variable = { GFCC_area_reconstruction_var < 50 }
+	}
+	remove_trigger = {	#移除条件
+		check_variable = { GFCC_area_reconstruction_var > 49 }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = -0.6 #本地工厂
+	army_speed_factor = -0.1 #陆军师速度
+}
+GFCC_area_reconstruction_modifiers_8 = { #重建度0
+	enable = {	#启用条件
+		check_variable = { GFCC_area_reconstruction_var = 0 }
+	}
+	remove_trigger = {	#移除条件
+		check_variable = { GFCC_area_reconstruction_var > 0 }
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = -1 #本地工厂
+	army_speed_factor = -0.2 #陆军师速度
+	disable_strategic_redeployment = yes #禁用战略部署
+}
+
+
+#安全度修正
+GFCC_area_security_modifiers_1 = { #安全度100 完全安全
+	enable = {	#启用条件
+	}
+	remove_trigger = {	#移除条件
+	}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = 0.1 #本地工厂
+	monthly_population = 0.05 #每月人口增长
+	attrition = -0.1 #损耗
+}
+GFCC_area_security_modifiers_2 = { #安全度80-99 安全
+	enable = {}
+	remove_trigger = {}
+	
+	icon = GFX_modifiers_generic_military_plans
+
+	attrition = -0.1 #损耗
+	
+	# 无惩罚
+}
+GFCC_area_security_modifiers_3 = { #安全度60-79 较为安全
+	enable = {}
+	remove_trigger = {}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = -0.1 #本地工厂
+	attrition = -0.05 #损耗
+}
+GFCC_area_security_modifiers_4 = { #安全度40-59 一般
+	enable = {}
+	remove_trigger = {}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = -0.2 #本地工厂
+	army_speed_factor = -0.05 #陆军师速度
+	required_garrison_factor = 0.2 #驻军需求
+	attrition = 0.1 #损耗
+}
+GFCC_area_security_modifiers_5 = { #安全度20-39 危险
+	enable = {}
+	remove_trigger = {}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = -0.4 #本地工厂
+	army_speed_factor = -0.05 #陆军师速度
+	required_garrison_factor = 0.4 #驻军需求
+	monthly_population = -0.1 #每月人口增长
+	production_speed_buildings_factor = -0.2 #建造速度、建设
+	attrition = 0.15 #损耗
+}
+GFCC_area_security_modifiers_6 = { #安全度1-19 高危
+	enable = {}
+	remove_trigger = {}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = -0.6 #本地工厂
+	army_speed_factor = -0.1 #陆军师速度
+	required_garrison_factor = 0.6 #驻军需求
+	monthly_population = -0.2 #每月人口增长
+	production_speed_buildings_factor = -0.4 #建造速度、建设
+	# army_morale_factor = -0.2 #组织度恢复
+
+	attrition = 0.2 #损耗
+}
+GFCC_area_security_modifiers_7 = { #安全度0 失控
+	enable = {}
+	remove_trigger = {}
+	
+	icon = GFX_modifiers_generic_military_plans
+	
+	local_factories = -0.8 #本地工厂
+	army_speed_factor = -0.2 #陆军师速度
+	required_garrison_factor = 0.8 #驻军需求
+	monthly_population = -0.3 #每月人口增长
+	production_speed_buildings_factor = -0.6 #建造速度、建设
+	# army_morale_factor = -0.3 #组织度恢复
+	disable_strategic_redeployment = yes #禁用战略部署
+
+	attrition = 0.3 #损耗
+}

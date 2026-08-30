@@ -1,0 +1,227 @@
+scripted_map_modes = {
+	GFCC_area_Pollution_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = state
+			color = {
+				set_temp_variable = { GFCC_area_Pollution_color_var = FROM.GFCC_area_Pollution_var }
+				if = { limit = { check_variable = { GFCC_area_Pollution_color_var = 0 } } #白区
+					set_temp_variable = { r_clc = 255 }
+					set_temp_variable = { g_clc = 255 }
+					set_temp_variable = { b_clc = 255 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_Pollution_color_var > 0 }
+						check_variable = { GFCC_area_Pollution_color_var < 11 } 
+					} #绿区
+					set_temp_variable = { r_clc = 0 }
+					set_temp_variable = { g_clc = 139 }
+					set_temp_variable = { b_clc = 0 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_Pollution_color_var > 10 }
+						check_variable = { GFCC_area_Pollution_color_var < 150 }
+						FROM = { GFCC_area_Pollution_B1 < 1 }
+					} #黄区
+					set_temp_variable = { r_clc = 238 }
+					set_temp_variable = { g_clc = 238 }
+					set_temp_variable = { b_clc = 0 }
+				}
+				else_if = { 
+					limit = {
+						check_variable = { GFCC_area_Pollution_color_var > 10 }
+						check_variable = { GFCC_area_Pollution_color_var < 150 }
+						FROM = { GFCC_area_Pollution_B1 > 0 }
+						# has_dynamic_modifier = { modifier = SLE_OGAS_diqu_2 }
+					} #蓝区
+					set_temp_variable = { r_clc = 100 }
+					set_temp_variable = { g_clc = 149 }
+					set_temp_variable = { b_clc = 237 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_Pollution_color_var > 149 }
+						check_variable = { GFCC_area_Pollution_color_var < 10000 }
+					} #红区
+					set_temp_variable = { r_clc = 139 }
+					set_temp_variable = { g_clc = 26 }
+					set_temp_variable = { b_clc = 26 }
+				}
+				else_if = { limit = { check_variable = { GFCC_area_Pollution_color_var > 9999 } } #黑区
+					set_temp_variable = { r_clc = 0 }
+					set_temp_variable = { g_clc = 0 }
+					set_temp_variable = { b_clc = 0 }
+				}
+
+				set_temp_variable = { red = r_clc }
+				set_temp_variable = { green = g_clc }
+				set_temp_variable = { blue = b_clc }
+				divide_temp_variable = { red = 255 }
+				divide_temp_variable = { blue = 255 }
+				divide_temp_variable = { green = 255 }
+				set_temp_variable = { alpha = 1.00 }
+			}
+		}
+
+		far_text = state
+		near_text = state
+
+		update_monthly = yes
+	}
+
+	GFCC_area_security_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = state
+			color = {
+				set_temp_variable = { GFCC_area_security_color_var = FROM.GFCC_area_security_var }
+				if = { limit = { check_variable = { GFCC_area_security_color_var = 100 } } #完全安全
+					set_temp_variable = { r_clc = 0 }
+					set_temp_variable = { g_clc = 200 }
+					set_temp_variable = { b_clc = 0 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_security_color_var > 79 }
+					} #安全
+					set_temp_variable = { r_clc = 100 }
+					set_temp_variable = { g_clc = 200 }
+					set_temp_variable = { b_clc = 100 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_security_color_var > 59 }
+					} #较为安全
+					set_temp_variable = { r_clc = 200 }
+					set_temp_variable = { g_clc = 200 }
+					set_temp_variable = { b_clc = 100 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_security_color_var > 39 }
+					} #一般
+					set_temp_variable = { r_clc = 255 }
+					set_temp_variable = { g_clc = 200 }
+					set_temp_variable = { b_clc = 0 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_security_color_var > 19 }
+					} #危险
+					set_temp_variable = { r_clc = 255 }
+					set_temp_variable = { g_clc = 150 }
+					set_temp_variable = { b_clc = 0 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_security_color_var > 0 }
+					} #高危
+					set_temp_variable = { r_clc = 200 }
+					set_temp_variable = { g_clc = 50 }
+					set_temp_variable = { b_clc = 50 }
+				}
+				else = { #失控
+					set_temp_variable = { r_clc = 120 }
+					set_temp_variable = { g_clc = 0 }
+					set_temp_variable = { b_clc = 0 }
+				}
+
+				set_temp_variable = { red = r_clc }
+				set_temp_variable = { green = g_clc }
+				set_temp_variable = { blue = b_clc }
+				divide_temp_variable = { red = 255 }
+				divide_temp_variable = { blue = 255 }
+				divide_temp_variable = { green = 255 }
+				set_temp_variable = { alpha = 1.00 }
+			}
+		}
+
+		far_text = state
+		near_text = state
+
+		update_monthly = yes
+	}
+
+	GFCC_area_reconstruction_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = state
+			color = {
+				set_temp_variable = { GFCC_area_reconstruction_color_var = FROM.GFCC_area_reconstruction_var }
+				if = { limit = { check_variable = { GFCC_area_reconstruction_color_var = 100 } } #完全重建
+					set_temp_variable = { r_clc = 0 }
+					set_temp_variable = { g_clc = 200 }
+					set_temp_variable = { b_clc = 0 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_reconstruction_color_var > 89 }
+					} #重建度90-99
+					set_temp_variable = { r_clc = 60 }
+					set_temp_variable = { g_clc = 200 }
+					set_temp_variable = { b_clc = 60 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_reconstruction_color_var > 79 }
+					} #重建度80-89
+					set_temp_variable = { r_clc = 120 }
+					set_temp_variable = { g_clc = 200 }
+					set_temp_variable = { b_clc = 120 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_reconstruction_color_var > 69 }
+					} #重建度70-79
+					set_temp_variable = { r_clc = 180 }
+					set_temp_variable = { g_clc = 200 }
+					set_temp_variable = { b_clc = 60 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_reconstruction_color_var > 59 }
+					} #重建度60-69
+					set_temp_variable = { r_clc = 240 }
+					set_temp_variable = { g_clc = 200 }
+					set_temp_variable = { b_clc = 0 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_reconstruction_color_var > 49 }
+					} #重建度50-59
+					set_temp_variable = { r_clc = 255 }
+					set_temp_variable = { g_clc = 150 }
+					set_temp_variable = { b_clc = 0 }
+				}
+				else_if = { 
+					limit = { 
+						check_variable = { GFCC_area_reconstruction_color_var > 0 }
+					} #重建度1-49
+					set_temp_variable = { r_clc = 200 }
+					set_temp_variable = { g_clc = 50 }
+					set_temp_variable = { b_clc = 50 }
+				}
+				else = { #重建度0
+					set_temp_variable = { r_clc = 120 }
+					set_temp_variable = { g_clc = 0 }
+					set_temp_variable = { b_clc = 0 }
+				}
+
+				set_temp_variable = { red = r_clc }
+				set_temp_variable = { green = g_clc }
+				set_temp_variable = { blue = b_clc }
+				divide_temp_variable = { red = 255 }
+				divide_temp_variable = { blue = 255 }
+				divide_temp_variable = { green = 255 }
+				set_temp_variable = { alpha = 1.00 }
+			}
+		}
+
+		far_text = state
+		near_text = state
+
+		update_monthly = yes
+	}
+}

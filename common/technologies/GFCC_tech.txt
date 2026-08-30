@@ -1,0 +1,21 @@
+technologies = {
+	#OGAS
+	GFCC_area_Pollution_B1_tech = {
+	
+		allow = {
+			always = no
+		}
+
+		start_year = 1936
+		enable_building = {
+			building = GFCC_area_Pollution_B1
+			level = 10
+		}
+		# on_research_complete = {
+		# 	set_variable = {
+		# 		name = GFCC_area_Pollution_B1_max_level_terrain_limit
+		# 		value = 10
+		# 	}
+		# }
+	}
+}
