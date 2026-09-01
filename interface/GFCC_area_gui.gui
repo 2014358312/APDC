@@ -1,0 +1,90 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GFCC_area_gui_show_window"
+		position = { x = 4 y = -53 }
+		moveable = yes
+
+		iconType = {
+			name = "GFCC_area_gui_show_window_bg1"
+			position = { x = 2 y = 0 }
+			spriteType = "GFX_GFCC_area_gui_small_box_bg"
+		}
+
+
+		buttonType = {
+			name = "GFCC_area_gui_up_arrow"
+			position = { x = 5 y = 3 }
+			spriteType = "GFX_GFCC_area_gui_up_arrow"
+
+			pdx_tooltip = "GFCC_area_gui_up_arrow_tt"
+		}
+
+	}
+	containerWindowType = {
+		name = "GFCC_area_gui_window"
+		position = { x = 4 y = -148 }
+		moveable = yes
+
+		####################
+
+		iconType = {
+			name = "GFCC_area_gui_bg1"
+			position = { x=0 y=0 }
+			spriteType = "GFX_GFCC_area_gui_building_background"
+
+		}
+
+		buttonType = {
+			name = "GFCC_area_gui_down_arrow"
+			position = { x=5 y=3 }
+			spriteType = "GFX_GFCC_area_gui_down_arrow"
+
+			pdx_tooltip = "GFCC_area_gui_down_arrow_tt"
+		}
+
+		instantTextBoxType = {
+			name ="GFCC_area_Pollution_gui_show"
+			position = { x = 0 y = 50 }
+			font = "hoi_18mbs"
+			text = "GFCC_area_Pollution_gui_show"
+			format = center
+			maxwidth = 200
+		}
+
+		instantTextBoxType = {
+			name ="GFCC_area_security_gui_show"
+			position = { x = 0 y = 68 }
+			font = "hoi_18mbs"
+			text = "GFCC_area_security_gui_show"
+			format = center
+			maxwidth = 200
+		}
+
+		instantTextBoxType = {
+			name ="GFCC_area_reconstruction_gui_show"
+			position = { x = 0 y = 86 }
+			font = "hoi_18mbs"
+			text = "GFCC_area_reconstruction_gui_show"
+			format = center
+			maxwidth = 200
+		}
+
+		# instantTextBoxType = {
+		# 	name ="GFCC_area_Pollution_gui_show"
+		# 	position = { x = 0 y = 50 }
+		# 	font = "hoi_18mbs"
+		# 	text = "GFCC_area_Pollution_gui_show"
+		# 	format = center
+		# 	maxwidth = 200
+		# }
+
+		# instantTextBoxType = {
+		# 	name ="GFCC_area_Pollution_gui_show"
+		# 	position = { x = 0 y = 50 }
+		# 	font = "hoi_18mbs"
+		# 	text = "GFCC_area_Pollution_gui_show"
+		# 	format = center
+		# 	maxwidth = 200
+		# }
+	}
+}

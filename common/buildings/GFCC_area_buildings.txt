@@ -1,0 +1,49 @@
+buildings = {
+	#坍塌辐射净化塔 
+	GFCC_area_Pollution_B1 = {
+		show_on_map = 1
+		always_shown = yes
+		base_cost = 20000
+		damage_factor = 0 # This building can't be damaged by regular strat bombing
+		icon_frame = 21	#建筑图标
+		value = 5
+		tags = { GFCC_area_Pollution_B1_building } #识别标志
+		spawn_point = GFCC_area_Pollution_spawn
+		# spawn_point = special_project_facility_spawn #特殊项目设施生成点
+		allied_build = yes #盟军可建造
+		damage_factor = 1 #损坏因素
+		need_detection = yes #需要检测
+		detecting_intel_type = civilian #情报分类
+		province_damage_modifiers = { flooded }	#省份伤害类型
+		only_display_if_exists = yes #仅在存在时显示
+		special_icon = GFX_OGAS_SLE_buildings_icon_small #如果涉及特殊行动则应用该图标
+		hide_if_missing_tech = yes #科技是否为显示条件
+		#infrastructure_construction_effect = yes
+		level_cap = {
+			province_max = 1
+			state_max = 10
+			# group_by = GFCC_area_Pollution_B1_building #指代净化塔
+		}
+		show_modifier = yes
+		#supply_node = yes
+		state_modifiers = {
+			# state_production_speed_buildings_factor = 0.15 #本地建设速度
+			# local_building_slots_factor = 0.2 #本地最大工厂
+			# state_resources_factor = 0.1 #本地资源
+			# local_supplies_for_controller = 0.1 #本地补给
+			# #local_non_core_supply_impact_factor = -0.2 #本地非核心补给
+			# army_speed_factor_for_controller = 0.1 #陆军速度
+		}
+		country_modifiers = {
+			modifiers = {
+				
+			}
+		}
+	}
+}
+spawn_points = {
+	GFCC_area_Pollution_spawn = {
+		type = state
+		max = 1
+	}
+}

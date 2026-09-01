@@ -1,0 +1,22 @@
+﻿l_simp_chinese: 
+GFCC_area_gui_up_arrow_tt: "显示§Y地区系统§!窗口"
+GFCC_area_gui_down_arrow_tt: "隐藏§Y地区系统§!窗口"
+GFCC_area_Pollution_gui_show: "§W当前地区污染度：§!§Y[?GFCC_area_Pollution_var]§!"
+GFCC_area_security_gui_show: "§W当前地区安全度：§!§Y[?GFCC_area_security_var]§!"
+GFCC_area_reconstruction_gui_show: "§W当前地区重建度：§!§Y[?GFCC_area_reconstruction_var]§!"
+
+MAPMODE_GFCC_AREA_POLLUTION_MAP_MODE_NAME: "污染度地图模式"
+MAPMODE_GFCC_AREA_POLLUTION_MAP_MODE: "污染度"
+MAPMODE_GFCC_AREA_POLLUTION_MAP_MODE_DESCRIPTION: "此地图模式显示特定省份当前的污染度。"
+GFCC_area_Pollution_map_mode_tooltip: "[FROM.GetName]的污染度为：[?FROM.GFCC_area_Pollution_var|Y]\n[GFCC_area_Pollution_modifiers_NAME]"
+
+MAPMODE_GFCC_AREA_SECURITY_MAP_MODE_NAME: "安全度地图模式"
+MAPMODE_GFCC_AREA_SECURITY_MAP_MODE: "安全度"
+MAPMODE_GFCC_AREA_SECURITY_MAP_MODE_DESCRIPTION: "此地图模式显示特定省份当前的安全度。"
+GFCC_area_security_map_mode_tooltip: "[FROM.GetName]的安全度为：[?FROM.GFCC_area_security_var|Y]\n[GFCC_area_security_modifiers_NAME]"
+
+MAPMODE_GFCC_AREA_RECONSTRUCTION_MAP_MODE_NAME: "重建度地图模式"
+MAPMODE_GFCC_AREA_RECONSTRUCTION_MAP_MODE: "重建度"
+MAPMODE_GFCC_AREA_RECONSTRUCTION_MAP_MODE_DESCRIPTION: "此地图模式显示特定省份当前的重建度。"
+GFCC_area_reconstruction_map_mode_tooltip: "[FROM.GetName]的重建度为：[?FROM.GFCC_area_reconstruction_var|Y]\n[GFCC_area_reconstruction_modifiers_NAME]"
+# GFCC_area_Pollution_map_mode_tooltip_delayed: "[FROM.GetName]的污染度为：[?GFCC_area_Pollution_var|Y]\n"
