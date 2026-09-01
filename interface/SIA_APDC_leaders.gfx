@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_SIA_new_soviet_naval_authority"
+		texturefile = "gfx/leaders/SIA/SIA_new_soviet_naval_authority.dds"
+	}
+}

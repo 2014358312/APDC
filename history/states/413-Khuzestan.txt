@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = PER
+		owner = IRQ
+		add_core_of = IRQ
 		buildings = {
 			infrastructure = 4
 			dockyard = 2

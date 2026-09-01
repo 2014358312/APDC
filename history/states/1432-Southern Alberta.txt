@@ -4,9 +4,10 @@ state = {
 	resources = {
 		oil = 22
 	}
+
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = USA
+		add_core_of = USA
 	}
 	provinces = {
 		1262

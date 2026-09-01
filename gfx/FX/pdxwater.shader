@@ -358,7 +358,7 @@ PixelShader =
 			// when we fixed an old bug in the gradient border code, it made most mapmodes brighter. Players don't like that.
 			// Therefore we offset the water a bit to make it more like what they're used to.
 			float3 Darkness = float3(0,0,0); 
-			refractiveColor = lerp(refractiveColor, Darkness, 0.8f);
+			refractiveColor = lerp(refractiveColor, Darkness, 0.0f);
 			
 			secondary_color_mask( refractiveColor, normal, 
 				Input.uv - vRefractionDistortion * 0.001, 

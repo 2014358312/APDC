@@ -7,8 +7,9 @@ state = {
 	}
 
 	history = {
-		owner = COL
+		owner = JAP
 		add_core_of = COL
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
 			air_base = 2

@@ -6,9 +6,10 @@ state = { #Population + VPs Done
 		oil = 14
 	}
 
+
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = INS
+		add_core_of = INS
 		buildings = {
 			
 		}

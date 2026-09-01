@@ -184,10 +184,7 @@ peace_ai_desires = {
         peace_action_type = { puppet force_government liberate }
         enable = {
             FROM = {
-                OR = {
-                    tag = USB
-                    tag = CSA
-                }
+                tag = CSA
             }
         }
         ai_desire = -200

@@ -1,15 +1,35 @@
 capital = 49 #安卡拉
 
+recruit_character = TUR_alparslan_yilmaz
+
 set_politics = {
-	ruling_party = dictatorship
-	last_election = "2058.2.8"
+	ruling_party = social_democracy
+	last_election = "2058.1.1"
+	election_frequency = 48
 	elections_allowed = yes
 }
+
+promote_character = {
+	character = TUR_alparslan_yilmaz
+	ideology = left_populism
+}
+
 set_popularities = {
-	liberalism = 6
-	dictatorship = 94
+	communism = 0
+	socialism = 0
+	social_democracy = 100
+	conservatism = 0
+	liberalism = 0
+	authoritarianism = 0
+	dictatorship = 0
+	fascism = 0
+	fundamentalism = 0
 }
 
 set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.3
+
+APDC_add_social_democracy_to_governing_coalition = yes
+
+APDC_set_economic_system_market_socialism = yes

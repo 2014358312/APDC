@@ -5,8 +5,8 @@ state = {
 		tungsten = 4
 	}
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = ZZZ
+		add_core_of = ZZZ
 	}
 	provinces = {
 		245

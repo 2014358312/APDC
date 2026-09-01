@@ -1,0 +1,81 @@
+# Cooperation-organization templates
+#
+# A template is an author-facing creation effect run in the anchor country's
+# scope during country-history setup or an event. Keep all opening membership
+# and chair declarations in the template. Every created container receives the
+# shared placeholder legislation automatically.
+#
+# To add a template:
+# 1. Copy one complete effect below and choose unique definition/name/icon ids.
+# 2. Register the name id in APDCCooperationOrganizationName.
+# 3. Register the icon id in APDCCooperationOrganizationIcon and its GFX sprite.
+# 4. List every opening member explicitly and set one joined member as chair.
+# 5. Optional organization-specific law groups are registered on this same
+#    anchor after APDC_create_cooperation_organization. Set the four temporary
+#    definition fields documented in APDC_cooperation_legislation_scripted_effects.txt
+#    and call APDC_add_cooperation_law_group_to_container = yes.
+# Runtime additions/removals then use the generic API and do not modify this file.
+
+# Definition 1
+# Name id 1: APDC_COOPERATION_ORGANIZATION_FIFTH_INTERNATIONAL
+# Icon id 1: GFX_APDC_cooperation_organization_fifth_international
+# Anchor/chair: SOV
+APDC_create_fifth_international_cooperation_organization_from_template = {
+	set_variable = { APDC_cooperation_organization_definition_id = 1 }
+	set_variable = { APDC_cooperation_organization_name_id = 1 }
+	set_variable = { APDC_cooperation_organization_icon_id = 1 }
+	APDC_create_cooperation_organization = yes
+
+	clear_array = APDC_cooperation_organization_template_opening_members
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = ANG }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = BUL }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = CHI }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = CUB }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = CYP }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = CZE }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = EGY }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = GER }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = GRE }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = HUN }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = KUR }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = MON }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = MZB }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = PER }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = POL }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = ROM }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = SIA }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = TUR }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = VEN }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = YEM }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = YUG }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = SOV }
+	APDC_apply_cooperation_organization_template_opening_members = yes
+
+	SOV = {
+		APDC_set_cooperation_organization_chair = yes
+	}
+}
+
+# Definition 2
+# Name id 2: APDC_COOPERATION_ORGANIZATION_INTERNATIONAL_ROSSARTRISM
+# Icon id 2: GFX_APDC_cooperation_organization_international_rossartrism
+# Anchor/chair: AMZ
+APDC_create_international_rossartrism_cooperation_organization_from_template = {
+	set_variable = { APDC_cooperation_organization_definition_id = 2 }
+	set_variable = { APDC_cooperation_organization_name_id = 2 }
+	set_variable = { APDC_cooperation_organization_icon_id = 2 }
+	APDC_create_cooperation_organization = yes
+
+	clear_array = APDC_cooperation_organization_template_opening_members
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = AMZ }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = HAI }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = COL }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = JAP }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = LLU }
+	add_to_array = { array = APDC_cooperation_organization_template_opening_members value = USA }
+	APDC_apply_cooperation_organization_template_opening_members = yes
+
+	AMZ = {
+		APDC_set_cooperation_organization_chair = yes
+	}
+}

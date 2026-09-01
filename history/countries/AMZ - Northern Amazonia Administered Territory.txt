@@ -2,17 +2,46 @@ capital = 1483 #帕拉
 
 set_research_slots = 3
 
+recruit_character = AMZ_duncan_general
+recruit_character = AMZ_garcia_salvador
+recruit_character = AMZ_taylor_hawke
+recruit_character = AMZ_namara_cochran
+recruit_character = AMZ_hokeler_bowie
+recruit_character = AMZ_eric_bordeaux_authoritarianism
+recruit_character = AMZ_eric_bordeaux_dictatorship
+recruit_character = AMZ_cid_general
+recruit_character = AMZ_disorder
+
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = authoritarianism
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-set_popularities = {
-	liberalism = 60
-	fascism = 30
-	communism = 10
-	dictatorship = 0
+# Explicitly promote the designed authoritarian leader so generic leader
+# generation can never win the opening-party selection order.
+promote_character = {
+	character = AMZ_eric_bordeaux_authoritarianism
+	ideology = transitional_government
 }
+
+set_popularities = {
+	communism = 3
+	socialism = 4
+	social_democracy = 8
+	conservatism = 10
+	liberalism = 30
+	authoritarianism = 21
+	dictatorship = 21
+	fascism = 3
+	fundamentalism = 0
+}
+
+APDC_add_authoritarianism_to_governing_coalition = yes
+APDC_add_dictatorship_to_governing_coalition = yes
+APDC_add_liberalism_to_governing_coalition = yes
+
+APDC_set_economic_system_dependent_economy = yes
+APDC_create_international_rossartrism_cooperation_organization_from_template = yes
 

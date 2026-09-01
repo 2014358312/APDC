@@ -3,9 +3,10 @@ state = {
 	name = "STATE_820"
 	resources = {
 	}
+
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = INS
+		add_core_of = INS
 	}
 	provinces = {
 		1589

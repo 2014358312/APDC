@@ -1,0 +1,16 @@
+characters = {
+	MON_bilegun_borjigin = {
+		name = MON_bilegun_borjigin
+		portraits = {
+			civilian = {
+				large = GFX_APDC_asia_generic_political_male_1
+			}
+		}
+		country_leader = {
+			ideology = left_nationalism
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

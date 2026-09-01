@@ -4,9 +4,10 @@ state = {
 	resources = {
 		tungsten = 15
 	}
+
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = SOV
+		add_core_of = SOV
 	}
 	provinces = {
 		1722

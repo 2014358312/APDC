@@ -751,7 +751,7 @@
  CRC_autonomy_collaboration_government_DEF: "$OVERLORDADJ$属$NONIDEOLOGY$"
  UAE_autonomy_collaboration_government_DEF: "$OVERLORDADJ$属$NONIDEOLOGY$"
  CSA_autonomy_collaboration_government_DEF: "$OVERLORDADJ$属$NONIDEOLOGY$"
- USB_autonomy_collaboration_government_DEF: "$OVERLORDADJ$属$NONIDEOLOGY$"
+ ALS_autonomy_collaboration_government_DEF: "$OVERLORDADJ$属$NONIDEOLOGY$"
  RCG_autonomy_collaboration_government_DEF: "$OVERLORDADJ$属$NONIDEOLOGY$"
  CAR_autonomy_collaboration_government_DEF: "$OVERLORDADJ$属$NONIDEOLOGY$"
  CAR_free_zone: "中非自由区"

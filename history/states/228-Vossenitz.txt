@@ -3,6 +3,7 @@ state = {
 	name = "STATE_228"
 	history = {
 		owner = SOV
+		add_core_of = SOV
 		victory_points = {
 			9461
 			10

@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_LLU_tobias_verhagen"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_male_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_LLU_oliver_marchand"
+		texturefile = "gfx/leaders/APDC/europe/generic_political_male_3.dds"
+	}
+}

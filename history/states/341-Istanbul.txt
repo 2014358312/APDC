@@ -4,6 +4,7 @@ state = { #Population Done
 
 	history = {
 		owner = SOV
+		add_core_of = SOV
 		victory_points = { 9833 50 }
 		victory_points = { 3851 1 }
 		buildings = {

@@ -1,101 +1,569 @@
-# Cooperation organizations are independent from military factions.
-# A country can currently belong to at most one cooperation organization.
+# Generic cooperation-organization container API.
+#
+# A container is anchored to a country scope. The anchor stores the member
+# list, chair, legislation, ballot and queue data. A member country stores
+# only APDC_cooperation_organization_container, a scoped variable pointing to
+# that anchor. Containers are independent from military factions, and a
+# country can belong to at most one container.
+#
+# Create a new container on its anchor country:
+#   set_variable = { APDC_cooperation_organization_definition_id = 3 } # unique id
+#   set_variable = { APDC_cooperation_organization_name_id = 3 }
+#   set_variable = { APDC_cooperation_organization_icon_id = 3 }
+#   APDC_create_cooperation_organization = yes
+# Every container automatically receives the shared placeholder legislation.
+#
+# Add a country to an existing container:
+#   set_variable = { APDC_cooperation_organization_join_target = SOV }
+#   APDC_join_cooperation_organization = yes
+#
+# Remove the current country from its container:
+#   APDC_leave_cooperation_organization = yes
+# Alias names intended for country-history/event code:
+#   APDC_add_country_to_cooperation_organization = yes
+#   APDC_remove_country_from_cooperation_organization = yes
+#
+# Dissolve a container from its anchor scope:
+#   APDC_remove_cooperation_organization = yes
 
-APDC_clear_cooperation_organization_membership = {
-	# The country-scope array is the live data source for the panel's
-	# dynamic member list.  Removing the scope here keeps GUI data and the
-	# membership flag in lockstep for every future member country.
-	remove_from_array = {
-		array = global.APDC_fifth_international_cooperation_members
-		value = THIS
-	}
-	# If the leaving country is the chair, remove the stale chair scope too.
-	# A later chair appointment uses the setter below and needs no GUI change.
-	remove_from_array = {
-		array = global.APDC_fifth_international_cooperation_chair
-		value = THIS
-	}
-	# Active ballots are scope arrays too.  A departing member must vanish
-	# from whichever vote column currently contains it.
-	remove_from_array = {
-		array = global.APDC_cooperation_vote_supporters
-		value = THIS
-	}
-	remove_from_array = {
-		array = global.APDC_cooperation_vote_abstainers
-		value = THIS
-	}
-	remove_from_array = {
-		array = global.APDC_cooperation_vote_vetoers
-		value = THIS
-	}
-	clr_country_flag = APDC_cooperation_organization_fifth_international_member
+APDC_clear_cooperation_organization_member_view_data = {
+	clear_array = APDC_cooperation_organization_display_chair
+	clear_array = APDC_cooperation_organization_display_members
+	clear_array = APDC_cooperation_law_groups
+	clear_array = APDC_cooperation_law_tab_1_groups
+	clear_array = APDC_cooperation_law_tab_2_groups
+	clear_array = APDC_cooperation_law_tab_3_groups
+	clear_array = APDC_cooperation_law_tab_4_groups
+	clear_array = APDC_cooperation_law_tab_5_groups
+	clear_array = APDC_cooperation_visible_law_groups
+	clear_array = APDC_cooperation_law_group_tabs
+	clear_array = APDC_cooperation_law_option_counts
+	clear_array = APDC_cooperation_law_selected_options
+	clear_array = APDC_cooperation_law_group_locks
+	clear_array = APDC_cooperation_law_option_1_available
+	clear_array = APDC_cooperation_law_option_2_available
+	clear_array = APDC_cooperation_law_option_3_available
+	clear_array = APDC_cooperation_law_option_4_available
+	clear_array = APDC_cooperation_law_queue_groups
+	clear_array = APDC_cooperation_law_queue_options
+	clear_array = APDC_cooperation_law_queue_proposers
+	clear_array = APDC_cooperation_vote_supporters
+	clear_array = APDC_cooperation_vote_abstainers
+	clear_array = APDC_cooperation_vote_vetoers
+	clear_variable = APDC_cooperation_vote_state
+	clear_variable = APDC_cooperation_vote_days_remaining
+	clear_variable = APDC_cooperation_active_law_group
+	clear_variable = APDC_cooperation_active_law_option
+	clear_variable = APDC_cooperation_active_law_proposer
 }
 
-APDC_join_fifth_international_cooperation_organization = {
-	APDC_clear_cooperation_organization_membership = yes
-	set_country_flag = APDC_cooperation_organization_fifth_international_member
-	add_to_array = {
-		array = global.APDC_fifth_international_cooperation_members
-		value = THIS
-	}
-	# Countries joining during a live ballot begin in the abstention column.
+# Run in a member country scope. All GUI arrays are read-only local mirrors;
+# authoritative organization state remains inside the anchor container.
+APDC_sync_cooperation_organization_member_view = {
+	APDC_clear_cooperation_organization_member_view_data = yes
 	if = {
-		limit = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
-		add_to_array = {
-			array = global.APDC_cooperation_vote_abstainers
-			value = THIS
+		limit = { APDC_has_cooperation_organization = yes }
+		set_variable = { global.APDC_cooperation_sync_member = THIS }
+		var:APDC_cooperation_organization_container = {
+			for_each_scope_loop = {
+				array = APDC_cooperation_organization_container_chair
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = {
+						array = APDC_cooperation_organization_display_chair
+						value = PREV
+					}
+				}
+			}
+			for_each_scope_loop = {
+				array = APDC_cooperation_organization_container_members
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = {
+						array = APDC_cooperation_organization_display_members
+						value = PREV
+					}
+				}
+			}
+
+			var:global.APDC_cooperation_sync_member = {
+				set_variable = { APDC_cooperation_vote_state = PREV.APDC_cooperation_container_vote_state }
+				set_variable = { APDC_cooperation_vote_days_remaining = PREV.APDC_cooperation_container_vote_days_remaining }
+				set_variable = { APDC_cooperation_active_law_group = PREV.APDC_cooperation_container_active_law_group }
+				set_variable = { APDC_cooperation_active_law_option = PREV.APDC_cooperation_container_active_law_option }
+				set_variable = { APDC_cooperation_active_law_proposer = PREV.APDC_cooperation_container_active_law_proposer }
+			}
+
+			# A for_each_loop value is a temporary numeric variable owned by the
+			# current execution scope. It cannot be read reliably after switching
+			# from the container to a member country. Copy it to a persistent global
+			# numeric bridge before the switch, then append in the same order. This
+			# remains fully data-driven: no group id or schema size is enumerated.
+			for_each_loop = {
+				array = APDC_cooperation_container_law_groups
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_groups value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_tab_1_groups
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_tab_1_groups value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_tab_2_groups
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_tab_2_groups value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_tab_3_groups
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_tab_3_groups value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_tab_4_groups
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_tab_4_groups value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_tab_5_groups
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_tab_5_groups value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_group_tabs
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_group_tabs value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+
+			for_each_loop = {
+				array = APDC_cooperation_container_law_option_counts
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_option_counts value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_selected_options
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_selected_options value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_group_locks
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_group_locks value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_option_1_available
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_option_1_available value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_option_2_available
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_option_2_available value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_option_3_available
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_option_3_available value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_option_4_available
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_option_4_available value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_queue_groups
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_queue_groups value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+			for_each_loop = {
+				array = APDC_cooperation_container_law_queue_options
+				value = v
+				set_variable = { global.APDC_cooperation_sync_numeric_value = v }
+				var:global.APDC_cooperation_sync_member = {
+					add_to_array = { array = APDC_cooperation_law_queue_options value = var:global.APDC_cooperation_sync_numeric_value }
+				}
+			}
+				for_each_scope_loop = {
+					array = APDC_cooperation_container_law_queue_proposers
+					var:global.APDC_cooperation_sync_member = { add_to_array = { array = APDC_cooperation_law_queue_proposers value = PREV } }
+				}
+				for_each_scope_loop = {
+					array = APDC_cooperation_container_vote_supporters
+					var:global.APDC_cooperation_sync_member = { add_to_array = { array = APDC_cooperation_vote_supporters value = PREV } }
+				}
+				for_each_scope_loop = {
+					array = APDC_cooperation_container_vote_abstainers
+					var:global.APDC_cooperation_sync_member = { add_to_array = { array = APDC_cooperation_vote_abstainers value = PREV } }
+				}
+				for_each_scope_loop = {
+					array = APDC_cooperation_container_vote_vetoers
+					var:global.APDC_cooperation_sync_member = { add_to_array = { array = APDC_cooperation_vote_vetoers value = PREV } }
+				}
+		}
+		if = {
+			limit = { check_variable = { APDC_cooperation_organization_selected_tab = 1 } }
+			APDC_load_cooperation_law_tab_1 = yes
+		}
+		else_if = {
+			limit = { check_variable = { APDC_cooperation_organization_selected_tab = 2 } }
+			APDC_load_cooperation_law_tab_2 = yes
+		}
+		else_if = {
+			limit = { check_variable = { APDC_cooperation_organization_selected_tab = 3 } }
+			APDC_load_cooperation_law_tab_3 = yes
+		}
+		else_if = {
+			limit = { check_variable = { APDC_cooperation_organization_selected_tab = 4 } }
+			APDC_load_cooperation_law_tab_4 = yes
+		}
+		else_if = {
+			limit = { check_variable = { APDC_cooperation_organization_selected_tab = 5 } }
+			APDC_load_cooperation_law_tab_5 = yes
+		}
+		clear_variable = global.APDC_cooperation_sync_numeric_value
+		clear_variable = global.APDC_cooperation_sync_member
+	}
+}
+
+# Lightweight daily mirror update for an open panel. Structural arrays are
+# synchronized only when they change; the timer needs a daily refresh.
+APDC_sync_cooperation_organization_member_scalar_view = {
+	if = {
+		limit = { APDC_has_cooperation_organization = yes }
+		var:APDC_cooperation_organization_container = {
+			PREV = {
+				set_variable = { APDC_cooperation_vote_state = PREV.APDC_cooperation_container_vote_state }
+				set_variable = { APDC_cooperation_vote_days_remaining = PREV.APDC_cooperation_container_vote_days_remaining }
+				set_variable = { APDC_cooperation_active_law_group = PREV.APDC_cooperation_container_active_law_group }
+				set_variable = { APDC_cooperation_active_law_option = PREV.APDC_cooperation_container_active_law_option }
+			}
 		}
 	}
+}
+
+# Run in a container anchor scope.
+APDC_sync_cooperation_organization_all_member_views = {
+	for_each_scope_loop = {
+		array = APDC_cooperation_organization_container_members
+		APDC_sync_cooperation_organization_member_view = yes
+	}
+}
+
+# Run in a container anchor scope.
+APDC_sync_cooperation_organization_all_member_scalar_views = {
+	for_each_scope_loop = {
+		array = APDC_cooperation_organization_container_members
+		APDC_sync_cooperation_organization_member_scalar_view = yes
+	}
+}
+
+APDC_create_cooperation_organization = {
+	if = {
+		limit = {
+			has_variable = APDC_cooperation_organization_definition_id
+			NOT = { has_country_flag = APDC_cooperation_organization_container }
+		}
+		set_country_flag = APDC_cooperation_organization_container
+		# Removed v2 switch: every container always owns legislation state.
+		clear_variable = APDC_cooperation_organization_has_legislation
+		clear_array = APDC_cooperation_organization_container_chair
+		clear_array = APDC_cooperation_organization_container_members
+		clear_array = APDC_cooperation_organization_template_opening_members
+		if = {
+			limit = { NOT = { has_variable = APDC_cooperation_organization_name_id } }
+			set_variable = { APDC_cooperation_organization_name_id = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = APDC_cooperation_organization_icon_id } }
+			set_variable = { APDC_cooperation_organization_icon_id = 0 }
+		}
+		if = {
+			limit = {
+				NOT = { is_in_array = { array = global.APDC_cooperation_organization_containers value = THIS } }
+			}
+			add_to_array = {
+				array = global.APDC_cooperation_organization_containers
+				value = THIS
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_country_flag = APDC_cooperation_organization_container
+			NOT = { is_in_array = { array = global.APDC_cooperation_organization_containers value = THIS } }
+		}
+		add_to_array = { array = global.APDC_cooperation_organization_containers value = THIS }
+	}
+	if = {
+		limit = { has_country_flag = APDC_cooperation_organization_container }
+		APDC_initialize_cooperation_legislation_container = yes
+	}
+}
+
+APDC_remove_cooperation_organization = {
+	if = {
+		limit = { has_country_flag = APDC_cooperation_organization_container }
+		for_each_scope_loop = {
+			array = APDC_cooperation_organization_container_members
+			clear_variable = APDC_cooperation_organization_container
+			clr_country_flag = APDC_cooperation_organization_fifth_international_member
+			clr_country_flag = APDC_cooperation_organization_international_rossartrism_member
+			APDC_clear_cooperation_organization_member_view_data = yes
+			clear_variable = APDC_cooperation_organization_selected_tab
+		}
+		remove_from_array = { array = global.APDC_cooperation_organization_containers value = THIS }
+		clear_array = APDC_cooperation_organization_container_chair
+		clear_array = APDC_cooperation_organization_container_members
+		APDC_clear_cooperation_legislation_container_data = yes
+		clear_array = APDC_cooperation_organization_template_opening_members
+		clear_variable = APDC_cooperation_organization_definition_id
+		clear_variable = APDC_cooperation_organization_name_id
+		clear_variable = APDC_cooperation_organization_icon_id
+		clear_variable = APDC_cooperation_organization_has_legislation
+		clr_country_flag = APDC_cooperation_organization_container
+	}
+}
+
+APDC_clear_cooperation_organization_membership = {
+	if = {
+		limit = { APDC_has_cooperation_organization = yes }
+		var:APDC_cooperation_organization_container = {
+			remove_from_array = { array = APDC_cooperation_organization_container_members value = PREV }
+			remove_from_array = { array = APDC_cooperation_organization_container_chair value = PREV }
+			remove_from_array = { array = APDC_cooperation_container_vote_supporters value = PREV }
+			remove_from_array = { array = APDC_cooperation_container_vote_abstainers value = PREV }
+			remove_from_array = { array = APDC_cooperation_container_vote_vetoers value = PREV }
+			APDC_sync_cooperation_organization_all_member_views = yes
+		}
+		clear_variable = APDC_cooperation_organization_container
+	}
+	clr_country_flag = APDC_cooperation_organization_fifth_international_member
+	clr_country_flag = APDC_cooperation_organization_international_rossartrism_member
+	APDC_clear_cooperation_organization_member_view_data = yes
+	clear_variable = APDC_cooperation_organization_selected_tab
+}
+
+APDC_join_cooperation_organization = {
+	if = {
+		limit = {
+			has_variable = APDC_cooperation_organization_join_target
+			var:APDC_cooperation_organization_join_target = {
+				has_country_flag = APDC_cooperation_organization_container
+			}
+		}
+		APDC_clear_cooperation_organization_membership = yes
+		var:APDC_cooperation_organization_join_target = {
+			add_to_array = { array = APDC_cooperation_organization_container_members value = PREV }
+			PREV = { set_variable = { APDC_cooperation_organization_container = PREV } }
+
+			if = {
+				limit = { check_variable = { APDC_cooperation_organization_definition_id = 1 } }
+				PREV = { set_country_flag = APDC_cooperation_organization_fifth_international_member }
+			}
+			else_if = {
+				limit = { check_variable = { APDC_cooperation_organization_definition_id = 2 } }
+				PREV = { set_country_flag = APDC_cooperation_organization_international_rossartrism_member }
+			}
+
+			if = {
+				limit = { check_variable = { APDC_cooperation_container_vote_state = 1 } }
+				add_to_array = { array = APDC_cooperation_container_vote_abstainers value = PREV }
+			}
+			APDC_sync_cooperation_organization_all_member_views = yes
+		}
+	}
+	clear_variable = APDC_cooperation_organization_join_target
 }
 
 APDC_leave_cooperation_organization = {
 	APDC_clear_cooperation_organization_membership = yes
 }
 
-# Run in the new chair country's scope.  Keeping the chair as a country-scope
-# array lets the same dynamic entry update its flag and localized name without
-# any GUI rewrite when leadership changes later.
-APDC_set_fifth_international_cooperation_chair = {
-	clear_array = global.APDC_fifth_international_cooperation_chair
-	add_to_array = {
-		array = global.APDC_fifth_international_cooperation_chair
-		value = THIS
+# Author-facing aliases. Both run in the member country's scope; the add alias
+# uses APDC_cooperation_organization_join_target exactly like the join effect.
+APDC_add_country_to_cooperation_organization = {
+	APDC_join_cooperation_organization = yes
+}
+
+APDC_remove_country_from_cooperation_organization = {
+	APDC_leave_cooperation_organization = yes
+}
+
+# Template helper. Run on the new container anchor after filling the scoped
+# APDC_cooperation_organization_template_opening_members array.
+APDC_apply_cooperation_organization_template_opening_members = {
+	for_each_scope_loop = {
+		array = APDC_cooperation_organization_template_opening_members
+		set_variable = { APDC_cooperation_organization_join_target = PREV }
+		APDC_add_country_to_cooperation_organization = yes
+	}
+	clear_array = APDC_cooperation_organization_template_opening_members
+}
+
+# Run in the new chair country's scope. The country must already be a member.
+APDC_set_cooperation_organization_chair = {
+	if = {
+		limit = { APDC_has_cooperation_organization = yes }
+		var:APDC_cooperation_organization_container = {
+			clear_array = APDC_cooperation_organization_container_chair
+			add_to_array = { array = APDC_cooperation_organization_container_chair value = PREV }
+			APDC_sync_cooperation_organization_all_member_views = yes
+		}
 	}
 }
 
-# Rebuild the member array from authoritative membership flags.  Opening the
-# panel calls this once, which also migrates saves created before the arrays
-# existed.  The chair array is preserved unless it has never been initialized.
-# Normal joins and leaves update the member array immediately.
+# Rebuild a container's member array from the authoritative scoped variable.
+# Run in the container anchor scope.
+APDC_refresh_cooperation_organization_container = {
+	if = {
+		limit = { has_country_flag = APDC_cooperation_organization_container }
+		clear_array = APDC_cooperation_organization_container_members
+		set_variable = { global.APDC_cooperation_refresh_container = THIS }
+		every_country = {
+			limit = {
+				has_variable = APDC_cooperation_organization_container
+				var:APDC_cooperation_organization_container = { tag = var:global.APDC_cooperation_refresh_container }
+			}
+			var:global.APDC_cooperation_refresh_container = {
+				add_to_array = { array = APDC_cooperation_organization_container_members value = PREV }
+			}
+		}
+		clear_variable = global.APDC_cooperation_refresh_container
+		APDC_sync_cooperation_organization_all_member_views = yes
+	}
+}
+
+# Compatibility creation aliases. The full template definitions, including
+# names, icons, chairs and opening members, live in the template file.
+APDC_create_fifth_international_cooperation_organization = {
+	APDC_create_fifth_international_cooperation_organization_from_template = yes
+}
+
+APDC_create_international_rossartrism_cooperation_organization = {
+	APDC_create_international_rossartrism_cooperation_organization_from_template = yes
+}
+
+# Compatibility wrappers retained for existing country histories and saves.
+APDC_join_fifth_international_cooperation_organization = {
+	SOV = {
+		if = {
+			limit = { NOT = { has_country_flag = APDC_cooperation_organization_container } }
+			APDC_create_fifth_international_cooperation_organization = yes
+		}
+	}
+	if = {
+		limit = { NOT = { APDC_is_fifth_international_cooperation_organization_member = yes } }
+		SOV = { PREV = { set_variable = { APDC_cooperation_organization_join_target = PREV } } }
+		APDC_join_cooperation_organization = yes
+	}
+}
+
+APDC_join_international_rossartrism_cooperation_organization = {
+	AMZ = {
+		if = {
+			limit = { NOT = { has_country_flag = APDC_cooperation_organization_container } }
+			APDC_create_international_rossartrism_cooperation_organization = yes
+		}
+	}
+	if = {
+		limit = { NOT = { APDC_is_international_rossartrism_cooperation_organization_member = yes } }
+		AMZ = { PREV = { set_variable = { APDC_cooperation_organization_join_target = PREV } } }
+		APDC_join_cooperation_organization = yes
+	}
+}
+
+APDC_set_fifth_international_cooperation_chair = {
+	APDC_set_cooperation_organization_chair = yes
+}
+
 APDC_refresh_fifth_international_cooperation_scope_arrays = {
-	clear_array = global.APDC_fifth_international_cooperation_members
+	SOV = { APDC_refresh_cooperation_organization_container = yes }
+}
+
+# Rebuild the registry and migrate saves made by the old flag-based system.
+APDC_initialize_cooperation_organization_containers = {
+	clear_array = global.APDC_cooperation_organization_containers
+	every_country = {
+		limit = { has_country_flag = APDC_cooperation_organization_container }
+		add_to_array = { array = global.APDC_cooperation_organization_containers value = THIS }
+	}
 
 	every_country = {
-		limit = {
-			exists = yes
-			has_country_flag = APDC_cooperation_organization_fifth_international_member
+		if = {
+			limit = {
+				has_country_flag = APDC_cooperation_organization_fifth_international_member
+				NOT = { has_variable = APDC_cooperation_organization_container }
+			}
+			APDC_join_fifth_international_cooperation_organization = yes
 		}
-		add_to_array = {
-			array = global.APDC_fifth_international_cooperation_members
-			value = THIS
+		else_if = {
+			limit = {
+				has_country_flag = APDC_cooperation_organization_international_rossartrism_member
+				NOT = { has_variable = APDC_cooperation_organization_container }
+			}
+			APDC_join_international_rossartrism_cooperation_organization = yes
 		}
 	}
 
-	# Old-save migration only: initialize the opening chair if no chair scope
-	# has been stored.  A later chair change is therefore never overwritten.
-	if = {
-		limit = {
-			check_variable = { global.APDC_fifth_international_cooperation_chair^num = 0 }
+	for_each_scope_loop = {
+		array = global.APDC_cooperation_organization_containers
+		# Upgrade containers from the earlier definition-id-only format.
+		if = {
+			limit = { check_variable = { APDC_cooperation_organization_definition_id = 1 } }
+			set_variable = { APDC_cooperation_organization_name_id = 1 }
+			set_variable = { APDC_cooperation_organization_icon_id = 1 }
 		}
-		SOV = {
-			if = {
-				limit = {
-					exists = yes
-					has_country_flag = APDC_cooperation_organization_fifth_international_member
-				}
-				APDC_set_fifth_international_cooperation_chair = yes
-			}
+		else_if = {
+			limit = { check_variable = { APDC_cooperation_organization_definition_id = 2 } }
+			set_variable = { APDC_cooperation_organization_name_id = 2 }
+			set_variable = { APDC_cooperation_organization_icon_id = 2 }
 		}
+		clear_variable = APDC_cooperation_organization_has_legislation
+		APDC_refresh_cooperation_organization_container = yes
+		APDC_initialize_cooperation_legislation_container = yes
+		APDC_repair_cooperation_timer_daily_rate_container = yes
 	}
 }

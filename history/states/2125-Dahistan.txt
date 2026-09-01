@@ -8,7 +8,8 @@ state = {
 		oil = 4
 	}
 	history = {
-		owner = PER
+		owner = SOV
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 2
 		}

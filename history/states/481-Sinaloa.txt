@@ -5,15 +5,16 @@ state = {
 		steel = 2.000
 	}
 
+
 	history = {
-		owner = RZE
+		owner = MEX
+		add_core_of = MEX
 		buildings = {
 			
 			
 			
 
 		}
-		add_core_of = RZE
 		
 	}
 

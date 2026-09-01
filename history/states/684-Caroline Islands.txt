@@ -4,8 +4,8 @@ state = {
 	manpower = 4
 	state_category = small_island
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = ZZZ
+		add_core_of = ZZZ
 	}
 	provinces = {
 		2489

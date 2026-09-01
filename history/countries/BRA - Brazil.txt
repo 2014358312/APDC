@@ -2,16 +2,45 @@ capital = 500 # Rio de Janerio
 
 set_convoys = 40
 
+recruit_character = BRA_duncan_general
+recruit_character = BRA_carlos_ronaldo
+recruit_character = BRA_marina_sena
+recruit_character = BRA_paulo_passat
+recruit_character = BRA_elgar_delano
+recruit_character = BRA_free_officers
+recruit_character = BRA_emergency_military_committee
+recruit_character = BRA_cid_general
+recruit_character = BRA_jean_ortiz
+recruit_character = BRA_anton_araujo
+recruit_character = BRA_mora_cardoso
+
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = conservatism
 	last_election = "2058.7.17"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-set_popularities = {
-	liberalism = 50
-	dictatorship = 25
-	fascism = 15
-	communism = 10
+promote_character = {
+	character = BRA_paulo_passat
+	ideology = middle_way
 }
+
+set_popularities = {
+	communism = 1
+	socialism = 4
+	social_democracy = 8
+	conservatism = 31
+	liberalism = 31
+	authoritarianism = 5
+	dictatorship = 15
+	fascism = 1
+	fundamentalism = 4
+}
+
+APDC_add_conservatism_to_governing_coalition = yes
+APDC_add_liberalism_to_governing_coalition = yes
+APDC_set_economic_system_mixed_market = yes
+
+set_variable = { APDC_prime_minister_character = token:BRA_anton_araujo }
+set_variable = { APDC_deputy_prime_minister_character = token:BRA_mora_cardoso }

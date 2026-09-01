@@ -2,6 +2,9 @@ capital = 289 # Bangkok
 
 set_convoys = 15
 
+recruit_character = SIA_new_soviet_naval_authority
+recruit_character = SIA_rama_xv
+
 set_politics = {
 	ruling_party = dictatorship
 	last_election = "2058.1.1"
@@ -9,7 +12,23 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_popularities = {
-	fascism = 20
-	dictatorship = 80
+promote_character = {
+	character = SIA_rama_xv
+	ideology = absolute_monarchy
 }
+
+set_popularities = {
+	communism = 10
+	socialism = 0
+	social_democracy = 0
+	conservatism = 0
+	liberalism = 0
+	authoritarianism = 0
+	dictatorship = 90
+	fascism = 0
+	fundamentalism = 0
+}
+
+APDC_add_dictatorship_to_governing_coalition = yes
+
+APDC_set_economic_system_state_guided = yes

@@ -5,8 +5,10 @@ state = {
 		1261 1368 7423 10186 10302 14721 14722
 	}
 	state_category = rural
+
 	history = {
-		owner = RZE
+		owner = PRC
+		add_core_of = PRC
 		buildings = {
 			
 		}

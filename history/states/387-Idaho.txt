@@ -6,9 +6,10 @@ state = {
 		chromium = 2
 		tungsten = 34
 	}
+
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = USA
+		add_core_of = USA
 	}
 	provinces = {
 		1789

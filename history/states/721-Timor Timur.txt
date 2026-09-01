@@ -4,9 +4,10 @@ state = {
 	name = "STATE_721"
 	manpower = 1
 	state_category = pastoral
+
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = INS
+		add_core_of = INS
 	}
 	provinces = {
 		1326

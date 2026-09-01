@@ -3,8 +3,8 @@ state = {
 	name = "STATE_2492"
 	state_category = rural
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = ZZZ
+		add_core_of = ZZZ
 	}
 	provinces = {
 		1237

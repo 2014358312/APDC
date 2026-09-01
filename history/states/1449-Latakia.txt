@@ -7,6 +7,7 @@ state = { #Population Done
 		victory_points = { 1088 10 }
 		victory_points = { 14685 4 }
 		owner = SYR
+		add_core_of = SYR
 		buildings = {
 			infrastructure = 3
 			1088 = {

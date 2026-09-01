@@ -4,9 +4,10 @@ state = {
 	resources = {
 		steel = 4
 	}
+
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = MEX
+		add_core_of = MEX
 	}
 	provinces = {
 		2037

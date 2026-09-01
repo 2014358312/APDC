@@ -16,4 +16,3 @@ set_popularities = {
 }
 
 APDC_set_economic_system_market_socialism = yes
-APDC_join_fifth_international_cooperation_organization = yes

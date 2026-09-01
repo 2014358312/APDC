@@ -2,16 +2,45 @@ capital = 279 # Santiago
 
 set_convoys = 50
 
+recruit_character = CHL_general_vallejo
+recruit_character = CHL_santiago_silva
+recruit_character = CHL_lautaro_fernandez
+recruit_character = CHL_dilan_lopez
+recruit_character = CHL_sebastian_rojas
+recruit_character = CHL_doctor_odes
+recruit_character = CHL_high_command
+recruit_character = CHL_lord_adolf_augusta
+recruit_character = CHL_hariel_utleier
+
 set_politics = {
-	ruling_party = liberalism
-	last_election = "2058.10.30"
-	election_frequency = 72  #but 4 years after this one in 1938.
-	elections_allowed = yes
+	ruling_party = fascism
+	last_election = "2058.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+promote_character = {
+	character = CHL_lord_adolf_augusta
+	ideology = fundamental_fascism
 }
 
 set_popularities = {
-	liberalism = 80
-	communism = 10
-	fascism = 7
-	dictatorship = 3
+	communism = 5
+	socialism = 5
+	social_democracy = 5
+	conservatism = 5
+	liberalism = 5
+	authoritarianism = 20
+	dictatorship = 15
+	fascism = 20
+	fundamentalism = 20
 }
+
+APDC_add_fascism_to_governing_coalition = yes
+APDC_add_authoritarianism_to_governing_coalition = yes
+APDC_add_fundamentalism_to_governing_coalition = yes
+APDC_add_dictatorship_to_governing_coalition = yes
+
+APDC_set_economic_system_state_capitalism = yes
+
+set_variable = { APDC_prime_minister_character = token:CHL_lord_adolf_augusta }

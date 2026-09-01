@@ -4,9 +4,10 @@ state = {
 	resources = {
 	
 	}
+
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = AST
+		add_core_of = AST
 	}
 	provinces = {
 		2221

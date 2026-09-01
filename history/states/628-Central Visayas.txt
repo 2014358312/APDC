@@ -9,13 +9,14 @@ state = { #Population Done
 		oil = 4
 	}
 
+
 	history = {
-		owner = RZE
+		owner = PRC
+		add_core_of = PRC
 		buildings = {
 			
 		}
 
-		add_core_of = RZE
 	}
 	manpower = 2
 	buildings_max_level_factor = 1.000

@@ -2,16 +2,33 @@ capital = 266 # Tehran
 
 set_convoys = 10
 
+recruit_character = PER_navid_jalali
+recruit_character = PER_kia_esfahani
+
 set_politics = {
-	ruling_party = dictatorship
+	ruling_party = authoritarianism
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	liberalism = 20
-	fascism = 15
-	communism = 5
-	dictatorship = 60
+promote_character = {
+	character = PER_navid_jalali
+	ideology = sharia_democracy
 }
+
+set_popularities = {
+	communism = 0
+	socialism = 0
+	social_democracy = 0
+	conservatism = 0
+	liberalism = 0
+	authoritarianism = 90
+	dictatorship = 10
+	fascism = 0
+	fundamentalism = 0
+}
+
+APDC_add_authoritarianism_to_governing_coalition = yes
+
+APDC_set_economic_system_state_capitalism = yes

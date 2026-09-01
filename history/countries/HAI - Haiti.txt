@@ -4,13 +4,42 @@ set_convoys = 5
 
 set_war_support = 0.1
 
+recruit_character = HAI_mirlande_dieudonne
+recruit_character = HAI_general_toussaint
+recruit_character = HAI_huey_laudor
+recruit_character = HAI_boss_henri
+recruit_character = HAI_kingpin_damballa
+recruit_character = HAI_shamar_ingel
+recruit_character = HAI_robert_ivan
+recruit_character = HAI_chef_ogun
+recruit_character = HAI_duvalier_iii
+
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = authoritarianism
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	liberalism = 100
+promote_character = {
+	character = HAI_shamar_ingel
+	ideology = transitional_government
 }
+
+set_popularities = {
+	communism = 9
+	socialism = 8
+	social_democracy = 4
+	conservatism = 15
+	liberalism = 15
+	authoritarianism = 12
+	dictatorship = 12
+	fascism = 15
+	fundamentalism = 10
+}
+
+APDC_add_authoritarianism_to_governing_coalition = yes
+APDC_add_dictatorship_to_governing_coalition = yes
+APDC_add_social_democracy_to_governing_coalition = yes
+
+APDC_set_economic_system_state_guided = yes

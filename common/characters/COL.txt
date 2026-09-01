@@ -1,0 +1,113 @@
+characters = {
+	COL_dylan_morales = {
+		name = COL_dylan_morales
+		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_8 } }
+		country_leader = {
+			ideology = orthodox_communism
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+
+	COL_martin_ruiz = {
+		name = COL_martin_ruiz
+		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_5 } }
+		country_leader = {
+			ideology = bolivarianism
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+
+	COL_hugo_perez = {
+		name = COL_hugo_perez
+		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_7 } }
+		country_leader = {
+			ideology = left_agrarianism
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+
+	COL_mateo_garcia = {
+		name = COL_mateo_garcia
+		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_3 } }
+		country_leader = {
+			ideology = liberal_corporatism
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+
+	COL_leo_rodriguez_liberalism = {
+		name = COL_leo_rodriguez_liberalism
+		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_1 } }
+		country_leader = {
+			ideology = liberal_conservatism
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+
+	COL_leo_rodriguez_authoritarianism = {
+		name = COL_leo_rodriguez_authoritarianism
+		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_1 } }
+		country_leader = {
+			ideology = non_dominant_system
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+
+	COL_mercenary_group = {
+		name = COL_mercenary_group
+		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_6 } }
+		country_leader = {
+			ideology = military_state
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+
+	COL_crocodile_bruno = {
+		name = COL_crocodile_bruno
+		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_4 } }
+		country_leader = {
+			ideology = criminal_state
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+
+	COL_santiago_fernando_lie = {
+		name = COL_santiago_fernando_lie
+		portraits = { civilian = { large = GFX_APDC_south_america_generic_political_male_2 } }
+		country_leader = {
+			ideology = mysticism
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+
+	COL_south_american_commander = {
+		name = COL_south_american_commander
+		corps_commander = {
+			traits = { }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+}

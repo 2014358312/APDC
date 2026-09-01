@@ -1,11 +1,40 @@
-APDC_is_fifth_international_cooperation_organization_member = {
-	has_country_flag = APDC_cooperation_organization_fifth_international_member
+APDC_is_cooperation_organization_container = {
+	has_country_flag = APDC_cooperation_organization_container
 }
 
 APDC_has_cooperation_organization = {
-	APDC_is_fifth_international_cooperation_organization_member = yes
+	has_variable = APDC_cooperation_organization_container
+	var:APDC_cooperation_organization_container = {
+		has_country_flag = APDC_cooperation_organization_container
+	}
 }
 
 APDC_has_no_cooperation_organization = {
 	NOT = { APDC_has_cooperation_organization = yes }
+}
+
+APDC_is_current_cooperation_organization_chair = {
+	APDC_has_cooperation_organization = yes
+	var:APDC_cooperation_organization_container = {
+		is_in_array = {
+			array = APDC_cooperation_organization_container_chair
+			value = PREV
+		}
+	}
+}
+
+# Compatibility triggers for old content. Membership identity now comes from
+# the container definition id rather than a dedicated per-organization flag.
+APDC_is_fifth_international_cooperation_organization_member = {
+	APDC_has_cooperation_organization = yes
+	var:APDC_cooperation_organization_container = {
+		check_variable = { APDC_cooperation_organization_definition_id = 1 }
+	}
+}
+
+APDC_is_international_rossartrism_cooperation_organization_member = {
+	APDC_has_cooperation_organization = yes
+	var:APDC_cooperation_organization_container = {
+		check_variable = { APDC_cooperation_organization_definition_id = 2 }
+	}
 }

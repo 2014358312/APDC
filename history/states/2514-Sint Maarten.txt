@@ -5,7 +5,8 @@ state = { #Population Done
 	state_category = tiny_island
 
 	history = {
-		owner = DOM
+		owner = AMZ
+		add_core_of = AMZ
 		buildings = {
 			infrastructure = 2
 			air_base = 1

@@ -1,4 +1,4 @@
-capital = 282 # Tokyo
+capital = 1654 # Valle del Cauca
 
 set_fuel_ratio = 1.0
 
@@ -10,16 +10,42 @@ set_stability = 0.2 # Was one of the countries in roughest internal shape at thi
 
 set_war_support = 0.6 # Was 0.8, but will make you have to scale up with Militarism a bit
 
+recruit_character = JAP_fuji_yuko
+recruit_character = JAP_kawaharagi_kiichi
+recruit_character = JAP_kotobuki_naruyuki
+recruit_character = JAP_toyokawa_naru
+recruit_character = JAP_tsurumaki_yuko
+recruit_character = JAP_yuzaki_chikusei
+recruit_character = JAP_iwanaga_kashiwa
+recruit_character = JAP_kamiki_takahisa
+recruit_character = JAP_katsuhisakura
+
 set_politics = {
-	ruling_party = dictatorship
+	ruling_party = conservatism
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-set_popularities = {
-	fascism = 35
-	dictatorship = 40
-	liberalism = 23
-	communism = 2
+promote_character = {
+	character = JAP_toyokawa_naru
+	ideology = oligarchic_liberalism
 }
+
+set_popularities = {
+	communism = 5
+	socialism = 1
+	social_democracy = 20
+	conservatism = 20
+	liberalism = 20
+	authoritarianism = 4
+	dictatorship = 20
+	fascism = 5
+	fundamentalism = 5
+}
+
+APDC_add_conservatism_to_governing_coalition = yes
+APDC_add_social_democracy_to_governing_coalition = yes
+APDC_add_dictatorship_to_governing_coalition = yes
+
+APDC_set_economic_system_free_market = yes

@@ -5,9 +5,10 @@ state = {
 		oil = 12
 		rubber = 8
 	}
+
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = INS
+		add_core_of = INS
 	}
 	provinces = {
 		4406

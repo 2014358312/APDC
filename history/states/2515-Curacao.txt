@@ -11,6 +11,7 @@ state = { #Population Done
 
 	history = {
 		owner = DOM
+		add_core_of = DOM
 		victory_points = { 19991 1 }
 		buildings = {
 			infrastructure = 3

@@ -3,16 +3,46 @@ capital = 1734 # Brussels
 set_war_support = 0.15
 set_stability = 0.7
 
+recruit_character = LLU_barend_roland
+recruit_character = LLU_dries_langbroek
+recruit_character = LLU_gerrit_gillet
+recruit_character = LLU_milan_verhagen
+recruit_character = LLU_maeve_dumoulin
+recruit_character = LLU_sophie_vanderbeek
+recruit_character = LLU_toon_overmans
+recruit_character = LLU_james_van_hoeff
+recruit_character = LLU_fairy
+
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = authoritarianism
 	last_election = "2059.6.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
-set_popularities = {
-	liberalism = 70
-	dictatorship = 15
-	fascism = 12
-	communism = 3
+promote_character = {
+	character = LLU_sophie_vanderbeek
+	ideology = broad_rossartrism
 }
+
+set_popularities = {
+	communism = 7
+	socialism = 3
+	social_democracy = 12
+	conservatism = 3
+	liberalism = 8
+	authoritarianism = 63
+	dictatorship = 2
+	fascism = 1
+	fundamentalism = 1
+}
+
+APDC_add_authoritarianism_to_governing_coalition = yes
+APDC_add_liberalism_to_governing_coalition = yes
+APDC_add_conservatism_to_governing_coalition = yes
+APDC_add_social_democracy_to_governing_coalition = yes
+
+APDC_set_economic_system_state_guided = yes
+
+set_variable = { APDC_prime_minister_character = token:LLU_tobias_verhagen }
+set_variable = { APDC_deputy_prime_minister_character = token:LLU_oliver_marchand }

@@ -3,6 +3,8 @@
 set_convoys = 5
 set_research_slots = 3 
 
+recruit_character = BUL_soviet_authority
+
 set_politics = { 
 	ruling_party = communism
 	last_election = "2058.6.21"
@@ -10,8 +12,13 @@ set_politics = {
 	elections_allowed = no
 }
 
+promote_character = {
+	character = BUL_soviet_authority
+	ideology = red_military_government
+}
+
 set_popularities = {
 	communism = 100
 }
 
-APDC_join_fifth_international_cooperation_organization = yes
+APDC_set_economic_system_dependent_economy = yes

@@ -1,0 +1,16 @@
+characters = {
+	GRE_dimitri_vanoufakis = {
+		name = GRE_dimitri_vanoufakis
+		portraits = {
+			civilian = {
+				large = GFX_APDC_europe_generic_political_male_8
+			}
+		}
+		country_leader = {
+			ideology = left_nationalism
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

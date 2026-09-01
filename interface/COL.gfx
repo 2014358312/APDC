@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_COL_mateo_garcia"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_male_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_COL_hugo_perez"
+		texturefile = "gfx/leaders/APDC/south_america/generic_political_male_7.dds"
+	}
+}

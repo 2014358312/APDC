@@ -7,6 +7,7 @@ state = { #Population Done
 
 	history = {
 		owner = USA
+		add_core_of = USA
 		victory_points = { 13014 5 }
 		buildings = {
 			infrastructure = 2

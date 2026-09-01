@@ -1,0 +1,16 @@
+characters = {
+	ROM_soviet_authority = {
+		name = ROM_soviet_authority
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ROM_soviet_authority
+			}
+		}
+		country_leader = {
+			ideology = red_military_government
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

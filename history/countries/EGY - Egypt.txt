@@ -2,16 +2,22 @@ capital = 446 # Cairo
 
 set_convoys = 20
 
+recruit_character = EGY_amr_fahmy
+
 set_politics = {
-	ruling_party = dictatorship
+	ruling_party = socialism
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	liberalism = 25
-	fascism = 20
-	communism = 5
-	dictatorship = 50
+promote_character = {
+	character = EGY_amr_fahmy
+	ideology = left_revivalism
 }
+
+set_popularities = {
+	socialism = 100
+}
+
+APDC_set_economic_system_market_socialism = yes

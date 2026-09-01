@@ -6,8 +6,8 @@ state = {
 	}
 	state_category = rural
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = ZZZ
+		add_core_of = ZZZ
 		add_core_of = FRA
 	}
 	provinces = {

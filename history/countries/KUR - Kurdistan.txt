@@ -2,16 +2,22 @@ capital = 352 # Van
 
 set_research_slots = 2
 
+recruit_character = KUR_azad_barzani
+
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = socialism
 	last_election = "2058.2.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-set_popularities = {
-	liberalism = 40
-	communism = 25
-	fascism = 30
-	dictatorship = 5
+promote_character = {
+	character = KUR_azad_barzani
+	ideology = left_nationalism
 }
+
+set_popularities = {
+	socialism = 100
+}
+
+APDC_set_economic_system_market_socialism = yes

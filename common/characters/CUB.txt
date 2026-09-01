@@ -1,0 +1,16 @@
+characters = {
+	CUB_alejandro_hernandez = {
+		name = CUB_alejandro_hernandez
+		portraits = {
+			civilian = {
+				large = GFX_APDC_south_america_generic_political_male_8
+			}
+		}
+		country_leader = {
+			ideology = bolivarianism
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

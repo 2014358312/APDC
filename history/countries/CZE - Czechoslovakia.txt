@@ -2,6 +2,8 @@
 
 set_research_slots = 3
 
+recruit_character = CZE_soviet_authority
+
 set_politics = {
 	ruling_party = communism
 	last_election = "2059.5.19"
@@ -9,8 +11,13 @@ set_politics = {
 	elections_allowed = yes
 }
 
+promote_character = {
+	character = CZE_soviet_authority
+	ideology = red_military_government
+}
+
 set_popularities = {
 	communism = 100
 }
 
-APDC_join_fifth_international_cooperation_organization = yes
+APDC_set_economic_system_dependent_economy = yes

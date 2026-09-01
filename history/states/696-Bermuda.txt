@@ -6,6 +6,7 @@ state = { #Population Done
 
 	history = {
 		owner = USA
+		add_core_of = USA
 		add_claim_by = ENG
 		add_core_of = BRM
 		buildings = {

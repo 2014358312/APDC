@@ -1,0 +1,16 @@
+characters = {
+	HUN_soviet_authority = {
+		name = HUN_soviet_authority
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HUN_soviet_authority
+			}
+		}
+		country_leader = {
+			ideology = red_military_government
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

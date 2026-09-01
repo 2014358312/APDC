@@ -54,3 +54,21 @@ set_war_support = 0.5
 2347 = { set_demilitarized_zone = yes }
 2366 = { set_demilitarized_zone = yes }
 2437 = { set_demilitarized_zone = yes }
+
+# 原红区开局非军事区
+623 = { set_demilitarized_zone = yes }
+624 = { set_demilitarized_zone = yes }
+625 = { set_demilitarized_zone = yes }
+626 = { set_demilitarized_zone = yes }
+627 = { set_demilitarized_zone = yes }
+628 = { set_demilitarized_zone = yes }
+1455 = { set_demilitarized_zone = yes }
+1456 = { set_demilitarized_zone = yes }
+1457 = { set_demilitarized_zone = yes }
+1458 = { set_demilitarized_zone = yes }
+1459 = { set_demilitarized_zone = yes }
+1460 = { set_demilitarized_zone = yes }
+1461 = { set_demilitarized_zone = yes }
+1462 = { set_demilitarized_zone = yes }
+1463 = { set_demilitarized_zone = yes }
+2324 = { set_demilitarized_zone = yes }

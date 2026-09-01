@@ -4,17 +4,37 @@ set_research_slots = 3
 
 set_convoys = 10
 
+recruit_character = YUG_walter_markovic
+recruit_character = YUG_filip_josic
+recruit_character = YUG_petar_vlajkovic
+
 set_politics = {
-	ruling_party = dictatorship
+	ruling_party = socialism
 	last_election = "2059.5.3"
 	election_frequency = 36
-	elections_allowed = yes
-}
-set_popularities = {
-	liberalism = 15
-	fascism = 10
-	communism = 15
-	dictatorship = 60
+	elections_allowed = no
 }
 
-APDC_join_fifth_international_cooperation_organization = yes
+promote_character = {
+	character = YUG_walter_markovic
+	ideology = left_nationalism
+}
+
+set_popularities = {
+	communism = 0
+	socialism = 100
+	social_democracy = 0
+	conservatism = 0
+	liberalism = 0
+	authoritarianism = 0
+	dictatorship = 0
+	fascism = 0
+	fundamentalism = 0
+}
+
+APDC_add_socialism_to_governing_coalition = yes
+
+APDC_set_economic_system_market_socialism = yes
+
+set_variable = { APDC_prime_minister_character = token:YUG_filip_josic }
+set_variable = { APDC_deputy_prime_minister_character = token:YUG_petar_vlajkovic }

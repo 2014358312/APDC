@@ -2,6 +2,17 @@ capital = 306 # Special District of Bogota
 
 set_convoys = 5
 
+recruit_character = COL_dylan_morales
+recruit_character = COL_martin_ruiz
+recruit_character = COL_hugo_perez
+recruit_character = COL_mateo_garcia
+recruit_character = COL_leo_rodriguez_liberalism
+recruit_character = COL_leo_rodriguez_authoritarianism
+recruit_character = COL_mercenary_group
+recruit_character = COL_crocodile_bruno
+recruit_character = COL_santiago_fernando_lie
+recruit_character = COL_south_american_commander
+
 set_politics = {
 	ruling_party = liberalism
 	last_election = "2058.2.11"
@@ -9,7 +20,28 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_popularities = {
-	liberalism = 99
-	communism = 1
+promote_character = {
+	character = COL_leo_rodriguez_liberalism
+	ideology = liberal_conservatism
 }
+
+set_popularities = {
+	communism = 12
+	socialism = 12
+	social_democracy = 9
+	conservatism = 10
+	liberalism = 12
+	authoritarianism = 0
+	dictatorship = 16
+	fascism = 15
+	fundamentalism = 14
+}
+
+APDC_add_liberalism_to_governing_coalition = yes
+APDC_add_conservatism_to_governing_coalition = yes
+APDC_add_social_democracy_to_governing_coalition = yes
+
+APDC_set_economic_system_free_market = yes
+
+set_variable = { APDC_prime_minister_character = token:COL_mateo_garcia }
+set_variable = { APDC_deputy_prime_minister_character = token:COL_hugo_perez }

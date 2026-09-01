@@ -3,14 +3,15 @@ state = { #Population Done
 	name = "STATE_625"
 	manpower = 2
 	state_category = rural
+
 	history = {
-		owner = RZE
+		owner = PRC
+		add_core_of = PRC
 		buildings = {
 
 			
 		}
 
-		add_core_of = RZE
 	}
 	provinces = {
 		1224 1311 1340 4269 4373 14728

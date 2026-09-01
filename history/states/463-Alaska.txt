@@ -3,7 +3,7 @@ state = {
 	name = "STATE_463"
 
 	history = {
-		owner = USB
+		owner = ALS
 		buildings = {
 			infrastructure = 2
 			air_base = 5
@@ -16,7 +16,7 @@ state = {
 			}
 		}
 		add_core_of = USA
-		add_core_of = USB
+		add_core_of = ALS
 		victory_points = { # Anchorage
 			13091 15
 		}

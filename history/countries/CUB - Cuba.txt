@@ -4,14 +4,22 @@ set_convoys = 20
 
 set_war_support = 0.1
 
+recruit_character = CUB_alejandro_hernandez
+
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = socialism
 	last_election = "2058.1.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-set_popularities = {
-	liberalism = 98
-	communism = 2
+promote_character = {
+	character = CUB_alejandro_hernandez
+	ideology = bolivarianism
 }
+
+set_popularities = {
+	socialism = 100
+}
+
+APDC_set_economic_system_decentralized_planning = yes

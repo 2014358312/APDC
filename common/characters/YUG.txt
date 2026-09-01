@@ -1,0 +1,22 @@
+characters = {
+	YUG_walter_markovic = {
+		name = YUG_walter_markovic
+		portraits = { civilian = { large = GFX_APDC_europe_generic_political_male_7 } }
+		country_leader = {
+			ideology = left_nationalism
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+
+	YUG_filip_josic = {
+		name = YUG_filip_josic
+		portraits = { civilian = { large = GFX_APDC_europe_generic_political_male_6 } }
+	}
+
+	YUG_petar_vlajkovic = {
+		name = YUG_petar_vlajkovic
+		portraits = { civilian = { large = GFX_APDC_europe_generic_political_male_8 } }
+	}
+}

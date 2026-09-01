@@ -12,12 +12,15 @@ scripted_gui = {
 
 		effects = {
 			APDC_cooperation_organization_entry_button_click = {
-				APDC_initialize_cooperation_legislation = yes
-				APDC_repair_cooperation_timer_daily_rate = yes
-				APDC_refresh_fifth_international_cooperation_scope_arrays = yes
-				# Opening or reopening the panel always starts on tab 1.
-				set_variable = { APDC_cooperation_organization_selected_tab = 1 }
-				APDC_load_cooperation_law_tab_1 = yes
+				if = {
+					limit = { APDC_has_cooperation_organization = yes }
+					APDC_initialize_cooperation_legislation = yes
+					APDC_repair_cooperation_timer_daily_rate = yes
+					APDC_sync_cooperation_organization_member_view = yes
+					# Opening or reopening the panel always starts on tab 1.
+					set_variable = { APDC_cooperation_organization_selected_tab = 1 }
+					APDC_load_cooperation_law_tab_1 = yes
+				}
 			}
 		}
 
@@ -32,6 +35,7 @@ scripted_gui = {
 
 		visible = {
 			has_variable = APDC_cooperation_organization_selected_tab
+			APDC_has_cooperation_organization = yes
 		}
 
 		properties = {
@@ -69,135 +73,138 @@ scripted_gui = {
 			APDC_cooperation_organization_tab_4_active_visible = { check_variable = { APDC_cooperation_organization_selected_tab = 4 } }
 			APDC_cooperation_organization_tab_5_active_visible = { check_variable = { APDC_cooperation_organization_selected_tab = 5 } }
 
-			APDC_cooperation_current_law_idle_visible = { check_variable = { global.APDC_cooperation_vote_state = 0 } }
-			APDC_cooperation_current_law_recess_visible = { check_variable = { global.APDC_cooperation_vote_state = 2 } }
-			APDC_cooperation_recess_days_visible = { check_variable = { global.APDC_cooperation_vote_state = 2 } }
-			APDC_cooperation_current_law_group_visible = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
-			APDC_cooperation_current_law_option_visible = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
-			APDC_cooperation_current_law_effect_heading_visible = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
-			APDC_cooperation_current_law_effect_visible = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
-			APDC_cooperation_current_law_days_visible = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_current_law_idle_visible = { check_variable = { APDC_cooperation_vote_state = 0 } }
+			APDC_cooperation_current_law_recess_visible = { check_variable = { APDC_cooperation_vote_state = 2 } }
+			APDC_cooperation_recess_days_visible = { check_variable = { APDC_cooperation_vote_state = 2 } }
+			APDC_cooperation_current_law_group_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_current_law_option_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_current_law_effect_heading_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_current_law_effect_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_current_law_days_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
 			APDC_cooperation_current_law_result_pass_visible = {
-				check_variable = { global.APDC_cooperation_vote_state = 1 }
-				check_variable = { global.APDC_cooperation_vote_supporters^num > global.APDC_cooperation_vote_vetoers^num }
+				check_variable = { APDC_cooperation_vote_state = 1 }
+				check_variable = { APDC_cooperation_vote_supporters^num > APDC_cooperation_vote_vetoers^num }
 			}
 			APDC_cooperation_current_law_result_fail_visible = {
-				check_variable = { global.APDC_cooperation_vote_state = 1 }
-				NOT = { check_variable = { global.APDC_cooperation_vote_supporters^num > global.APDC_cooperation_vote_vetoers^num } }
+				check_variable = { APDC_cooperation_vote_state = 1 }
+				NOT = { check_variable = { APDC_cooperation_vote_supporters^num > APDC_cooperation_vote_vetoers^num } }
 			}
 
-			APDC_cooperation_vote_support_button_visible = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
-			APDC_cooperation_vote_abstain_button_visible = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
-			APDC_cooperation_vote_veto_button_visible = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
-			APDC_cooperation_vote_support_count_visible = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
-			APDC_cooperation_vote_abstain_count_visible = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
-			APDC_cooperation_vote_veto_count_visible = { check_variable = { global.APDC_cooperation_vote_state = 1 } }
-			APDC_cooperation_vote_support_button_click_enabled = { APDC_is_fifth_international_cooperation_organization_member = yes }
-			APDC_cooperation_vote_abstain_button_click_enabled = { APDC_is_fifth_international_cooperation_organization_member = yes }
-			APDC_cooperation_vote_veto_button_click_enabled = { APDC_is_fifth_international_cooperation_organization_member = yes }
+			APDC_cooperation_vote_support_button_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_vote_abstain_button_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_vote_veto_button_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_vote_support_scroll_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_vote_abstain_scroll_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_vote_veto_scroll_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_vote_support_count_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_vote_abstain_count_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_vote_veto_count_visible = { check_variable = { APDC_cooperation_vote_state = 1 } }
+			APDC_cooperation_vote_support_button_click_enabled = { APDC_has_cooperation_organization = yes }
+			APDC_cooperation_vote_abstain_button_click_enabled = { APDC_has_cooperation_organization = yes }
+			APDC_cooperation_vote_veto_button_click_enabled = { APDC_has_cooperation_organization = yes }
 
 			# Option 1 always exists for a real group.
 			APDC_cooperation_law_option_1_available_visible = {
-				APDC_is_fifth_international_cooperation_organization_member = yes
-				NOT = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 1 } }
-				check_variable = { global.APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
-				check_variable = { global.APDC_cooperation_law_option_1_available^APDC_cooperation_law_group_id = 1 }
+				APDC_has_cooperation_organization = yes
+				NOT = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 1 } }
+				check_variable = { APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
+				check_variable = { APDC_cooperation_law_option_1_available^APDC_cooperation_law_group_id = 1 }
 			}
-			APDC_cooperation_law_option_1_selected_visible = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 1 } }
+			APDC_cooperation_law_option_1_selected_visible = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 1 } }
 			APDC_cooperation_law_option_1_unavailable_visible = {
-				NOT = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 1 } }
+				NOT = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 1 } }
 				OR = {
-					APDC_is_fifth_international_cooperation_organization_member = no
-					NOT = { check_variable = { global.APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 } }
-					NOT = { check_variable = { global.APDC_cooperation_law_option_1_available^APDC_cooperation_law_group_id = 1 } }
+					APDC_has_cooperation_organization = no
+					NOT = { check_variable = { APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 } }
+					NOT = { check_variable = { APDC_cooperation_law_option_1_available^APDC_cooperation_law_group_id = 1 } }
 				}
 			}
 			APDC_cooperation_law_option_1_button_click_enabled = {
-				APDC_is_fifth_international_cooperation_organization_member = yes
-				NOT = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 1 } }
-				check_variable = { global.APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
-				check_variable = { global.APDC_cooperation_law_option_1_available^APDC_cooperation_law_group_id = 1 }
+				APDC_has_cooperation_organization = yes
+				NOT = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 1 } }
+				check_variable = { APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
+				check_variable = { APDC_cooperation_law_option_1_available^APDC_cooperation_law_group_id = 1 }
 			}
 
-			APDC_cooperation_law_option_2_selected_visible = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 2 } }
+			APDC_cooperation_law_option_2_selected_visible = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 2 } }
 			APDC_cooperation_law_option_2_unavailable_visible = {
-				check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 1 }
-				NOT = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 2 } }
+				check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 1 }
+				NOT = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 2 } }
 				OR = {
-					APDC_is_fifth_international_cooperation_organization_member = no
-					NOT = { check_variable = { global.APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 } }
-					NOT = { check_variable = { global.APDC_cooperation_law_option_2_available^APDC_cooperation_law_group_id = 1 } }
+					APDC_has_cooperation_organization = no
+					NOT = { check_variable = { APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 } }
+					NOT = { check_variable = { APDC_cooperation_law_option_2_available^APDC_cooperation_law_group_id = 1 } }
 				}
 			}
 			APDC_cooperation_law_option_2_available_visible = {
-				APDC_is_fifth_international_cooperation_organization_member = yes
-				check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 1 }
-				NOT = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 2 } }
-				check_variable = { global.APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
-				check_variable = { global.APDC_cooperation_law_option_2_available^APDC_cooperation_law_group_id = 1 }
+				APDC_has_cooperation_organization = yes
+				check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 1 }
+				NOT = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 2 } }
+				check_variable = { APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
+				check_variable = { APDC_cooperation_law_option_2_available^APDC_cooperation_law_group_id = 1 }
 			}
-			APDC_cooperation_law_option_2_button_visible = { check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 1 } }
-			APDC_cooperation_law_option_2_name_visible = { check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 1 } }
+			APDC_cooperation_law_option_2_button_visible = { check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 1 } }
+			APDC_cooperation_law_option_2_name_visible = { check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 1 } }
 			APDC_cooperation_law_option_2_button_click_enabled = {
-				APDC_is_fifth_international_cooperation_organization_member = yes
-				check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 1 }
-				NOT = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 2 } }
-				check_variable = { global.APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
-				check_variable = { global.APDC_cooperation_law_option_2_available^APDC_cooperation_law_group_id = 1 }
+				APDC_has_cooperation_organization = yes
+				check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 1 }
+				NOT = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 2 } }
+				check_variable = { APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
+				check_variable = { APDC_cooperation_law_option_2_available^APDC_cooperation_law_group_id = 1 }
 			}
 
 			APDC_cooperation_law_option_3_available_visible = {
-				APDC_is_fifth_international_cooperation_organization_member = yes
-				check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 2 }
-				NOT = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 3 } }
-				check_variable = { global.APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
-				check_variable = { global.APDC_cooperation_law_option_3_available^APDC_cooperation_law_group_id = 1 }
+				APDC_has_cooperation_organization = yes
+				check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 2 }
+				NOT = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 3 } }
+				check_variable = { APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
+				check_variable = { APDC_cooperation_law_option_3_available^APDC_cooperation_law_group_id = 1 }
 			}
-			APDC_cooperation_law_option_3_selected_visible = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 3 } }
+			APDC_cooperation_law_option_3_selected_visible = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 3 } }
 			APDC_cooperation_law_option_3_unavailable_visible = {
-				check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 2 }
-				NOT = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 3 } }
+				check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 2 }
+				NOT = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 3 } }
 				OR = {
-					APDC_is_fifth_international_cooperation_organization_member = no
-					NOT = { check_variable = { global.APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 } }
-					NOT = { check_variable = { global.APDC_cooperation_law_option_3_available^APDC_cooperation_law_group_id = 1 } }
+					APDC_has_cooperation_organization = no
+					NOT = { check_variable = { APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 } }
+					NOT = { check_variable = { APDC_cooperation_law_option_3_available^APDC_cooperation_law_group_id = 1 } }
 				}
 			}
-			APDC_cooperation_law_option_3_button_visible = { check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 2 } }
-			APDC_cooperation_law_option_3_name_visible = { check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 2 } }
+			APDC_cooperation_law_option_3_button_visible = { check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 2 } }
+			APDC_cooperation_law_option_3_name_visible = { check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 2 } }
 			APDC_cooperation_law_option_3_button_click_enabled = {
-				APDC_is_fifth_international_cooperation_organization_member = yes
-				check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 2 }
-				NOT = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 3 } }
-				check_variable = { global.APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
-				check_variable = { global.APDC_cooperation_law_option_3_available^APDC_cooperation_law_group_id = 1 }
+				APDC_has_cooperation_organization = yes
+				check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 2 }
+				NOT = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 3 } }
+				check_variable = { APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
+				check_variable = { APDC_cooperation_law_option_3_available^APDC_cooperation_law_group_id = 1 }
 			}
 
 			APDC_cooperation_law_option_4_available_visible = {
-				APDC_is_fifth_international_cooperation_organization_member = yes
-				check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 3 }
-				NOT = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 4 } }
-				check_variable = { global.APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
-				check_variable = { global.APDC_cooperation_law_option_4_available^APDC_cooperation_law_group_id = 1 }
+				APDC_has_cooperation_organization = yes
+				check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 3 }
+				NOT = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 4 } }
+				check_variable = { APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
+				check_variable = { APDC_cooperation_law_option_4_available^APDC_cooperation_law_group_id = 1 }
 			}
-			APDC_cooperation_law_option_4_selected_visible = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 4 } }
+			APDC_cooperation_law_option_4_selected_visible = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 4 } }
 			APDC_cooperation_law_option_4_unavailable_visible = {
-				check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 3 }
-				NOT = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 4 } }
+				check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 3 }
+				NOT = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 4 } }
 				OR = {
-					APDC_is_fifth_international_cooperation_organization_member = no
-					NOT = { check_variable = { global.APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 } }
-					NOT = { check_variable = { global.APDC_cooperation_law_option_4_available^APDC_cooperation_law_group_id = 1 } }
+					APDC_has_cooperation_organization = no
+					NOT = { check_variable = { APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 } }
+					NOT = { check_variable = { APDC_cooperation_law_option_4_available^APDC_cooperation_law_group_id = 1 } }
 				}
 			}
-			APDC_cooperation_law_option_4_button_visible = { check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 3 } }
-			APDC_cooperation_law_option_4_name_visible = { check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 3 } }
+			APDC_cooperation_law_option_4_button_visible = { check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 3 } }
+			APDC_cooperation_law_option_4_name_visible = { check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 3 } }
 			APDC_cooperation_law_option_4_button_click_enabled = {
-				APDC_is_fifth_international_cooperation_organization_member = yes
-				check_variable = { global.APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 3 }
-				NOT = { check_variable = { global.APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 4 } }
-				check_variable = { global.APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
-				check_variable = { global.APDC_cooperation_law_option_4_available^APDC_cooperation_law_group_id = 1 }
+				APDC_has_cooperation_organization = yes
+				check_variable = { APDC_cooperation_law_option_counts^APDC_cooperation_law_group_id > 3 }
+				NOT = { check_variable = { APDC_cooperation_law_selected_options^APDC_cooperation_law_group_id = 4 } }
+				check_variable = { APDC_cooperation_law_group_locks^APDC_cooperation_law_group_id = 0 }
+				check_variable = { APDC_cooperation_law_option_4_available^APDC_cooperation_law_group_id = 1 }
 			}
 		}
 
@@ -224,40 +231,40 @@ scripted_gui = {
 
 		dynamic_lists = {
 			APDC_cooperation_organization_chair_list = {
-				array = global.APDC_fifth_international_cooperation_chair
+				array = APDC_cooperation_organization_display_chair
 				change_scope = yes
 				country_scope_entry_container = "APDC_cooperation_organization_chair_entry"
 			}
 			APDC_cooperation_organization_member_list = {
-				array = global.APDC_fifth_international_cooperation_members
+				array = APDC_cooperation_organization_display_members
 				change_scope = yes
 				country_scope_entry_container = "APDC_cooperation_organization_member_entry"
 			}
 			APDC_cooperation_law_group_list = {
 				# Per-country display data keeps different players' selected tabs
-				# independent; the enacted-law and ballot state remains global.
+				# independent; the authoritative state remains in the container.
 				array = APDC_cooperation_visible_law_groups
 				value = APDC_cooperation_law_group_id
 				entry_container = "APDC_cooperation_law_group_entry"
 			}
 			APDC_cooperation_law_queue_list = {
-				array = global.APDC_cooperation_law_queue_groups
+				array = APDC_cooperation_law_queue_groups
 				value = APDC_cooperation_queue_group_id
 				index = APDC_cooperation_queue_index
 				entry_container = "APDC_cooperation_law_queue_entry"
 			}
 			APDC_cooperation_vote_support_list = {
-				array = global.APDC_cooperation_vote_supporters
+				array = APDC_cooperation_vote_supporters
 				change_scope = yes
 				country_scope_entry_container = "APDC_cooperation_vote_member_entry"
 			}
 			APDC_cooperation_vote_abstain_list = {
-				array = global.APDC_cooperation_vote_abstainers
+				array = APDC_cooperation_vote_abstainers
 				change_scope = yes
 				country_scope_entry_container = "APDC_cooperation_vote_member_entry"
 			}
 			APDC_cooperation_vote_veto_list = {
-				array = global.APDC_cooperation_vote_vetoers
+				array = APDC_cooperation_vote_vetoers
 				change_scope = yes
 				country_scope_entry_container = "APDC_cooperation_vote_member_entry"
 			}

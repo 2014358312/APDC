@@ -2,9 +2,10 @@ state = {
 	#Population + VPs Done
 	id = 824
 	name = "STATE_824"
+
 	history = {
-		owner = RZE
-		add_core_of = RZE
+		owner = INS
+		add_core_of = INS
 	}
 	provinces = {
 		1419

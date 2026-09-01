@@ -1,6 +1,7 @@
 ideologies = {
 	communism = {
 		types = {
+			orthodox_communism = { can_be_randomly_selected = no }
 			red_military_government = { }
 			left_eurasianism = { can_be_randomly_selected = no }
 			neo_strasserism = { can_be_randomly_selected = no }
@@ -50,9 +51,10 @@ ideologies = {
 	}
 
 	socialism = {
-		types = {
-			anarcho_technocracy = { can_be_randomly_selected = no }
-			christian_socialism = { }
+			types = {
+				anarcho_technocracy = { can_be_randomly_selected = no }
+				bolivarianism = { can_be_randomly_selected = no }
+				christian_socialism = { }
 			left_nationalism = { }
 			left_revivalism = { can_be_randomly_selected = no }
 			market_socialism = { }
@@ -104,10 +106,12 @@ ideologies = {
 	}
 
 	social_democracy = {
-		types = {
+			types = {
 			frontier_progressivism = { }
 			left_populism = { }
 			democratic_socialism = { }
+			humanitarian_capitalism = { can_be_randomly_selected = no }
+			christian_social_democracy = { can_be_randomly_selected = no }
 			left_agrarianism = { }
 			great_plains_rossartrism = { can_be_randomly_selected = no }
 		}
@@ -163,6 +167,8 @@ ideologies = {
 	conservatism = {
 		types = {
 			populist_conservatism = { }
+			middle_way = { can_be_randomly_selected = no }
+			traditional_patriotism = { can_be_randomly_selected = no }
 			right_revivalism = { can_be_randomly_selected = no }
 			oligarchic_liberalism = { }
 			liberal_corporatism = { }
@@ -277,9 +283,14 @@ ideologies = {
 		types = {
 			constitutional_rossartrism = { can_be_randomly_selected = no }
 			persian_rossartrism = { can_be_randomly_selected = no }
+			south_american_rossartrism = { can_be_randomly_selected = no }
+			broad_rossartrism = { can_be_randomly_selected = no }
 			corporate_council = { }
 			non_dominant_system = { }
+			co_governance = { }
 			guardian_authoritarianism = { can_be_randomly_selected = no }
+			sharia_democracy = { can_be_randomly_selected = no }
+			transitional_government = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -325,12 +336,12 @@ ideologies = {
 			absolute_monarchy = { }
 			theocracy = { }
 			military_state = { }
-			transitional_government = { }
 			military_junta = { }
 			right_technocracy = { }
 			command_technocracy = { can_be_randomly_selected = no }
 			party_rossartrism = { can_be_randomly_selected = no }
 			guided_democracy = { }
+			league_authority_rossartrism = { can_be_randomly_selected = no }
 			national_authoritarian_integralism = { can_be_randomly_selected = no }
 		}
 
@@ -380,7 +391,6 @@ ideologies = {
 			extreme_militarism = { }
 			military_political_fascism = { }
 			criminal_state = { }
-			co_governance = { }
 		}
 
 		dynamic_faction_names = {

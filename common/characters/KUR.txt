@@ -1,0 +1,16 @@
+characters = {
+	KUR_azad_barzani = {
+		name = KUR_azad_barzani
+		portraits = {
+			civilian = {
+				large = GFX_APDC_middle_east_generic_political_male_1
+			}
+		}
+		country_leader = {
+			ideology = left_nationalism
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

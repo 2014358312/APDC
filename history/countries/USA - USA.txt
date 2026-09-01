@@ -7,18 +7,70 @@ set_stability = 0.75
 set_war_support = 0
 add_command_power = 20
 
+recruit_character = USA_stella_bloor
+recruit_character = USA_joshua_ignatius
+recruit_character = USA_matthew_gridley
+recruit_character = USA_ladell_mccauley
+recruit_character = USA_jasmine_walden
+recruit_character = USA_robert_hampton
+recruit_character = USA_sheldon_perry
+recruit_character = USA_benjamin_levinsky
+recruit_character = USA_gabriel_clement
+recruit_character = USA_theodore_hammond
+
 set_politics = {
-	ruling_party = liberalism
-	last_election = "2059.11.8"
+	ruling_party = authoritarianism
+	last_election = "2058.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
+
+promote_character = {
+	character = USA_robert_hampton
+	ideology = constitutional_rossartrism
+}
+
 set_popularities = {
-	liberalism = 99
-	communism = 1
+	communism = 0
+	socialism = 2
+	social_democracy = 11
+	conservatism = 6
+	liberalism = 6
+	authoritarianism = 42
+	dictatorship = 32
+	fascism = 1
+	fundamentalism = 0
 }
+
+APDC_add_authoritarianism_to_governing_coalition = yes
+APDC_add_dictatorship_to_governing_coalition = yes
+APDC_add_social_democracy_to_governing_coalition = yes
+APDC_add_liberalism_to_governing_coalition = yes
+APDC_add_conservatism_to_governing_coalition = yes
+
+APDC_set_economic_system_state_guided = yes
+
+set_variable = { APDC_prime_minister_character = token:USA_theodore_hammond }
+set_variable = { APDC_deputy_prime_minister_character = token:USA_sheldon_perry }
 
 set_autonomy = {
 	target = AMZ
 	autonomy_state = autonomy_dominion
 }
+
+set_autonomy = {
+	target = HAI
+	autonomy_state = autonomy_dominion
+}
+
+# 原红区开局非军事区
+101 = { set_demilitarized_zone = yes }
+376 = { set_demilitarized_zone = yes }
+381 = { set_demilitarized_zone = yes }
+382 = { set_demilitarized_zone = yes }
+387 = { set_demilitarized_zone = yes }
+388 = { set_demilitarized_zone = yes }
+467 = { set_demilitarized_zone = yes }
+739 = { set_demilitarized_zone = yes }
+1432 = { set_demilitarized_zone = yes }
+2470 = { set_demilitarized_zone = yes }

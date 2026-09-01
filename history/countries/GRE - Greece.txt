@@ -1,18 +1,25 @@
 capital = 1262 #雅典
 
+recruit_character = GRE_dimitri_vanoufakis
+
 set_politics = {
-	ruling_party = communism
+	ruling_party = socialism
 	last_election = "2058.6.9"
 	election_frequency = 7
 	elections_allowed = yes 
 }
+
+promote_character = {
+	character = GRE_dimitri_vanoufakis
+	ideology = left_nationalism
+}
+
 set_popularities = {
-	liberalism = 23
-	fascism = 2
-	communism = 57
-	dictatorship = 18
+	socialism = 100
 }
 
 set_stability = 0.72
 set_war_support = 0.23
 set_convoys = 80
+
+APDC_set_economic_system_market_socialism = yes

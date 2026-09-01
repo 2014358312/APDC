@@ -1,0 +1,16 @@
+characters = {
+	EGY_amr_fahmy = {
+		name = EGY_amr_fahmy
+		portraits = {
+			civilian = {
+				large = GFX_APDC_middle_east_generic_political_male_1
+			}
+		}
+		country_leader = {
+			ideology = left_revivalism
+			traits = { }
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

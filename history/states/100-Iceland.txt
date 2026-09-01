@@ -5,9 +5,9 @@ state = {
 	manpower = 1
 	state_category = town
 	history = {
-		owner = RZE
+		owner = ZZZ
+		add_core_of = ZZZ
 
-		add_core_of = RZE
 	}
 	provinces = {
 		4861

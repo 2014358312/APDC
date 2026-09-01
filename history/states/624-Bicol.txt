@@ -5,12 +5,13 @@ state = { #Population Done
 		1372 4228 4377 7307 12279 14717 14727
 	}
 	state_category = town
+
 	history = {
-		owner = RZE
+		owner = PRC
+		add_core_of = PRC
 		buildings = {
 			
 		}
-		add_core_of = RZE
 	}
 	manpower = 2
 	buildings_max_level_factor = 1.000

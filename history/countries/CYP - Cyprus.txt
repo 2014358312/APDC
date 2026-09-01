@@ -2,16 +2,22 @@ capital = 2322 # Southern Nicosia
 
 set_convoys = 5
 
+recruit_character = CYP_andreas_christofides
+
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = socialism
 	last_election = "2058.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-set_popularities = {
-	liberalism = 50
-	fascism = 8
-	communism = 15
-	dictatorship = 27
+promote_character = {
+	character = CYP_andreas_christofides
+	ideology = left_nationalism
 }
+
+set_popularities = {
+	socialism = 100
+}
+
+APDC_set_economic_system_market_socialism = yes

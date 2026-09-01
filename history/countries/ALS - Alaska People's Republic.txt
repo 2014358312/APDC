@@ -1,0 +1,40 @@
+capital = 463 # Alaska
+
+set_research_slots = 3
+set_convoys = 400
+set_stability = 0.75
+set_war_support = 0.5
+
+recruit_character = ALS_nicholas_winfrey
+recruit_character = ALS_donglin_canterbury
+recruit_character = ALS_zachary_fisher
+recruit_character = ALS_raymond_uxbridge
+recruit_character = ALS_rosalind_owena
+recruit_character = ALS_barron_mccormick
+recruit_character = ALS_chloe_kipling
+recruit_character = ALS_enzo_chevalier
+recruit_character = ALS_harper_argentoni
+recruit_character = ALS_elyssa_marion
+recruit_character = ALS_roman_filipazzi
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2058.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+promote_character = {
+	character = ALS_nicholas_winfrey
+	ideology = frontier_communism
+}
+
+set_popularities = {
+	communism = 100
+}
+
+APDC_add_communism_to_governing_coalition = yes
+APDC_set_economic_system_central_planning = yes
+
+set_variable = { APDC_prime_minister_character = token:ALS_elyssa_marion }
+set_variable = { APDC_deputy_prime_minister_character = token:ALS_roman_filipazzi }

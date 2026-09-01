@@ -6,16 +6,49 @@ set_stability = 0.2
 
 set_war_support = 0.1
 
+recruit_character = MEX_enrique_huerta
+recruit_character = MEX_patricia_merino
+recruit_character = MEX_ernesto_barrios
+recruit_character = MEX_ricardo_valero
+recruit_character = MEX_rosario_pacheco
+recruit_character = MEX_hector_mendoza
+recruit_character = MEX_raul_delgado
+recruit_character = MEX_golden_hand_diaz
+recruit_character = MEX_armando_garcia
+
 set_politics = {
-	ruling_party = dictatorship
-	last_election = "2058.7.1"
-	election_frequency = 72
-	elections_allowed = yes
+	ruling_party = authoritarianism
+	last_election = "2058.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+promote_character = {
+	character = MEX_hector_mendoza
+	ideology = co_governance
 }
 
 set_popularities = {
-	liberalism = 18
-	fascism = 20
 	communism = 9
-	dictatorship = 53
+	socialism = 6
+	social_democracy = 10
+	conservatism = 10
+	liberalism = 13
+	authoritarianism = 26
+	dictatorship = 10
+	fascism = 14
+	fundamentalism = 2
 }
+
+APDC_add_authoritarianism_to_governing_coalition = yes
+APDC_add_dictatorship_to_governing_coalition = yes
+
+APDC_set_economic_system_state_guided = yes
+
+set_variable = { APDC_prime_minister_character = token:MEX_raul_delgado }
+set_variable = { APDC_deputy_prime_minister_character = token:MEX_rosario_pacheco }
+
+# 原红区开局非军事区
+478 = { set_demilitarized_zone = yes }
+481 = { set_demilitarized_zone = yes }
+482 = { set_demilitarized_zone = yes }

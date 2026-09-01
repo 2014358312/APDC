@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ALS_elyssa_marion"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_female_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ALS_roman_filipazzi"
+		texturefile = "gfx/leaders/APDC/north_america/generic_political_male_1.dds"
+	}
+}

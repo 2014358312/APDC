@@ -6,6 +6,7 @@ state = {
 
 	history = {
 		owner = DOM
+		add_core_of = DOM
 		buildings = {
 			infrastructure = 4
 			2134 = {

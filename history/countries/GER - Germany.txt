@@ -52,5 +52,3 @@ set_popularities = {
 
 # Germany begins inside the Soviet-led Warsaw Pact and cannot create factions.
 set_rule = { can_create_factions = no }
-
-APDC_join_fifth_international_cooperation_organization = yes

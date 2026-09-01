@@ -9,14 +9,15 @@ state = { #Population Done
 		rubber = 2
 	}
 
+
 	history = {
-		owner = RZE
+		owner = PRC
+		add_core_of = PRC
 		buildings = {
 
 		}
 		
 
-		add_core_of = RZE
 		
 	}
 	provinces = {

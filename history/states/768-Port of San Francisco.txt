@@ -6,6 +6,7 @@ state = {
 	}
 	history = {
 		owner = ZZZ		#should be USA -morrina and uncountably
+		add_core_of = ZZZ
 		add_core_of = USA
 	}
 	manpower = 2	#why the fuck was this 320075 ever

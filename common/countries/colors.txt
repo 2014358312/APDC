@@ -945,17 +945,17 @@ AGR = {
 	color = rgb { 153 102 50 }
 	color_ui = rgb { 153 102 50 }
 }
-USB = {
-	color = rgb { 244 119 119 }
-	color_ui = rgb { 244 119 119 }
+ALS = {
+	color = rgb { 189 26 29 }
+	color_ui = rgb { 189 26 29 }
 }
 ZZZ = {
 	color = rgb { 0 0 0  }
 	color_ui = rgb { 0 0 0 }
 }
-RZE = {
-	color = rgb { 100 0 0  }
-	color_ui = rgb { 0 0 0 }
+SSD = {
+	color = rgb { 0 114 58 }
+	color_ui = rgb { 0 114 58 }
 }
 LLU = {
 	color = rgb { 30 100 230 }
