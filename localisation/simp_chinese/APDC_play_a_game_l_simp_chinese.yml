@@ -1,4 +1,10 @@
 ﻿l_simp_chinese:
+ FE_DIFFICULTY_VERY_EASY:0 "UMP45"
+ FE_DIFFICULTY_EASY:0 "AR15"
+ FE_DIFFICULTY_NORMAL:0 "AN94"
+ FE_DIFFICULTY_HARD:0 "HK416"
+ FE_DIFFICULTY_VERY_HARD:0 "DSR50"
+
  FRA_game_button_icon_tooltip:0 "点击查看[FRA.GetName]信息以及可对其开展的行动"
  FRA_game_introduce_tt:0 "[FRA_game_introduce_tt]"
  FRA_game_tendency_information_tt:0 "[FRA_game_tendency_information_tt]"

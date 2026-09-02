@@ -1,0 +1,7 @@
+# Hidden system tag used only to reserve empty bookmark slots.
+capital = 1
+
+set_politics = {
+	ruling_party = authoritarianism
+	elections_allowed = no
+}

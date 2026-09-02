@@ -264,17 +264,47 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_country_selection_entry"
-		texturefile = "gfx/interface/country_selection_entry.tga"
+		texturefile = "gfx/interface/country_selection_entry_major.dds"
 		noOfFrames = 2		
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"		
 	}
 	
 	spriteType = {
 		name = "GFX_country_selection_bg"
-		texturefile = "gfx/interface/country_selection_bg.tga"
+		texturefile = "gfx/interface/country_selection_bg.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"				
 	}
-	
+
+	spriteType = {
+		name = "GFX_APDC_major_card_1"
+		texturefile = "gfx/interface/country_selection_cards/card_1_romanian_union.png"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_major_card_2"
+		texturefile = "gfx/interface/country_selection_cards/card_2_britain.png"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_major_card_3"
+		texturefile = "gfx/interface/country_selection_cards/card_3_sangvis_ferri.png"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_major_card_4"
+		texturefile = "gfx/interface/country_selection_cards/card_4_new_soviet.png"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_major_card_5"
+		texturefile = "gfx/interface/country_selection_cards/card_5_democratic.png"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
 	spriteType = {
 		name = "GFX_custom_setting_slider_bg"
 		texturefile = "gfx/interface/custom_difficulty_slider_bg.dds"
@@ -303,13 +333,23 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_mini_country_selector"
-		texturefile = "gfx/interface/diplo_countrylist_flag_frame_mini.dds"
+		texturefile = "gfx/interface/country_selection_mini_entry.png"
 		noOfFrames = 2
 			
 	}
 
 	spriteType = {
-        name = "GFX_missing_dlc_warning_sign"
+		name = "GFX_APDC_disabled_country_medium"
+		texturefile = "gfx/interface/country_selection_disabled_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_APDC_disabled_country_mini"
+		texturefile = "gfx/interface/country_selection_disabled_mini.png"
+	}
+
+	spriteType = {
+		name = "GFX_missing_dlc_warning_sign"
         texturefile = "gfx/interface/unsafe_savegame_icon.dds"
     }
 }

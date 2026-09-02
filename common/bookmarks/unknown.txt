@@ -1,14 +1,15 @@
 bookmarks = {
+	# Hidden placeholder: Hearts of Iron IV skips the scenario picker when only
+	# one bookmark exists. This second entry stays outside the clipped grid.
 	bookmark = {
-		name = STARTING_POINT_NAME_B
+		name = STARTING_POINT_NAME
 		desc = STARTING_POINT_DESC
 		date = 2060.1.1.12
-		picture = GFX_select_date_2065
+		picture = GFX_select_date_2060
 
 		default = no
 		effect = {
 			randomize_weather = 12345
 		}
-		
 	}
 }

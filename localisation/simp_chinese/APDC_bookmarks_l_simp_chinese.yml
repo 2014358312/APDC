@@ -2,3 +2,8 @@
  STARTING_POINT_NAME: "特特之始"
  STARTING_POINT_DESC: "有一天，特特降临到这里，建造了特特国，OVO"
  GAK_STARTING_POINT_DESC: "特特国繁荣发展，特特很开心 OVO"
+ AAA:0 ""
+ AAA_DEF:0 ""
+ AAA_ADJ:0 ""
+ AAA_STARTING_POINT_DESC:0 ""
+ APDC_DISABLED_INTERESTING_COUNTRY_TOOLTIP:0 "§R该国家未来会有更多内容，但至少现在他并没有专属内容可供游玩§!"

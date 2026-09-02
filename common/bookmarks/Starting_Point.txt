@@ -7,58 +7,186 @@ bookmarks = {
 
 		default_country = GER
 		default = yes
+		sort_unplayed_first = no
+		include_majors_in_minor_list = no
+
 		effect = {
 			randomize_weather = 12345
 		}
-		PRC = {
-			history = PRC_STARTING_POINT_DESC
-			ideology = communism
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		PAK = {
-			history = PAK_STARTING_POINT_DESC
-			ideology = dictatorship
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
-		GER = {
-			history = GER_STARTING_POINT_DESC
-			ideology = socialism
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
-		}
+
+		# Five-card major layout, filled vertically in three rows:
+		# USA / FRA | ENG | empty | SOV | GER / PRC
 		USA = {
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
 			history = USA_STARTING_POINT_DESC
+			ideology = authoritarianism
+			ideas = { }
+			focuses = { }
+		}
+		AAA = {
+			version = placeholder
+			history = AAA_STARTING_POINT_DESC
+			ideology = authoritarianism
+		}
+		FRA = {
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = FRA_STARTING_POINT_DESC
 			ideology = liberalism
-			ideas={
-				
-			}
-			focuses = {
-				
-			}
+			ideas = { }
+			focuses = { }
+		}
+
+		AAA = {
+			version = placeholder
+			history = AAA_STARTING_POINT_DESC
+			ideology = authoritarianism
+		}
+		ENG = {
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = ENG_STARTING_POINT_DESC
+			ideology = liberalism
+			ideas = { }
+			focuses = { }
+		}
+		AAA = {
+			version = placeholder
+			history = AAA_STARTING_POINT_DESC
+			ideology = authoritarianism
+		}
+
+		AAA = {
+			version = placeholder
+			history = AAA_STARTING_POINT_DESC
+			ideology = authoritarianism
+		}
+		AAA = {
+			version = placeholder
+			history = AAA_STARTING_POINT_DESC
+			ideology = authoritarianism
+		}
+		AAA = {
+			version = placeholder
+			history = AAA_STARTING_POINT_DESC
+			ideology = authoritarianism
+		}
+
+		AAA = {
+			version = placeholder
+			history = AAA_STARTING_POINT_DESC
+			ideology = authoritarianism
 		}
 		SOV = {
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
 			history = SOV_STARTING_POINT_DESC
 			ideology = communism
-			ideas={
+			ideas = {
 				home_of_revolution
 			}
 			focuses = {
 				SOV_infrastructure_effort_nsb
 			}
+		}
+		AAA = {
+			version = placeholder
+			history = AAA_STARTING_POINT_DESC
+			ideology = authoritarianism
+		}
+
+		GER = {
+			history = GER_STARTING_POINT_DESC
+			ideology = socialism
+			ideas = { }
+			focuses = { }
+		}
+		AAA = {
+			version = placeholder
+			history = AAA_STARTING_POINT_DESC
+			ideology = authoritarianism
+		}
+		PRC = {
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = PRC_STARTING_POINT_DESC
+			ideology = communism
+			ideas = { }
+			focuses = { }
+		}
+
+		# Add these two lines to an interesting-country entry to show the disabled
+		# overlay and block its selector; leave both absent for playable entries.
+		ALS = {
+			minor = yes
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = ALS_STARTING_POINT_DESC
+			ideology = communism
+		}
+		AMZ = {
+			minor = yes
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = AMZ_STARTING_POINT_DESC
+			ideology = authoritarianism
+		}
+		ARG = {
+			minor = yes
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = ARG_STARTING_POINT_DESC
+			ideology = dictatorship
+		}
+		AUS = {
+			minor = yes
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = AUS_STARTING_POINT_DESC
+			ideology = dictatorship
+		}
+		BRA = {
+			minor = yes
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = BRA_STARTING_POINT_DESC
+			ideology = conservatism
+		}
+		GDB = {
+			minor = yes
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = GDB_STARTING_POINT_DESC
+			ideology = liberalism
+		}
+		ISR = {
+			minor = yes
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = ISR_STARTING_POINT_DESC
+			ideology = liberalism
+		}
+		JAP = {
+			minor = yes
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = JAP_STARTING_POINT_DESC
+			ideology = conservatism
+		}
+		POL = {
+			minor = yes
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = POL_STARTING_POINT_DESC
+			ideology = communism
+		}
+		YUG = {
+			minor = yes
+			version = apdc_disabled_country
+			assume_not_played_if_missing_data = yes
+			history = YUG_STARTING_POINT_DESC
+			ideology = socialism
 		}
 	}
 }
